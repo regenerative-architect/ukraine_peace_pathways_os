@@ -15,7 +15,6 @@
     "failure": "Selective counting or re-identification of victims",
     "legal": "Protect personal data and avoid operational targeting",
     "metric": "Documented civilian harm trends by source and date",
-    "status": "PROPOSAL (not an existing institutional commitment)",
     "slots": [
       {
         "seat": "Direct party",
@@ -75,19 +74,6 @@
         "action": "Track recurrence, rights, legitimate sovereignty and restorative public-service impacts.",
         "checkpoint": "Sustained civilian benefit survives leadership or funding changes."
       }
-    ],
-    "advanced": {
-      "causal_model": "Hypothesis: Evidence-based priorities for reducing civilian harm. Test whether the intervention changes incentives, operational behavior and measurable civilian results; do not infer causality from coincidence.",
-      "legal_review": "Protect personal data and avoid operational targeting. Commission competent counsel before any real implementation.",
-      "verification_protocol": "Set baseline → define incident threshold → authenticate records → independent adjudication → timely appeal → proportional, lawful response. Cross-check incident claims against UN/OHCHR and independent records.",
-      "red_team": "Assume false compliance, denied access, misuse of information, unintended civilian harm and leadership changes. Failure mode: Selective counting or re-identification of victims.",
-      "fallback": "If consent, authority or evidence fails, stop escalation, preserve humanitarian channels and narrow the action to observable civilian protection."
-    },
-    "simple": [
-      "Understand the problem: Evidence-based priorities for reducing civilian harm.",
-      "Identify the actual authority and obtain consent; proposing is not negotiating.",
-      "Start small: Choose a civilian-safe, aggregate monitoring indicator with public methodology.",
-      "Check real-world impact: Documented civilian harm trends by source and date."
     ]
   },
   {
@@ -106,7 +92,6 @@
     "failure": "Announced restraint is mistaken for accepted, implemented agreement",
     "legal": "IHL civilian-object protection; no authorization for attacks",
     "metric": "Verified incidents and service restoration",
-    "status": "PROPOSAL (not an existing institutional commitment)",
     "slots": [
       {
         "seat": "Direct party",
@@ -166,19 +151,6 @@
         "action": "Track recurrence, rights, legitimate sovereignty and restorative public-service impacts.",
         "checkpoint": "Sustained civilian benefit survives leadership or funding changes."
       }
-    ],
-    "advanced": {
-      "causal_model": "Hypothesis: Prohibit defined attacks on civilian energy systems. Test whether the intervention changes incentives, operational behavior and measurable civilian results; do not infer causality from coincidence.",
-      "legal_review": "IHL civilian-object protection; no authorization for attacks. Commission competent counsel before any real implementation.",
-      "verification_protocol": "Set baseline → define incident threshold → authenticate records → independent adjudication → timely appeal → proportional, lawful response. Independently investigate alleged incidents before attributing responsibility.",
-      "red_team": "Assume false compliance, denied access, misuse of information, unintended civilian harm and leadership changes. Failure mode: Announced restraint is mistaken for accepted, implemented agreement.",
-      "fallback": "If consent, authority or evidence fails, stop escalation, preserve humanitarian channels and narrow the action to observable civilian protection."
-    },
-    "simple": [
-      "Understand the problem: Prohibit defined attacks on civilian energy systems.",
-      "Identify the actual authority and obtain consent; proposing is not negotiating.",
-      "Start small: Draft reciprocal scope, definitions and synchronized effective time.",
-      "Check real-world impact: Verified incidents and service restoration."
     ]
   },
   {
@@ -197,7 +169,6 @@
     "failure": "Safety guarantees collapse or observers lack access",
     "legal": "IAEA mandate, nuclear safety, IHL and site-access consent",
     "metric": "Safe power availability and independently confirmed repairs",
-    "status": "PROPOSAL (not an existing institutional commitment)",
     "slots": [
       {
         "seat": "Direct party",
@@ -257,19 +228,6 @@
         "action": "Track recurrence, rights, legitimate sovereignty and restorative public-service impacts.",
         "checkpoint": "Sustained civilian benefit survives leadership or funding changes."
       }
-    ],
-    "advanced": {
-      "causal_model": "Hypothesis: Keep critical nuclear cooling and electrical supply safe. Test whether the intervention changes incentives, operational behavior and measurable civilian results; do not infer causality from coincidence.",
-      "legal_review": "IAEA mandate, nuclear safety, IHL and site-access consent. Commission competent counsel before any real implementation.",
-      "verification_protocol": "Set baseline → define incident threshold → authenticate records → independent adjudication → timely appeal → proportional, lawful response. Record independent safety assessments and confirmed repairs.",
-      "red_team": "Assume false compliance, denied access, misuse of information, unintended civilian harm and leadership changes. Failure mode: Safety guarantees collapse or observers lack access.",
-      "fallback": "If consent, authority or evidence fails, stop escalation, preserve humanitarian channels and narrow the action to observable civilian protection."
-    },
-    "simple": [
-      "Understand the problem: Keep critical nuclear cooling and electrical supply safe.",
-      "Identify the actual authority and obtain consent; proposing is not negotiating.",
-      "Start small: Identify safe, consented repair windows and IAEA technical coordination.",
-      "Check real-world impact: Safe power availability and independently confirmed repairs."
     ]
   },
   {
@@ -288,7 +246,6 @@
     "failure": "False safety assurances expose seafarers to danger",
     "legal": "Law of the sea, shipping standards, IHL and sanctions",
     "metric": "Verified civilian transits and incidents",
-    "status": "PROPOSAL (not an existing institutional commitment)",
     "slots": [
       {
         "seat": "Direct party",
@@ -348,19 +305,6 @@
         "action": "Track recurrence, rights, legitimate sovereignty and restorative public-service impacts.",
         "checkpoint": "Sustained civilian benefit survives leadership or funding changes."
       }
-    ],
-    "advanced": {
-      "causal_model": "Hypothesis: Reduce harm to civilian vessels, ports and food flows. Test whether the intervention changes incentives, operational behavior and measurable civilian results; do not infer causality from coincidence.",
-      "legal_review": "Law of the sea, shipping standards, IHL and sanctions. Commission competent counsel before any real implementation.",
-      "verification_protocol": "Set baseline → define incident threshold → authenticate records → independent adjudication → timely appeal → proportional, lawful response. Track maritime incident reports and independently verified transits.",
-      "red_team": "Assume false compliance, denied access, misuse of information, unintended civilian harm and leadership changes. Failure mode: False safety assurances expose seafarers to danger.",
-      "fallback": "If consent, authority or evidence fails, stop escalation, preserve humanitarian channels and narrow the action to observable civilian protection."
-    },
-    "simple": [
-      "Understand the problem: Reduce harm to civilian vessels, ports and food flows.",
-      "Identify the actual authority and obtain consent; proposing is not negotiating.",
-      "Start small: Draft safe-passage rules with ship operators and parties.",
-      "Check real-world impact: Verified civilian transits and incidents."
     ]
   },
   {
@@ -379,7 +323,6 @@
     "failure": "Publicity endangers people or releases are misreported",
     "legal": "Third Geneva Convention and ICRC principles",
     "metric": "Confirmed exchanges, missing-person updates",
-    "status": "PROPOSAL (not an existing institutional commitment)",
     "slots": [
       {
         "seat": "Direct party",
@@ -439,19 +382,6 @@
         "action": "Track recurrence, rights, legitimate sovereignty and restorative public-service impacts.",
         "checkpoint": "Sustained civilian benefit survives leadership or funding changes."
       }
-    ],
-    "advanced": {
-      "causal_model": "Hypothesis: Enable humane treatment, family contact and lawful releases. Test whether the intervention changes incentives, operational behavior and measurable civilian results; do not infer causality from coincidence.",
-      "legal_review": "Third Geneva Convention and ICRC principles. Commission competent counsel before any real implementation.",
-      "verification_protocol": "Set baseline → define incident threshold → authenticate records → independent adjudication → timely appeal → proportional, lawful response. ICRC or trusted agreed intermediary confirms completed transfers.",
-      "red_team": "Assume false compliance, denied access, misuse of information, unintended civilian harm and leadership changes. Failure mode: Publicity endangers people or releases are misreported.",
-      "fallback": "If consent, authority or evidence fails, stop escalation, preserve humanitarian channels and narrow the action to observable civilian protection."
-    },
-    "simple": [
-      "Understand the problem: Enable humane treatment, family contact and lawful releases.",
-      "Identify the actual authority and obtain consent; proposing is not negotiating.",
-      "Start small: Request neutral confidential liaison among authorized parties.",
-      "Check real-world impact: Confirmed exchanges, missing-person updates."
     ]
   },
   {
@@ -470,7 +400,6 @@
     "failure": "Sensitive identities leak or families are misled",
     "legal": "Privacy, IHL missing-person obligations",
     "metric": "Verified cases resolved with informed consent",
-    "status": "PROPOSAL (not an existing institutional commitment)",
     "slots": [
       {
         "seat": "Direct party",
@@ -530,19 +459,6 @@
         "action": "Track recurrence, rights, legitimate sovereignty and restorative public-service impacts.",
         "checkpoint": "Sustained civilian benefit survives leadership or funding changes."
       }
-    ],
-    "advanced": {
-      "causal_model": "Hypothesis: Clarify fate and whereabouts with family consent. Test whether the intervention changes incentives, operational behavior and measurable civilian results; do not infer causality from coincidence.",
-      "legal_review": "Privacy, IHL missing-person obligations. Commission competent counsel before any real implementation.",
-      "verification_protocol": "Set baseline → define incident threshold → authenticate records → independent adjudication → timely appeal → proportional, lawful response. Authorized family notification, documented closure and safeguards.",
-      "red_team": "Assume false compliance, denied access, misuse of information, unintended civilian harm and leadership changes. Failure mode: Sensitive identities leak or families are misled.",
-      "fallback": "If consent, authority or evidence fails, stop escalation, preserve humanitarian channels and narrow the action to observable civilian protection."
-    },
-    "simple": [
-      "Understand the problem: Clarify fate and whereabouts with family consent.",
-      "Identify the actual authority and obtain consent; proposing is not negotiating.",
-      "Start small: Establish consent-first confidential case referral.",
-      "Check real-world impact: Verified cases resolved with informed consent."
     ]
   },
   {
@@ -561,7 +477,6 @@
     "failure": "Child protection is subordinated to political narratives",
     "legal": "Convention on the Rights of the Child, privacy, IHL",
     "metric": "Safe, verified family reunifications",
-    "status": "PROPOSAL (not an existing institutional commitment)",
     "slots": [
       {
         "seat": "Direct party",
@@ -621,19 +536,6 @@
         "action": "Track recurrence, rights, legitimate sovereignty and restorative public-service impacts.",
         "checkpoint": "Sustained civilian benefit survives leadership or funding changes."
       }
-    ],
-    "advanced": {
-      "causal_model": "Hypothesis: Safely reunite children and families using best-interest principles. Test whether the intervention changes incentives, operational behavior and measurable civilian results; do not infer causality from coincidence.",
-      "legal_review": "Convention on the Rights of the Child, privacy, IHL. Commission competent counsel before any real implementation.",
-      "verification_protocol": "Set baseline → define incident threshold → authenticate records → independent adjudication → timely appeal → proportional, lawful response. Independent qualified child-protection case follow-up.",
-      "red_team": "Assume false compliance, denied access, misuse of information, unintended civilian harm and leadership changes. Failure mode: Child protection is subordinated to political narratives.",
-      "fallback": "If consent, authority or evidence fails, stop escalation, preserve humanitarian channels and narrow the action to observable civilian protection."
-    },
-    "simple": [
-      "Understand the problem: Safely reunite children and families using best-interest principles.",
-      "Identify the actual authority and obtain consent; proposing is not negotiating.",
-      "Start small: Define consent and identity-verification pathway.",
-      "Check real-world impact: Safe, verified family reunifications."
     ]
   },
   {
@@ -652,7 +554,6 @@
     "failure": "Convoys are obstructed or diverted",
     "legal": "IHL humanitarian access, neutrality and impartiality",
     "metric": "Verified deliveries and sustained access days",
-    "status": "PROPOSAL (not an existing institutional commitment)",
     "slots": [
       {
         "seat": "Direct party",
@@ -712,19 +613,6 @@
         "action": "Track recurrence, rights, legitimate sovereignty and restorative public-service impacts.",
         "checkpoint": "Sustained civilian benefit survives leadership or funding changes."
       }
-    ],
-    "advanced": {
-      "causal_model": "Hypothesis: Increase impartial food, medicine and shelter access. Test whether the intervention changes incentives, operational behavior and measurable civilian results; do not infer causality from coincidence.",
-      "legal_review": "IHL humanitarian access, neutrality and impartiality. Commission competent counsel before any real implementation.",
-      "verification_protocol": "Set baseline → define incident threshold → authenticate records → independent adjudication → timely appeal → proportional, lawful response. Confirm distribution and independent humanitarian access.",
-      "red_team": "Assume false compliance, denied access, misuse of information, unintended civilian harm and leadership changes. Failure mode: Convoys are obstructed or diverted.",
-      "fallback": "If consent, authority or evidence fails, stop escalation, preserve humanitarian channels and narrow the action to observable civilian protection."
-    },
-    "simple": [
-      "Understand the problem: Increase impartial food, medicine and shelter access.",
-      "Identify the actual authority and obtain consent; proposing is not negotiating.",
-      "Start small: Define needs-driven logistics corridor with safety commitments.",
-      "Check real-world impact: Verified deliveries and sustained access days."
     ]
   },
   {
@@ -743,7 +631,6 @@
     "failure": "Local pause becomes unverified pretext for larger claims",
     "legal": "Party consent, civilian protection and neutral oversight",
     "metric": "Completed protected mission without verified incident",
-    "status": "PROPOSAL (not an existing institutional commitment)",
     "slots": [
       {
         "seat": "Direct party",
@@ -803,19 +690,6 @@
         "action": "Track recurrence, rights, legitimate sovereignty and restorative public-service impacts.",
         "checkpoint": "Sustained civilian benefit survives leadership or funding changes."
       }
-    ],
-    "advanced": {
-      "causal_model": "Hypothesis: Permit bounded repairs, evacuations or aid missions. Test whether the intervention changes incentives, operational behavior and measurable civilian results; do not infer causality from coincidence.",
-      "legal_review": "Party consent, civilian protection and neutral oversight. Commission competent counsel before any real implementation.",
-      "verification_protocol": "Set baseline → define incident threshold → authenticate records → independent adjudication → timely appeal → proportional, lawful response. Independent confirmation of access and cessation conditions.",
-      "red_team": "Assume false compliance, denied access, misuse of information, unintended civilian harm and leadership changes. Failure mode: Local pause becomes unverified pretext for larger claims.",
-      "fallback": "If consent, authority or evidence fails, stop escalation, preserve humanitarian channels and narrow the action to observable civilian protection."
-    },
-    "simple": [
-      "Understand the problem: Permit bounded repairs, evacuations or aid missions.",
-      "Identify the actual authority and obtain consent; proposing is not negotiating.",
-      "Start small: Define objective, site scope and safe start-stop protocol.",
-      "Check real-world impact: Completed protected mission without verified incident."
     ]
   },
   {
@@ -834,7 +708,6 @@
     "failure": "Rearmament, disputed lines or unverifiable compliance",
     "legal": "UN Charter, IHL, command authority and mandate",
     "metric": "Verified incident rate and civilian protection",
-    "status": "PROPOSAL (not an existing institutional commitment)",
     "slots": [
       {
         "seat": "Command authority",
@@ -894,19 +767,6 @@
         "action": "Track recurrence, rights, legitimate sovereignty and restorative public-service impacts.",
         "checkpoint": "Sustained civilian benefit survives leadership or funding changes."
       }
-    ],
-    "advanced": {
-      "causal_model": "Hypothesis: Stop hostilities with enforceable mechanisms. Test whether the intervention changes incentives, operational behavior and measurable civilian results; do not infer causality from coincidence.",
-      "legal_review": "UN Charter, IHL, command authority and mandate. Commission competent counsel before any real implementation.",
-      "verification_protocol": "Set baseline → define incident threshold → authenticate records → independent adjudication → timely appeal → proportional, lawful response. Neutral authorized incident review and verified compliance reporting.",
-      "red_team": "Assume false compliance, denied access, misuse of information, unintended civilian harm and leadership changes. Failure mode: Rearmament, disputed lines or unverifiable compliance.",
-      "fallback": "If consent, authority or evidence fails, stop escalation, preserve humanitarian channels and narrow the action to observable civilian protection."
-    },
-    "simple": [
-      "Understand the problem: Stop hostilities with enforceable mechanisms.",
-      "Identify the actual authority and obtain consent; proposing is not negotiating.",
-      "Start small: Propose reciprocal ceasefire text and a trusted joint communication channel.",
-      "Check real-world impact: Verified incident rate and civilian protection."
     ]
   },
   {
@@ -925,7 +785,6 @@
     "failure": "Fabricated evidence, denied access or rushed attribution",
     "legal": "Consent, proportionality, privacy, impartiality",
     "metric": "Reports resolved within agreed timelines",
-    "status": "PROPOSAL (not an existing institutional commitment)",
     "slots": [
       {
         "seat": "Command authority",
@@ -985,19 +844,6 @@
         "action": "Track recurrence, rights, legitimate sovereignty and restorative public-service impacts.",
         "checkpoint": "Sustained civilian benefit survives leadership or funding changes."
       }
-    ],
-    "advanced": {
-      "causal_model": "Hypothesis: Make violations adjudicable and reversibly addressed. Test whether the intervention changes incentives, operational behavior and measurable civilian results; do not infer causality from coincidence.",
-      "legal_review": "Consent, proportionality, privacy, impartiality. Commission competent counsel before any real implementation.",
-      "verification_protocol": "Set baseline → define incident threshold → authenticate records → independent adjudication → timely appeal → proportional, lawful response. Independent corroboration and documented appeals process.",
-      "red_team": "Assume false compliance, denied access, misuse of information, unintended civilian harm and leadership changes. Failure mode: Fabricated evidence, denied access or rushed attribution.",
-      "fallback": "If consent, authority or evidence fails, stop escalation, preserve humanitarian channels and narrow the action to observable civilian protection."
-    },
-    "simple": [
-      "Understand the problem: Make violations adjudicable and reversibly addressed.",
-      "Identify the actual authority and obtain consent; proposing is not negotiating.",
-      "Start small: Agree observer access, evidence handling and incident categories.",
-      "Check real-world impact: Reports resolved within agreed timelines."
     ]
   },
   {
@@ -1016,7 +862,6 @@
     "failure": "Nonbinding assurances substituted for enforceable obligations",
     "legal": "UN Charter self-defence and treaty/constitutional law",
     "metric": "Funded commitments with measurable readiness",
-    "status": "PROPOSAL (not an existing institutional commitment)",
     "slots": [
       {
         "seat": "Sovereign decision-maker",
@@ -1076,19 +921,6 @@
         "action": "Track recurrence, rights, legitimate sovereignty and restorative public-service impacts.",
         "checkpoint": "Sustained civilian benefit survives leadership or funding changes."
       }
-    ],
-    "advanced": {
-      "causal_model": "Hypothesis: Prevent renewed aggression without undermining sovereignty. Test whether the intervention changes incentives, operational behavior and measurable civilian results; do not infer causality from coincidence.",
-      "legal_review": "UN Charter self-defence and treaty/constitutional law. Commission competent counsel before any real implementation.",
-      "verification_protocol": "Set baseline → define incident threshold → authenticate records → independent adjudication → timely appeal → proportional, lawful response. Legislative authorizations, resources and independent audits.",
-      "red_team": "Assume false compliance, denied access, misuse of information, unintended civilian harm and leadership changes. Failure mode: Nonbinding assurances substituted for enforceable obligations.",
-      "fallback": "If consent, authority or evidence fails, stop escalation, preserve humanitarian channels and narrow the action to observable civilian protection."
-    },
-    "simple": [
-      "Understand the problem: Prevent renewed aggression without undermining sovereignty.",
-      "Identify the actual authority and obtain consent; proposing is not negotiating.",
-      "Start small: Identify credible legal commitments and practical triggers.",
-      "Check real-world impact: Funded commitments with measurable readiness."
     ]
   },
   {
@@ -1107,7 +939,6 @@
     "failure": "Temporary lines become coerced recognition",
     "legal": "UN Charter territorial integrity; human rights",
     "metric": "Agreements preserve de jure status while reducing harm",
-    "status": "PROPOSAL (not an existing institutional commitment)",
     "slots": [
       {
         "seat": "Sovereign decision-maker",
@@ -1167,19 +998,6 @@
         "action": "Track recurrence, rights, legitimate sovereignty and restorative public-service impacts.",
         "checkpoint": "Sustained civilian benefit survives leadership or funding changes."
       }
-    ],
-    "advanced": {
-      "causal_model": "Hypothesis: Separate practical ceasefire lines from legal status. Test whether the intervention changes incentives, operational behavior and measurable civilian results; do not infer causality from coincidence.",
-      "legal_review": "UN Charter territorial integrity; human rights. Commission competent counsel before any real implementation.",
-      "verification_protocol": "Set baseline → define incident threshold → authenticate records → independent adjudication → timely appeal → proportional, lawful response. Legal scrutiny, consent and public clarity.",
-      "red_team": "Assume false compliance, denied access, misuse of information, unintended civilian harm and leadership changes. Failure mode: Temporary lines become coerced recognition.",
-      "fallback": "If consent, authority or evidence fails, stop escalation, preserve humanitarian channels and narrow the action to observable civilian protection."
-    },
-    "simple": [
-      "Understand the problem: Separate practical ceasefire lines from legal status.",
-      "Identify the actual authority and obtain consent; proposing is not negotiating.",
-      "Start small: Record sovereignty protections and nonrecognition clauses.",
-      "Check real-world impact: Agreements preserve de jure status while reducing harm."
     ]
   },
   {
@@ -1198,7 +1016,6 @@
     "failure": "Premature relief or avoidable civilian costs",
     "legal": "Applicable sanctions law and due process",
     "metric": "Documented compliance and civilian-impact review",
-    "status": "PROPOSAL (not an existing institutional commitment)",
     "slots": [
       {
         "seat": "Sovereign decision-maker",
@@ -1258,19 +1075,6 @@
         "action": "Track recurrence, rights, legitimate sovereignty and restorative public-service impacts.",
         "checkpoint": "Sustained civilian benefit survives leadership or funding changes."
       }
-    ],
-    "advanced": {
-      "causal_model": "Hypothesis: Tie lawful measures to independently tested behavior. Test whether the intervention changes incentives, operational behavior and measurable civilian results; do not infer causality from coincidence.",
-      "legal_review": "Applicable sanctions law and due process. Commission competent counsel before any real implementation.",
-      "verification_protocol": "Set baseline → define incident threshold → authenticate records → independent adjudication → timely appeal → proportional, lawful response. Published compliance rulings and independent audits.",
-      "red_team": "Assume false compliance, denied access, misuse of information, unintended civilian harm and leadership changes. Failure mode: Premature relief or avoidable civilian costs.",
-      "fallback": "If consent, authority or evidence fails, stop escalation, preserve humanitarian channels and narrow the action to observable civilian protection."
-    },
-    "simple": [
-      "Understand the problem: Tie lawful measures to independently tested behavior.",
-      "Identify the actual authority and obtain consent; proposing is not negotiating.",
-      "Start small: Map competent authorities, waivers, targets and reversal triggers.",
-      "Check real-world impact: Documented compliance and civilian-impact review."
     ]
   },
   {
@@ -1289,7 +1093,6 @@
     "failure": "Country-of-origin assumptions replace evidence of diversion",
     "legal": "Export-control law and privacy; no illicit sourcing",
     "metric": "Verified compliance controls and validated findings",
-    "status": "PROPOSAL (not an existing institutional commitment)",
     "slots": [
       {
         "seat": "Authorized operator",
@@ -1349,19 +1152,6 @@
         "action": "Track recurrence, rights, legitimate sovereignty and restorative public-service impacts.",
         "checkpoint": "Sustained civilian benefit survives leadership or funding changes."
       }
-    ],
-    "advanced": {
-      "causal_model": "Hypothesis: Reduce unlawful procurement and sanctions evasion. Test whether the intervention changes incentives, operational behavior and measurable civilian results; do not infer causality from coincidence.",
-      "legal_review": "Export-control law and privacy; no illicit sourcing. Commission competent counsel before any real implementation.",
-      "verification_protocol": "Set baseline → define incident threshold → authenticate records → independent adjudication → timely appeal → proportional, lawful response. Regulatory findings and audited compliance improvements.",
-      "red_team": "Assume false compliance, denied access, misuse of information, unintended civilian harm and leadership changes. Failure mode: Country-of-origin assumptions replace evidence of diversion.",
-      "fallback": "If consent, authority or evidence fails, stop escalation, preserve humanitarian channels and narrow the action to observable civilian protection."
-    },
-    "simple": [
-      "Understand the problem: Reduce unlawful procurement and sanctions evasion.",
-      "Identify the actual authority and obtain consent; proposing is not negotiating.",
-      "Start small: Prioritize end-use controls, lawful reporting and training.",
-      "Check real-world impact: Verified compliance controls and validated findings."
     ]
   },
   {
@@ -1380,7 +1170,6 @@
     "failure": "Projects bypass local needs or create new hazards",
     "legal": "Humanitarian principles and public procurement rules",
     "metric": "Households and facilities with restored service",
-    "status": "PROPOSAL (not an existing institutional commitment)",
     "slots": [
       {
         "seat": "Affected community",
@@ -1440,19 +1229,6 @@
         "action": "Track recurrence, rights, legitimate sovereignty and restorative public-service impacts.",
         "checkpoint": "Sustained civilian benefit survives leadership or funding changes."
       }
-    ],
-    "advanced": {
-      "causal_model": "Hypothesis: Restore heat, electricity and critical civilian services. Test whether the intervention changes incentives, operational behavior and measurable civilian results; do not infer causality from coincidence.",
-      "legal_review": "Humanitarian principles and public procurement rules. Commission competent counsel before any real implementation.",
-      "verification_protocol": "Set baseline → define incident threshold → authenticate records → independent adjudication → timely appeal → proportional, lawful response. Audited service availability and independent safety inspections.",
-      "red_team": "Assume false compliance, denied access, misuse of information, unintended civilian harm and leadership changes. Failure mode: Projects bypass local needs or create new hazards.",
-      "fallback": "If consent, authority or evidence fails, stop escalation, preserve humanitarian channels and narrow the action to observable civilian protection."
-    },
-    "simple": [
-      "Understand the problem: Restore heat, electricity and critical civilian services.",
-      "Identify the actual authority and obtain consent; proposing is not negotiating.",
-      "Start small: Identify high-value repairs and protected decentralized backups.",
-      "Check real-world impact: Households and facilities with restored service."
     ]
   },
   {
@@ -1471,7 +1247,6 @@
     "failure": "Unequal provision or aid diversion",
     "legal": "Human rights, healthcare neutrality and procurement safeguards",
     "metric": "Access to safe shelter and healthcare",
-    "status": "PROPOSAL (not an existing institutional commitment)",
     "slots": [
       {
         "seat": "Affected community",
@@ -1531,19 +1306,6 @@
         "action": "Track recurrence, rights, legitimate sovereignty and restorative public-service impacts.",
         "checkpoint": "Sustained civilian benefit survives leadership or funding changes."
       }
-    ],
-    "advanced": {
-      "causal_model": "Hypothesis: Maintain shelter, medicine, schools and continuity of care. Test whether the intervention changes incentives, operational behavior and measurable civilian results; do not infer causality from coincidence.",
-      "legal_review": "Human rights, healthcare neutrality and procurement safeguards. Commission competent counsel before any real implementation.",
-      "verification_protocol": "Set baseline → define incident threshold → authenticate records → independent adjudication → timely appeal → proportional, lawful response. Transparent service coverage, patient safety and safeguarding.",
-      "red_team": "Assume false compliance, denied access, misuse of information, unintended civilian harm and leadership changes. Failure mode: Unequal provision or aid diversion.",
-      "fallback": "If consent, authority or evidence fails, stop escalation, preserve humanitarian channels and narrow the action to observable civilian protection."
-    },
-    "simple": [
-      "Understand the problem: Maintain shelter, medicine, schools and continuity of care.",
-      "Identify the actual authority and obtain consent; proposing is not negotiating.",
-      "Start small: Map verified unmet civilian service needs with local partners.",
-      "Check real-world impact: Access to safe shelter and healthcare."
     ]
   },
   {
@@ -1562,7 +1324,6 @@
     "failure": "Corruption, displacement or low-quality infrastructure",
     "legal": "Procurement law, land rights and environmental safeguards",
     "metric": "Completed audited projects and real service outcomes",
-    "status": "PROPOSAL (not an existing institutional commitment)",
     "slots": [
       {
         "seat": "Affected community",
@@ -1622,19 +1383,6 @@
         "action": "Track recurrence, rights, legitimate sovereignty and restorative public-service impacts.",
         "checkpoint": "Sustained civilian benefit survives leadership or funding changes."
       }
-    ],
-    "advanced": {
-      "causal_model": "Hypothesis: Rebuild transparent and climate-resilient civilian assets. Test whether the intervention changes incentives, operational behavior and measurable civilian results; do not infer causality from coincidence.",
-      "legal_review": "Procurement law, land rights and environmental safeguards. Commission competent counsel before any real implementation.",
-      "verification_protocol": "Set baseline → define incident threshold → authenticate records → independent adjudication → timely appeal → proportional, lawful response. Open contracting, independent audit and post-use inspections.",
-      "red_team": "Assume false compliance, denied access, misuse of information, unintended civilian harm and leadership changes. Failure mode: Corruption, displacement or low-quality infrastructure.",
-      "fallback": "If consent, authority or evidence fails, stop escalation, preserve humanitarian channels and narrow the action to observable civilian protection."
-    },
-    "simple": [
-      "Understand the problem: Rebuild transparent and climate-resilient civilian assets.",
-      "Identify the actual authority and obtain consent; proposing is not negotiating.",
-      "Start small: Co-design a priority project with affected communities.",
-      "Check real-world impact: Completed audited projects and real service outcomes."
     ]
   },
   {
@@ -1652,7 +1400,6 @@
     "failure": "Illegal confiscation or opaque fund distribution",
     "legal": "State immunity, domestic law, due process",
     "metric": "Audited disbursement and legal findings",
-    "status": "PROPOSAL (not an existing institutional commitment)",
     "slots": [
       {
         "seat": "Affected community",
@@ -1712,19 +1459,6 @@
         "action": "Track recurrence, rights, legitimate sovereignty and restorative public-service impacts.",
         "checkpoint": "Sustained civilian benefit survives leadership or funding changes."
       }
-    ],
-    "advanced": {
-      "causal_model": "Hypothesis: Finance recovery within property and public law. Test whether the intervention changes incentives, operational behavior and measurable civilian results; do not infer causality from coincidence.",
-      "legal_review": "State immunity, domestic law, due process. Commission competent counsel before any real implementation.",
-      "verification_protocol": "Set baseline → define incident threshold → authenticate records → independent adjudication → timely appeal → proportional, lawful response. Public accounting and judicially sustainable governance.",
-      "red_team": "Assume false compliance, denied access, misuse of information, unintended civilian harm and leadership changes. Failure mode: Illegal confiscation or opaque fund distribution.",
-      "fallback": "If consent, authority or evidence fails, stop escalation, preserve humanitarian channels and narrow the action to observable civilian protection."
-    },
-    "simple": [
-      "Understand the problem: Finance recovery within property and public law.",
-      "Identify the actual authority and obtain consent; proposing is not negotiating.",
-      "Start small: Commission independent legal review of each financing route.",
-      "Check real-world impact: Audited disbursement and legal findings."
     ]
   },
   {
@@ -1743,7 +1477,6 @@
     "failure": "Premature coercive return or exclusion",
     "legal": "Non-refoulement, human rights and data protection",
     "metric": "Safe voluntary durable solutions",
-    "status": "PROPOSAL (not an existing institutional commitment)",
     "slots": [
       {
         "seat": "Affected community",
@@ -1803,19 +1536,6 @@
         "action": "Track recurrence, rights, legitimate sovereignty and restorative public-service impacts.",
         "checkpoint": "Sustained civilian benefit survives leadership or funding changes."
       }
-    ],
-    "advanced": {
-      "causal_model": "Hypothesis: Support safety, agency and dignified durable choices. Test whether the intervention changes incentives, operational behavior and measurable civilian results; do not infer causality from coincidence.",
-      "legal_review": "Non-refoulement, human rights and data protection. Commission competent counsel before any real implementation.",
-      "verification_protocol": "Set baseline → define incident threshold → authenticate records → independent adjudication → timely appeal → proportional, lawful response. Voluntary informed choices and protection outcome checks.",
-      "red_team": "Assume false compliance, denied access, misuse of information, unintended civilian harm and leadership changes. Failure mode: Premature coercive return or exclusion.",
-      "fallback": "If consent, authority or evidence fails, stop escalation, preserve humanitarian channels and narrow the action to observable civilian protection."
-    },
-    "simple": [
-      "Understand the problem: Support safety, agency and dignified durable choices.",
-      "Identify the actual authority and obtain consent; proposing is not negotiating.",
-      "Start small: Consult displaced communities on barriers and preferences.",
-      "Check real-world impact: Safe voluntary durable solutions."
     ]
   },
   {
@@ -1834,7 +1554,6 @@
     "failure": "Evidence contamination or victim retraumatization",
     "legal": "IHL, human rights, criminal procedure and privacy",
     "metric": "Validated preserved records, survivor support",
-    "status": "PROPOSAL (not an existing institutional commitment)",
     "slots": [
       {
         "seat": "Civilian protection",
@@ -1894,19 +1613,6 @@
         "action": "Track recurrence, rights, legitimate sovereignty and restorative public-service impacts.",
         "checkpoint": "Sustained civilian benefit survives leadership or funding changes."
       }
-    ],
-    "advanced": {
-      "causal_model": "Hypothesis: Preserve admissible evidence and survivors' rights. Test whether the intervention changes incentives, operational behavior and measurable civilian results; do not infer causality from coincidence.",
-      "legal_review": "IHL, human rights, criminal procedure and privacy. Commission competent counsel before any real implementation.",
-      "verification_protocol": "Set baseline → define incident threshold → authenticate records → independent adjudication → timely appeal → proportional, lawful response. Chain of custody audits and competent legal review.",
-      "red_team": "Assume false compliance, denied access, misuse of information, unintended civilian harm and leadership changes. Failure mode: Evidence contamination or victim retraumatization.",
-      "fallback": "If consent, authority or evidence fails, stop escalation, preserve humanitarian channels and narrow the action to observable civilian protection."
-    },
-    "simple": [
-      "Understand the problem: Preserve admissible evidence and survivors' rights.",
-      "Identify the actual authority and obtain consent; proposing is not negotiating.",
-      "Start small: Define independent evidence-handling and safeguarding protocol.",
-      "Check real-world impact: Validated preserved records, survivor support."
     ]
   },
   {
@@ -1925,7 +1631,6 @@
     "failure": "Untrained participation puts civilians at risk",
     "legal": "Humanitarian mine action standards and national permissions",
     "metric": "Accredited clearance and reduced casualties",
-    "status": "PROPOSAL (not an existing institutional commitment)",
     "slots": [
       {
         "seat": "Affected community",
@@ -1985,19 +1690,6 @@
         "action": "Track recurrence, rights, legitimate sovereignty and restorative public-service impacts.",
         "checkpoint": "Sustained civilian benefit survives leadership or funding changes."
       }
-    ],
-    "advanced": {
-      "causal_model": "Hypothesis: Reduce civilian risk from explosive remnants. Test whether the intervention changes incentives, operational behavior and measurable civilian results; do not infer causality from coincidence.",
-      "legal_review": "Humanitarian mine action standards and national permissions. Commission competent counsel before any real implementation.",
-      "verification_protocol": "Set baseline → define incident threshold → authenticate records → independent adjudication → timely appeal → proportional, lawful response. Accredited land-release and injury reporting.",
-      "red_team": "Assume false compliance, denied access, misuse of information, unintended civilian harm and leadership changes. Failure mode: Untrained participation puts civilians at risk.",
-      "fallback": "If consent, authority or evidence fails, stop escalation, preserve humanitarian channels and narrow the action to observable civilian protection."
-    },
-    "simple": [
-      "Understand the problem: Reduce civilian risk from explosive remnants.",
-      "Identify the actual authority and obtain consent; proposing is not negotiating.",
-      "Start small: Coordinate accredited humanitarian operators and risk education.",
-      "Check real-world impact: Accredited clearance and reduced casualties."
     ]
   },
   {
@@ -2016,7 +1708,6 @@
     "failure": "Intrusive measures or data leakage",
     "legal": "Authorization, cybersecurity law and privacy",
     "metric": "Service continuity and validated resilience tests",
-    "status": "PROPOSAL (not an existing institutional commitment)",
     "slots": [
       {
         "seat": "Authorized operator",
@@ -2076,19 +1767,6 @@
         "action": "Track recurrence, rights, legitimate sovereignty and restorative public-service impacts.",
         "checkpoint": "Sustained civilian benefit survives leadership or funding changes."
       }
-    ],
-    "advanced": {
-      "causal_model": "Hypothesis: Protect hospitals, grids and public digital services. Test whether the intervention changes incentives, operational behavior and measurable civilian results; do not infer causality from coincidence.",
-      "legal_review": "Authorization, cybersecurity law and privacy. Commission competent counsel before any real implementation.",
-      "verification_protocol": "Set baseline → define incident threshold → authenticate records → independent adjudication → timely appeal → proportional, lawful response. Documented tests and incident reporting without offensive intrusion.",
-      "red_team": "Assume false compliance, denied access, misuse of information, unintended civilian harm and leadership changes. Failure mode: Intrusive measures or data leakage.",
-      "fallback": "If consent, authority or evidence fails, stop escalation, preserve humanitarian channels and narrow the action to observable civilian protection."
-    },
-    "simple": [
-      "Understand the problem: Protect hospitals, grids and public digital services.",
-      "Identify the actual authority and obtain consent; proposing is not negotiating.",
-      "Start small: Assess authorized defensive backups, patching and continuity.",
-      "Check real-world impact: Service continuity and validated resilience tests."
     ]
   },
   {
@@ -2107,7 +1785,6 @@
     "failure": "Covert persuasion, censorship or forced messaging",
     "legal": "Free expression, privacy and transparent attribution",
     "metric": "Corrected reports and verified information reach",
-    "status": "PROPOSAL (not an existing institutional commitment)",
     "slots": [
       {
         "seat": "Authorized operator",
@@ -2167,19 +1844,6 @@
         "action": "Track recurrence, rights, legitimate sovereignty and restorative public-service impacts.",
         "checkpoint": "Sustained civilian benefit survives leadership or funding changes."
       }
-    ],
-    "advanced": {
-      "causal_model": "Hypothesis: Reduce false claims that erode humanitarian trust. Test whether the intervention changes incentives, operational behavior and measurable civilian results; do not infer causality from coincidence.",
-      "legal_review": "Free expression, privacy and transparent attribution. Commission competent counsel before any real implementation.",
-      "verification_protocol": "Set baseline → define incident threshold → authenticate records → independent adjudication → timely appeal → proportional, lawful response. Independent fact-checking and correction timestamps.",
-      "red_team": "Assume false compliance, denied access, misuse of information, unintended civilian harm and leadership changes. Failure mode: Covert persuasion, censorship or forced messaging.",
-      "fallback": "If consent, authority or evidence fails, stop escalation, preserve humanitarian channels and narrow the action to observable civilian protection."
-    },
-    "simple": [
-      "Understand the problem: Reduce false claims that erode humanitarian trust.",
-      "Identify the actual authority and obtain consent; proposing is not negotiating.",
-      "Start small: Publish source-grade annotations and correction procedures.",
-      "Check real-world impact: Corrected reports and verified information reach."
     ]
   },
   {
@@ -2198,7 +1862,6 @@
     "failure": "Dialogue is mistaken for endorsement or false peace",
     "legal": "Sovereignty, mediation neutrality and transparent authority",
     "metric": "Completed reciprocal action commitments",
-    "status": "PROPOSAL (not an existing institutional commitment)",
     "slots": [
       {
         "seat": "Direct party / mandate",
@@ -2258,19 +1921,6 @@
         "action": "Track recurrence, rights, legitimate sovereignty and restorative public-service impacts.",
         "checkpoint": "Sustained civilian benefit survives leadership or funding changes."
       }
-    ],
-    "advanced": {
-      "causal_model": "Hypothesis: Create small verifiable bilateral or multilateral exchanges. Test whether the intervention changes incentives, operational behavior and measurable civilian results; do not infer causality from coincidence.",
-      "legal_review": "Sovereignty, mediation neutrality and transparent authority. Commission competent counsel before any real implementation.",
-      "verification_protocol": "Set baseline → define incident threshold → authenticate records → independent adjudication → timely appeal → proportional, lawful response. Agreed written actions with independent implementation checks.",
-      "red_team": "Assume false compliance, denied access, misuse of information, unintended civilian harm and leadership changes. Failure mode: Dialogue is mistaken for endorsement or false peace.",
-      "fallback": "If consent, authority or evidence fails, stop escalation, preserve humanitarian channels and narrow the action to observable civilian protection."
-    },
-    "simple": [
-      "Understand the problem: Create small verifiable bilateral or multilateral exchanges.",
-      "Identify the actual authority and obtain consent; proposing is not negotiating.",
-      "Start small: Seek lawful convening consent and agenda-limited meetings.",
-      "Check real-world impact: Completed reciprocal action commitments."
     ]
   },
   {
@@ -2289,7 +1939,6 @@
     "failure": "Trade arrangements unintentionally evade sanctions",
     "legal": "Humanitarian exemptions, trade and shipping law",
     "metric": "Verified food deliveries and price-access trends",
-    "status": "PROPOSAL (not an existing institutional commitment)",
     "slots": [
       {
         "seat": "Direct party",
@@ -2349,19 +1998,6 @@
         "action": "Track recurrence, rights, legitimate sovereignty and restorative public-service impacts.",
         "checkpoint": "Sustained civilian benefit survives leadership or funding changes."
       }
-    ],
-    "advanced": {
-      "causal_model": "Hypothesis: Improve essential food supply through lawful safe trade. Test whether the intervention changes incentives, operational behavior and measurable civilian results; do not infer causality from coincidence.",
-      "legal_review": "Humanitarian exemptions, trade and shipping law. Commission competent counsel before any real implementation.",
-      "verification_protocol": "Set baseline → define incident threshold → authenticate records → independent adjudication → timely appeal → proportional, lawful response. Verified delivery and world food-security indicators.",
-      "red_team": "Assume false compliance, denied access, misuse of information, unintended civilian harm and leadership changes. Failure mode: Trade arrangements unintentionally evade sanctions.",
-      "fallback": "If consent, authority or evidence fails, stop escalation, preserve humanitarian channels and narrow the action to observable civilian protection."
-    },
-    "simple": [
-      "Understand the problem: Improve essential food supply through lawful safe trade.",
-      "Identify the actual authority and obtain consent; proposing is not negotiating.",
-      "Start small: Map ports, importing needs and lawful maritime safeguards.",
-      "Check real-world impact: Verified food deliveries and price-access trends."
     ]
   },
   {
@@ -2380,7 +2016,6 @@
     "failure": "Clean-up creates exposure or displaces households",
     "legal": "Environmental law, health and land rights",
     "metric": "Verified safe water and remediated assets",
-    "status": "PROPOSAL (not an existing institutional commitment)",
     "slots": [
       {
         "seat": "Affected community",
@@ -2440,19 +2075,6 @@
         "action": "Track recurrence, rights, legitimate sovereignty and restorative public-service impacts.",
         "checkpoint": "Sustained civilian benefit survives leadership or funding changes."
       }
-    ],
-    "advanced": {
-      "causal_model": "Hypothesis: Protect water, soils and ecosystem functioning. Test whether the intervention changes incentives, operational behavior and measurable civilian results; do not infer causality from coincidence.",
-      "legal_review": "Environmental law, health and land rights. Commission competent counsel before any real implementation.",
-      "verification_protocol": "Set baseline → define incident threshold → authenticate records → independent adjudication → timely appeal → proportional, lawful response. Open pollution and water-quality reports.",
-      "red_team": "Assume false compliance, denied access, misuse of information, unintended civilian harm and leadership changes. Failure mode: Clean-up creates exposure or displaces households.",
-      "fallback": "If consent, authority or evidence fails, stop escalation, preserve humanitarian channels and narrow the action to observable civilian protection."
-    },
-    "simple": [
-      "Understand the problem: Protect water, soils and ecosystem functioning.",
-      "Identify the actual authority and obtain consent; proposing is not negotiating.",
-      "Start small: Audit civilian water and environmental risks.",
-      "Check real-world impact: Verified safe water and remediated assets."
     ]
   },
   {
@@ -2471,7 +2093,6 @@
     "failure": "False accusations based on nationality or manufacturer",
     "legal": "Procurement, sanctions, export control and due process",
     "metric": "Verified supplier controls and reduced exceptions",
-    "status": "PROPOSAL (not an existing institutional commitment)",
     "slots": [
       {
         "seat": "Authorized operator",
@@ -2531,19 +2152,6 @@
         "action": "Track recurrence, rights, legitimate sovereignty and restorative public-service impacts.",
         "checkpoint": "Sustained civilian benefit survives leadership or funding changes."
       }
-    ],
-    "advanced": {
-      "causal_model": "Hypothesis: Reduce corruption and illicit diversion in lawful procurement. Test whether the intervention changes incentives, operational behavior and measurable civilian results; do not infer causality from coincidence.",
-      "legal_review": "Procurement, sanctions, export control and due process. Commission competent counsel before any real implementation.",
-      "verification_protocol": "Set baseline → define incident threshold → authenticate records → independent adjudication → timely appeal → proportional, lawful response. Audits separating origin, exporter, intermediary and destination.",
-      "red_team": "Assume false compliance, denied access, misuse of information, unintended civilian harm and leadership changes. Failure mode: False accusations based on nationality or manufacturer.",
-      "fallback": "If consent, authority or evidence fails, stop escalation, preserve humanitarian channels and narrow the action to observable civilian protection."
-    },
-    "simple": [
-      "Understand the problem: Reduce corruption and illicit diversion in lawful procurement.",
-      "Identify the actual authority and obtain consent; proposing is not negotiating.",
-      "Start small: Design controlled screening of suppliers and intermediaries.",
-      "Check real-world impact: Verified supplier controls and reduced exceptions."
     ]
   },
   {
@@ -2562,7 +2170,6 @@
     "failure": "Perverse incentives or promises exceeding budgets",
     "legal": "Financial law, public accountability and rights",
     "metric": "Funds tied to confirmed civilian outcomes",
-    "status": "PROPOSAL (not an existing institutional commitment)",
     "slots": [
       {
         "seat": "Sovereign decision-maker",
@@ -2622,19 +2229,6 @@
         "action": "Track recurrence, rights, legitimate sovereignty and restorative public-service impacts.",
         "checkpoint": "Sustained civilian benefit survives leadership or funding changes."
       }
-    ],
-    "advanced": {
-      "causal_model": "Hypothesis: Link recovery support to lawful, verifiable civilian gains. Test whether the intervention changes incentives, operational behavior and measurable civilian results; do not infer causality from coincidence.",
-      "legal_review": "Financial law, public accountability and rights. Commission competent counsel before any real implementation.",
-      "verification_protocol": "Set baseline → define incident threshold → authenticate records → independent adjudication → timely appeal → proportional, lawful response. Public financial audits and civilian-outcome reviews.",
-      "red_team": "Assume false compliance, denied access, misuse of information, unintended civilian harm and leadership changes. Failure mode: Perverse incentives or promises exceeding budgets.",
-      "fallback": "If consent, authority or evidence fails, stop escalation, preserve humanitarian channels and narrow the action to observable civilian protection."
-    },
-    "simple": [
-      "Understand the problem: Link recovery support to lawful, verifiable civilian gains.",
-      "Identify the actual authority and obtain consent; proposing is not negotiating.",
-      "Start small: Design disbursement milestones independent of political rhetoric.",
-      "Check real-world impact: Funds tied to confirmed civilian outcomes."
     ]
   },
   {
@@ -2653,7 +2247,6 @@
     "failure": "Token consultation or endangered participants",
     "legal": "Protection, inclusion and meaningful informed consent",
     "metric": "Diverse participation and acted-upon feedback",
-    "status": "PROPOSAL (not an existing institutional commitment)",
     "slots": [
       {
         "seat": "Direct party / mandate",
@@ -2713,19 +2306,6 @@
         "action": "Track recurrence, rights, legitimate sovereignty and restorative public-service impacts.",
         "checkpoint": "Sustained civilian benefit survives leadership or funding changes."
       }
-    ],
-    "advanced": {
-      "causal_model": "Hypothesis: Make affected communities genuine participants. Test whether the intervention changes incentives, operational behavior and measurable civilian results; do not infer causality from coincidence.",
-      "legal_review": "Protection, inclusion and meaningful informed consent. Commission competent counsel before any real implementation.",
-      "verification_protocol": "Set baseline → define incident threshold → authenticate records → independent adjudication → timely appeal → proportional, lawful response. Publish anonymized feedback and response matrices.",
-      "red_team": "Assume false compliance, denied access, misuse of information, unintended civilian harm and leadership changes. Failure mode: Token consultation or endangered participants.",
-      "fallback": "If consent, authority or evidence fails, stop escalation, preserve humanitarian channels and narrow the action to observable civilian protection."
-    },
-    "simple": [
-      "Understand the problem: Make affected communities genuine participants.",
-      "Identify the actual authority and obtain consent; proposing is not negotiating.",
-      "Start small: Invite representative and consented safe participation.",
-      "Check real-world impact: Diverse participation and acted-upon feedback."
     ]
   },
   {
@@ -2744,7 +2324,6 @@
     "failure": "Predictions become unsupported certainty",
     "legal": "Uncertainty transparency and non-operational analysis",
     "metric": "Closed high-risk gaps and revised safeguards",
-    "status": "PROPOSAL (not an existing institutional commitment)",
     "slots": [
       {
         "seat": "Authorized operator",
@@ -2804,19 +2383,6 @@
         "action": "Track recurrence, rights, legitimate sovereignty and restorative public-service impacts.",
         "checkpoint": "Sustained civilian benefit survives leadership or funding changes."
       }
-    ],
-    "advanced": {
-      "causal_model": "Hypothesis: Anticipate bad-faith compliance, errors and reversals. Test whether the intervention changes incentives, operational behavior and measurable civilian results; do not infer causality from coincidence.",
-      "legal_review": "Uncertainty transparency and non-operational analysis. Commission competent counsel before any real implementation.",
-      "verification_protocol": "Set baseline → define incident threshold → authenticate records → independent adjudication → timely appeal → proportional, lawful response. Document warnings, assumptions and tested mitigations.",
-      "red_team": "Assume false compliance, denied access, misuse of information, unintended civilian harm and leadership changes. Failure mode: Predictions become unsupported certainty.",
-      "fallback": "If consent, authority or evidence fails, stop escalation, preserve humanitarian channels and narrow the action to observable civilian protection."
-    },
-    "simple": [
-      "Understand the problem: Anticipate bad-faith compliance, errors and reversals.",
-      "Identify the actual authority and obtain consent; proposing is not negotiating.",
-      "Start small: Run independent 24-month failure scenarios with stop rules.",
-      "Check real-world impact: Closed high-risk gaps and revised safeguards."
     ]
   },
   {
@@ -2835,7 +2401,6 @@
     "failure": "Privacy breaches and inequitable eligibility",
     "legal": "Disability rights, informed consent and labor law",
     "metric": "Durable voluntary support and employment outcomes",
-    "status": "PROPOSAL (not an existing institutional commitment)",
     "slots": [
       {
         "seat": "Affected community",
@@ -2895,19 +2460,6 @@
         "action": "Track recurrence, rights, legitimate sovereignty and restorative public-service impacts.",
         "checkpoint": "Sustained civilian benefit survives leadership or funding changes."
       }
-    ],
-    "advanced": {
-      "causal_model": "Hypothesis: Provide trauma-informed livelihoods and reintegration. Test whether the intervention changes incentives, operational behavior and measurable civilian results; do not infer causality from coincidence.",
-      "legal_review": "Disability rights, informed consent and labor law. Commission competent counsel before any real implementation.",
-      "verification_protocol": "Set baseline → define incident threshold → authenticate records → independent adjudication → timely appeal → proportional, lawful response. Independent rights-based outcome evaluations.",
-      "red_team": "Assume false compliance, denied access, misuse of information, unintended civilian harm and leadership changes. Failure mode: Privacy breaches and inequitable eligibility.",
-      "fallback": "If consent, authority or evidence fails, stop escalation, preserve humanitarian channels and narrow the action to observable civilian protection."
-    },
-    "simple": [
-      "Understand the problem: Provide trauma-informed livelihoods and reintegration.",
-      "Identify the actual authority and obtain consent; proposing is not negotiating.",
-      "Start small: Co-design accessible non-stigmatizing services.",
-      "Check real-world impact: Durable voluntary support and employment outcomes."
     ]
   }
 ]

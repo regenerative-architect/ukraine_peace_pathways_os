@@ -1,25 +1,21 @@
 # Attributions & Licenses
 
-**Peace Pathways OS, snapshot 2026-10-16.** Project concept attribution: **Foster + Navi / Planetary Restoration Archive**. Original application code, data taxonomy, guides and educational synthesis are provided under **MIT License** (see `LICENSE`). This does not imply sponsorship by any institution named in the profiles.
+## Original work, transformation and code
 
-## Third-party component
+**Foster + Navi / Planetary Restoration Archive, 2026.** Original Peace Pathways OS v1.1 catalog, the concept, and this degamified v2.0 interface and methodology. The code is released under MIT; see `LICENSE`. This edition is an independent policy-analysis research prototype, not affiliated with or endorsed by a state, the UN, OSCE, ICRC, NATO, European Union, or any other named body.
 
-- **Trystero v0.26.0** (Dan Motzenbecker; MIT): https://github.com/dmotz/trystero , https://trystero.dev/docs/getting-started/ . The app imports it *only after the user explicitly presses Join* from `https://esm.run/trystero@0.26.0`, or `https://esm.run/@trystero-p2p/mqtt@0.26.0` when both peers explicitly select the compatible MQTT strategy. The MIT copyright holder and license: https://github.com/dmotz/trystero/blob/master/LICENSE . Trystero source is **not vendored or copied** into the archive; CDN/network availability is an external dependency. If you redistribute a downloaded local vendor copy, preserve the required MIT notices.
-- Default signaling strategy: Nostr public relays; optional MQTT public brokers according to Trystero docs: https://trystero.dev/docs/signaling-strategies/ . TURN may be necessary and is **not provided** by this package.
+The v1.1 catalog of 75 profiles and 32 intervention families is adapted, with ranked tiers, completion systems and artificial diplomatic scoring removed. The former 747-guide reference catalog survives in `reference/legacy_guide_bank.json` for provenance, not as normative evidence or an implemented interactive module. `reference/legacy_pathways.json` preserves historical structures, also not loaded by the v2 UI. Case-specific risk and authority information is analytic and requires independent verification.
 
-## Research and public reference sources
+## Open-source concepts and optional transport
 
-The sourced entries are summarized in `data/evidence.json` with their original URLs, document dates, classification, confidence and implications. Included are:
+- **Trystero v0.26.0**: peer-to-peer WebRTC abstraction, optional network feature loaded from `https://esm.run/trystero@0.26.0` (Nostr) or `https://esm.run/@trystero-p2p/mqtt@0.26.0` only after an affirmative Join click. Homepage/docs: https://trystero.dev/ ; licensing: https://github.com/dmotz/trystero . This bundle contains no vendored Trystero code; network functions depend on external project availability and license terms. Review upstream license and privacy implications before deployment.
+- Standard Web APIs: IndexedDB, File/Blob APIs, service workers and static HTML/CSS/JavaScript. No framework, telemetry SDK or account requirement.
+- Icons: pre-existing PRA originals from uploaded v1.1 bundle, retained as locally hosted assets.
 
-- UN Charter: https://www.un.org/en/about-us/un-charter/full-text
-- OHCHR civilian protection, September 2026, published 15 October 2026: https://ukraine.ohchr.org/en/Protection-of-Civilians-in-Armed-Conflict-September-2026
-- OSCE statement on monitoring, 2 February 2026: https://www.osce.org/chairpersonship/661975
-- ICRC guidance on neutrality, 21 February 2025: https://www.icrc.org/en/article/russia-ukraine-international-armed-conflict-value-neutrality-humanitarian-work
-- Reuters reporting on IAEA-arranged local repair truce, 15 October 2026: https://www.reuters.com/world/russias-rosatom-says-truce-place-zaporizhzhia-power-supply-repairs-2026-10-15/
-- World Bank Group support to Ukraine, March 2026: https://thedocs.worldbank.org/en/doc/ccf8044b6df7e0dd03f3899580b97d35-0080012026/original/WBG-Support-Ukraine-March-2026.pdf
+## Independent public sources
 
-All factual claims represent dated public sources and may become stale. The 747 guides and partner pathway scores are **original educational proposals**, not verbatim quotations, reports of actor consent, or products authorized by governments or international organizations.
+The dated ledger links to primary texts and reports from the UN, OHCHR, ICRC, OSCE, Ukrainian presidential office, UK government, World Bank and IAEA reporting, as well as time-stamped Reuters news reports. References are used as **links and concise attributed paraphrases**, not reproduced copyright text or claims of institutional endorsement. Rights and trademarks remain with their respective organizations. See `data/evidence.json` and `NEGOTIATION_FRAMEWORK.md`.
 
-## Zero-harm / Anti-inversion
+## Principles
 
-This bundle has no military-targeting, sanctions-evasion, assassination, offensive cyber, surveillance, disinformation or covert outreach functionality. Earth-observation capabilities are framed only for lawful, aggregated, consented civilian-protection verification; never operational military targeting. A positive learning score does not equal reduced violence. An apparent ceasefire is not deemed legitimate without appropriate consent, independent verification, and respect for sovereignty and rights.
+Evidence is not consent; hypothesis is not a mandate; an announced proposal is not an agreed ceasefire; a written obligation is not verified implementation. No automatic contact, personal-data collection or real-time military monitoring is included. Zero-harm safeguards reduce abuse opportunities but provide no absolute safety guarantee.

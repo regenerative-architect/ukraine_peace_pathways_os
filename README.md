@@ -1,99 +1,106 @@
-# PEACE PATHWAYS OS — Collaborative Systems Lab
+# Peace Accord Workbench v2.0 — policy feasibility, not simulated peace
 
-**Release:** 1.1.0 | **Source fact freeze:** 16 October 2026 | **Attribution:** Foster + Navi / Planetary Restoration Archive
-
-An independent, offline-first educational web OS for analyzing lawful, civilian-centered collaboration pathways that might help end the Russia–Ukraine war. It **does not** represent Ukraine, Russia, the UN, or any government; it cannot authorize ceasefires or contact institutions automatically.
+**Independent project:** Foster + Navi / Planetary Restoration Archive (PRA)  
+**Baseline of public source review:** 16 October 2026  
+**Purpose:** Help researchers, NGOs, educators and policy professionals structure *testable* civilian-protection and conflict-resolution proposals for the Russia–Ukraine war, while exposing missing diplomacy, strategic incentives, legal competence, verification and funding. **The application cannot negotiate a ceasefire, authorize a deal, certify consent or end an armed conflict.**
 
 ## One-minute start
 
-1. **Offline, simplest:** unzip, double-click `index.html`. The atlas, all solutions, tailored guides, pathway forge, data export and local learning work without a server or internet. Local browser storage may be restricted in private/file modes; always export a backup.
-2. **Hosted/PWA:** put the entire folder on a static HTTPS host (or run `python -m http.server 8080` from this folder and open `http://localhost:8080`). Open it once online to install the service worker. After the service worker has activated and cached the shell, reopen the site offline. `file://` cannot use service workers.
-3. **Community lobby (explicit opt-in):** host on HTTPS or localhost; open **Collaboration** and click **Join community**. Every visitor uses the prefilled public code `peace-pathways-community-v1` and Nostr signaling by default, without needing an invitation or account. A peer count of zero means no verified connection, even if the console says “Waiting.” Do not send private information in this public, unmoderated room; sharing a saved proposal remains a separate, reviewed opt-in action. For a smaller private session, click **New private room**, optionally set a passphrase, then share the invitation URL with collaborators. Real external networks and signaling services are required.
+1. Unzip the archive. Double-click `index.html` inside the `peace_accord_workbench` folder. Keep `app.js`, `styles.css`, assets and other files alongside it. The embedded stakeholder, issue and source catalog is usable without internet. Browser `file://` storage restrictions vary; export JSON backups after substantive work.
+2. Open **Executive brief** to choose a realistic issue track. Select an example or browse the **Issue dossiers** (32 templates). The example button creates a *private, explicitly unverified* case — not a proposed agreement accepted by anyone.
+3. Open **Negotiation workbench**; name the competent owner, parties, limitations and next check. Enter each institutional prerequisite as `unknown`, `documented` (link + explanation) or `blocked`. **Documented is user-provided, not verified.** The program never displays an `authorized` or `ready for deployment` outcome.
+4. Use **Monitoring & verification** to draft how an incident would be observed, challenged and adjudicated. In the **Decision & risk ledger**, state alternative explanations and what would falsify the proposal's assumptions.
+5. Export a markdown briefing memo or JSON backup. Get qualified diplomatic, legal, humanitarian and monitoring reviewers to examine it before any external use.
 
-## What is actually implemented
+## Major changes from v1.1
 
-| Module | Functions |
+| v1.1 concept | v2.0 implementation |
 |---|---|
-| Overview | Evidence freeze, baseline, four portfolios and dashboard |
-| Entity atlas | 75 ranked potential actors/groups, searchable capabilities, constraints, BATNA uncertainty and tailored banks; independently scrollable right-side profile/solutions pane, including keyboard and mobile access |
-| Solutions bank | 32 categorized intervention designs, legal, monitoring, first-move, risk and measurable outcomes |
-| Pathway forge | 4+ complementary seats; anchor any entity; pin up to five more; vary a goal and 3–16 assignments; **Regenerate** rotates partner assignments while preserving chosen constraints and indicates when no distinct options are available; inspect, save, export JSON |
-| Skill constellation | 747 entity×solution guides with simplified and advanced tracks, checked learning steps, phased milestones and conditional reciprocity |
-| Collaboration | **One-click, public community room prefilled by default**; Trystero v0.26.0 with **Nostr by default**, optional MQTT strategy, loaded only after explicit Join; private-room creation, optional secret, invite URL, confirmed peers, reviewed outgoing and quarantined incoming drafts, optional TURN |
-| Evidence & safeguards | Dated source ledger, obstacle map, 24-month premortem, legal restrictions and escalation stop rules |
-| Settings & portable data | IndexedDB with localStorage fallback, light/dark, EN/partial UK and RU navigation, JSON backup/restore, schema validation, reset confirmation |
-| Hosted PWA | Versioned service worker; same-origin static precache after successful HTTPS/localhost install. External Trystero/CDN never cached or claimed offline. |
+| XP, achievements, steps completed | Removed altogether; no gamified proxy for peace progress |
+| Entity rankings and tiers | Removed from app data and UI; 75 **unverified capability hypotheses** remain |
+| Randomized pathway pairings | Replaced with human-defined stakeholders, roles and **explicit unresolved consent** |
+| Ordinal likelihood/impact scores | Removed; no fabricated negotiation probabilities |
+| Levelled guides / constellation HUD | Removed from interface; old guide catalog preserved only in `/reference` |
+| General solution cards | 32 issue dossiers with monitoring, law, dependencies, failures and uncertain costs |
+| Generic implementation stages | Feasibility checks, conflicting source positions, authority and command-to-compliance constraints |
+| Progress board | Decision, risk, objection and provenance register with dated analyst entries |
+| Peer lobby | Opt-in, unmoderated Trystero peer-review room; no automatic syncing |
 
-The complete 747-guide catalog is **embedded in** `index.html` so opening it under `file://` does not require fetching JSON. External JSON duplicates are furnished for machine-readable reuse and future versioned updates.
+## Modules and tangible output
 
-## Data directory
+- **Executive brief:** separates narrow humanitarian, military-restraint and political-settlement tracks; currently dated public-source anchors.
+- **Diplomatic constraints:** decision-right and high-level strategic-feasibility matrix; public-position cross-checks; limits on negotiated concessions, force compliance, verification and ratification.
+- **Stakeholder atlas:** original 75 public-interest analytic actor descriptions with authority limits, uncertain BATNA, unverified incentives and separately scrollable dossier. Neither capability nor inclusion proves a role.
+- **Issue dossiers:** original 32 research blueprints grouped by eight issue families; each has monitoring need, legal constraints, dependencies, risks and a creation action.
+- **Source register:** 18 dated institutional/reported texts and original baseline entries, plus user-created public sources (never independently validated). All available offline; linked sites require internet.
+- **Negotiation workbench:** named owner, forum, scope, proposed participants, issue-specific gate register with evidence citations, explicit blockers and memo/JSON export.
+- **Monitoring & verification:** editable mandate, definitions, independent baselines, access, incident attribution uncertainty, dispute review, breach response, protection and sustainment.
+- **Decision & risk ledger:** timestamped user observations, challenges, proposed steps and falsification tests; manual audit trail.
+- **Peer review:** small-group, experimental WebRTC drafts via Trystero (Nostr or MQTT signaling); public room is an *opt-in, unmoderated demonstration*, no identities or guarantees. Peer data is quarantined until manually imported and classified as unverified.
+- **Workspace:** IndexedDB first, localStorage fallback, light/dark, explicit JSON import/export, destructive reset requiring two confirmations, and v1.1 saved-plan import. The previous XP ledger does not migrate.
+- **Hosted PWA:** HTTPS/localhost service worker with local shell cache after first successful visit; external websites, peer signaling and uncached resources cannot work offline. `file://` does not support service workers.
 
-- `data/entities.json` — 75 entities, tier, capabilities, potential authority, risks, inferential stakeholder model, own solution IDs.
-- `data/solutions.json` — 32 intervention designs, measures, staged actions, evidence thresholds, costs **uncertain**, conditional exchange, failure mode, legal review.
-- `data/guide-bank.json` — 747 complete entity-specific advanced and simple guides.
-- `data/pathway-catalog.json` — 32 collaboration recipes and complementary seat requirements.
-- `data/evidence.json` — cited sources with dates, confidence, class and next-use implications.
-- `data/seed.json` — same complete catalog in a single JSON object.
+## Real-world efficacy — criteria and non-claims
 
-## Collaborative pairing diagnostic (important)
+Software is not a diplomatic actor. A tool like this might be useful **only when** it improves the quality of a proposal considered by competent entities. A serious assessment should distinguish:
 
-Trystero's public Nostr relays (or MQTT brokers when both parties select MQTT) are used only for **signaling** and are an external dependency. Signaling is distinct from WebRTC connection establishment. Even with the same room, carrier-grade NATs, restrictive firewalls, service-worker/network interference, relay policies and lack of TURN may prevent two distant devices from joining.
+1. **Analytical quality:** Does the dossier name all affected rights, credible veto holders, legal authorizers, counterparty positions, incentives, risks, objective disconfirming evidence and unknowns? Requires external reviewers.
+2. **Process traction:** Does an identifiable, authorized institution acknowledge reviewing the proposal? The app does not contact institutions or establish review.
+3. **Negotiation traction:** Have the necessary parties acknowledged, negotiated and *actually accepted* the same scope? The app does not know.
+4. **Implementation:** Is there a funded, safe, empowered implementation/monitoring mechanism with independently reviewed incident reports?
+5. **Outcomes:** Did protection improve under a credible evaluation method (e.g. documented civilian harm/service interruptions, subject to confounders and reporting limitations)? The app does **not** measure or causally attribute peace outcomes.
 
-1. Verify both browsers load **the same hosted app version** and use the exact same **room code** (case-sensitive) and signaling strategy. The public room defaults to `peace-pathways-community-v1` and has **no passphrase**. Both devices must press Join; private rooms additionally require matching optional passphrases.
-2. Confirm browser online, and try two tabs or two devices on the same network before crossing networks. The app reports a confirmed peer only after `onPeerJoin`. A single global P2P mesh is **not scalable or moderated**; the community room is an experimental small-group discovery lobby rather than a permanent public forum. At scale, deploy an operated moderated service with explicit identities and abuse controls.
-3. When peers fail across networks but succeed locally, provision a legitimate TURN server, and enter its ephemeral `turn:` or `turns:` URL, username and credential on **both** devices **before pressing Join**. Trystero's `turnConfig` adds TURN to its default STUN servers. Credentials are never persisted by the app.
-4. If CDN module loading fails, inspect Content Security Policy, browser network console, blocked public relay access or hosting constraints. Static catalog and local backups remain usable; the app does not invent a connection. Public lobby joining reveals network information to some peers and intermediary services; it must remain opt-in.
-5. Production networks require operated, dependable infrastructure with a reviewed abuse policy; public relays are unsuitable for guaranteed service. Never use this application for sensitive private-person or protected ICRC information.
+Never interpret saved proposals, user-entered URLs, local UI status or peer messages as reaching criteria 2–5.
 
-Official technical documentation: https://trystero.dev/docs/connections/ and https://trystero.dev/docs/signaling-strategies/ . No connection across separate networks is promised or claimed tested merely because the UI is functional.
+## Important structural constraints
 
-## Interpreting the systems model
+- **Both Ukraine and Russia** must explicitly consent when their respective obligations, military restraint or cross-line humanitarian cooperation are required. A third-party speech or community poll cannot substitute for them. Sectoral, armistice, settlement and diplomacy cases display bilateral gates by default.
+- **Sovereignty and international law:** No proposed territorial concession, forced transfer, humanitarian denial or unsafe disclosure becomes lawful by being modeled. The UN Charter and Ukraine's internationally recognized boundaries are relevant governing baselines; legal interpretation belongs to competent specialists.
+- **Political economy and strategic constraints:** Wartime leverage, continuity of external support, credible commitments, domestic ratification, sanctions decision rights and shifts in military objectives affect bargaining. Only attributable, dated **strategic-level** sources should be considered here; not tactics, positions or targeting data.
+- **Monitoring design:** The OSCE Special Monitoring Mission to Ukraine closed in March 2022. New observation requires an actual mandate, budget, security, access and impartial review, not merely adding “OSCE” as an actor.
+- **Neutral intermediaries:** The ICRC may support humanitarian exchanges, family links and passage subject to party consent and its own operational remit. It is not automatically assigned a proposed role.
+- **Expert judgment:** All agency, cost, technical, legal, capacity and timelines remain provisional until externally checked. Missing facts remain **unknown**, not a numerical confidence score.
 
-- **VERIFIED FACT**: a dated statement supported by a sourced record; context can still change.
-- **REPORTED EVENT / OFFICIAL POSITION**: attributed claim; read the original source.
-- **INFERENCE**: an analytical model, not an actor's stated private intentions.
-- **PROPOSAL / HYPOTHETICAL PATHWAY**: no actor is presumed to consent, fund or participate.
-- **LEARNING STEP**: checked only on your own device; neither combat casualties nor peace progress are scored from personal course completion.
+## Site structure
 
-**Pathway ratings** are illustrative ordinal interaction heuristics using capabilities, portfolio relevance, presence of direct parties and potential verification. They are **not** probabilities or evidence of acceptance. The entity tiers are strategic guesses needing continuous external verification. Each guide includes a legal review gate, independent metric, safety stop rule, and a high-uncertainty cost band. Specialist legal and technical review is mandatory before any real action.
-
-## Limitations
-
-- News and combat figures are **frozen as of 2026-10-16**. No automatic crawling, data connector, background monitoring, outreach or diplomacy.
-- Named potential partners do not endorse this tool. No personal identity authentication or moderation is provided for P2P rooms. The **public community room code is intentionally known** and any compatible visitor may join; anyone holding a private code (plus optional passphrase) may potentially join a private room. The optional passphrase is never embedded in an invite URL.
-- The "Earth Intelligence Engine" button is a compact local analytics/learning HUD, **not** a real-time external Earth-observation or intelligence feed. Future integration requires a lawful, authorized API and explicit user consent.
-- English is the canonical research language. Ukrainian and Russian only translate the navigation labels; content falls back transparently to English.
-- No durable network queue or cross-device synchronization. P2P proposals are only transmitted live when sender opts in; the receiving person must review and accept. Conflicts and merge choices remain manual.
-- Exact cost estimates, real-time binding diplomatic positions, confirmed ceasefire compliance, personalized legal advice and guaranteed cross-network peer connection are outside this static bundle's capabilities.
-- No live operational military positions, human targeting or sensitive individual-level records should be entered.
-
-## Security, privacy, deployment
-
-- All personal learning state and saved proposals are in IndexedDB first, with an explicit backup/export and localStorage fallback. No analytics, cookies, covert transmission or hidden telemetry.
-- Peer draft payloads are bounded and sanitized with escaped text on display. TURN credentials remain session-only, in memory, and are not in backup JSON.
-- Serve over HTTPS with standard security headers. If you add CSP, allow only the external Trystero JS host chosen by this version and the relay connections it uses; consider self-hosting a reviewed licensed dependency with the original license attached.
-- Keep a versioned deployment and data migration plan before modifying schemas. A future version should include self-hosted relay choices and an explicit user-tested hosted cross-network matrix.
-
-## Source and testing
-
-`build.py` rebuilds reference JSON and a compact seed string. The unified `MODULES` registry inside `index.template.html` defines route, capabilities, dependencies, schema, lifecycle hooks, error handling and view mapping. `index.template.html` contains the app implementation with `__SEED_JSON__` injection placeholder. To rebuild after editing data or the shell:
-
-```bash
-python build.py
-python - <<'PY'
-from pathlib import Path
-root=Path('.')
-(root/'index.html').write_text((root/'index.template.html').read_text().replace('__SEED_JSON__',(root/'seed-snippet.txt').read_text()),encoding='utf-8')
-PY
+```
+peace_accord_workbench/
+  index.html                 Embedded catalog + accessible shell (works under file://)
+  index.template.html        Source shell with __CATALOG_JSON__ build injection point
+  app.js                     Routes, views, gates, workspace, exports, optional peer review
+  styles.css                 Responsive, accessible and print-friendly styles
+  manifest.webmanifest       Hosted PWA metadata
+  sw.js                      Versioned same-origin offline shell cache
+  assets/icon-*.png          Locally hosted icons
+  data/entities.json         Source stakeholder catalog with rank/tier removed
+  data/solutions.json        Source issue catalog with guide/completion material removed
+  data/evidence.json         Frozen curated and reported source ledger
+  reference/                Preserved v1.1 guide bank and pathway catalog, not loaded
+  RESEARCH_PROTOCOL.md       Review protocol for externally credible use
+  CASE_STUDIES.md            Two current, non-authorized feasibility examples
+  NEGOTIATION_FRAMEWORK.md   Strategic, legal and implementation checklist
+  ATTRIBUTIONS_AND_LICENSES.md
+  TEST_REPORT.md
+  tests/smoke_inline_v2.py   Playwright DOM/interaction smoke tests
+  tests/*.png                Captured reference screenshots
 ```
 
-Validation: `python tests/check_catalog.py`, browser tests in `tests/smoke_browser.py` and new focused `tests/regression_v1_1.py` (requires Playwright/Chromium). Results documented in `TEST_REPORT.md`.
+For later changes to `data/*.json`, rerun the small build snippet from `TEST_REPORT.md` to regenerate the embedded catalog in `index.html`. This is deliberate to retain `file://` read-only accessibility without runtime fetches. Use `python -m http.server 8000` from this directory for hosted-local testing, if network policy permits, and deploy static files over HTTPS for PWA and WebRTC.
 
-**Zero-Harm / Anti-Inversion:** No offensive cyber, illegal procurement, coercion, operational targeting or deceptive communication. Civilian protection, territorial integrity and accountable consent take priority over apparent gamification progress. See `ATTRIBUTIONS_AND_LICENSES.md`.
+## Source currency, neutrality and privacy
 
-## v1.1 changes
+The reference baseline is date-frozen to **2026-10-16** and not continuously updated. Open cited sources to verify wording and subsequent events. Reported Russian or Ukrainian positions are **attributed statements**, not independently proven intentions. The app advocates lawful civilian protection, sovereign agency and non-coercion; it does not endorse a government party's military goals, and does not imply neutral legal equivalence between invasion and defense.
 
-- **Entity Atlas:** selected actor profile in the right column has its own vertical scrollbar and is keyboard-focusable; on narrow screens it moves before the main entity grid and stays a bounded scroll region.
-- **Pathway Forge:** fixes the Regenerate button's formerly static output. The generator now varies top-matching candidates by generation, does not rebuild on every unrelated render, keeps anchors and pinned partners, rejects within-generation duplicate signatures, and reports exhaustion rather than falsely claiming new outcomes.
-- **Collaboration:** a stable public community room is prefilled with a one-click Join option; create a private room and return to the public lobby without typing a room code. This is **not automatic network connection**. The public room is unmoderated and intended for small groups; it needs external infrastructure and should not carry sensitive data.
-- **Offline:** service worker cache version bumped so hosted clients can receive the updated shell after activation. The research/evidence fact freeze remains 2026-10-16; no source freshness or live networking is implied.
+No app telemetry, accounts, personal analytics, external search ingestion, covert data transmission or automatic institutional outreach exists. Optional external search links and P2P network access are explicit actions. Public community rooms are not appropriate for confidential work. Never enter names/addresses of endangered individuals, prisoner identifiers, confidential diplomatic channels, sensitive sites or locations, tactical force information, or classified material.
+
+**Zero-Harm / Anti-Inversion:** This edition prioritizes falsifiability over persuasion, blocks inferred consent, leaves unresolvable prerequisites visible, avoids strategic targeting workflows, treats incident data as potentially contested, and requires manual export and human validation. These reduce but cannot eliminate misuse risk.
+
+## Limitations and diagnostics
+
+- No live negotiation or combat status ingestion; source claims expire in practical relevance.
+- No identity authentication, access control, moderated P2P community or verified cross-network peer connection. Trystero uses third-party CDN and public signaling when voluntarily joined; direct WebRTC may fail without TURN.
+- No automatic event scraping, threat detection, forecasting, grant matching, funding commitment or external communication. “Documented” only means a local evidence URL and note were entered.
+- Tested: JavaScript syntax; Playwright inline-DOM smoke interactions, responsive rendering and download event; see `TEST_REPORT.md`. The environment's browser navigation policy blocked direct `file://` and localhost page navigation, so full HTTP/PWA and cross-device runtime are **not represented as passed**.
+- This is a research prototype, not a deployable conflict-mediation platform. Real institutional use requires specialist co-design, audited data, secure hosting/identity, protocol testing, external review and consent.
+
+MIT license applies to original and new application code; other parties' research and brands remain attributed, not relicensed. Consult `ATTRIBUTIONS_AND_LICENSES.md`.

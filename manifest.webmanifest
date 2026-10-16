@@ -1,11 +1,1 @@
-{
- "name":"Peace Pathways OS · Collaborative Systems Lab",
- "short_name":"Peace Pathways",
- "description":"Offline-first evidence and collaboration pathways for civilian protection and durable peace.",
- "start_url":"./index.html#/overview",
- "scope":"./",
- "display":"standalone",
- "background_color":"#071322",
- "theme_color":"#071322",
- "icons":[{"src":"./assets/icon-192.png","sizes":"192x192","type":"image/png","purpose":"any maskable"},{"src":"./assets/icon-512.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}]
-}
+{"name":"Peace Accord Workbench","short_name":"Accord Workbench","description":"Independent evidence-first negotiation and civilian protection research workspace","start_url":"./index.html","scope":"./","display":"standalone","background_color":"#f5f7fa","theme_color":"#122941","icons":[{"src":"assets/icon-192.png","sizes":"192x192","type":"image/png"},{"src":"assets/icon-512.png","sizes":"512x512","type":"image/png"}]}

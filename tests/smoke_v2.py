@@ -1,0 +1,46 @@
+from playwright.sync_api import sync_playwright
+from pathlib import Path
+BASE='http://127.0.0.1:8765/'
+with sync_playwright() as p:
+ browser=p.chromium.launch(executable_path='/usr/bin/chromium',headless=True,args=['--no-sandbox'])
+ context=browser.new_context(accept_downloads=True,viewport={'width':1360,'height':850})
+ page=context.new_page();errs=[]
+ page.on('pageerror',lambda err:errs.append(str(err)))
+ page.goto(BASE,wait_until='load');page.wait_for_timeout(800)
+ print('URL',page.url)
+ print('H1',page.locator('h1').first.inner_text())
+ print('NAV',page.locator('.navlink').count())
+ page.screenshot(path='/mnt/data/peace_work/peace_accord_workbench/tests/desktop_v2.png',full_page=True)
+ # test navigate and independent scroll
+ page.locator('a[href="#/stakeholders"]').click();page.wait_for_timeout(120)
+ print('ACTORS',page.locator('.clickrow').count())
+ print('scroll',page.locator('.profile-scroll').evaluate('(e)=>({scrollHeight:e.scrollHeight,clientHeight:e.clientHeight,overflow:getComputedStyle(e).overflowY})'))
+ page.locator('button[data-act="select-actor"]').nth(2).click();print('ACTOR SELECTED',page.locator('.profile-scroll h2').inner_text())
+ page.locator('a[href="#/issues"]').click();page.locator('button[data-act="example"]').first.click();page.wait_for_timeout(200)
+ print('Case page',page.locator('h1').inner_text(),'cases',page.locator('#caseSelect option').count())
+ page.locator('[name="owner"]').fill('Proposed only - requires named mandate')
+ page.locator('#caseForm button[type="submit"]').click()
+ page.locator('[data-gate="law"][data-part="state"]').select_option('documented')
+ page.locator('[data-gate="law"][data-part="url"]').fill('https://www.un.org/en/about-us/un-charter/full-text')
+ page.locator('[data-gate="law"][data-part="note"]').fill('Public Charter Articles 2 and 51; legal review still required.')
+ page.locator('[data-act="review"]').first.click()
+ print('Assessment',page.locator('.decision h3').first.inner_text())
+ page.locator('a[href="#/verification"]').first.click();page.locator('textarea[name="scope"]').fill('Civilian energy infrastructure only; no frontline details');page.locator('#protocolForm button[type="submit"]').click()
+ page.locator('a[href="#/decisions"]').click();page.locator('#entryForm textarea[name="text"]').fill('Check whether both parties accepted this exact scope before describing any operational pause.');page.locator('#entryForm button[type="submit"]').click()
+ print('LOG COUNT',page.locator('.kicker').filter(has_text='risk').count())
+ page.locator('a[href="#/evidence"]').click();print('EVIDENCE CARDS',page.locator('article.card').count())
+ page.locator('[name="name"]').fill('Test example source');page.locator('[name="date"]').fill('2026-10-16');page.locator('[name="url"]').fill('https://example.org/news');page.locator('[name="claim"]').fill('A user-entered source claim not independently verified.');page.locator('#sourceForm button').click();print('source visible',page.get_by_text('Test example source').count())
+ page.locator('a[href="#/settings"]').click();print('storage',page.locator('main').inner_text()[:270]);page.locator('button[data-act="export-backup"]').click();download=page.expect_download(timeout=3000)
+ # click happened before wait; download event may have fired, skip
+ page.reload(wait_until='load');page.wait_for_timeout(600)
+ page.locator('a[href="#/workbench"]').click();print('persist owner',page.locator('[name="owner"]').input_value())
+ print('persist gates',page.locator('[data-gate="law"][data-part="state"]').input_value())
+ print('ERRORS',errs)
+ # file protocol smoke
+ file_page=context.new_page();file_page.on('pageerror',lambda e:errs.append('FILE '+str(e)));file_page.goto(Path('/mnt/data/peace_work/peace_accord_workbench/index.html').as_uri());file_page.wait_for_timeout(500);print('FILE',file_page.locator('h1').first.inner_text(),'file errors',errs)
+ mobile=browser.new_context(viewport={'width':390,'height':844},device_scale_factor=1)
+ m=mobile.new_page();m.goto(BASE);m.wait_for_timeout(350);m.screenshot(path='/mnt/data/peace_work/peace_accord_workbench/tests/mobile_v2.png',full_page=True)
+ print('mobile overflow',m.evaluate('document.documentElement.scrollWidth>window.innerWidth'))
+ m.locator('#menuToggle').click();print('mobile nav visible',m.locator('#nav').evaluate('(e)=>getComputedStyle(e).transform'))
+ m.keyboard.press('Escape');print('mobile nav closed',m.locator('#menuToggle').get_attribute('aria-expanded'))
+ browser.close()

@@ -1,9 +1,7 @@
 [
   {
     "id": "ukraine",
-    "rank": 1,
     "name": "Ukraine",
-    "tier": 1,
     "kind": "state",
     "capabilities": [
       "decision",
@@ -18,19 +16,6 @@
     "constraint": "Security, territorial integrity, protection of civilians and meaningful guarantees are vital.",
     "status": "Potential contribution — not an endorsement, pledge or verified participation",
     "confidence": "Medium: capability assessment; willingness unverified",
-    "solutions": [
-      "confidence-dialogue",
-      "security-guarantees",
-      "sovereignty-framework",
-      "energy-truce",
-      "local-pause",
-      "civilian-consultation",
-      "food-continuity",
-      "black-sea-safety",
-      "general-ceasefire",
-      "nuclear-safety"
-    ],
-    "guide_count": 10,
     "stakeholderModel": {
       "documentedAuthority": "Authorized Ukrainian authorities must consent to sovereign decisions and operational instructions.",
       "potentialLeverage": [
@@ -51,9 +36,7 @@
   },
   {
     "id": "russia",
-    "rank": 2,
     "name": "Russia",
-    "tier": 1,
     "kind": "state",
     "capabilities": [
       "decision",
@@ -67,19 +50,6 @@
     "constraint": "Russian acceptance cannot be inferred from talks; independently verify implementation.",
     "status": "Potential contribution — not an endorsement, pledge or verified participation",
     "confidence": "Medium: capability assessment; willingness unverified",
-    "solutions": [
-      "security-guarantees",
-      "confidence-dialogue",
-      "energy-truce",
-      "local-pause",
-      "sovereignty-framework",
-      "black-sea-safety",
-      "food-continuity",
-      "sanctions-conditionality",
-      "civilian-consultation",
-      "general-ceasefire"
-    ],
-    "guide_count": 10,
     "stakeholderModel": {
       "documentedAuthority": "Russian civilian and military authorities can decide whether Russian forces cease attacks or withdraw.",
       "potentialLeverage": [
@@ -99,9 +69,7 @@
   },
   {
     "id": "united-states",
-    "rank": 3,
     "name": "United States",
-    "tier": 1,
     "kind": "state",
     "capabilities": [
       "mediation",
@@ -114,19 +82,6 @@
     "constraint": "Changes in policy may undermine counterpart confidence and predictability.",
     "status": "Potential contribution — not an endorsement, pledge or verified participation",
     "confidence": "Medium: capability assessment; willingness unverified",
-    "solutions": [
-      "sanctions-conditionality",
-      "security-guarantees",
-      "black-sea-safety",
-      "civilian-consultation",
-      "confidence-dialogue",
-      "peace-financing",
-      "sovereignty-framework",
-      "supply-chain-integrity",
-      "energy-truce",
-      "food-continuity"
-    ],
-    "guide_count": 10,
     "stakeholderModel": {
       "documentedAuthority": "Coordinates high-level diplomacy, sanctions and potential security commitments.",
       "potentialLeverage": [
@@ -145,9 +100,7 @@
   },
   {
     "id": "european-union",
-    "rank": 4,
     "name": "European Union",
-    "tier": 1,
     "kind": "intergovernmental",
     "capabilities": [
       "finance",
@@ -161,19 +114,6 @@
     "constraint": "Member-state powers, legal competences and unanimity requirements differ.",
     "status": "Potential contribution — not an endorsement, pledge or verified participation",
     "confidence": "Medium: capability assessment; willingness unverified",
-    "solutions": [
-      "sanctions-conditionality",
-      "peace-financing",
-      "security-guarantees",
-      "supply-chain-integrity",
-      "black-sea-safety",
-      "asset-governance",
-      "export-diligence",
-      "recovery-contracts",
-      "risk-forecast",
-      "civilian-consultation"
-    ],
-    "guide_count": 10,
     "stakeholderModel": {
       "documentedAuthority": "EU institutions and member states control important European financial and sanctions decisions.",
       "potentialLeverage": [
@@ -193,9 +133,7 @@
   },
   {
     "id": "china",
-    "rank": 5,
     "name": "China",
-    "tier": 1,
     "kind": "state",
     "capabilities": [
       "trade",
@@ -207,19 +145,6 @@
     "constraint": "Willingness to exercise costly influence remains unproven.",
     "status": "Potential contribution — not an endorsement, pledge or verified participation",
     "confidence": "Medium: capability assessment; willingness unverified",
-    "solutions": [
-      "confidence-dialogue",
-      "energy-truce",
-      "local-pause",
-      "security-guarantees",
-      "sovereignty-framework",
-      "black-sea-safety",
-      "peace-financing",
-      "sanctions-conditionality",
-      "civilian-consultation",
-      "food-continuity"
-    ],
-    "guide_count": 10,
     "stakeholderModel": {
       "documentedAuthority": "Maintains extensive political and commercial ties and diplomatic access to Moscow.",
       "potentialLeverage": [
@@ -237,9 +162,7 @@
   },
   {
     "id": "turkiye",
-    "rank": 6,
     "name": "Türkiye",
-    "tier": 1,
     "kind": "state",
     "capabilities": [
       "mediation",
@@ -252,19 +175,6 @@
     "constraint": "Shipping safety cannot be guaranteed unilaterally.",
     "status": "Potential contribution — not an endorsement, pledge or verified participation",
     "confidence": "Medium: capability assessment; willingness unverified",
-    "solutions": [
-      "black-sea-safety",
-      "food-continuity",
-      "civilian-consultation",
-      "confidence-dialogue",
-      "energy-truce",
-      "local-pause",
-      "nuclear-safety",
-      "peace-financing",
-      "sanctions-conditionality",
-      "security-guarantees"
-    ],
-    "guide_count": 10,
     "stakeholderModel": {
       "documentedAuthority": "Can convene talks and support technical Black Sea maritime arrangements.",
       "potentialLeverage": [
@@ -283,9 +193,7 @@
   },
   {
     "id": "india",
-    "rank": 7,
     "name": "India",
-    "tier": 1,
     "kind": "state",
     "capabilities": [
       "mediation",
@@ -298,19 +206,6 @@
     "constraint": "May prioritize strategic autonomy; commitments require explicit consent.",
     "status": "Potential contribution — not an endorsement, pledge or verified participation",
     "confidence": "Medium: capability assessment; willingness unverified",
-    "solutions": [
-      "black-sea-safety",
-      "energy-truce",
-      "food-continuity",
-      "local-pause",
-      "nuclear-safety",
-      "peace-financing",
-      "sanctions-conditionality",
-      "civilian-consultation",
-      "confidence-dialogue",
-      "security-guarantees"
-    ],
-    "guide_count": 10,
     "stakeholderModel": {
       "documentedAuthority": "Can connect energy, maritime, commercial and diplomatic workstreams.",
       "potentialLeverage": [
@@ -329,9 +224,7 @@
   },
   {
     "id": "united-arab-emirates",
-    "rank": 8,
     "name": "United Arab Emirates",
-    "tier": 1,
     "kind": "state",
     "capabilities": [
       "mediation",
@@ -342,19 +235,6 @@
     "constraint": "Humanitarian success does not demonstrate comprehensive-settlement authority.",
     "status": "Potential contribution — not an endorsement, pledge or verified participation",
     "confidence": "Medium: capability assessment; willingness unverified",
-    "solutions": [
-      "peace-financing",
-      "black-sea-safety",
-      "civilian-consultation",
-      "confidence-dialogue",
-      "energy-truce",
-      "food-continuity",
-      "local-pause",
-      "nuclear-safety",
-      "sanctions-conditionality",
-      "security-guarantees"
-    ],
-    "guide_count": 10,
     "stakeholderModel": {
       "documentedAuthority": "Has experience facilitating prisoner exchanges and hosting meetings.",
       "potentialLeverage": [
@@ -371,9 +251,7 @@
   },
   {
     "id": "united-kingdom",
-    "rank": 9,
     "name": "United Kingdom",
-    "tier": 2,
     "kind": "state",
     "capabilities": [
       "security",
@@ -386,19 +264,6 @@
     "constraint": "Cannot unilaterally guarantee another government's decisions.",
     "status": "Potential contribution — not an endorsement, pledge or verified participation",
     "confidence": "Medium: capability assessment; willingness unverified",
-    "solutions": [
-      "peace-financing",
-      "sanctions-conditionality",
-      "security-guarantees",
-      "asset-governance",
-      "recovery-contracts",
-      "risk-forecast",
-      "supply-chain-integrity",
-      "black-sea-safety",
-      "civilian-consultation",
-      "confidence-dialogue"
-    ],
-    "guide_count": 10,
     "stakeholderModel": {
       "documentedAuthority": "Could underwrite security and implementation support through lawful commitments.",
       "potentialLeverage": [
@@ -417,9 +282,7 @@
   },
   {
     "id": "france",
-    "rank": 10,
     "name": "France",
-    "tier": 2,
     "kind": "state",
     "capabilities": [
       "security",
@@ -432,19 +295,6 @@
     "constraint": "Post-ceasefire security activity requires mandates and consent.",
     "status": "Potential contribution — not an endorsement, pledge or verified participation",
     "confidence": "Medium: capability assessment; willingness unverified",
-    "solutions": [
-      "peace-financing",
-      "black-sea-safety",
-      "civilian-consultation",
-      "confidence-dialogue",
-      "energy-truce",
-      "local-pause",
-      "nuclear-safety",
-      "sanctions-conditionality",
-      "security-guarantees",
-      "sovereignty-framework"
-    ],
-    "guide_count": 10,
     "stakeholderModel": {
       "documentedAuthority": "Has UN, EU and European security channels and reconstruction capacity.",
       "potentialLeverage": [
@@ -463,9 +313,7 @@
   },
   {
     "id": "germany",
-    "rank": 11,
     "name": "Germany",
-    "tier": 2,
     "kind": "state",
     "capabilities": [
       "finance",
@@ -478,19 +326,6 @@
     "constraint": "Domestic political and budgetary tradeoffs apply.",
     "status": "Potential contribution — not an endorsement, pledge or verified participation",
     "confidence": "Medium: capability assessment; willingness unverified",
-    "solutions": [
-      "peace-financing",
-      "sanctions-conditionality",
-      "security-guarantees",
-      "winter-energy",
-      "black-sea-safety",
-      "energy-truce",
-      "food-continuity",
-      "local-pause",
-      "nuclear-safety",
-      "asset-governance"
-    ],
-    "guide_count": 10,
     "stakeholderModel": {
       "documentedAuthority": "Can mobilize industrial, energy and recovery resources.",
       "potentialLeverage": [
@@ -509,9 +344,7 @@
   },
   {
     "id": "coalition-of-the-willing",
-    "rank": 12,
     "name": "Coalition of the Willing",
-    "tier": 2,
     "kind": "coalition",
     "capabilities": [
       "security",
@@ -523,19 +356,6 @@
     "constraint": "Composition, authorities and deployments cannot be presumed.",
     "status": "Potential contribution — not an endorsement, pledge or verified participation",
     "confidence": "Medium: capability assessment; willingness unverified",
-    "solutions": [
-      "peace-financing",
-      "sanctions-conditionality",
-      "security-guarantees",
-      "black-sea-safety",
-      "energy-truce",
-      "local-pause",
-      "nuclear-safety",
-      "asset-governance",
-      "general-ceasefire",
-      "mine-clearance"
-    ],
-    "guide_count": 10,
     "stakeholderModel": {
       "documentedAuthority": "Potentially organizes voluntary security commitments after hostilities cease.",
       "potentialLeverage": [
@@ -553,9 +373,7 @@
   },
   {
     "id": "nato",
-    "rank": 13,
     "name": "NATO",
-    "tier": 2,
     "kind": "alliance",
     "capabilities": [
       "security",
@@ -566,19 +384,6 @@
     "constraint": "Alliance consensus and escalation risks constrain options.",
     "status": "Potential contribution — not an endorsement, pledge or verified participation",
     "confidence": "Medium: capability assessment; willingness unverified",
-    "solutions": [
-      "black-sea-safety",
-      "energy-truce",
-      "local-pause",
-      "nuclear-safety",
-      "peace-financing",
-      "sanctions-conditionality",
-      "security-guarantees",
-      "defensive-cyber",
-      "general-ceasefire",
-      "risk-forecast"
-    ],
-    "guide_count": 10,
     "stakeholderModel": {
       "documentedAuthority": "Coordinates allied defence and deterrence commitments.",
       "potentialLeverage": [
@@ -595,9 +400,7 @@
   },
   {
     "id": "egypt",
-    "rank": 14,
     "name": "Egypt",
-    "tier": 2,
     "kind": "state",
     "capabilities": [
       "mediation",
@@ -609,19 +412,6 @@
     "constraint": "No authority to command belligerents or commercial ships.",
     "status": "Potential contribution — not an endorsement, pledge or verified participation",
     "confidence": "Medium: capability assessment; willingness unverified",
-    "solutions": [
-      "black-sea-safety",
-      "food-continuity",
-      "civilian-consultation",
-      "confidence-dialogue",
-      "energy-truce",
-      "local-pause",
-      "nuclear-safety",
-      "peace-financing",
-      "sanctions-conditionality",
-      "sovereignty-framework"
-    ],
-    "guide_count": 10,
     "stakeholderModel": {
       "documentedAuthority": "Could help convene a food-and-shipping safe-passage workstream.",
       "potentialLeverage": [
@@ -639,9 +429,7 @@
   },
   {
     "id": "brazil",
-    "rank": 15,
     "name": "Brazil",
-    "tier": 2,
     "kind": "state",
     "capabilities": [
       "mediation",
@@ -653,19 +441,6 @@
     "constraint": "Any mediation formula must genuinely include Ukraine.",
     "status": "Potential contribution — not an endorsement, pledge or verified participation",
     "confidence": "Medium: capability assessment; willingness unverified",
-    "solutions": [
-      "black-sea-safety",
-      "civilian-consultation",
-      "confidence-dialogue",
-      "peace-financing",
-      "sanctions-conditionality",
-      "sovereignty-framework",
-      "energy-truce",
-      "food-continuity",
-      "local-pause",
-      "nuclear-safety"
-    ],
-    "guide_count": 10,
     "stakeholderModel": {
       "documentedAuthority": "Offers Global South diplomatic connectivity and multilateral diplomacy.",
       "potentialLeverage": [
@@ -683,9 +458,7 @@
   },
   {
     "id": "switzerland",
-    "rank": 16,
     "name": "Switzerland",
-    "tier": 2,
     "kind": "state",
     "capabilities": [
       "mediation",
@@ -697,19 +470,6 @@
     "constraint": "Neutral facilitation cannot substitute for mandate or consent.",
     "status": "Potential contribution — not an endorsement, pledge or verified participation",
     "confidence": "Medium: capability assessment; willingness unverified",
-    "solutions": [
-      "black-sea-safety",
-      "civilian-consultation",
-      "confidence-dialogue",
-      "energy-truce",
-      "local-pause",
-      "nuclear-safety",
-      "peace-financing",
-      "sanctions-conditionality",
-      "sovereignty-framework",
-      "children-reunification"
-    ],
-    "guide_count": 10,
     "stakeholderModel": {
       "documentedAuthority": "Could host diplomacy and develop monitoring procedures.",
       "potentialLeverage": [
@@ -727,9 +487,7 @@
   },
   {
     "id": "osce",
-    "rank": 17,
     "name": "OSCE",
-    "tier": 2,
     "kind": "intergovernmental",
     "capabilities": [
       "verification",
@@ -741,19 +499,6 @@
     "constraint": "Mandate, access, resources and consensus are significant hurdles.",
     "status": "Potential contribution — not an endorsement, pledge or verified participation",
     "confidence": "Medium: capability assessment; willingness unverified",
-    "solutions": [
-      "black-sea-safety",
-      "civilian-consultation",
-      "confidence-dialogue",
-      "energy-truce",
-      "local-pause",
-      "nuclear-safety",
-      "peace-financing",
-      "sanctions-conditionality",
-      "security-guarantees",
-      "sovereignty-framework"
-    ],
-    "guide_count": 10,
     "stakeholderModel": {
       "documentedAuthority": "Possible technical monitoring, incident processes and dialogue support.",
       "potentialLeverage": [
@@ -771,9 +516,7 @@
   },
   {
     "id": "united-nations-secretariat",
-    "rank": 18,
     "name": "United Nations Secretariat",
-    "tier": 2,
     "kind": "intergovernmental",
     "capabilities": [
       "mediation",
@@ -785,19 +528,6 @@
     "constraint": "Secretariat cannot impose a settlement or exceed mandate.",
     "status": "Potential contribution — not an endorsement, pledge or verified participation",
     "confidence": "Medium: capability assessment; willingness unverified",
-    "solutions": [
-      "black-sea-safety",
-      "civilian-consultation",
-      "confidence-dialogue",
-      "energy-truce",
-      "local-pause",
-      "nuclear-safety",
-      "peace-financing",
-      "sanctions-conditionality",
-      "sovereignty-framework",
-      "children-reunification"
-    ],
-    "guide_count": 10,
     "stakeholderModel": {
       "documentedAuthority": "Offers good offices, operational coordination and international framework.",
       "potentialLeverage": [
@@ -815,9 +545,7 @@
   },
   {
     "id": "saudi-arabia",
-    "rank": 19,
     "name": "Saudi Arabia",
-    "tier": 2,
     "kind": "state",
     "capabilities": [
       "mediation",
@@ -829,19 +557,6 @@
     "constraint": "High-level access is not proof of effective coercive leverage.",
     "status": "Potential contribution — not an endorsement, pledge or verified participation",
     "confidence": "Medium: capability assessment; willingness unverified",
-    "solutions": [
-      "black-sea-safety",
-      "energy-truce",
-      "local-pause",
-      "nuclear-safety",
-      "peace-financing",
-      "sanctions-conditionality",
-      "civilian-consultation",
-      "confidence-dialogue",
-      "food-continuity",
-      "security-guarantees"
-    ],
-    "guide_count": 10,
     "stakeholderModel": {
       "documentedAuthority": "May convene talks and support commodity and confidence measures.",
       "potentialLeverage": [
@@ -859,9 +574,7 @@
   },
   {
     "id": "kazakhstan",
-    "rank": 20,
     "name": "Kazakhstan",
-    "tier": 2,
     "kind": "state",
     "capabilities": [
       "mediation",
@@ -872,19 +585,6 @@
     "constraint": "Political and economic dependencies constrain room to maneuver.",
     "status": "Potential contribution — not an endorsement, pledge or verified participation",
     "confidence": "Medium: capability assessment; willingness unverified",
-    "solutions": [
-      "black-sea-safety",
-      "food-continuity",
-      "civilian-consultation",
-      "confidence-dialogue",
-      "energy-truce",
-      "local-pause",
-      "nuclear-safety",
-      "peace-financing",
-      "sanctions-conditionality",
-      "sovereignty-framework"
-    ],
-    "guide_count": 10,
     "stakeholderModel": {
       "documentedAuthority": "Offers regional diplomacy and possible confidence-building channels.",
       "potentialLeverage": [
@@ -901,9 +601,7 @@
   },
   {
     "id": "iaea",
-    "rank": 21,
     "name": "IAEA",
-    "tier": 3,
     "kind": "intergovernmental",
     "capabilities": [
       "nuclear",
@@ -915,19 +613,6 @@
     "constraint": "Safeguards mandate is not a general ceasefire-enforcement mandate.",
     "status": "Potential contribution — not an endorsement, pledge or verified participation",
     "confidence": "Medium: capability assessment; willingness unverified",
-    "solutions": [
-      "nuclear-safety",
-      "civilian-impact-ledger",
-      "defensive-cyber",
-      "energy-truce",
-      "export-diligence",
-      "incident-verification",
-      "justice-evidence",
-      "local-pause",
-      "risk-forecast",
-      "sanctions-conditionality"
-    ],
-    "guide_count": 10,
     "stakeholderModel": {
       "documentedAuthority": "Provides nuclear-safety expertise and supports technical repair arrangements.",
       "potentialLeverage": [
@@ -945,9 +630,7 @@
   },
   {
     "id": "icrc",
-    "rank": 22,
     "name": "ICRC",
-    "tier": 3,
     "kind": "humanitarian",
     "capabilities": [
       "humanitarian",
@@ -960,19 +643,6 @@
     "constraint": "Requires access, parties' cooperation and humanitarian confidentiality.",
     "status": "Potential contribution — not an endorsement, pledge or verified participation",
     "confidence": "Medium: capability assessment; willingness unverified",
-    "solutions": [
-      "missing-persons",
-      "children-reunification",
-      "prisoner-exchanges",
-      "civilian-consultation",
-      "civilian-impact-ledger",
-      "confidence-dialogue",
-      "justice-evidence",
-      "mine-clearance",
-      "recovery-contracts",
-      "refugee-returns"
-    ],
-    "guide_count": 10,
     "stakeholderModel": {
       "documentedAuthority": "Neutral, impartial intermediary for detention, tracing and repatriation.",
       "potentialLeverage": [
@@ -991,9 +661,7 @@
   },
   {
     "id": "qatar",
-    "rank": 23,
     "name": "Qatar",
-    "tier": 3,
     "kind": "state",
     "capabilities": [
       "mediation",
@@ -1004,19 +672,6 @@
     "constraint": "Consent and child protection govern all interventions.",
     "status": "Potential contribution — not an endorsement, pledge or verified participation",
     "confidence": "Medium: capability assessment; willingness unverified",
-    "solutions": [
-      "children-reunification",
-      "missing-persons",
-      "prisoner-exchanges",
-      "relief-access",
-      "black-sea-safety",
-      "civilian-consultation",
-      "confidence-dialogue",
-      "energy-truce",
-      "food-continuity",
-      "general-ceasefire"
-    ],
-    "guide_count": 10,
     "stakeholderModel": {
       "documentedAuthority": "Offers child and family reunification mediation experience.",
       "potentialLeverage": [
@@ -1033,9 +688,7 @@
   },
   {
     "id": "ukrainian-and-russian-military-commands",
-    "rank": 24,
     "name": "Ukrainian and Russian military commands",
-    "tier": 3,
     "kind": "operational",
     "capabilities": [
       "decision",
@@ -1048,19 +701,6 @@
     "constraint": "No third party may impersonate, instruct or target combatants.",
     "status": "Potential contribution — not an endorsement, pledge or verified participation",
     "confidence": "Medium: capability assessment; willingness unverified",
-    "solutions": [
-      "energy-truce",
-      "general-ceasefire",
-      "local-pause",
-      "security-guarantees",
-      "black-sea-safety",
-      "defensive-cyber",
-      "nuclear-safety",
-      "risk-forecast",
-      "confidence-dialogue",
-      "prisoner-exchanges"
-    ],
-    "guide_count": 10,
     "stakeholderModel": {
       "documentedAuthority": "Only authorized command structures can transmit synchronized ceasefire orders.",
       "potentialLeverage": [
@@ -1079,9 +719,7 @@
   },
   {
     "id": "un-ocha",
-    "rank": 25,
     "name": "UN OCHA",
-    "tier": 3,
     "kind": "humanitarian",
     "capabilities": [
       "humanitarian",
@@ -1092,19 +730,6 @@
     "constraint": "Access is negotiated; no guarantee of safe corridors.",
     "status": "Potential contribution — not an endorsement, pledge or verified participation",
     "confidence": "Medium: capability assessment; willingness unverified",
-    "solutions": [
-      "mine-clearance",
-      "civilian-impact-ledger",
-      "justice-evidence",
-      "refugee-returns",
-      "relief-access",
-      "shelter-health",
-      "veteran-reintegration",
-      "black-sea-safety",
-      "children-reunification",
-      "civilian-consultation"
-    ],
-    "guide_count": 10,
     "stakeholderModel": {
       "documentedAuthority": "Can coordinate relief and protection information within its mandate.",
       "potentialLeverage": [
@@ -1121,9 +746,7 @@
   },
   {
     "id": "imo",
-    "rank": 26,
     "name": "IMO",
-    "tier": 3,
     "kind": "intergovernmental",
     "capabilities": [
       "maritime",
@@ -1135,19 +758,6 @@
     "constraint": "No military enforcement powers.",
     "status": "Potential contribution — not an endorsement, pledge or verified participation",
     "confidence": "Medium: capability assessment; willingness unverified",
-    "solutions": [
-      "black-sea-safety",
-      "export-diligence",
-      "sanctions-conditionality",
-      "supply-chain-integrity",
-      "civilian-impact-ledger",
-      "food-continuity",
-      "incident-verification",
-      "justice-evidence",
-      "risk-forecast",
-      "asset-governance"
-    ],
-    "guide_count": 10,
     "stakeholderModel": {
       "documentedAuthority": "Provides maritime safety standards, coordination and reporting channels.",
       "potentialLeverage": [
@@ -1165,9 +775,7 @@
   },
   {
     "id": "unctad",
-    "rank": 27,
     "name": "UNCTAD",
-    "tier": 3,
     "kind": "intergovernmental",
     "capabilities": [
       "trade",
@@ -1179,19 +787,6 @@
     "constraint": "Commercial facilitation is not a military agreement.",
     "status": "Potential contribution — not an endorsement, pledge or verified participation",
     "confidence": "Medium: capability assessment; willingness unverified",
-    "solutions": [
-      "food-continuity",
-      "black-sea-safety",
-      "sanctions-conditionality",
-      "supply-chain-integrity",
-      "asset-governance",
-      "export-diligence",
-      "peace-financing",
-      "recovery-contracts",
-      "security-guarantees",
-      "shelter-health"
-    ],
-    "guide_count": 10,
     "stakeholderModel": {
       "documentedAuthority": "Can study and facilitate trade, grain, fertilizers and supply chains.",
       "potentialLeverage": [
@@ -1209,9 +804,7 @@
   },
   {
     "id": "world-food-programme",
-    "rank": 28,
     "name": "World Food Programme",
-    "tier": 3,
     "kind": "humanitarian",
     "capabilities": [
       "food",
@@ -1223,19 +816,6 @@
     "constraint": "Access and funding constrain operations.",
     "status": "Potential contribution — not an endorsement, pledge or verified participation",
     "confidence": "Medium: capability assessment; willingness unverified",
-    "solutions": [
-      "food-continuity",
-      "relief-access",
-      "black-sea-safety",
-      "children-reunification",
-      "export-diligence",
-      "mine-clearance",
-      "missing-persons",
-      "prisoner-exchanges",
-      "refugee-returns",
-      "sanctions-conditionality"
-    ],
-    "guide_count": 10,
     "stakeholderModel": {
       "documentedAuthority": "Supports food-security analysis, sourcing and distribution.",
       "potentialLeverage": [
@@ -1253,9 +833,7 @@
   },
   {
     "id": "unicef",
-    "rank": 29,
     "name": "UNICEF",
-    "tier": 3,
     "kind": "humanitarian",
     "capabilities": [
       "children",
@@ -1267,19 +845,6 @@
     "constraint": "Protection and safeguarding requirements are paramount.",
     "status": "Potential contribution — not an endorsement, pledge or verified participation",
     "confidence": "Medium: capability assessment; willingness unverified",
-    "solutions": [
-      "veteran-reintegration",
-      "children-reunification",
-      "missing-persons",
-      "civilian-consultation",
-      "information-integrity",
-      "mine-clearance",
-      "refugee-returns",
-      "relief-access",
-      "shelter-health",
-      "civilian-impact-ledger"
-    ],
-    "guide_count": 10,
     "stakeholderModel": {
       "documentedAuthority": "Child protection, education and basic-services support.",
       "potentialLeverage": [
@@ -1297,9 +862,7 @@
   },
   {
     "id": "unhcr",
-    "rank": 30,
     "name": "UNHCR",
-    "tier": 3,
     "kind": "humanitarian",
     "capabilities": [
       "humanitarian",
@@ -1311,19 +874,6 @@
     "constraint": "Returns cannot be compelled or presumed safe.",
     "status": "Potential contribution — not an endorsement, pledge or verified participation",
     "confidence": "Medium: capability assessment; willingness unverified",
-    "solutions": [
-      "refugee-returns",
-      "mine-clearance",
-      "shelter-health",
-      "veteran-reintegration",
-      "environment-restoration",
-      "recovery-contracts",
-      "relief-access",
-      "winter-energy",
-      "asset-governance",
-      "children-reunification"
-    ],
-    "guide_count": 10,
     "stakeholderModel": {
       "documentedAuthority": "Assists displaced people and supports voluntary, safe durable solutions.",
       "potentialLeverage": [
@@ -1341,9 +891,7 @@
   },
   {
     "id": "international-coalition-for-return-of-ukrainian-children",
-    "rank": 31,
     "name": "International Coalition for Return of Ukrainian Children",
-    "tier": 3,
     "kind": "coalition",
     "capabilities": [
       "children",
@@ -1355,19 +903,6 @@
     "constraint": "Child identity, consent and privacy require careful safeguards.",
     "status": "Potential contribution — not an endorsement, pledge or verified participation",
     "confidence": "Medium: capability assessment; willingness unverified",
-    "solutions": [
-      "children-reunification",
-      "missing-persons",
-      "civilian-impact-ledger",
-      "export-diligence",
-      "incident-verification",
-      "justice-evidence",
-      "mine-clearance",
-      "risk-forecast",
-      "sanctions-conditionality",
-      "supply-chain-integrity"
-    ],
-    "guide_count": 10,
     "stakeholderModel": {
       "documentedAuthority": "Can coordinate lawful return and reunification efforts.",
       "potentialLeverage": [
@@ -1385,9 +920,7 @@
   },
   {
     "id": "eu-satellite-centre",
-    "rank": 32,
     "name": "EU Satellite Centre",
-    "tier": 3,
     "kind": "institution",
     "capabilities": [
       "verification",
@@ -1398,19 +931,6 @@
     "constraint": "Geospatial intelligence must avoid operational targeting and privacy harms.",
     "status": "Potential contribution — not an endorsement, pledge or verified participation",
     "confidence": "Medium: capability assessment; willingness unverified",
-    "solutions": [
-      "risk-forecast",
-      "civilian-impact-ledger",
-      "defensive-cyber",
-      "export-diligence",
-      "general-ceasefire",
-      "incident-verification",
-      "justice-evidence",
-      "black-sea-safety",
-      "energy-truce",
-      "environment-restoration"
-    ],
-    "guide_count": 10,
     "stakeholderModel": {
       "documentedAuthority": "Could provide authorized earth-observation analysis for civilian verification.",
       "potentialLeverage": [
@@ -1427,9 +947,7 @@
   },
   {
     "id": "ukrainian-and-russian-energy-grid-operators",
-    "rank": 33,
     "name": "Ukrainian and Russian energy-grid operators",
-    "tier": 3,
     "kind": "operational",
     "capabilities": [
       "energy",
@@ -1441,19 +959,6 @@
     "constraint": "Work requires permits, safety guarantees and protected access.",
     "status": "Potential contribution — not an endorsement, pledge or verified participation",
     "confidence": "Medium: capability assessment; willingness unverified",
-    "solutions": [
-      "nuclear-safety",
-      "defensive-cyber",
-      "energy-truce",
-      "local-pause",
-      "black-sea-safety",
-      "civilian-impact-ledger",
-      "environment-restoration",
-      "export-diligence",
-      "general-ceasefire",
-      "incident-verification"
-    ],
-    "guide_count": 10,
     "stakeholderModel": {
       "documentedAuthority": "Can perform technically authorized repairs and grid-level protection planning.",
       "potentialLeverage": [
@@ -1471,9 +976,7 @@
   },
   {
     "id": "poland",
-    "rank": 34,
     "name": "Poland",
-    "tier": 4,
     "kind": "state",
     "capabilities": [
       "security",
@@ -1486,19 +989,6 @@
     "constraint": "Security responsibilities and domestic interests matter.",
     "status": "Potential contribution — not an endorsement, pledge or verified participation",
     "confidence": "Medium: capability assessment; willingness unverified",
-    "solutions": [
-      "asset-governance",
-      "peace-financing",
-      "recovery-contracts",
-      "refugee-returns",
-      "security-guarantees",
-      "shelter-health",
-      "winter-energy",
-      "environment-restoration",
-      "general-ceasefire",
-      "mine-clearance"
-    ],
-    "guide_count": 10,
     "stakeholderModel": {
       "documentedAuthority": "Critical logistics and cross-border relief coordination.",
       "potentialLeverage": [
@@ -1517,9 +1007,7 @@
   },
   {
     "id": "canada",
-    "rank": 35,
     "name": "Canada",
-    "tier": 4,
     "kind": "state",
     "capabilities": [
       "security",
@@ -1531,19 +1019,6 @@
     "constraint": "Limited independent leverage over Moscow.",
     "status": "Potential contribution — not an endorsement, pledge or verified participation",
     "confidence": "Medium: capability assessment; willingness unverified",
-    "solutions": [
-      "peace-financing",
-      "asset-governance",
-      "general-ceasefire",
-      "recovery-contracts",
-      "security-guarantees",
-      "shelter-health",
-      "winter-energy",
-      "black-sea-safety",
-      "children-reunification",
-      "civilian-consultation"
-    ],
-    "guide_count": 10,
     "stakeholderModel": {
       "documentedAuthority": "Can coordinate assistance, diplomacy and recovery support.",
       "potentialLeverage": [
@@ -1561,9 +1036,7 @@
   },
   {
     "id": "finland",
-    "rank": 36,
     "name": "Finland",
-    "tier": 4,
     "kind": "state",
     "capabilities": [
       "security",
@@ -1575,19 +1048,6 @@
     "constraint": "Border and alliance security sensitivities matter.",
     "status": "Potential contribution — not an endorsement, pledge or verified participation",
     "confidence": "Medium: capability assessment; willingness unverified",
-    "solutions": [
-      "general-ceasefire",
-      "black-sea-safety",
-      "defensive-cyber",
-      "energy-truce",
-      "incident-verification",
-      "local-pause",
-      "nuclear-safety",
-      "peace-financing",
-      "risk-forecast",
-      "children-reunification"
-    ],
-    "guide_count": 10,
     "stakeholderModel": {
       "documentedAuthority": "Can offer resilience and security-policy expertise.",
       "potentialLeverage": [
@@ -1605,9 +1065,7 @@
   },
   {
     "id": "norway",
-    "rank": 37,
     "name": "Norway",
-    "tier": 4,
     "kind": "state",
     "capabilities": [
       "energy",
@@ -1619,19 +1077,6 @@
     "constraint": "Not a direct party to territorial negotiations.",
     "status": "Potential contribution — not an endorsement, pledge or verified participation",
     "confidence": "Medium: capability assessment; willingness unverified",
-    "solutions": [
-      "winter-energy",
-      "asset-governance",
-      "environment-restoration",
-      "peace-financing",
-      "recovery-contracts",
-      "shelter-health",
-      "black-sea-safety",
-      "defensive-cyber",
-      "energy-truce",
-      "food-continuity"
-    ],
-    "guide_count": 10,
     "stakeholderModel": {
       "documentedAuthority": "Energy, maritime engineering and humanitarian financing expertise.",
       "potentialLeverage": [
@@ -1649,9 +1094,7 @@
   },
   {
     "id": "romania",
-    "rank": 38,
     "name": "Romania",
-    "tier": 4,
     "kind": "state",
     "capabilities": [
       "maritime",
@@ -1663,18 +1106,6 @@
     "constraint": "Spillover and regional escalation risks.",
     "status": "Potential contribution — not an endorsement, pledge or verified participation",
     "confidence": "Medium: capability assessment; willingness unverified",
-    "solutions": [
-      "black-sea-safety",
-      "food-continuity",
-      "export-diligence",
-      "general-ceasefire",
-      "relief-access",
-      "risk-forecast",
-      "sanctions-conditionality",
-      "security-guarantees",
-      "supply-chain-integrity"
-    ],
-    "guide_count": 9,
     "stakeholderModel": {
       "documentedAuthority": "Black Sea logistics, trade and regional safety.",
       "potentialLeverage": [
@@ -1692,9 +1123,7 @@
   },
   {
     "id": "bulgaria",
-    "rank": 39,
     "name": "Bulgaria",
-    "tier": 4,
     "kind": "state",
     "capabilities": [
       "maritime",
@@ -1705,17 +1134,6 @@
     "constraint": "Limited direct diplomatic leverage.",
     "status": "Potential contribution — not an endorsement, pledge or verified participation",
     "confidence": "Medium: capability assessment; willingness unverified",
-    "solutions": [
-      "black-sea-safety",
-      "food-continuity",
-      "export-diligence",
-      "general-ceasefire",
-      "risk-forecast",
-      "sanctions-conditionality",
-      "security-guarantees",
-      "supply-chain-integrity"
-    ],
-    "guide_count": 8,
     "stakeholderModel": {
       "documentedAuthority": "Black Sea technical safety and port logistics.",
       "potentialLeverage": [
@@ -1732,9 +1150,7 @@
   },
   {
     "id": "estonia-latvia-lithuania",
-    "rank": 40,
     "name": "Estonia Latvia Lithuania",
-    "tier": 4,
     "kind": "coalition",
     "capabilities": [
       "security",
@@ -1746,19 +1162,6 @@
     "constraint": "This is an analytical grouping, not a single legal entity.",
     "status": "Potential contribution — not an endorsement, pledge or verified participation",
     "confidence": "Medium: capability assessment; willingness unverified",
-    "solutions": [
-      "risk-forecast",
-      "civilian-impact-ledger",
-      "defensive-cyber",
-      "export-diligence",
-      "general-ceasefire",
-      "incident-verification",
-      "justice-evidence",
-      "sanctions-conditionality",
-      "security-guarantees",
-      "supply-chain-integrity"
-    ],
-    "guide_count": 10,
     "stakeholderModel": {
       "documentedAuthority": "Regional digital resilience, defence cooperation and sanctions expertise.",
       "potentialLeverage": [
@@ -1776,9 +1179,7 @@
   },
   {
     "id": "italy",
-    "rank": 41,
     "name": "Italy",
-    "tier": 4,
     "kind": "state",
     "capabilities": [
       "reconstruction",
@@ -1790,19 +1191,6 @@
     "constraint": "Support depends on political and financial mandates.",
     "status": "Potential contribution — not an endorsement, pledge or verified participation",
     "confidence": "Medium: capability assessment; willingness unverified",
-    "solutions": [
-      "peace-financing",
-      "shelter-health",
-      "asset-governance",
-      "children-reunification",
-      "mine-clearance",
-      "prisoner-exchanges",
-      "recovery-contracts",
-      "refugee-returns",
-      "relief-access",
-      "veteran-reintegration"
-    ],
-    "guide_count": 10,
     "stakeholderModel": {
       "documentedAuthority": "Recovery financing, EU negotiation and welfare coordination.",
       "potentialLeverage": [
@@ -1820,9 +1208,7 @@
   },
   {
     "id": "belgium",
-    "rank": 42,
     "name": "Belgium",
-    "tier": 4,
     "kind": "state",
     "capabilities": [
       "finance",
@@ -1834,19 +1220,6 @@
     "constraint": "Asset treatment requires judicial and international-law review.",
     "status": "Potential contribution — not an endorsement, pledge or verified participation",
     "confidence": "Medium: capability assessment; willingness unverified",
-    "solutions": [
-      "asset-governance",
-      "recovery-contracts",
-      "sanctions-conditionality",
-      "supply-chain-integrity",
-      "export-diligence",
-      "peace-financing",
-      "security-guarantees",
-      "shelter-health",
-      "winter-energy",
-      "black-sea-safety"
-    ],
-    "guide_count": 10,
     "stakeholderModel": {
       "documentedAuthority": "Important EU financial infrastructure and immobilized-asset legal questions.",
       "potentialLeverage": [
@@ -1864,9 +1237,7 @@
   },
   {
     "id": "japan",
-    "rank": 43,
     "name": "Japan",
-    "tier": 4,
     "kind": "state",
     "capabilities": [
       "finance",
@@ -1878,19 +1249,6 @@
     "constraint": "Security commitments differ from European allies.",
     "status": "Potential contribution — not an endorsement, pledge or verified participation",
     "confidence": "Medium: capability assessment; willingness unverified",
-    "solutions": [
-      "winter-energy",
-      "asset-governance",
-      "environment-restoration",
-      "peace-financing",
-      "recovery-contracts",
-      "sanctions-conditionality",
-      "shelter-health",
-      "supply-chain-integrity",
-      "black-sea-safety",
-      "defensive-cyber"
-    ],
-    "guide_count": 10,
     "stakeholderModel": {
       "documentedAuthority": "G7 coordination, resilient infrastructure and economic financing.",
       "potentialLeverage": [
@@ -1908,9 +1266,7 @@
   },
   {
     "id": "south-korea",
-    "rank": 44,
     "name": "South Korea",
-    "tier": 4,
     "kind": "state",
     "capabilities": [
       "reconstruction",
@@ -1922,19 +1278,6 @@
     "constraint": "Domestic and regional security constraints apply.",
     "status": "Potential contribution — not an endorsement, pledge or verified participation",
     "confidence": "Medium: capability assessment; willingness unverified",
-    "solutions": [
-      "asset-governance",
-      "peace-financing",
-      "recovery-contracts",
-      "sanctions-conditionality",
-      "shelter-health",
-      "supply-chain-integrity",
-      "winter-energy",
-      "black-sea-safety",
-      "environment-restoration",
-      "export-diligence"
-    ],
-    "guide_count": 10,
     "stakeholderModel": {
       "documentedAuthority": "Industrial, recovery and digital resilience capabilities.",
       "potentialLeverage": [
@@ -1952,9 +1295,7 @@
   },
   {
     "id": "australia-new-zealand",
-    "rank": 45,
     "name": "Australia New Zealand",
-    "tier": 4,
     "kind": "coalition",
     "capabilities": [
       "finance",
@@ -1966,19 +1307,6 @@
     "constraint": "Analytical grouping; each government decides independently.",
     "status": "Potential contribution — not an endorsement, pledge or verified participation",
     "confidence": "Medium: capability assessment; willingness unverified",
-    "solutions": [
-      "security-guarantees",
-      "asset-governance",
-      "children-reunification",
-      "missing-persons",
-      "recovery-contracts",
-      "risk-forecast",
-      "sanctions-conditionality",
-      "shelter-health",
-      "supply-chain-integrity",
-      "civilian-consultation"
-    ],
-    "guide_count": 10,
     "stakeholderModel": {
       "documentedAuthority": "Can support global diplomatic coalitions, relief and lawful measures.",
       "potentialLeverage": [
@@ -1996,9 +1324,7 @@
   },
   {
     "id": "south-africa",
-    "rank": 46,
     "name": "South Africa",
-    "tier": 5,
     "kind": "state",
     "capabilities": [
       "mediation",
@@ -2010,19 +1336,6 @@
     "constraint": "Access does not prove successful leverage.",
     "status": "Potential contribution — not an endorsement, pledge or verified participation",
     "confidence": "Medium: capability assessment; willingness unverified",
-    "solutions": [
-      "civilian-consultation",
-      "confidence-dialogue",
-      "sovereignty-framework",
-      "black-sea-safety",
-      "children-reunification",
-      "civilian-impact-ledger",
-      "export-diligence",
-      "incident-verification",
-      "justice-evidence",
-      "recovery-contracts"
-    ],
-    "guide_count": 10,
     "stakeholderModel": {
       "documentedAuthority": "May connect African and BRICS diplomatic networks.",
       "potentialLeverage": [
@@ -2040,9 +1353,7 @@
   },
   {
     "id": "african-union-commission",
-    "rank": 47,
     "name": "African Union Commission",
-    "tier": 5,
     "kind": "intergovernmental",
     "capabilities": [
       "mediation",
@@ -2054,19 +1365,6 @@
     "constraint": "No general mandate to resolve European territorial disputes.",
     "status": "Potential contribution — not an endorsement, pledge or verified participation",
     "confidence": "Medium: capability assessment; willingness unverified",
-    "solutions": [
-      "relief-access",
-      "children-reunification",
-      "civilian-consultation",
-      "confidence-dialogue",
-      "food-continuity",
-      "mine-clearance",
-      "prisoner-exchanges",
-      "refugee-returns",
-      "shelter-health",
-      "sovereignty-framework"
-    ],
-    "guide_count": 10,
     "stakeholderModel": {
       "documentedAuthority": "Can represent continental conflict-prevention and food-security priorities.",
       "potentialLeverage": [
@@ -2084,9 +1382,7 @@
   },
   {
     "id": "g7",
-    "rank": 48,
     "name": "G7",
-    "tier": 5,
     "kind": "coalition",
     "capabilities": [
       "finance",
@@ -2099,19 +1395,6 @@
     "constraint": "Not all influential third countries are members.",
     "status": "Potential contribution — not an endorsement, pledge or verified participation",
     "confidence": "Medium: capability assessment; willingness unverified",
-    "solutions": [
-      "asset-governance",
-      "recovery-contracts",
-      "sanctions-conditionality",
-      "security-guarantees",
-      "supply-chain-integrity",
-      "export-diligence",
-      "peace-financing",
-      "risk-forecast",
-      "shelter-health",
-      "winter-energy"
-    ],
-    "guide_count": 10,
     "stakeholderModel": {
       "documentedAuthority": "Could coordinate financial instruments, sanctions and security assistance.",
       "potentialLeverage": [
@@ -2130,9 +1413,7 @@
   },
   {
     "id": "g20",
-    "rank": 49,
     "name": "G20",
-    "tier": 5,
     "kind": "coalition",
     "capabilities": [
       "trade",
@@ -2144,19 +1425,6 @@
     "constraint": "Consensus is difficult and decisions rarely enforceable.",
     "status": "Potential contribution — not an endorsement, pledge or verified participation",
     "confidence": "Medium: capability assessment; willingness unverified",
-    "solutions": [
-      "black-sea-safety",
-      "food-continuity",
-      "peace-financing",
-      "sanctions-conditionality",
-      "supply-chain-integrity",
-      "asset-governance",
-      "children-reunification",
-      "civilian-consultation",
-      "confidence-dialogue",
-      "energy-truce"
-    ],
-    "guide_count": 10,
     "stakeholderModel": {
       "documentedAuthority": "Can convene major economies on global spillovers.",
       "potentialLeverage": [
@@ -2174,9 +1442,7 @@
   },
   {
     "id": "brics",
-    "rank": 50,
     "name": "BRICS",
-    "tier": 5,
     "kind": "coalition",
     "capabilities": [
       "trade",
@@ -2188,19 +1454,6 @@
     "constraint": "Members have diverging incentives and positions.",
     "status": "Potential contribution — not an endorsement, pledge or verified participation",
     "confidence": "Medium: capability assessment; willingness unverified",
-    "solutions": [
-      "black-sea-safety",
-      "food-continuity",
-      "peace-financing",
-      "sanctions-conditionality",
-      "supply-chain-integrity",
-      "asset-governance",
-      "children-reunification",
-      "civilian-consultation",
-      "confidence-dialogue",
-      "energy-truce"
-    ],
-    "guide_count": 10,
     "stakeholderModel": {
       "documentedAuthority": "Connects countries with important trade and diplomatic channels.",
       "potentialLeverage": [
@@ -2218,9 +1471,7 @@
   },
   {
     "id": "un-general-assembly",
-    "rank": 51,
     "name": "UN General Assembly",
-    "tier": 5,
     "kind": "intergovernmental",
     "capabilities": [
       "legal",
@@ -2232,19 +1483,6 @@
     "constraint": "Resolutions typically do not compel force compliance.",
     "status": "Potential contribution — not an endorsement, pledge or verified participation",
     "confidence": "Medium: capability assessment; willingness unverified",
-    "solutions": [
-      "civilian-consultation",
-      "civilian-impact-ledger",
-      "confidence-dialogue",
-      "incident-verification",
-      "justice-evidence",
-      "sovereignty-framework",
-      "black-sea-safety",
-      "children-reunification",
-      "energy-truce",
-      "export-diligence"
-    ],
-    "guide_count": 10,
     "stakeholderModel": {
       "documentedAuthority": "Can build legitimacy and express member-state positions.",
       "potentialLeverage": [
@@ -2262,9 +1500,7 @@
   },
   {
     "id": "un-security-council",
-    "rank": 52,
     "name": "UN Security Council",
-    "tier": 5,
     "kind": "intergovernmental",
     "capabilities": [
       "legal",
@@ -2276,19 +1512,6 @@
     "constraint": "Permanent-member veto and legal limits are central.",
     "status": "Potential contribution — not an endorsement, pledge or verified participation",
     "confidence": "Medium: capability assessment; willingness unverified",
-    "solutions": [
-      "general-ceasefire",
-      "incident-verification",
-      "risk-forecast",
-      "black-sea-safety",
-      "children-reunification",
-      "civilian-consultation",
-      "civilian-impact-ledger",
-      "confidence-dialogue",
-      "energy-truce",
-      "export-diligence"
-    ],
-    "guide_count": 10,
     "stakeholderModel": {
       "documentedAuthority": "Could authorize appropriate international mechanisms if members agree.",
       "potentialLeverage": [
@@ -2306,9 +1529,7 @@
   },
   {
     "id": "indonesia",
-    "rank": 53,
     "name": "Indonesia",
-    "tier": 5,
     "kind": "state",
     "capabilities": [
       "mediation",
@@ -2319,19 +1540,6 @@
     "constraint": "Indirect influence on battlefield decisions.",
     "status": "Potential contribution — not an endorsement, pledge or verified participation",
     "confidence": "Medium: capability assessment; willingness unverified",
-    "solutions": [
-      "black-sea-safety",
-      "food-continuity",
-      "children-reunification",
-      "civilian-consultation",
-      "confidence-dialogue",
-      "energy-truce",
-      "export-diligence",
-      "general-ceasefire",
-      "incident-verification",
-      "local-pause"
-    ],
-    "guide_count": 10,
     "stakeholderModel": {
       "documentedAuthority": "Global South convening and food-market diplomacy.",
       "potentialLeverage": [
@@ -2348,9 +1556,7 @@
   },
   {
     "id": "arab-league-and-oic",
-    "rank": 54,
     "name": "Arab League and OIC",
-    "tier": 5,
     "kind": "coalition",
     "capabilities": [
       "mediation",
@@ -2362,19 +1568,6 @@
     "constraint": "Independent mandates and diverse memberships.",
     "status": "Potential contribution — not an endorsement, pledge or verified participation",
     "confidence": "Medium: capability assessment; willingness unverified",
-    "solutions": [
-      "food-continuity",
-      "black-sea-safety",
-      "children-reunification",
-      "prisoner-exchanges",
-      "relief-access",
-      "civilian-consultation",
-      "confidence-dialogue",
-      "energy-truce",
-      "general-ceasefire",
-      "incident-verification"
-    ],
-    "guide_count": 10,
     "stakeholderModel": {
       "documentedAuthority": "Could coordinate relief, food and diplomatic appeals.",
       "potentialLeverage": [
@@ -2392,9 +1585,7 @@
   },
   {
     "id": "moldova",
-    "rank": 55,
     "name": "Moldova",
-    "tier": 5,
     "kind": "state",
     "capabilities": [
       "refugees",
@@ -2406,19 +1597,6 @@
     "constraint": "Vulnerability to conflict spillover.",
     "status": "Potential contribution — not an endorsement, pledge or verified participation",
     "confidence": "Medium: capability assessment; willingness unverified",
-    "solutions": [
-      "refugee-returns",
-      "mine-clearance",
-      "shelter-health",
-      "veteran-reintegration",
-      "asset-governance",
-      "children-reunification",
-      "environment-restoration",
-      "food-continuity",
-      "general-ceasefire",
-      "missing-persons"
-    ],
-    "guide_count": 10,
     "stakeholderModel": {
       "documentedAuthority": "Regional safety and displaced-person support.",
       "potentialLeverage": [
@@ -2436,9 +1614,7 @@
   },
   {
     "id": "us-treasury-ofac-and-eu-sanctions-authorities",
-    "rank": 56,
     "name": "US Treasury OFAC and EU sanctions authorities",
-    "tier": 6,
     "kind": "regulatory",
     "capabilities": [
       "finance",
@@ -2450,19 +1626,6 @@
     "constraint": "Measures require precise authority and compliance verification.",
     "status": "Potential contribution — not an endorsement, pledge or verified participation",
     "confidence": "Medium: capability assessment; willingness unverified",
-    "solutions": [
-      "sanctions-conditionality",
-      "supply-chain-integrity",
-      "export-diligence",
-      "asset-governance",
-      "black-sea-safety",
-      "civilian-impact-ledger",
-      "incident-verification",
-      "justice-evidence",
-      "peace-financing",
-      "recovery-contracts"
-    ],
-    "guide_count": 10,
     "stakeholderModel": {
       "documentedAuthority": "May administer lawful conditional and reversible sanctions measures.",
       "potentialLeverage": [
@@ -2480,9 +1643,7 @@
   },
   {
     "id": "euroclear-and-european-financial-authorities",
-    "rank": 57,
     "name": "Euroclear and European financial authorities",
-    "tier": 6,
     "kind": "institution",
     "capabilities": [
       "finance",
@@ -2493,19 +1654,6 @@
     "constraint": "Sovereign-asset treatment is legally and politically contested.",
     "status": "Potential contribution — not an endorsement, pledge or verified participation",
     "confidence": "Medium: capability assessment; willingness unverified",
-    "solutions": [
-      "asset-governance",
-      "recovery-contracts",
-      "peace-financing",
-      "sanctions-conditionality",
-      "security-guarantees",
-      "shelter-health",
-      "supply-chain-integrity",
-      "winter-energy",
-      "children-reunification",
-      "civilian-consultation"
-    ],
-    "guide_count": 10,
     "stakeholderModel": {
       "documentedAuthority": "Could lawfully administer financial instruments within applicable law.",
       "potentialLeverage": [
@@ -2522,9 +1670,7 @@
   },
   {
     "id": "world-bank-group",
-    "rank": 58,
     "name": "World Bank Group",
-    "tier": 6,
     "kind": "development",
     "capabilities": [
       "finance",
@@ -2536,19 +1682,6 @@
     "constraint": "Eligibility, debt, anti-corruption and security risks.",
     "status": "Potential contribution — not an endorsement, pledge or verified participation",
     "confidence": "Medium: capability assessment; willingness unverified",
-    "solutions": [
-      "winter-energy",
-      "environment-restoration",
-      "recovery-contracts",
-      "shelter-health",
-      "asset-governance",
-      "mine-clearance",
-      "peace-financing",
-      "refugee-returns",
-      "veteran-reintegration",
-      "civilian-consultation"
-    ],
-    "guide_count": 10,
     "stakeholderModel": {
       "documentedAuthority": "Can manage recovery financing, development safeguards and public accountability.",
       "potentialLeverage": [
@@ -2566,9 +1699,7 @@
   },
   {
     "id": "ebrd",
-    "rank": 59,
     "name": "EBRD",
-    "tier": 6,
     "kind": "development",
     "capabilities": [
       "finance",
@@ -2580,19 +1711,6 @@
     "constraint": "Banking mandate and procurement safeguards apply.",
     "status": "Potential contribution — not an endorsement, pledge or verified participation",
     "confidence": "Medium: capability assessment; willingness unverified",
-    "solutions": [
-      "winter-energy",
-      "asset-governance",
-      "environment-restoration",
-      "peace-financing",
-      "recovery-contracts",
-      "sanctions-conditionality",
-      "shelter-health",
-      "supply-chain-integrity",
-      "black-sea-safety",
-      "defensive-cyber"
-    ],
-    "guide_count": 10,
     "stakeholderModel": {
       "documentedAuthority": "Can finance private-sector resilience and infrastructure.",
       "potentialLeverage": [
@@ -2610,9 +1728,7 @@
   },
   {
     "id": "european-investment-bank",
-    "rank": 60,
     "name": "European Investment Bank",
-    "tier": 6,
     "kind": "development",
     "capabilities": [
       "finance",
@@ -2623,19 +1739,6 @@
     "constraint": "Financing mandates and project safeguards apply.",
     "status": "Potential contribution — not an endorsement, pledge or verified participation",
     "confidence": "Medium: capability assessment; willingness unverified",
-    "solutions": [
-      "winter-energy",
-      "asset-governance",
-      "environment-restoration",
-      "peace-financing",
-      "recovery-contracts",
-      "shelter-health",
-      "defensive-cyber",
-      "energy-truce",
-      "local-pause",
-      "mine-clearance"
-    ],
-    "guide_count": 10,
     "stakeholderModel": {
       "documentedAuthority": "Can finance long-life resilient infrastructure.",
       "potentialLeverage": [
@@ -2652,9 +1755,7 @@
   },
   {
     "id": "imf",
-    "rank": 61,
     "name": "IMF",
-    "tier": 6,
     "kind": "development",
     "capabilities": [
       "finance",
@@ -2665,19 +1766,6 @@
     "constraint": "Is not a peace-enforcement body.",
     "status": "Potential contribution — not an endorsement, pledge or verified participation",
     "confidence": "Medium: capability assessment; willingness unverified",
-    "solutions": [
-      "asset-governance",
-      "recovery-contracts",
-      "peace-financing",
-      "sanctions-conditionality",
-      "security-guarantees",
-      "shelter-health",
-      "supply-chain-integrity",
-      "winter-energy",
-      "children-reunification",
-      "civilian-consultation"
-    ],
-    "guide_count": 10,
     "stakeholderModel": {
       "documentedAuthority": "Supports macro-financial resilience and transparent fiscal planning.",
       "potentialLeverage": [
@@ -2694,9 +1782,7 @@
   },
   {
     "id": "shipping-insurers-and-p-i-clubs",
-    "rank": 62,
     "name": "Shipping insurers and P&I clubs",
-    "tier": 6,
     "kind": "commercial",
     "capabilities": [
       "maritime",
@@ -2708,19 +1794,6 @@
     "constraint": "Commercial risk, sanctions and underwriting rules apply.",
     "status": "Potential contribution — not an endorsement, pledge or verified participation",
     "confidence": "Medium: capability assessment; willingness unverified",
-    "solutions": [
-      "black-sea-safety",
-      "sanctions-conditionality",
-      "supply-chain-integrity",
-      "export-diligence",
-      "food-continuity",
-      "peace-financing",
-      "asset-governance",
-      "civilian-impact-ledger",
-      "defensive-cyber",
-      "energy-truce"
-    ],
-    "guide_count": 10,
     "stakeholderModel": {
       "documentedAuthority": "Can underwrite lawful maritime movements when risks are verified and acceptable.",
       "potentialLeverage": [
@@ -2738,9 +1811,7 @@
   },
   {
     "id": "satellite-and-telecommunications-providers",
-    "rank": 63,
     "name": "Satellite and telecommunications providers",
-    "tier": 6,
     "kind": "commercial",
     "capabilities": [
       "data",
@@ -2752,19 +1823,6 @@
     "constraint": "Must prevent privacy abuse and operational targeting.",
     "status": "Potential contribution — not an endorsement, pledge or verified participation",
     "confidence": "Medium: capability assessment; willingness unverified",
-    "solutions": [
-      "defensive-cyber",
-      "civilian-impact-ledger",
-      "export-diligence",
-      "incident-verification",
-      "information-integrity",
-      "justice-evidence",
-      "risk-forecast",
-      "black-sea-safety",
-      "energy-truce",
-      "environment-restoration"
-    ],
-    "guide_count": 10,
     "stakeholderModel": {
       "documentedAuthority": "Can supply authorized technical evidence and resilient communication.",
       "potentialLeverage": [
@@ -2782,9 +1840,7 @@
   },
   {
     "id": "centre-for-humanitarian-dialogue",
-    "rank": 64,
     "name": "Centre for Humanitarian Dialogue",
-    "tier": 6,
     "kind": "civil-society",
     "capabilities": [
       "mediation",
@@ -2795,19 +1851,6 @@
     "constraint": "Involvement or authorization cannot be assumed.",
     "status": "Potential contribution — not an endorsement, pledge or verified participation",
     "confidence": "Medium: capability assessment; willingness unverified",
-    "solutions": [
-      "relief-access",
-      "children-reunification",
-      "civilian-consultation",
-      "confidence-dialogue",
-      "mine-clearance",
-      "prisoner-exchanges",
-      "refugee-returns",
-      "shelter-health",
-      "sovereignty-framework",
-      "veteran-reintegration"
-    ],
-    "guide_count": 10,
     "stakeholderModel": {
       "documentedAuthority": "Specialist facilitation and private dialogue design.",
       "potentialLeverage": [
@@ -2824,9 +1867,7 @@
   },
   {
     "id": "berghof-foundation",
-    "rank": 65,
     "name": "Berghof Foundation",
-    "tier": 6,
     "kind": "civil-society",
     "capabilities": [
       "mediation",
@@ -2837,19 +1878,6 @@
     "constraint": "No formal authority over parties.",
     "status": "Potential contribution — not an endorsement, pledge or verified participation",
     "confidence": "Medium: capability assessment; willingness unverified",
-    "solutions": [
-      "civilian-consultation",
-      "confidence-dialogue",
-      "information-integrity",
-      "relief-access",
-      "sovereignty-framework",
-      "veteran-reintegration",
-      "black-sea-safety",
-      "children-reunification",
-      "civilian-impact-ledger",
-      "energy-truce"
-    ],
-    "guide_count": 10,
     "stakeholderModel": {
       "documentedAuthority": "Conflict transformation, dialogue and process design.",
       "potentialLeverage": [
@@ -2866,9 +1894,7 @@
   },
   {
     "id": "international-crisis-group",
-    "rank": 66,
     "name": "International Crisis Group",
-    "tier": 6,
     "kind": "civil-society",
     "capabilities": [
       "data",
@@ -2880,19 +1906,6 @@
     "constraint": "Research is not negotiating authority.",
     "status": "Potential contribution — not an endorsement, pledge or verified participation",
     "confidence": "Medium: capability assessment; willingness unverified",
-    "solutions": [
-      "civilian-consultation",
-      "civilian-impact-ledger",
-      "confidence-dialogue",
-      "incident-verification",
-      "justice-evidence",
-      "sovereignty-framework",
-      "children-reunification",
-      "environment-restoration",
-      "export-diligence",
-      "information-integrity"
-    ],
-    "guide_count": 10,
     "stakeholderModel": {
       "documentedAuthority": "Independent analysis and publication of risks and incentives.",
       "potentialLeverage": [
@@ -2910,9 +1923,7 @@
   },
   {
     "id": "ukrainian-municipalities-and-civil-society",
-    "rank": 67,
     "name": "Ukrainian municipalities and civil society",
-    "tier": 6,
     "kind": "civil-society",
     "capabilities": [
       "civilian",
@@ -2925,19 +1936,6 @@
     "constraint": "Consultation must be representative and never coercive.",
     "status": "Potential contribution — not an endorsement, pledge or verified participation",
     "confidence": "Medium: capability assessment; willingness unverified",
-    "solutions": [
-      "mine-clearance",
-      "refugee-returns",
-      "veteran-reintegration",
-      "civilian-consultation",
-      "civilian-impact-ledger",
-      "environment-restoration",
-      "information-integrity",
-      "justice-evidence",
-      "peace-financing",
-      "recovery-contracts"
-    ],
-    "guide_count": 10,
     "stakeholderModel": {
       "documentedAuthority": "Can identify locally important protection and restoration priorities.",
       "potentialLeverage": [
@@ -2956,9 +1954,7 @@
   },
   {
     "id": "russian-independent-humanitarian-and-legal-groups",
-    "rank": 68,
     "name": "Russian independent humanitarian and legal groups",
-    "tier": 6,
     "kind": "civil-society",
     "capabilities": [
       "humanitarian",
@@ -2970,19 +1966,6 @@
     "constraint": "Severe personal security and legal risks require strict data minimization.",
     "status": "Potential contribution — not an endorsement, pledge or verified participation",
     "confidence": "Medium: capability assessment; willingness unverified",
-    "solutions": [
-      "missing-persons",
-      "prisoner-exchanges",
-      "children-reunification",
-      "civilian-consultation",
-      "civilian-impact-ledger",
-      "confidence-dialogue",
-      "justice-evidence",
-      "mine-clearance",
-      "recovery-contracts",
-      "refugee-returns"
-    ],
-    "guide_count": 10,
     "stakeholderModel": {
       "documentedAuthority": "Where safe and lawful, can help document humanitarian needs and family tracing.",
       "potentialLeverage": [
@@ -3000,9 +1983,7 @@
   },
   {
     "id": "belarusian-government",
-    "rank": 69,
     "name": "Belarusian government",
-    "tier": 6,
     "kind": "state",
     "capabilities": [
       "decision",
@@ -3014,19 +1995,6 @@
     "constraint": "External participation must be evidence-led and lawful.",
     "status": "Potential contribution — not an endorsement, pledge or verified participation",
     "confidence": "Medium: capability assessment; willingness unverified",
-    "solutions": [
-      "security-guarantees",
-      "confidence-dialogue",
-      "general-ceasefire",
-      "sovereignty-framework",
-      "export-diligence",
-      "risk-forecast",
-      "sanctions-conditionality",
-      "supply-chain-integrity",
-      "energy-truce",
-      "local-pause"
-    ],
-    "guide_count": 10,
     "stakeholderModel": {
       "documentedAuthority": "Could cease support enabling hostilities and reduce regional escalation.",
       "potentialLeverage": [
@@ -3044,9 +2012,7 @@
   },
   {
     "id": "iranian-government-and-relevant-institutions",
-    "rank": 70,
     "name": "Iranian government and relevant institutions",
-    "tier": 6,
     "kind": "state",
     "capabilities": [
       "decision",
@@ -3058,19 +2024,6 @@
     "constraint": "Assess specific evidence; avoid collective attribution.",
     "status": "Potential contribution — not an endorsement, pledge or verified participation",
     "confidence": "Medium: capability assessment; willingness unverified",
-    "solutions": [
-      "security-guarantees",
-      "confidence-dialogue",
-      "general-ceasefire",
-      "sovereignty-framework",
-      "export-diligence",
-      "risk-forecast",
-      "sanctions-conditionality",
-      "supply-chain-integrity",
-      "energy-truce",
-      "local-pause"
-    ],
-    "guide_count": 10,
     "stakeholderModel": {
       "documentedAuthority": "Could end any unlawful military support contributing to attacks.",
       "potentialLeverage": [
@@ -3088,9 +2041,7 @@
   },
   {
     "id": "north-korean-government",
-    "rank": 71,
     "name": "North Korean government",
-    "tier": 6,
     "kind": "state",
     "capabilities": [
       "decision",
@@ -3102,19 +2053,6 @@
     "constraint": "Verification and sanctions compliance required.",
     "status": "Potential contribution — not an endorsement, pledge or verified participation",
     "confidence": "Medium: capability assessment; willingness unverified",
-    "solutions": [
-      "security-guarantees",
-      "confidence-dialogue",
-      "general-ceasefire",
-      "sovereignty-framework",
-      "export-diligence",
-      "risk-forecast",
-      "sanctions-conditionality",
-      "supply-chain-integrity",
-      "energy-truce",
-      "local-pause"
-    ],
-    "guide_count": 10,
     "stakeholderModel": {
       "documentedAuthority": "Could terminate arms and force support that prolongs combat.",
       "potentialLeverage": [
@@ -3132,9 +2070,7 @@
   },
   {
     "id": "third-country-export-intermediaries",
-    "rank": 72,
     "name": "Third-country export intermediaries",
-    "tier": 6,
     "kind": "commercial",
     "capabilities": [
       "trade",
@@ -3145,19 +2081,6 @@
     "constraint": "Manufacturer origin alone does not establish complicity.",
     "status": "Potential contribution — not an endorsement, pledge or verified participation",
     "confidence": "Medium: capability assessment; willingness unverified",
-    "solutions": [
-      "export-diligence",
-      "sanctions-conditionality",
-      "supply-chain-integrity",
-      "black-sea-safety",
-      "civilian-impact-ledger",
-      "incident-verification",
-      "justice-evidence",
-      "risk-forecast",
-      "asset-governance",
-      "children-reunification"
-    ],
-    "guide_count": 10,
     "stakeholderModel": {
       "documentedAuthority": "Can implement end-use diligence and report suspicious dual-use diversions.",
       "potentialLeverage": [
@@ -3174,9 +2097,7 @@
   },
   {
     "id": "russian-military-industrial-and-state-controlled-sectors",
-    "rank": 73,
     "name": "Russian military-industrial and state-controlled sectors",
-    "tier": 6,
     "kind": "commercial",
     "capabilities": [
       "trade",
@@ -3188,19 +2109,6 @@
     "constraint": "Should not presume voluntary participation or absolve wrongdoing.",
     "status": "Potential contribution — not an endorsement, pledge or verified participation",
     "confidence": "Medium: capability assessment; willingness unverified",
-    "solutions": [
-      "sanctions-conditionality",
-      "supply-chain-integrity",
-      "asset-governance",
-      "export-diligence",
-      "recovery-contracts",
-      "security-guarantees",
-      "winter-energy",
-      "black-sea-safety",
-      "children-reunification",
-      "civilian-consultation"
-    ],
-    "guide_count": 10,
     "stakeholderModel": {
       "documentedAuthority": "Any demobilization or compliant conversion requires lawful state decisions.",
       "potentialLeverage": [
@@ -3218,9 +2126,7 @@
   },
   {
     "id": "veterans-and-survivor-support-networks",
-    "rank": 74,
     "name": "Veterans and survivor support networks",
-    "tier": 6,
     "kind": "civil-society",
     "capabilities": [
       "civilian",
@@ -3232,19 +2138,6 @@
     "constraint": "Protect privacy, consent and equitable access.",
     "status": "Potential contribution — not an endorsement, pledge or verified participation",
     "confidence": "Medium: capability assessment; willingness unverified",
-    "solutions": [
-      "veteran-reintegration",
-      "mine-clearance",
-      "refugee-returns",
-      "shelter-health",
-      "civilian-consultation",
-      "environment-restoration",
-      "information-integrity",
-      "recovery-contracts",
-      "relief-access",
-      "winter-energy"
-    ],
-    "guide_count": 10,
     "stakeholderModel": {
       "documentedAuthority": "Can support trauma-informed services, reintegration and community recovery.",
       "potentialLeverage": [
@@ -3262,9 +2155,7 @@
   },
   {
     "id": "university-and-science-consortiums",
-    "rank": 75,
     "name": "University and science consortiums",
-    "tier": 6,
     "kind": "research",
     "capabilities": [
       "data",
@@ -3277,19 +2168,6 @@
     "constraint": "Research must be non-operational and conflict-sensitive.",
     "status": "Potential contribution — not an endorsement, pledge or verified participation",
     "confidence": "Medium: capability assessment; willingness unverified",
-    "solutions": [
-      "defensive-cyber",
-      "environment-restoration",
-      "civilian-impact-ledger",
-      "energy-truce",
-      "export-diligence",
-      "incident-verification",
-      "information-integrity",
-      "justice-evidence",
-      "local-pause",
-      "mine-clearance"
-    ],
-    "guide_count": 10,
     "stakeholderModel": {
       "documentedAuthority": "Can test recovery technologies and evaluate interventions transparently.",
       "potentialLeverage": [
