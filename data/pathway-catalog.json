@@ -1,0 +1,883 @@
+{
+  "schemaVersion": "3.0.0",
+  "asOf": "2026-10-16",
+  "status": "Independent conditional design matrix; no government/UN/OSCE/IAEA endorsement or live monitoring",
+  "trackDefinitions": [
+    {
+      "id": "t1",
+      "title": "Track 1 — Kinetic de-escalation & nuclear/civilian security",
+      "scope": "Mutual restraint, protected-person obligations, policy-level arms separation and qualified incident review. No tactical deployment data.",
+      "decisionOwners": [
+        "Ukrainian competent authorities",
+        "Russian competent authorities",
+        "separately accepting independent monitors"
+      ],
+      "nondelegable": "No research tool can impose ceasefires, compel access, or task an international organization without its authorization."
+    },
+    {
+      "id": "t2",
+      "title": "Track 2 — Governance, law & rights",
+      "scope": "Territorial integrity, lawful interim governance, voluntary participation, displaced-person rights, minority/language protections, and constitutionally lawful institutions.",
+      "decisionOwners": [
+        "Ukraine under its constitutional system",
+        "other formally empowered parties when required",
+        "relevant international body within a valid mandate"
+      ],
+      "nondelegable": "A five-year wait does not legalize occupied-territory plebiscites, and the UN does not assume administration automatically."
+    },
+    {
+      "id": "t3",
+      "title": "Track 3 — Economic & ecological recovery",
+      "scope": "Lawful finance, open contracting, grid resilience, human-supervised mine action, civilian shipping and community-led ecological restoration.",
+      "decisionOwners": [
+        "Ukraine and competent subnational authorities",
+        "fund administrators",
+        "grid operators",
+        "national mine-action authorities"
+      ],
+      "nondelegable": "Assets, power transfers and safety certification depend on legal authority and independently verifiable operating capacity."
+    }
+  ],
+  "phases": [
+    {
+      "id": "p1",
+      "title": "Phase 1 — Documented humanitarian restraint & verifiable ceasefire options",
+      "objective": "Generate limited, testable protection arrangements with evidenced consent and a credible incident dispute mechanism.",
+      "entryConditions": [
+        "Separate identification of Ukrainian/Russian empowered counterparts for bilateral restraints",
+        "Written scope, protected-person safety, IHL review",
+        "Identified verifier and access/communications mandate, not presumed"
+      ],
+      "exitCriteria": [
+        "Independent record of time-bound observed compliance with publicly defined caveats",
+        "Contested incidents classified and adjudication route tested",
+        "No unsupported claim of enforceable peace"
+      ],
+      "fallback": "Maintain lawful unilateral civilian protection, ICRC-compatible engagement, evidence collection and non-escalatory repair coordination."
+    },
+    {
+      "id": "p2",
+      "title": "Phase 2 — Lawful governance alternatives & contested-status safeguards",
+      "objective": "Review lawful temporary arrangements, services and rights without prejudicing Ukraine’s internationally recognized borders.",
+      "entryConditions": [
+        "Ukrainian constitutional/sovereignty review",
+        "Independent displacement and non-coercion assessment",
+        "Mandate competence and explicit international institutional acceptance"
+      ],
+      "exitCriteria": [
+        "Human-rights protections have named competent implementers and remedy channels",
+        "Any status mechanism passes an independent legality test before further design",
+        "Affected communities consulted without pressure"
+      ],
+      "fallback": "Use locally lawful public services, language protections and verified voluntary return programmes without administering occupied territory or proposing premature ballots."
+    },
+    {
+      "id": "p3",
+      "title": "Phase 3 — Accountable regenerative reconstruction",
+      "objective": "Fund, govern, evaluate and maintain safe civilian recovery with independently verified public value.",
+      "entryConditions": [
+        "Lawful funds and budget approvals",
+        "Local consent, land tenure, environment and procurement due diligence",
+        "Accredited technical implementers and independent auditing"
+      ],
+      "exitCriteria": [
+        "Audited public service delivery and measured availability",
+        "Certified land release and independent safety inspection",
+        "Published, privacy-safe ecological outcomes and maintenance plans"
+      ],
+      "fallback": "Defer unsafe projects, maintain humanitarian assistance, publish audit exceptions and redirect to legally available lower-risk alternatives."
+    }
+  ],
+  "pathways": [
+    {
+      "id": "path-verified-ceasefire",
+      "title": "Verified cessation-of-hostilities option",
+      "trackId": "t1",
+      "phaseId": "p1",
+      "solutionIds": [
+        "verified-ceasefire"
+      ],
+      "hypothesis": "Develop a conditional, civilian-protection-centred monitoring and incident-resolution framework; no automatic enforcement.",
+      "mechanisms": [
+        "Negotiate public definitions of covered conduct and synchronized effective time.",
+        "Approve monitoring scope and safeguards; review telemetry handling at an aggregate level.",
+        "Run a synthetic incident-dispute exercise before any live claims."
+      ],
+      "preconditions": [
+        "documented reciprocal consent",
+        "bounded and public mandate",
+        "independent monitor safety/access"
+      ],
+      "riskMitigations": [
+        {
+          "risk": "No valid monitor mandate",
+          "mitigation": "Alternative agreed civilian-access monitoring or defer verification label",
+          "stopOrReviewTrigger": "No approved mandate"
+        },
+        {
+          "risk": "Monitoring could aid targeting",
+          "mitigation": "Protect granular sensor data; publish only delayed aggregated results",
+          "stopOrReviewTrigger": "Disclosure or unauthorized access"
+        }
+      ],
+      "metricIds": [
+        "verified_incidents",
+        "access_denial"
+      ],
+      "sourceIds": [
+        "osce-mandate-ended",
+        "un-charter"
+      ],
+      "vetoPoints": [
+        "lack of valid legal basis",
+        "absent Ukrainian consent where required",
+        "absent Russian consent where required",
+        "unaccepted international mandates",
+        "monitor access denial",
+        "unfunded delivery",
+        "civilian safety failure"
+      ],
+      "incentiveTests": [
+        {
+          "actor": "Ukraine",
+          "question": "Does this improve civilian protection and security without prejudicing lawful sovereignty, and who has competence to decide?"
+        },
+        {
+          "actor": "Russia",
+          "question": "Which verifiable obligations and reciprocal concessions, if any, would be acceptable to competent authorities, without asserting willingness?"
+        },
+        {
+          "actor": "Independent implementer",
+          "question": "Does the organization have mandate, safe access, funds, and incentive to accept role?"
+        }
+      ],
+      "fallback": "Maintain civilian protections without pretending a multilateral instrument exists.",
+      "reviewStatus": "Unverified analytical proposal"
+    },
+    {
+      "id": "path-sensor-verification",
+      "title": "Consent-based ceasefire sensor and telemetry governance",
+      "trackId": "t1",
+      "phaseId": "p1",
+      "solutionIds": [
+        "sensor-verification"
+      ],
+      "hypothesis": "Feasibility study of electronic acoustic/seismic sensing and protected drone-derived metadata; not a live sensor grid.",
+      "mechanisms": [
+        "Define lawful remote-monitoring purpose, data minimization and chain of custody.",
+        "Trial only simulated or non-sensitive sensor data with quantified false alarms.",
+        "Determine admissibility and contestability of evidence."
+      ],
+      "preconditions": [
+        "monitor acceptance and legal authority",
+        "host-country and access consent",
+        "data governance and protection impact assessment"
+      ],
+      "riskMitigations": [
+        {
+          "risk": "Sensor metadata can expose persons or military sites",
+          "mitigation": "No public raw data, sensitive locations or live drone telemetry",
+          "stopOrReviewTrigger": "Any targeting or deanonymization risk"
+        }
+      ],
+      "metricIds": [
+        "sensor_precision",
+        "incident_timeliness"
+      ],
+      "sourceIds": [
+        "osce-mandate-ended",
+        "un-charter"
+      ],
+      "vetoPoints": [
+        "lack of valid legal basis",
+        "absent Ukrainian consent where required",
+        "absent Russian consent where required",
+        "unaccepted international mandates",
+        "monitor access denial",
+        "unfunded delivery",
+        "civilian safety failure"
+      ],
+      "incentiveTests": [
+        {
+          "actor": "Ukraine",
+          "question": "Does this improve civilian protection and security without prejudicing lawful sovereignty, and who has competence to decide?"
+        },
+        {
+          "actor": "Russia",
+          "question": "Which verifiable obligations and reciprocal concessions, if any, would be acceptable to competent authorities, without asserting willingness?"
+        },
+        {
+          "actor": "Independent implementer",
+          "question": "Does the organization have mandate, safe access, funds, and incentive to accept role?"
+        }
+      ],
+      "fallback": "Maintain civilian protections without pretending a multilateral instrument exists.",
+      "reviewStatus": "Unverified analytical proposal"
+    },
+    {
+      "id": "path-artillery-separation-30km",
+      "title": "30 km heavy-artillery separation hypothesis",
+      "trackId": "t1",
+      "phaseId": "p1",
+      "solutionIds": [
+        "artillery-separation-30km"
+      ],
+      "hypothesis": "Explore a **negotiable**, symmetric 30 km distance parameter; neither parties nor military experts have agreed this number.",
+      "mechanisms": [
+        "Evaluate mutually accepted restrictions at policy level without locations, unit inventories or routes.",
+        "Test alternative widths and arms categories in abstract scenarios.",
+        "Record rejection, counterproposal, or consent; do not label a buffer as established."
+      ],
+      "preconditions": [
+        "bilateral consent",
+        "military feasibility and humanitarian impact assessment",
+        "monitorable, reversible implementation without tactical disclosure"
+      ],
+      "riskMitigations": [
+        {
+          "risk": "Fixed distance impracticable or asymmetric",
+          "mitigation": "Include 0/15/30/other-km policy variants subject to professional review",
+          "stopOrReviewTrigger": "Documented rejection or projected civilian harm"
+        }
+      ],
+      "metricIds": [
+        "buffer_consents"
+      ],
+      "sourceIds": [
+        "osce-mandate-ended",
+        "un-charter"
+      ],
+      "vetoPoints": [
+        "lack of valid legal basis",
+        "absent Ukrainian consent where required",
+        "absent Russian consent where required",
+        "unaccepted international mandates",
+        "monitor access denial",
+        "unfunded delivery",
+        "civilian safety failure"
+      ],
+      "incentiveTests": [
+        {
+          "actor": "Ukraine",
+          "question": "Does this improve civilian protection and security without prejudicing lawful sovereignty, and who has competence to decide?"
+        },
+        {
+          "actor": "Russia",
+          "question": "Which verifiable obligations and reciprocal concessions, if any, would be acceptable to competent authorities, without asserting willingness?"
+        },
+        {
+          "actor": "Independent implementer",
+          "question": "Does the organization have mandate, safe access, funds, and incentive to accept role?"
+        }
+      ],
+      "fallback": "Maintain civilian protections without pretending a multilateral instrument exists.",
+      "reviewStatus": "Unverified analytical proposal"
+    },
+    {
+      "id": "path-wounded-exchange",
+      "title": "Wounded and seriously ill protected-person transfers",
+      "trackId": "t1",
+      "phaseId": "p1",
+      "solutionIds": [
+        "wounded-exchange"
+      ],
+      "hypothesis": "Immediate IHL-compliant medical transfer and case-by-case repatriation pathways independent of political concessions.",
+      "mechanisms": [
+        "Confirm protected-person category and medical eligibility confidentially.",
+        "Arrange protected transfer under applicable law; never publish itineraries.",
+        "Audit adverse events in aggregate."
+      ],
+      "preconditions": [
+        "confidential humanitarian consent and competent medical review",
+        "Geneva classification and individual protection",
+        "neutral intermediary acceptance"
+      ],
+      "riskMitigations": [
+        {
+          "risk": "Exposure of identities or movements",
+          "mitigation": "Strict private handling; app stores no identifying records",
+          "stopOrReviewTrigger": "Any unconsented identifying data"
+        }
+      ],
+      "metricIds": [
+        "safe_medical_transfers"
+      ],
+      "sourceIds": [
+        "icrc-protected-persons"
+      ],
+      "vetoPoints": [
+        "lack of valid legal basis",
+        "absent Ukrainian consent where required",
+        "absent Russian consent where required",
+        "unaccepted international mandates",
+        "monitor access denial",
+        "unfunded delivery",
+        "civilian safety failure"
+      ],
+      "incentiveTests": [
+        {
+          "actor": "Ukraine",
+          "question": "Does this improve civilian protection and security without prejudicing lawful sovereignty, and who has competence to decide?"
+        },
+        {
+          "actor": "Russia",
+          "question": "Which verifiable obligations and reciprocal concessions, if any, would be acceptable to competent authorities, without asserting willingness?"
+        },
+        {
+          "actor": "Independent implementer",
+          "question": "Does the organization have mandate, safe access, funds, and incentive to accept role?"
+        }
+      ],
+      "fallback": "Maintain civilian protections without pretending a multilateral instrument exists.",
+      "reviewStatus": "Unverified analytical proposal"
+    },
+    {
+      "id": "path-civilian-detainee-release",
+      "title": "Civilian detainee release and missing-person safeguards",
+      "trackId": "t1",
+      "phaseId": "p1",
+      "solutionIds": [
+        "civilian-detainee-release"
+      ],
+      "hypothesis": "Legal review of civilian detention and urgent release under applicable international humanitarian and human rights law.",
+      "mechanisms": [
+        "Distinguish POWs, civilian internees, hostages and other unlawfully detained civilians.",
+        "Seek confidential release or tracing arrangement where lawful."
+      ],
+      "preconditions": [
+        "classification of detention basis",
+        "confidential safeguarding and family rights",
+        "non-coercion and non-refoulement review"
+      ],
+      "riskMitigations": [
+        {
+          "risk": "Treating civilians as exchange currency",
+          "mitigation": "Do not condition non-derogable obligations on reciprocal political acts",
+          "stopOrReviewTrigger": "Any coercion or unequal treatment"
+        }
+      ],
+      "metricIds": [
+        "verified_releases"
+      ],
+      "sourceIds": [
+        "icrc-protected-persons"
+      ],
+      "vetoPoints": [
+        "lack of valid legal basis",
+        "absent Ukrainian consent where required",
+        "absent Russian consent where required",
+        "unaccepted international mandates",
+        "monitor access denial",
+        "unfunded delivery",
+        "civilian safety failure"
+      ],
+      "incentiveTests": [
+        {
+          "actor": "Ukraine",
+          "question": "Does this improve civilian protection and security without prejudicing lawful sovereignty, and who has competence to decide?"
+        },
+        {
+          "actor": "Russia",
+          "question": "Which verifiable obligations and reciprocal concessions, if any, would be acceptable to competent authorities, without asserting willingness?"
+        },
+        {
+          "actor": "Independent implementer",
+          "question": "Does the organization have mandate, safe access, funds, and incentive to accept role?"
+        }
+      ],
+      "fallback": "Maintain civilian protections without pretending a multilateral instrument exists.",
+      "reviewStatus": "Unverified analytical proposal"
+    },
+    {
+      "id": "path-nuclear-safety-zone",
+      "title": "Nuclear safety protection arrangements",
+      "trackId": "t1",
+      "phaseId": "p1",
+      "solutionIds": [
+        "nuclear-safety-zone"
+      ],
+      "hypothesis": "Propose consented no-attack and safe-access protective rules for nuclear sites aligned with IAEA principles; not IAEA-enforced absolute safety.",
+      "mechanisms": [
+        "Document safety-critical power/cooling needs without operational vulnerabilities.",
+        "Confirm monitorable obligations and neutral technical reporting channels.",
+        "Implement protective restraint and dispute resolution."
+      ],
+      "preconditions": [
+        "parties commit to restraint and safe repair access",
+        "IAEA accepts technical role within mandate",
+        "site-specific operator and independent safety authority assessment"
+      ],
+      "riskMitigations": [
+        {
+          "risk": "False promise of an absolute nuclear exclusion perimeter",
+          "mitigation": "Use verifiable rules, breaches and emergency contingencies; no zero-risk claim",
+          "stopOrReviewTrigger": "Access denied or safety concern"
+        }
+      ],
+      "metricIds": [
+        "offsite_power_hours"
+      ],
+      "sourceIds": [
+        "iaea-five-principles"
+      ],
+      "vetoPoints": [
+        "lack of valid legal basis",
+        "absent Ukrainian consent where required",
+        "absent Russian consent where required",
+        "unaccepted international mandates",
+        "monitor access denial",
+        "unfunded delivery",
+        "civilian safety failure"
+      ],
+      "incentiveTests": [
+        {
+          "actor": "Ukraine",
+          "question": "Does this improve civilian protection and security without prejudicing lawful sovereignty, and who has competence to decide?"
+        },
+        {
+          "actor": "Russia",
+          "question": "Which verifiable obligations and reciprocal concessions, if any, would be acceptable to competent authorities, without asserting willingness?"
+        },
+        {
+          "actor": "Independent implementer",
+          "question": "Does the organization have mandate, safe access, funds, and incentive to accept role?"
+        }
+      ],
+      "fallback": "Maintain civilian protections without pretending a multilateral instrument exists.",
+      "reviewStatus": "Unverified analytical proposal"
+    },
+    {
+      "id": "path-maritime-civilian-corridor",
+      "title": "Civilian Black Sea corridor / AIS risk governance",
+      "trackId": "t1",
+      "phaseId": "p1",
+      "solutionIds": [
+        "maritime-civilian-corridor"
+      ],
+      "hypothesis": "Study a consent-based maritime safe-passage framework with delayed, privacy-aware AIS-derived aggregate indicators; no autonomous shipping guarantees.",
+      "mechanisms": [
+        "Review IHL, shipping risk and prior agreements; compare escorted/monitored/alternative-route options without specifying ship routes.",
+        "Define aggregate incident and vessel-arrival metrics; verify AIS spoofing/missing data.",
+        "Publish only retrospective non-sensitive flow outcomes after safe completion."
+      ],
+      "preconditions": [
+        "flag/coastal/port-state legal clearance",
+        "maritime parties or competent safety arrangement",
+        "shipowner and crew safety consent"
+      ],
+      "riskMitigations": [
+        {
+          "risk": "Live AIS increases targeting risk",
+          "mitigation": "Never render live ship locations or routing suggestions",
+          "stopOrReviewTrigger": "Any unsafe disclosure"
+        },
+        {
+          "risk": "AIS spoofing or absence",
+          "mitigation": "Triangulate with independent delayed sources; mark unknown",
+          "stopOrReviewTrigger": "Conflicting safety signals"
+        }
+      ],
+      "metricIds": [
+        "merchant_arrivals",
+        "marine_incidents"
+      ],
+      "sourceIds": [
+        "imo-black-sea"
+      ],
+      "vetoPoints": [
+        "lack of valid legal basis",
+        "absent Ukrainian consent where required",
+        "absent Russian consent where required",
+        "unaccepted international mandates",
+        "monitor access denial",
+        "unfunded delivery",
+        "civilian safety failure"
+      ],
+      "incentiveTests": [
+        {
+          "actor": "Ukraine",
+          "question": "Does this improve civilian protection and security without prejudicing lawful sovereignty, and who has competence to decide?"
+        },
+        {
+          "actor": "Russia",
+          "question": "Which verifiable obligations and reciprocal concessions, if any, would be acceptable to competent authorities, without asserting willingness?"
+        },
+        {
+          "actor": "Independent implementer",
+          "question": "Does the organization have mandate, safe access, funds, and incentive to accept role?"
+        }
+      ],
+      "fallback": "Maintain civilian protections without pretending a multilateral instrument exists.",
+      "reviewStatus": "Unverified analytical proposal"
+    },
+    {
+      "id": "path-un-economic-zone",
+      "title": "Interim economic-service administration feasibility",
+      "trackId": "t2",
+      "phaseId": "p2",
+      "solutionIds": [
+        "un-economic-zone"
+      ],
+      "hypothesis": "Legal comparison of Ukrainian-administered special economic/service zones versus a separate UN transitional administration hypothesis.",
+      "mechanisms": [
+        "Compare administrative vehicles that do not prejudge territorial status.",
+        "Assess necessity, Security Council viability and competing alternatives.",
+        "Design equal-access public services, safeguards and fiscal audits."
+      ],
+      "preconditions": [
+        "Ukrainian sovereign constitutional consent",
+        "relevant international mandate where applicable",
+        "rights/land tenure and displaced-person participation"
+      ],
+      "riskMitigations": [
+        {
+          "risk": "UN administration presumed without Security Council authorization",
+          "mitigation": "Default to lawful Ukrainian administration where feasible",
+          "stopOrReviewTrigger": "No mandate or sovereignty-consent basis"
+        }
+      ],
+      "metricIds": [
+        "service_access"
+      ],
+      "sourceIds": [
+        "un-temporary-authority",
+        "un-charter"
+      ],
+      "vetoPoints": [
+        "lack of valid legal basis",
+        "absent Ukrainian consent where required",
+        "absent Russian consent where required",
+        "unaccepted international mandates",
+        "monitor access denial",
+        "unfunded delivery",
+        "civilian safety failure"
+      ],
+      "incentiveTests": [
+        {
+          "actor": "Ukraine",
+          "question": "Does this improve civilian protection and security without prejudicing lawful sovereignty, and who has competence to decide?"
+        },
+        {
+          "actor": "Russia",
+          "question": "Which verifiable obligations and reciprocal concessions, if any, would be acceptable to competent authorities, without asserting willingness?"
+        },
+        {
+          "actor": "Independent implementer",
+          "question": "Does the organization have mandate, safe access, funds, and incentive to accept role?"
+        }
+      ],
+      "fallback": "Maintain civilian protections without pretending a multilateral instrument exists.",
+      "reviewStatus": "Unverified analytical proposal"
+    },
+    {
+      "id": "path-referendum-legality",
+      "title": "Five-year cooling period / plebiscite legality review",
+      "trackId": "t2",
+      "phaseId": "p2",
+      "solutionIds": [
+        "referendum-legality"
+      ],
+      "hypothesis": "Evaluate—not commit to—a five-year cooling interval and stringent demographic safeguards for any future political consultation, excluding illegal status votes.",
+      "mechanisms": [
+        "Determine whether any proposed ballot is lawful; no precommitment to a territorial plebiscite.",
+        "Audit voluntary returns, rolls, security, participation and displacement effects.",
+        "Only after approvals, design monitored consultation or lawful election."
+      ],
+      "preconditions": [
+        "affirmative independent legality finding under Ukraine’s constitution and international law",
+        "no occupation, intimidation or coercive displacement",
+        "all affected displaced persons have equal lawful political rights"
+      ],
+      "riskMitigations": [
+        {
+          "risk": "Annexation legitimated by coerced referendum",
+          "mitigation": "STOP if territorial status ballot lacks Ukraine’s lawful authorization or is under occupation",
+          "stopOrReviewTrigger": "Any unlawful framework"
+        },
+        {
+          "risk": "Displaced persons disenfranchised",
+          "mitigation": "Inclusive eligibility and safe participation; otherwise no ballot",
+          "stopOrReviewTrigger": "Discriminatory eligibility"
+        }
+      ],
+      "metricIds": [
+        "constitutional_clearance"
+      ],
+      "sourceIds": [
+        "un-elections-2022",
+        "un-charter"
+      ],
+      "vetoPoints": [
+        "lack of valid legal basis",
+        "absent Ukrainian consent where required",
+        "absent Russian consent where required",
+        "unaccepted international mandates",
+        "monitor access denial",
+        "unfunded delivery",
+        "civilian safety failure"
+      ],
+      "incentiveTests": [
+        {
+          "actor": "Ukraine",
+          "question": "Does this improve civilian protection and security without prejudicing lawful sovereignty, and who has competence to decide?"
+        },
+        {
+          "actor": "Russia",
+          "question": "Which verifiable obligations and reciprocal concessions, if any, would be acceptable to competent authorities, without asserting willingness?"
+        },
+        {
+          "actor": "Independent implementer",
+          "question": "Does the organization have mandate, safe access, funds, and incentive to accept role?"
+        }
+      ],
+      "fallback": "Maintain civilian protections without pretending a multilateral instrument exists.",
+      "reviewStatus": "Unverified analytical proposal"
+    },
+    {
+      "id": "path-language-minority-rights",
+      "title": "Minority and language rights implementation",
+      "trackId": "t2",
+      "phaseId": "p2",
+      "solutionIds": [
+        "language-minority-rights"
+      ],
+      "hypothesis": "Develop Ukrainian-law and human-rights-based equal access and linguistic protections with independent rights-remedy mapping.",
+      "mechanisms": [
+        "Map enforceable language, education and access rights.",
+        "Consult and publish anonymized feedback.",
+        "Map lawful complaints and remedies; do not presume ECHR jurisdiction over post-2022 Russian acts."
+      ],
+      "preconditions": [
+        "domestic rights review",
+        "community engagement without coercion",
+        "court/monitor mechanisms accurately scoped"
+      ],
+      "riskMitigations": [
+        {
+          "risk": "ECHR misrepresented as new enforcement guarantee against Russia",
+          "mitigation": "State temporal jurisdiction and alternative lawful forums",
+          "stopOrReviewTrigger": "Any false mandate claim"
+        }
+      ],
+      "metricIds": [
+        "complaint_resolution"
+      ],
+      "sourceIds": [
+        "echr-russia-jurisdiction"
+      ],
+      "vetoPoints": [
+        "lack of valid legal basis",
+        "absent Ukrainian consent where required",
+        "absent Russian consent where required",
+        "unaccepted international mandates",
+        "monitor access denial",
+        "unfunded delivery",
+        "civilian safety failure"
+      ],
+      "incentiveTests": [
+        {
+          "actor": "Ukraine",
+          "question": "Does this improve civilian protection and security without prejudicing lawful sovereignty, and who has competence to decide?"
+        },
+        {
+          "actor": "Russia",
+          "question": "Which verifiable obligations and reciprocal concessions, if any, would be acceptable to competent authorities, without asserting willingness?"
+        },
+        {
+          "actor": "Independent implementer",
+          "question": "Does the organization have mandate, safe access, funds, and incentive to accept role?"
+        }
+      ],
+      "fallback": "Maintain civilian protections without pretending a multilateral instrument exists.",
+      "reviewStatus": "Unverified analytical proposal"
+    },
+    {
+      "id": "path-russian-asset-yield-fund",
+      "title": "Legally segregated reconstruction yield fund",
+      "trackId": "t3",
+      "phaseId": "p3",
+      "solutionIds": [
+        "russian-asset-yield-fund"
+      ],
+      "hypothesis": "Scenario design for a transparent trust funded only by legally usable proceeds from immobilized assets and other authorized sources.",
+      "mechanisms": [
+        "Distinguish principal, extraordinary revenue, guarantees and general budget transfers by jurisdiction.",
+        "Publish additionality, procurement, recipients and conflict-of-interest process.",
+        "Prioritize safety, climate and public-value outcomes with consent."
+      ],
+      "preconditions": [
+        "specific domestic/EU legal authorization",
+        "lawful custody, audit and sovereign immunity review",
+        "grant governance and anticorruption controls",
+        "Funding legally uncommitted after existing EU windfall revenue allocation."
+      ],
+      "riskMitigations": [
+        {
+          "risk": "Frozen principal assumed confiscable",
+          "mitigation": "Fund only sources confirmed lawful; model legal challenges",
+          "stopOrReviewTrigger": "Unresolved title or sovereign immunity issue"
+        },
+        {
+          "risk": "Already-earmarked asset revenues appear unallocated",
+          "mitigation": "Verify existing disbursement rules before proposing a new segregated fund",
+          "stopOrReviewTrigger": "Unfunded or unlawful diversion"
+        }
+      ],
+      "metricIds": [
+        "audited_disbursement"
+      ],
+      "sourceIds": [
+        "un-charter",
+        "eu-windfall-mechanism"
+      ],
+      "vetoPoints": [
+        "lack of valid legal basis",
+        "absent Ukrainian consent where required",
+        "absent Russian consent where required",
+        "unaccepted international mandates",
+        "monitor access denial",
+        "unfunded delivery",
+        "civilian safety failure"
+      ],
+      "incentiveTests": [
+        {
+          "actor": "Ukraine",
+          "question": "Does this improve civilian protection and security without prejudicing lawful sovereignty, and who has competence to decide?"
+        },
+        {
+          "actor": "Russia",
+          "question": "Which verifiable obligations and reciprocal concessions, if any, would be acceptable to competent authorities, without asserting willingness?"
+        },
+        {
+          "actor": "Independent implementer",
+          "question": "Does the organization have mandate, safe access, funds, and incentive to accept role?"
+        }
+      ],
+      "fallback": "Use already authorized financial aid and rigorously audited civil reconstruction without proposing diversion of already committed proceeds.",
+      "reviewStatus": "Unverified analytical proposal"
+    },
+    {
+      "id": "path-entsoe-restoration",
+      "title": "ENTSO-E-connected green-grid recovery",
+      "trackId": "t3",
+      "phaseId": "p3",
+      "solutionIds": [
+        "entsoe-restoration"
+      ],
+      "hypothesis": "Reinforce existing Ukrainian/European synchronous interconnection with resilient, locally governed low-carbon power and transparent procurement.",
+      "mechanisms": [
+        "Assess existing synchronous network and safe restoration priorities.",
+        "Compare distributed generation/storage and line-restoration investments on outage benefits.",
+        "Track availability and financial performance, not tactical grid vulnerabilities."
+      ],
+      "preconditions": [
+        "grid operator approval",
+        "power-system stability and procurement due diligence",
+        "environmental and civilian protection plan"
+      ],
+      "riskMitigations": [
+        {
+          "risk": "Claiming interconnection has not happened",
+          "mitigation": "Explicitly recognize 2022 synchronization and focus on resilience",
+          "stopOrReviewTrigger": "Incorrect baseline"
+        },
+        {
+          "risk": "Disclosure of vulnerable infrastructure",
+          "mitigation": "Aggregate geography and delay reports",
+          "stopOrReviewTrigger": "Operational vulnerability disclosure"
+        }
+      ],
+      "metricIds": [
+        "civilian_outages"
+      ],
+      "sourceIds": [
+        "entsoe-connected"
+      ],
+      "vetoPoints": [
+        "lack of valid legal basis",
+        "absent Ukrainian consent where required",
+        "absent Russian consent where required",
+        "unaccepted international mandates",
+        "monitor access denial",
+        "unfunded delivery",
+        "civilian safety failure"
+      ],
+      "incentiveTests": [
+        {
+          "actor": "Ukraine",
+          "question": "Does this improve civilian protection and security without prejudicing lawful sovereignty, and who has competence to decide?"
+        },
+        {
+          "actor": "Russia",
+          "question": "Which verifiable obligations and reciprocal concessions, if any, would be acceptable to competent authorities, without asserting willingness?"
+        },
+        {
+          "actor": "Independent implementer",
+          "question": "Does the organization have mandate, safe access, funds, and incentive to accept role?"
+        }
+      ],
+      "fallback": "Maintain civilian protections without pretending a multilateral instrument exists.",
+      "reviewStatus": "Unverified analytical proposal"
+    },
+    {
+      "id": "path-ai-assisted-mine-action",
+      "title": "Human-supervised AI-assisted agricultural mine action",
+      "trackId": "t3",
+      "phaseId": "p3",
+      "solutionIds": [
+        "ai-assisted-mine-action"
+      ],
+      "hypothesis": "Use AI only to prioritize survey evidence under national mine-action standards; physical clearance and land release require accredited operators.",
+      "mechanisms": [
+        "Select non-sensitive land-release pilot and evaluate model generalization and uncertainty.",
+        "Integrate advisory mapping into IMAS-compliant non-technical/technical survey.",
+        "Clear as necessary and authorize handover per national standards."
+      ],
+      "preconditions": [
+        "national mine-action authority accreditation",
+        "robust false-negative evaluation",
+        "no unqualified autonomous clearance or access claims"
+      ],
+      "riskMitigations": [
+        {
+          "risk": "Model incorrectly declares hazardous fields safe",
+          "mitigation": "Absolute no-autonomous-release invariant; human QA and abort",
+          "stopOrReviewTrigger": "Any unverified hazard or failed QA"
+        }
+      ],
+      "metricIds": [
+        "qa_land_release",
+        "ai_false_negative"
+      ],
+      "sourceIds": [
+        "imas-land-release",
+        "imas-master"
+      ],
+      "vetoPoints": [
+        "lack of valid legal basis",
+        "absent Ukrainian consent where required",
+        "absent Russian consent where required",
+        "unaccepted international mandates",
+        "monitor access denial",
+        "unfunded delivery",
+        "civilian safety failure"
+      ],
+      "incentiveTests": [
+        {
+          "actor": "Ukraine",
+          "question": "Does this improve civilian protection and security without prejudicing lawful sovereignty, and who has competence to decide?"
+        },
+        {
+          "actor": "Russia",
+          "question": "Which verifiable obligations and reciprocal concessions, if any, would be acceptable to competent authorities, without asserting willingness?"
+        },
+        {
+          "actor": "Independent implementer",
+          "question": "Does the organization have mandate, safe access, funds, and incentive to accept role?"
+        }
+      ],
+      "fallback": "Maintain civilian protections without pretending a multilateral instrument exists.",
+      "reviewStatus": "Unverified analytical proposal"
+    }
+  ]
+}
