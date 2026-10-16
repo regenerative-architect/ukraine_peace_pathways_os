@@ -1,5 +1,5 @@
 /* HTTPS/localhost only. Versioned, same-origin, cache-first static shell; no hidden network requests. */
-const VERSION='peace-pathways-shell-v1-2026-10-16';
+const VERSION='peace-pathways-shell-v1_1-2026-10-16';
 const CORE=['./','./index.html','./manifest.webmanifest','./assets/icon-192.png','./assets/icon-512.png','./data/entities.json','./data/solutions.json','./data/guide-bank.json','./data/evidence.json','./data/pathway-catalog.json'];
 self.addEventListener('install',event=>{
   event.waitUntil((async()=>{const c=await caches.open(VERSION);await c.addAll(CORE)})());

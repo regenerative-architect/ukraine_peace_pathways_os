@@ -1,0 +1,866 @@
+[
+  {
+    "id": "civilian-impact-ledger",
+    "title": "Civilian harm monitoring",
+    "goal": "Evidence-based priorities for reducing civilian harm",
+    "kind": "humanitarian",
+    "slots": [
+      {
+        "seat": "Direct party",
+        "tag": "decision"
+      },
+      {
+        "seat": "Neutral intermediary",
+        "tag": "humanitarian"
+      },
+      {
+        "seat": "Protection practitioner",
+        "tag": "civilian"
+      },
+      {
+        "seat": "Verification / evidence",
+        "tag": "verification"
+      }
+    ],
+    "keyMetric": "Documented civilian harm trends by source and date",
+    "legal": "Protect personal data and avoid operational targeting",
+    "fallback": "If consent, authority or evidence fails, stop escalation, preserve humanitarian channels and narrow the action to observable civilian protection."
+  },
+  {
+    "id": "energy-truce",
+    "title": "Reciprocal energy infrastructure restraint",
+    "goal": "Prohibit defined attacks on civilian energy systems",
+    "kind": "sectoral",
+    "slots": [
+      {
+        "seat": "Direct party",
+        "tag": "decision"
+      },
+      {
+        "seat": "Convener / facilitator",
+        "tag": "mediation"
+      },
+      {
+        "seat": "Technical implementer",
+        "tag": "energy"
+      },
+      {
+        "seat": "Independent verifier",
+        "tag": "verification"
+      }
+    ],
+    "keyMetric": "Verified incidents and service restoration",
+    "legal": "IHL civilian-object protection; no authorization for attacks",
+    "fallback": "If consent, authority or evidence fails, stop escalation, preserve humanitarian channels and narrow the action to observable civilian protection."
+  },
+  {
+    "id": "nuclear-safety",
+    "title": "Nuclear safety repair access",
+    "goal": "Keep critical nuclear cooling and electrical supply safe",
+    "kind": "sectoral",
+    "slots": [
+      {
+        "seat": "Direct party",
+        "tag": "decision"
+      },
+      {
+        "seat": "Convener / facilitator",
+        "tag": "mediation"
+      },
+      {
+        "seat": "Technical implementer",
+        "tag": "nuclear"
+      },
+      {
+        "seat": "Independent verifier",
+        "tag": "verification"
+      }
+    ],
+    "keyMetric": "Safe power availability and independently confirmed repairs",
+    "legal": "IAEA mandate, nuclear safety, IHL and site-access consent",
+    "fallback": "If consent, authority or evidence fails, stop escalation, preserve humanitarian channels and narrow the action to observable civilian protection."
+  },
+  {
+    "id": "black-sea-safety",
+    "title": "Black Sea merchant shipping safety",
+    "goal": "Reduce harm to civilian vessels, ports and food flows",
+    "kind": "sectoral",
+    "slots": [
+      {
+        "seat": "Direct party",
+        "tag": "decision"
+      },
+      {
+        "seat": "Convener / facilitator",
+        "tag": "mediation"
+      },
+      {
+        "seat": "Technical implementer",
+        "tag": "maritime"
+      },
+      {
+        "seat": "Independent verifier",
+        "tag": "verification"
+      }
+    ],
+    "keyMetric": "Verified civilian transits and incidents",
+    "legal": "Law of the sea, shipping standards, IHL and sanctions",
+    "fallback": "If consent, authority or evidence fails, stop escalation, preserve humanitarian channels and narrow the action to observable civilian protection."
+  },
+  {
+    "id": "prisoner-exchanges",
+    "title": "Prisoner and detainee exchanges",
+    "goal": "Enable humane treatment, family contact and lawful releases",
+    "kind": "humanitarian",
+    "slots": [
+      {
+        "seat": "Direct party",
+        "tag": "decision"
+      },
+      {
+        "seat": "Neutral intermediary",
+        "tag": "prisoners"
+      },
+      {
+        "seat": "Protection practitioner",
+        "tag": "civilian"
+      },
+      {
+        "seat": "Verification / evidence",
+        "tag": "verification"
+      }
+    ],
+    "keyMetric": "Confirmed exchanges, missing-person updates",
+    "legal": "Third Geneva Convention and ICRC principles",
+    "fallback": "If consent, authority or evidence fails, stop escalation, preserve humanitarian channels and narrow the action to observable civilian protection."
+  },
+  {
+    "id": "missing-persons",
+    "title": "Missing-person tracing",
+    "goal": "Clarify fate and whereabouts with family consent",
+    "kind": "humanitarian",
+    "slots": [
+      {
+        "seat": "Direct party",
+        "tag": "decision"
+      },
+      {
+        "seat": "Neutral intermediary",
+        "tag": "children"
+      },
+      {
+        "seat": "Protection practitioner",
+        "tag": "civilian"
+      },
+      {
+        "seat": "Verification / evidence",
+        "tag": "verification"
+      }
+    ],
+    "keyMetric": "Verified cases resolved with informed consent",
+    "legal": "Privacy, IHL missing-person obligations",
+    "fallback": "If consent, authority or evidence fails, stop escalation, preserve humanitarian channels and narrow the action to observable civilian protection."
+  },
+  {
+    "id": "children-reunification",
+    "title": "Child reunification",
+    "goal": "Safely reunite children and families using best-interest principles",
+    "kind": "humanitarian",
+    "slots": [
+      {
+        "seat": "Direct party",
+        "tag": "decision"
+      },
+      {
+        "seat": "Neutral intermediary",
+        "tag": "children"
+      },
+      {
+        "seat": "Protection practitioner",
+        "tag": "civilian"
+      },
+      {
+        "seat": "Verification / evidence",
+        "tag": "verification"
+      }
+    ],
+    "keyMetric": "Safe, verified family reunifications",
+    "legal": "Convention on the Rights of the Child, privacy, IHL",
+    "fallback": "If consent, authority or evidence fails, stop escalation, preserve humanitarian channels and narrow the action to observable civilian protection."
+  },
+  {
+    "id": "relief-access",
+    "title": "Humanitarian aid access",
+    "goal": "Increase impartial food, medicine and shelter access",
+    "kind": "humanitarian",
+    "slots": [
+      {
+        "seat": "Direct party",
+        "tag": "decision"
+      },
+      {
+        "seat": "Neutral intermediary",
+        "tag": "humanitarian"
+      },
+      {
+        "seat": "Protection practitioner",
+        "tag": "civilian"
+      },
+      {
+        "seat": "Verification / evidence",
+        "tag": "verification"
+      }
+    ],
+    "keyMetric": "Verified deliveries and sustained access days",
+    "legal": "IHL humanitarian access, neutrality and impartiality",
+    "fallback": "If consent, authority or evidence fails, stop escalation, preserve humanitarian channels and narrow the action to observable civilian protection."
+  },
+  {
+    "id": "local-pause",
+    "title": "Site-specific humanitarian pause",
+    "goal": "Permit bounded repairs, evacuations or aid missions",
+    "kind": "sectoral",
+    "slots": [
+      {
+        "seat": "Direct party",
+        "tag": "decision"
+      },
+      {
+        "seat": "Convener / facilitator",
+        "tag": "mediation"
+      },
+      {
+        "seat": "Technical implementer",
+        "tag": "energy"
+      },
+      {
+        "seat": "Independent verifier",
+        "tag": "verification"
+      }
+    ],
+    "keyMetric": "Completed protected mission without verified incident",
+    "legal": "Party consent, civilian protection and neutral oversight",
+    "fallback": "If consent, authority or evidence fails, stop escalation, preserve humanitarian channels and narrow the action to observable civilian protection."
+  },
+  {
+    "id": "general-ceasefire",
+    "title": "Monitored general armistice",
+    "goal": "Stop hostilities with enforceable mechanisms",
+    "kind": "armistice",
+    "slots": [
+      {
+        "seat": "Command authority",
+        "tag": "decision"
+      },
+      {
+        "seat": "Diplomatic convener",
+        "tag": "mediation"
+      },
+      {
+        "seat": "Security guarantor",
+        "tag": "security"
+      },
+      {
+        "seat": "Independent verifier",
+        "tag": "verification"
+      }
+    ],
+    "keyMetric": "Verified incident rate and civilian protection",
+    "legal": "UN Charter, IHL, command authority and mandate",
+    "fallback": "If consent, authority or evidence fails, stop escalation, preserve humanitarian channels and narrow the action to observable civilian protection."
+  },
+  {
+    "id": "incident-verification",
+    "title": "Neutral incident verification",
+    "goal": "Make violations adjudicable and reversibly addressed",
+    "kind": "armistice",
+    "slots": [
+      {
+        "seat": "Command authority",
+        "tag": "decision"
+      },
+      {
+        "seat": "Diplomatic convener",
+        "tag": "mediation"
+      },
+      {
+        "seat": "Security guarantor",
+        "tag": "security"
+      },
+      {
+        "seat": "Independent verifier",
+        "tag": "verification"
+      }
+    ],
+    "keyMetric": "Reports resolved within agreed timelines",
+    "legal": "Consent, proportionality, privacy, impartiality",
+    "fallback": "If consent, authority or evidence fails, stop escalation, preserve humanitarian channels and narrow the action to observable civilian protection."
+  },
+  {
+    "id": "security-guarantees",
+    "title": "Credible security guarantees",
+    "goal": "Prevent renewed aggression without undermining sovereignty",
+    "kind": "settlement",
+    "slots": [
+      {
+        "seat": "Sovereign decision-maker",
+        "tag": "decision"
+      },
+      {
+        "seat": "External diplomatic bridge",
+        "tag": "mediation"
+      },
+      {
+        "seat": "Financial / legal counterpart",
+        "tag": "finance"
+      },
+      {
+        "seat": "Implementation verifier",
+        "tag": "verification"
+      }
+    ],
+    "keyMetric": "Funded commitments with measurable readiness",
+    "legal": "UN Charter self-defence and treaty/constitutional law",
+    "fallback": "If consent, authority or evidence fails, stop escalation, preserve humanitarian channels and narrow the action to observable civilian protection."
+  },
+  {
+    "id": "sovereignty-framework",
+    "title": "Sovereignty and territorial legal framework",
+    "goal": "Separate practical ceasefire lines from legal status",
+    "kind": "settlement",
+    "slots": [
+      {
+        "seat": "Sovereign decision-maker",
+        "tag": "decision"
+      },
+      {
+        "seat": "External diplomatic bridge",
+        "tag": "mediation"
+      },
+      {
+        "seat": "Financial / legal counterpart",
+        "tag": "finance"
+      },
+      {
+        "seat": "Implementation verifier",
+        "tag": "verification"
+      }
+    ],
+    "keyMetric": "Agreements preserve de jure status while reducing harm",
+    "legal": "UN Charter territorial integrity; human rights",
+    "fallback": "If consent, authority or evidence fails, stop escalation, preserve humanitarian channels and narrow the action to observable civilian protection."
+  },
+  {
+    "id": "sanctions-conditionality",
+    "title": "Conditional sanctions and compliance",
+    "goal": "Tie lawful measures to independently tested behavior",
+    "kind": "settlement",
+    "slots": [
+      {
+        "seat": "Sovereign decision-maker",
+        "tag": "decision"
+      },
+      {
+        "seat": "External diplomatic bridge",
+        "tag": "mediation"
+      },
+      {
+        "seat": "Financial / legal counterpart",
+        "tag": "finance"
+      },
+      {
+        "seat": "Implementation verifier",
+        "tag": "verification"
+      }
+    ],
+    "keyMetric": "Documented compliance and civilian-impact review",
+    "legal": "Applicable sanctions law and due process",
+    "fallback": "If consent, authority or evidence fails, stop escalation, preserve humanitarian channels and narrow the action to observable civilian protection."
+  },
+  {
+    "id": "export-diligence",
+    "title": "Dual-use export control integrity",
+    "goal": "Reduce unlawful procurement and sanctions evasion",
+    "kind": "prevention",
+    "slots": [
+      {
+        "seat": "Authorized operator",
+        "tag": "legal"
+      },
+      {
+        "seat": "Independent research",
+        "tag": "data"
+      },
+      {
+        "seat": "Technical safeguards",
+        "tag": "defensive-cyber"
+      },
+      {
+        "seat": "Independent oversight",
+        "tag": "verification"
+      }
+    ],
+    "keyMetric": "Verified compliance controls and validated findings",
+    "legal": "Export-control law and privacy; no illicit sourcing",
+    "fallback": "If consent, authority or evidence fails, stop escalation, preserve humanitarian channels and narrow the action to observable civilian protection."
+  },
+  {
+    "id": "winter-energy",
+    "title": "Civilian energy resilience",
+    "goal": "Restore heat, electricity and critical civilian services",
+    "kind": "recovery",
+    "slots": [
+      {
+        "seat": "Affected community",
+        "tag": "civilian"
+      },
+      {
+        "seat": "Project finance",
+        "tag": "finance"
+      },
+      {
+        "seat": "Implementation capacity",
+        "tag": "reconstruction"
+      },
+      {
+        "seat": "Independent oversight",
+        "tag": "verification"
+      }
+    ],
+    "keyMetric": "Households and facilities with restored service",
+    "legal": "Humanitarian principles and public procurement rules",
+    "fallback": "If consent, authority or evidence fails, stop escalation, preserve humanitarian channels and narrow the action to observable civilian protection."
+  },
+  {
+    "id": "shelter-health",
+    "title": "Shelter and essential health services",
+    "goal": "Maintain shelter, medicine, schools and continuity of care",
+    "kind": "recovery",
+    "slots": [
+      {
+        "seat": "Affected community",
+        "tag": "civilian"
+      },
+      {
+        "seat": "Project finance",
+        "tag": "finance"
+      },
+      {
+        "seat": "Implementation capacity",
+        "tag": "reconstruction"
+      },
+      {
+        "seat": "Independent oversight",
+        "tag": "verification"
+      }
+    ],
+    "keyMetric": "Access to safe shelter and healthcare",
+    "legal": "Human rights, healthcare neutrality and procurement safeguards",
+    "fallback": "If consent, authority or evidence fails, stop escalation, preserve humanitarian channels and narrow the action to observable civilian protection."
+  },
+  {
+    "id": "recovery-contracts",
+    "title": "Accountable reconstruction projects",
+    "goal": "Rebuild transparent and climate-resilient civilian assets",
+    "kind": "recovery",
+    "slots": [
+      {
+        "seat": "Affected community",
+        "tag": "civilian"
+      },
+      {
+        "seat": "Project finance",
+        "tag": "finance"
+      },
+      {
+        "seat": "Implementation capacity",
+        "tag": "reconstruction"
+      },
+      {
+        "seat": "Independent oversight",
+        "tag": "verification"
+      }
+    ],
+    "keyMetric": "Completed audited projects and real service outcomes",
+    "legal": "Procurement law, land rights and environmental safeguards",
+    "fallback": "If consent, authority or evidence fails, stop escalation, preserve humanitarian channels and narrow the action to observable civilian protection."
+  },
+  {
+    "id": "asset-governance",
+    "title": "Legally sound recovery finance",
+    "goal": "Finance recovery within property and public law",
+    "kind": "recovery",
+    "slots": [
+      {
+        "seat": "Affected community",
+        "tag": "civilian"
+      },
+      {
+        "seat": "Project finance",
+        "tag": "finance"
+      },
+      {
+        "seat": "Implementation capacity",
+        "tag": "reconstruction"
+      },
+      {
+        "seat": "Independent oversight",
+        "tag": "verification"
+      }
+    ],
+    "keyMetric": "Audited disbursement and legal findings",
+    "legal": "State immunity, domestic law, due process",
+    "fallback": "If consent, authority or evidence fails, stop escalation, preserve humanitarian channels and narrow the action to observable civilian protection."
+  },
+  {
+    "id": "refugee-returns",
+    "title": "Voluntary refugee and displaced-person solutions",
+    "goal": "Support safety, agency and dignified durable choices",
+    "kind": "recovery",
+    "slots": [
+      {
+        "seat": "Affected community",
+        "tag": "civilian"
+      },
+      {
+        "seat": "Project finance",
+        "tag": "finance"
+      },
+      {
+        "seat": "Implementation capacity",
+        "tag": "reconstruction"
+      },
+      {
+        "seat": "Independent oversight",
+        "tag": "verification"
+      }
+    ],
+    "keyMetric": "Safe voluntary durable solutions",
+    "legal": "Non-refoulement, human rights and data protection",
+    "fallback": "If consent, authority or evidence fails, stop escalation, preserve humanitarian channels and narrow the action to observable civilian protection."
+  },
+  {
+    "id": "justice-evidence",
+    "title": "Accountability and evidence preservation",
+    "goal": "Preserve admissible evidence and survivors' rights",
+    "kind": "justice",
+    "slots": [
+      {
+        "seat": "Civilian protection",
+        "tag": "civilian"
+      },
+      {
+        "seat": "Legitimate legal authority",
+        "tag": "legal"
+      },
+      {
+        "seat": "Evidence stewardship",
+        "tag": "data"
+      },
+      {
+        "seat": "Independent review",
+        "tag": "verification"
+      }
+    ],
+    "keyMetric": "Validated preserved records, survivor support",
+    "legal": "IHL, human rights, criminal procedure and privacy",
+    "fallback": "If consent, authority or evidence fails, stop escalation, preserve humanitarian channels and narrow the action to observable civilian protection."
+  },
+  {
+    "id": "mine-clearance",
+    "title": "Humanitarian mine action",
+    "goal": "Reduce civilian risk from explosive remnants",
+    "kind": "recovery",
+    "slots": [
+      {
+        "seat": "Affected community",
+        "tag": "civilian"
+      },
+      {
+        "seat": "Project finance",
+        "tag": "finance"
+      },
+      {
+        "seat": "Implementation capacity",
+        "tag": "reconstruction"
+      },
+      {
+        "seat": "Independent oversight",
+        "tag": "verification"
+      }
+    ],
+    "keyMetric": "Accredited clearance and reduced casualties",
+    "legal": "Humanitarian mine action standards and national permissions",
+    "fallback": "If consent, authority or evidence fails, stop escalation, preserve humanitarian channels and narrow the action to observable civilian protection."
+  },
+  {
+    "id": "defensive-cyber",
+    "title": "Defensive infrastructure cyber resilience",
+    "goal": "Protect hospitals, grids and public digital services",
+    "kind": "prevention",
+    "slots": [
+      {
+        "seat": "Authorized operator",
+        "tag": "legal"
+      },
+      {
+        "seat": "Independent research",
+        "tag": "data"
+      },
+      {
+        "seat": "Technical safeguards",
+        "tag": "defensive-cyber"
+      },
+      {
+        "seat": "Independent oversight",
+        "tag": "verification"
+      }
+    ],
+    "keyMetric": "Service continuity and validated resilience tests",
+    "legal": "Authorization, cybersecurity law and privacy",
+    "fallback": "If consent, authority or evidence fails, stop escalation, preserve humanitarian channels and narrow the action to observable civilian protection."
+  },
+  {
+    "id": "information-integrity",
+    "title": "Truthful information and rumor resistance",
+    "goal": "Reduce false claims that erode humanitarian trust",
+    "kind": "prevention",
+    "slots": [
+      {
+        "seat": "Authorized operator",
+        "tag": "legal"
+      },
+      {
+        "seat": "Independent research",
+        "tag": "data"
+      },
+      {
+        "seat": "Technical safeguards",
+        "tag": "defensive-cyber"
+      },
+      {
+        "seat": "Independent oversight",
+        "tag": "verification"
+      }
+    ],
+    "keyMetric": "Corrected reports and verified information reach",
+    "legal": "Free expression, privacy and transparent attribution",
+    "fallback": "If consent, authority or evidence fails, stop escalation, preserve humanitarian channels and narrow the action to observable civilian protection."
+  },
+  {
+    "id": "confidence-dialogue",
+    "title": "Consent-based diplomatic confidence building",
+    "goal": "Create small verifiable bilateral or multilateral exchanges",
+    "kind": "diplomacy",
+    "slots": [
+      {
+        "seat": "Direct party / mandate",
+        "tag": "decision"
+      },
+      {
+        "seat": "Facilitator",
+        "tag": "mediation"
+      },
+      {
+        "seat": "Civilian participation",
+        "tag": "civilian"
+      },
+      {
+        "seat": "Review / accountability",
+        "tag": "legal"
+      }
+    ],
+    "keyMetric": "Completed reciprocal action commitments",
+    "legal": "Sovereignty, mediation neutrality and transparent authority",
+    "fallback": "If consent, authority or evidence fails, stop escalation, preserve humanitarian channels and narrow the action to observable civilian protection."
+  },
+  {
+    "id": "food-continuity",
+    "title": "Global food and fertilizer continuity",
+    "goal": "Improve essential food supply through lawful safe trade",
+    "kind": "sectoral",
+    "slots": [
+      {
+        "seat": "Direct party",
+        "tag": "decision"
+      },
+      {
+        "seat": "Convener / facilitator",
+        "tag": "mediation"
+      },
+      {
+        "seat": "Technical implementer",
+        "tag": "maritime"
+      },
+      {
+        "seat": "Independent verifier",
+        "tag": "verification"
+      }
+    ],
+    "keyMetric": "Verified food deliveries and price-access trends",
+    "legal": "Humanitarian exemptions, trade and shipping law",
+    "fallback": "If consent, authority or evidence fails, stop escalation, preserve humanitarian channels and narrow the action to observable civilian protection."
+  },
+  {
+    "id": "environment-restoration",
+    "title": "Environment and water recovery",
+    "goal": "Protect water, soils and ecosystem functioning",
+    "kind": "recovery",
+    "slots": [
+      {
+        "seat": "Affected community",
+        "tag": "civilian"
+      },
+      {
+        "seat": "Project finance",
+        "tag": "finance"
+      },
+      {
+        "seat": "Implementation capacity",
+        "tag": "reconstruction"
+      },
+      {
+        "seat": "Independent oversight",
+        "tag": "verification"
+      }
+    ],
+    "keyMetric": "Verified safe water and remediated assets",
+    "legal": "Environmental law, health and land rights",
+    "fallback": "If consent, authority or evidence fails, stop escalation, preserve humanitarian channels and narrow the action to observable civilian protection."
+  },
+  {
+    "id": "supply-chain-integrity",
+    "title": "Public procurement and supply-chain transparency",
+    "goal": "Reduce corruption and illicit diversion in lawful procurement",
+    "kind": "prevention",
+    "slots": [
+      {
+        "seat": "Authorized operator",
+        "tag": "legal"
+      },
+      {
+        "seat": "Independent research",
+        "tag": "data"
+      },
+      {
+        "seat": "Technical safeguards",
+        "tag": "defensive-cyber"
+      },
+      {
+        "seat": "Independent oversight",
+        "tag": "verification"
+      }
+    ],
+    "keyMetric": "Verified supplier controls and reduced exceptions",
+    "legal": "Procurement, sanctions, export control and due process",
+    "fallback": "If consent, authority or evidence fails, stop escalation, preserve humanitarian channels and narrow the action to observable civilian protection."
+  },
+  {
+    "id": "peace-financing",
+    "title": "Outcome-linked civilian peace financing",
+    "goal": "Link recovery support to lawful, verifiable civilian gains",
+    "kind": "settlement",
+    "slots": [
+      {
+        "seat": "Sovereign decision-maker",
+        "tag": "decision"
+      },
+      {
+        "seat": "External diplomatic bridge",
+        "tag": "mediation"
+      },
+      {
+        "seat": "Financial / legal counterpart",
+        "tag": "finance"
+      },
+      {
+        "seat": "Implementation verifier",
+        "tag": "verification"
+      }
+    ],
+    "keyMetric": "Funds tied to confirmed civilian outcomes",
+    "legal": "Financial law, public accountability and rights",
+    "fallback": "If consent, authority or evidence fails, stop escalation, preserve humanitarian channels and narrow the action to observable civilian protection."
+  },
+  {
+    "id": "civilian-consultation",
+    "title": "Inclusive civilian consultation",
+    "goal": "Make affected communities genuine participants",
+    "kind": "diplomacy",
+    "slots": [
+      {
+        "seat": "Direct party / mandate",
+        "tag": "decision"
+      },
+      {
+        "seat": "Facilitator",
+        "tag": "mediation"
+      },
+      {
+        "seat": "Civilian participation",
+        "tag": "civilian"
+      },
+      {
+        "seat": "Review / accountability",
+        "tag": "legal"
+      }
+    ],
+    "keyMetric": "Diverse participation and acted-upon feedback",
+    "legal": "Protection, inclusion and meaningful informed consent",
+    "fallback": "If consent, authority or evidence fails, stop escalation, preserve humanitarian channels and narrow the action to observable civilian protection."
+  },
+  {
+    "id": "risk-forecast",
+    "title": "Scenario planning and catastrophic-failure premortem",
+    "goal": "Anticipate bad-faith compliance, errors and reversals",
+    "kind": "prevention",
+    "slots": [
+      {
+        "seat": "Authorized operator",
+        "tag": "legal"
+      },
+      {
+        "seat": "Independent research",
+        "tag": "data"
+      },
+      {
+        "seat": "Technical safeguards",
+        "tag": "defensive-cyber"
+      },
+      {
+        "seat": "Independent oversight",
+        "tag": "verification"
+      }
+    ],
+    "keyMetric": "Closed high-risk gaps and revised safeguards",
+    "legal": "Uncertainty transparency and non-operational analysis",
+    "fallback": "If consent, authority or evidence fails, stop escalation, preserve humanitarian channels and narrow the action to observable civilian protection."
+  },
+  {
+    "id": "veteran-reintegration",
+    "title": "Veteran and survivor recovery",
+    "goal": "Provide trauma-informed livelihoods and reintegration",
+    "kind": "recovery",
+    "slots": [
+      {
+        "seat": "Affected community",
+        "tag": "civilian"
+      },
+      {
+        "seat": "Project finance",
+        "tag": "finance"
+      },
+      {
+        "seat": "Implementation capacity",
+        "tag": "reconstruction"
+      },
+      {
+        "seat": "Independent oversight",
+        "tag": "verification"
+      }
+    ],
+    "keyMetric": "Durable voluntary support and employment outcomes",
+    "legal": "Disability rights, informed consent and labor law",
+    "fallback": "If consent, authority or evidence fails, stop escalation, preserve humanitarian channels and narrow the action to observable civilian protection."
+  }
+]
