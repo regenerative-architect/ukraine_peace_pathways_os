@@ -1,0 +1,82 @@
+[
+  {
+    "id": "un-charter",
+    "name": "Charter of the United Nations, Articles 2 and 51",
+    "date": "1945-06-26",
+    "class": "LEGAL TEXT",
+    "confidence": "High",
+    "claim": "Sovereign equality, peaceful dispute resolution, prohibition of force and self-defence provide foundational legal constraints.",
+    "url": "https://www.un.org/en/about-us/un-charter/full-text",
+    "implication": "No forced territorial recognition or coercive settlement proposal."
+  },
+  {
+    "id": "ohchr-sep",
+    "name": "OHCHR civilian-protection report: September 2026",
+    "date": "2026-10-15",
+    "class": "VERIFIED MONITORING REPORT",
+    "confidence": "High for documented minimum counts",
+    "claim": "At least 328 civilians killed and 2,105 injured in Ukraine during September 2026 (documented minimum).",
+    "url": "https://ukraine.ohchr.org/en/Protection-of-Civilians-in-Armed-Conflict-September-2026",
+    "implication": "Prioritize verified civilian protection and warn against undercounting."
+  },
+  {
+    "id": "iaea-oct",
+    "name": "Reuters: IAEA-facilitated Zaporizhzhia repair truce",
+    "date": "2026-10-15",
+    "class": "REPORTED DEVELOPMENT",
+    "confidence": "Medium–high; independent repair outcome not established here",
+    "claim": "Rosatom reported a locally scoped IAEA-mediated truce for power-supply repairs.",
+    "url": "https://www.reuters.com/world/russias-rosatom-says-truce-place-zaporizhzhia-power-supply-repairs-2026-10-15/",
+    "implication": "Test narrow technical pause models, not a claim of general ceasefire."
+  },
+  {
+    "id": "osce-feb",
+    "name": "OSCE support for monitoring a negotiated settlement",
+    "date": "2026-02-02",
+    "class": "OFFICIAL POSITION",
+    "confidence": "High",
+    "claim": "OSCE leadership indicated readiness to support implementation monitoring, if authorized.",
+    "url": "https://www.osce.org/chairpersonship/661975",
+    "implication": "Explore consent-based monitoring mandates and funding."
+  },
+  {
+    "id": "icrc-neutral",
+    "name": "ICRC: value of neutrality for humanitarian work",
+    "date": "2025-02-21",
+    "class": "OFFICIAL HUMANITARIAN MANDATE",
+    "confidence": "High",
+    "claim": "Neutral, independent and impartial intermediary activities include repatriation and reconnecting families.",
+    "url": "https://www.icrc.org/en/article/russia-ukraine-international-armed-conflict-value-neutrality-humanitarian-work",
+    "implication": "Respect confidentiality; do not publish sensitive cases or impose advocacy roles."
+  },
+  {
+    "id": "rdna5",
+    "name": "World Bank Group support to Ukraine: March 2026",
+    "date": "2026-03-01",
+    "class": "INSTITUTIONAL ESTIMATE",
+    "confidence": "High for published estimate; projections uncertain",
+    "claim": "February 2026 RDNA5 estimated nearly US$588 billion in reconstruction needs over the following decade.",
+    "url": "https://thedocs.worldbank.org/en/doc/ccf8044b6df7e0dd03f3899580b97d35-0080012026/original/WBG-Support-Ukraine-March-2026.pdf",
+    "implication": "Financing designs need audits, prioritization and local ownership."
+  },
+  {
+    "id": "trystero-doc",
+    "name": "Trystero: official getting started and connection requirements",
+    "date": "2026-10-16",
+    "class": "TECHNICAL DOCUMENTATION CHECKED",
+    "confidence": "High for API at version 0.26.0",
+    "claim": "Both peers must share app ID, room ID, signaling strategy and password; some network pairs need TURN.",
+    "url": "https://trystero.dev/docs/connections/",
+    "implication": "Opt-in peer connection with room-code diagnostics and honest TURN fallback."
+  },
+  {
+    "id": "trystero-strategy",
+    "name": "Trystero: signaling strategies",
+    "date": "2026-10-16",
+    "class": "TECHNICAL DOCUMENTATION CHECKED",
+    "confidence": "High for version 0.26.0",
+    "claim": "Default Trystero uses public Nostr relays; signaling and data transport are distinct.",
+    "url": "https://trystero.dev/docs/signaling-strategies/",
+    "implication": "Never claim network or relay availability in offline mode."
+  }
+]
