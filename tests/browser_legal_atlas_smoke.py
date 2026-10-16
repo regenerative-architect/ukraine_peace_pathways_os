@@ -11,8 +11,8 @@ with sync_playwright() as pw:
   page.set_content(html);page.wait_for_timeout(350)
   if name=='mobile':page.locator('#menuToggle').click()
   page.locator('#routeNav a[href="#/legal"]').click();page.locator('h1').filter(has_text='Legal & institutional').wait_for()
-  assert page.locator('#legalList button').count()==59
-  assert page.locator('#legalCount').inner_text().startswith('59 of 59')
+  assert page.locator('#legalList button').count()==65
+  assert page.locator('#legalCount').inner_text().startswith('65 of 65')
   page.locator('#legalJurisdiction').select_option('ua')
   assert page.locator('#legalList button').count()==4
   page.locator('#legalJurisdiction').select_option('all')
@@ -31,7 +31,7 @@ with sync_playwright() as pw:
   exported=Path(exp.value.path()).read_text()
   assert 'UNVERIFIED' in exported and 'Publisher URL:' in exported
   with page.expect_download() as exp:page.locator('[data-act="legal-export-list"]').click()
-  assert Path(exp.value.path()).read_text().count('https://')>=59
+  assert Path(exp.value.path()).read_text().count('https://')>=65
   with page.expect_download() as exp:page.locator('[data-act="legal-export-json"]').click()
   assert 'schemaVersion' in Path(exp.value.path()).read_text()
   assert page.locator('.legal-inspector').evaluate('(el)=>el.scrollHeight > el.clientHeight')
@@ -46,6 +46,6 @@ with sync_playwright() as pw:
   assert 'legal applicability' in page.locator('#forgeProblem').input_value().lower()
   assert not page.evaluate('document.documentElement.scrollWidth>innerWidth'),name
   assert not errors,errors
-  print('PASS',name,'59 links; jurisdiction, topic and search filters; exports; Forge handoff; independent right scroll; zero JS errors')
+  print('PASS',name,'65 links; jurisdiction, topic and search filters; exports; Forge handoff; independent right scroll; zero JS errors')
   ctx.close()
  browser.close()

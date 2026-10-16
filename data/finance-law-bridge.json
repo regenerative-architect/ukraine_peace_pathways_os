@@ -1,0 +1,1550 @@
+{
+  "schemaVersion": "4.5.0",
+  "asOf": "2026-10-16",
+  "classification": "NONBINDING RESEARCH SCREEN: NO AUTOMATED LEGAL CLEARANCE, FINANCIAL TRANSFER, ACTOR INTENT ATTRIBUTION OR INSTITUTIONAL ENDORSEMENT.",
+  "interpretationRules": [
+    "Legal compatibility source flags identify questions, not permission or prohibitions in a specific transaction.",
+    "One jurisdiction or general licence cannot override additional applicable legal regimes or funder terms.",
+    "Potential/unverified funding relationships must never be elevated to confirmed war financing.",
+    "Legitimate assistance to Ukrainian defense is distinct from financing Russia’s aggression.",
+    "Humanitarian duties are not reciprocal bargaining chips; protected-person information must not be shared.",
+    "Do not infer the legal or commercial effect of a restriction without accurate entity, goods, route, asset, and date facts.",
+    "Post-agreement proposals are not executable as current projects.",
+    "External legal directories and financial-program pages require online re-verification before relying on them."
+  ],
+  "statuses": [
+    {
+      "id": "research-only-unassessed",
+      "label": "Requires independent counsel and authority review"
+    }
+  ],
+  "links": [
+    {
+      "id": "bridge-rus-budget-reparations-ledger",
+      "fundingProfileId": "rus-budget",
+      "regenerativeAlternativeId": "reparations-ledger",
+      "compatibilityMechanismId": "restricted-joint-investment",
+      "jurisdictionIds": [
+        "ru",
+        "ua",
+        "eu",
+        "us",
+        "gb"
+      ],
+      "cooperationMode": "post-agreement",
+      "assessment": "research-only-unassessed",
+      "premise": "Possible Russian-controlled or sanctioned-counterparty nexus; review separately and do not interpret this option as a consented offer.",
+      "legalNexus": "Possible jurisdictions to screen, not a factual finding that their laws all apply. Other countries or instrument-specific frameworks may apply.",
+      "requiredChecks": [
+        "Identify actual parties, entities, payment routes, goods, locations, and currency before attributing a legal nexus.",
+        "Distinguish published funding activity from any future proposal, acceptance, aid diversion, or legal permission.",
+        "Independently screen designated persons, ownership/control, export restrictions and relevant current licences.",
+        "Obtain Ukrainian and other competent authority approvals where required; avoid granting one body another's powers.",
+        "No adverse finding against individual persons, intentional financing allegation, or assumption of Russian/DPRK/Iranian participation is made by this research link.",
+        "This stage cannot be implemented without a new independently authorized and verified agreement or legal resolution; no sanctions relief or shared finance is implied.",
+        "Registration of damage claims, lawful extraordinary yields, immobilised principal, reparations judgments and disbursement authority must be analyzed as separate concepts."
+      ],
+      "stopCondition": "STOP if transaction authorization, legal ownership, sanctions status, counterparty consent, financing source or civilian safeguards are unresolved; do not execute.",
+      "reviewOwner": "Qualified independent counsel and the competent institutional/government authority",
+      "asOf": "2026-10-16"
+    },
+    {
+      "id": "bridge-rus-budget-armistice-verified-incentive",
+      "fundingProfileId": "rus-budget",
+      "regenerativeAlternativeId": "armistice-verified-incentive",
+      "compatibilityMechanismId": "sanctions-relief",
+      "jurisdictionIds": [
+        "ru",
+        "ua",
+        "eu",
+        "us",
+        "gb"
+      ],
+      "cooperationMode": "reciprocal-conditional",
+      "assessment": "research-only-unassessed",
+      "premise": "Possible Russian-controlled or sanctioned-counterparty nexus; review separately and do not interpret this option as a consented offer.",
+      "legalNexus": "Possible jurisdictions to screen, not a factual finding that their laws all apply. Other countries or instrument-specific frameworks may apply.",
+      "requiredChecks": [
+        "Identify actual parties, entities, payment routes, goods, locations, and currency before attributing a legal nexus.",
+        "Distinguish published funding activity from any future proposal, acceptance, aid diversion, or legal permission.",
+        "Independently screen designated persons, ownership/control, export restrictions and relevant current licences.",
+        "Obtain Ukrainian and other competent authority approvals where required; avoid granting one body another's powers.",
+        "No adverse finding against individual persons, intentional financing allegation, or assumption of Russian/DPRK/Iranian participation is made by this research link.",
+        "This stage cannot be implemented without a new independently authorized and verified agreement or legal resolution; no sanctions relief or shared finance is implied."
+      ],
+      "stopCondition": "STOP if transaction authorization, legal ownership, sanctions status, counterparty consent, financing source or civilian safeguards are unresolved; do not execute.",
+      "reviewOwner": "Qualified independent counsel and the competent institutional/government authority",
+      "asOf": "2026-10-16"
+    },
+    {
+      "id": "bridge-rus-hydrocarbon-energy-trade-transparency",
+      "fundingProfileId": "rus-hydrocarbon",
+      "regenerativeAlternativeId": "energy-trade-transparency",
+      "compatibilityMechanismId": "sanctions-relief",
+      "jurisdictionIds": [
+        "ru",
+        "eu",
+        "gb",
+        "us",
+        "in"
+      ],
+      "cooperationMode": "reciprocal-conditional",
+      "assessment": "research-only-unassessed",
+      "premise": "Possible Russian-controlled or sanctioned-counterparty nexus; review separately and do not interpret this option as a consented offer.",
+      "legalNexus": "Possible jurisdictions to screen, not a factual finding that their laws all apply. Other countries or instrument-specific frameworks may apply.",
+      "requiredChecks": [
+        "Identify actual parties, entities, payment routes, goods, locations, and currency before attributing a legal nexus.",
+        "Distinguish published funding activity from any future proposal, acceptance, aid diversion, or legal permission.",
+        "Independently screen designated persons, ownership/control, export restrictions and relevant current licences.",
+        "Obtain Ukrainian and other competent authority approvals where required; avoid granting one body another's powers.",
+        "No adverse finding against individual persons, intentional financing allegation, or assumption of Russian/DPRK/Iranian participation is made by this research link.",
+        "This stage cannot be implemented without a new independently authorized and verified agreement or legal resolution; no sanctions relief or shared finance is implied."
+      ],
+      "stopCondition": "STOP if transaction authorization, legal ownership, sanctions status, counterparty consent, financing source or civilian safeguards are unresolved; do not execute.",
+      "reviewOwner": "Qualified independent counsel and the competent institutional/government authority",
+      "asOf": "2026-10-16"
+    },
+    {
+      "id": "bridge-rus-hydrocarbon-river-basin-repair",
+      "fundingProfileId": "rus-hydrocarbon",
+      "regenerativeAlternativeId": "river-basin-repair",
+      "compatibilityMechanismId": "transboundary-ecology",
+      "jurisdictionIds": [
+        "ru",
+        "eu",
+        "gb",
+        "us",
+        "in"
+      ],
+      "cooperationMode": "post-agreement",
+      "assessment": "research-only-unassessed",
+      "premise": "Possible Russian-controlled or sanctioned-counterparty nexus; review separately and do not interpret this option as a consented offer.",
+      "legalNexus": "Possible jurisdictions to screen, not a factual finding that their laws all apply. Other countries or instrument-specific frameworks may apply.",
+      "requiredChecks": [
+        "Identify actual parties, entities, payment routes, goods, locations, and currency before attributing a legal nexus.",
+        "Distinguish published funding activity from any future proposal, acceptance, aid diversion, or legal permission.",
+        "Independently screen designated persons, ownership/control, export restrictions and relevant current licences.",
+        "Obtain Ukrainian and other competent authority approvals where required; avoid granting one body another's powers.",
+        "No adverse finding against individual persons, intentional financing allegation, or assumption of Russian/DPRK/Iranian participation is made by this research link.",
+        "This stage cannot be implemented without a new independently authorized and verified agreement or legal resolution; no sanctions relief or shared finance is implied."
+      ],
+      "stopCondition": "STOP if transaction authorization, legal ownership, sanctions status, counterparty consent, financing source or civilian safeguards are unresolved; do not execute.",
+      "reviewOwner": "Qualified independent counsel and the competent institutional/government authority",
+      "asOf": "2026-10-16"
+    },
+    {
+      "id": "bridge-rus-military-industry-demobilization-retraining",
+      "fundingProfileId": "rus-military-industry",
+      "regenerativeAlternativeId": "demobilization-retraining",
+      "compatibilityMechanismId": "civilian-industrial-conversion",
+      "jurisdictionIds": [
+        "ru",
+        "ua",
+        "eu",
+        "us",
+        "gb"
+      ],
+      "cooperationMode": "post-agreement",
+      "assessment": "research-only-unassessed",
+      "premise": "Possible Russian-controlled or sanctioned-counterparty nexus; review separately and do not interpret this option as a consented offer.",
+      "legalNexus": "Possible jurisdictions to screen, not a factual finding that their laws all apply. Other countries or instrument-specific frameworks may apply.",
+      "requiredChecks": [
+        "Identify actual parties, entities, payment routes, goods, locations, and currency before attributing a legal nexus.",
+        "Distinguish published funding activity from any future proposal, acceptance, aid diversion, or legal permission.",
+        "Independently screen designated persons, ownership/control, export restrictions and relevant current licences.",
+        "Obtain Ukrainian and other competent authority approvals where required; avoid granting one body another's powers.",
+        "No adverse finding against individual persons, intentional financing allegation, or assumption of Russian/DPRK/Iranian participation is made by this research link.",
+        "This stage cannot be implemented without a new independently authorized and verified agreement or legal resolution; no sanctions relief or shared finance is implied."
+      ],
+      "stopCondition": "STOP if transaction authorization, legal ownership, sanctions status, counterparty consent, financing source or civilian safeguards are unresolved; do not execute.",
+      "reviewOwner": "Qualified independent counsel and the competent institutional/government authority",
+      "asOf": "2026-10-16"
+    },
+    {
+      "id": "bridge-rus-military-industry-armistice-verified-incentive",
+      "fundingProfileId": "rus-military-industry",
+      "regenerativeAlternativeId": "armistice-verified-incentive",
+      "compatibilityMechanismId": "sanctions-relief",
+      "jurisdictionIds": [
+        "ru",
+        "ua",
+        "eu",
+        "us",
+        "gb"
+      ],
+      "cooperationMode": "reciprocal-conditional",
+      "assessment": "research-only-unassessed",
+      "premise": "Possible Russian-controlled or sanctioned-counterparty nexus; review separately and do not interpret this option as a consented offer.",
+      "legalNexus": "Possible jurisdictions to screen, not a factual finding that their laws all apply. Other countries or instrument-specific frameworks may apply.",
+      "requiredChecks": [
+        "Identify actual parties, entities, payment routes, goods, locations, and currency before attributing a legal nexus.",
+        "Distinguish published funding activity from any future proposal, acceptance, aid diversion, or legal permission.",
+        "Independently screen designated persons, ownership/control, export restrictions and relevant current licences.",
+        "Obtain Ukrainian and other competent authority approvals where required; avoid granting one body another's powers.",
+        "No adverse finding against individual persons, intentional financing allegation, or assumption of Russian/DPRK/Iranian participation is made by this research link.",
+        "This stage cannot be implemented without a new independently authorized and verified agreement or legal resolution; no sanctions relief or shared finance is implied."
+      ],
+      "stopCondition": "STOP if transaction authorization, legal ownership, sanctions status, counterparty consent, financing source or civilian safeguards are unresolved; do not execute.",
+      "reviewOwner": "Qualified independent counsel and the competent institutional/government authority",
+      "asOf": "2026-10-16"
+    },
+    {
+      "id": "bridge-dprk-material-armistice-verified-incentive",
+      "fundingProfileId": "dprk-material",
+      "regenerativeAlternativeId": "armistice-verified-incentive",
+      "compatibilityMechanismId": "sanctions-relief",
+      "jurisdictionIds": [
+        "ru",
+        "un",
+        "eu",
+        "us",
+        "ua"
+      ],
+      "cooperationMode": "reciprocal-conditional",
+      "assessment": "research-only-unassessed",
+      "premise": "Possible Russian-controlled or sanctioned-counterparty nexus; review separately and do not interpret this option as a consented offer.",
+      "legalNexus": "Possible jurisdictions to screen, not a factual finding that their laws all apply. Other countries or instrument-specific frameworks may apply.",
+      "requiredChecks": [
+        "Identify actual parties, entities, payment routes, goods, locations, and currency before attributing a legal nexus.",
+        "Distinguish published funding activity from any future proposal, acceptance, aid diversion, or legal permission.",
+        "Independently screen designated persons, ownership/control, export restrictions and relevant current licences.",
+        "Obtain Ukrainian and other competent authority approvals where required; avoid granting one body another's powers.",
+        "No adverse finding against individual persons, intentional financing allegation, or assumption of Russian/DPRK/Iranian participation is made by this research link.",
+        "This stage cannot be implemented without a new independently authorized and verified agreement or legal resolution; no sanctions relief or shared finance is implied."
+      ],
+      "stopCondition": "STOP if transaction authorization, legal ownership, sanctions status, counterparty consent, financing source or civilian safeguards are unresolved; do not execute.",
+      "reviewOwner": "Qualified independent counsel and the competent institutional/government authority",
+      "asOf": "2026-10-16"
+    },
+    {
+      "id": "bridge-dprk-material-civil-society-independent-audit",
+      "fundingProfileId": "dprk-material",
+      "regenerativeAlternativeId": "civil-society-independent-audit",
+      "compatibilityMechanismId": "public-recovery-procurement",
+      "jurisdictionIds": [
+        "ru",
+        "un",
+        "eu",
+        "us",
+        "ua"
+      ],
+      "cooperationMode": "parallel-now",
+      "assessment": "research-only-unassessed",
+      "premise": "Possible Russian-controlled or sanctioned-counterparty nexus; review separately and do not interpret this option as a consented offer.",
+      "legalNexus": "Possible jurisdictions to screen, not a factual finding that their laws all apply. Other countries or instrument-specific frameworks may apply.",
+      "requiredChecks": [
+        "Identify actual parties, entities, payment routes, goods, locations, and currency before attributing a legal nexus.",
+        "Distinguish published funding activity from any future proposal, acceptance, aid diversion, or legal permission.",
+        "Independently screen designated persons, ownership/control, export restrictions and relevant current licences.",
+        "Obtain Ukrainian and other competent authority approvals where required; avoid granting one body another's powers.",
+        "No adverse finding against individual persons, intentional financing allegation, or assumption of Russian/DPRK/Iranian participation is made by this research link."
+      ],
+      "stopCondition": "STOP if transaction authorization, legal ownership, sanctions status, counterparty consent, financing source or civilian safeguards are unresolved; do not execute.",
+      "reviewOwner": "Qualified independent counsel and the competent institutional/government authority",
+      "asOf": "2026-10-16"
+    },
+    {
+      "id": "bridge-iran-material-armistice-verified-incentive",
+      "fundingProfileId": "iran-material",
+      "regenerativeAlternativeId": "armistice-verified-incentive",
+      "compatibilityMechanismId": "sanctions-relief",
+      "jurisdictionIds": [
+        "ru",
+        "un",
+        "eu",
+        "us",
+        "ua"
+      ],
+      "cooperationMode": "reciprocal-conditional",
+      "assessment": "research-only-unassessed",
+      "premise": "Possible Russian-controlled or sanctioned-counterparty nexus; review separately and do not interpret this option as a consented offer.",
+      "legalNexus": "Possible jurisdictions to screen, not a factual finding that their laws all apply. Other countries or instrument-specific frameworks may apply.",
+      "requiredChecks": [
+        "Identify actual parties, entities, payment routes, goods, locations, and currency before attributing a legal nexus.",
+        "Distinguish published funding activity from any future proposal, acceptance, aid diversion, or legal permission.",
+        "Independently screen designated persons, ownership/control, export restrictions and relevant current licences.",
+        "Obtain Ukrainian and other competent authority approvals where required; avoid granting one body another's powers.",
+        "No adverse finding against individual persons, intentional financing allegation, or assumption of Russian/DPRK/Iranian participation is made by this research link.",
+        "This stage cannot be implemented without a new independently authorized and verified agreement or legal resolution; no sanctions relief or shared finance is implied."
+      ],
+      "stopCondition": "STOP if transaction authorization, legal ownership, sanctions status, counterparty consent, financing source or civilian safeguards are unresolved; do not execute.",
+      "reviewOwner": "Qualified independent counsel and the competent institutional/government authority",
+      "asOf": "2026-10-16"
+    },
+    {
+      "id": "bridge-iran-material-civil-society-independent-audit",
+      "fundingProfileId": "iran-material",
+      "regenerativeAlternativeId": "civil-society-independent-audit",
+      "compatibilityMechanismId": "public-recovery-procurement",
+      "jurisdictionIds": [
+        "ru",
+        "un",
+        "eu",
+        "us",
+        "ua"
+      ],
+      "cooperationMode": "parallel-now",
+      "assessment": "research-only-unassessed",
+      "premise": "Possible Russian-controlled or sanctioned-counterparty nexus; review separately and do not interpret this option as a consented offer.",
+      "legalNexus": "Possible jurisdictions to screen, not a factual finding that their laws all apply. Other countries or instrument-specific frameworks may apply.",
+      "requiredChecks": [
+        "Identify actual parties, entities, payment routes, goods, locations, and currency before attributing a legal nexus.",
+        "Distinguish published funding activity from any future proposal, acceptance, aid diversion, or legal permission.",
+        "Independently screen designated persons, ownership/control, export restrictions and relevant current licences.",
+        "Obtain Ukrainian and other competent authority approvals where required; avoid granting one body another's powers.",
+        "No adverse finding against individual persons, intentional financing allegation, or assumption of Russian/DPRK/Iranian participation is made by this research link."
+      ],
+      "stopCondition": "STOP if transaction authorization, legal ownership, sanctions status, counterparty consent, financing source or civilian safeguards are unresolved; do not execute.",
+      "reviewOwner": "Qualified independent counsel and the competent institutional/government authority",
+      "asOf": "2026-10-16"
+    },
+    {
+      "id": "bridge-ua-domestic-dual-budget-windows",
+      "fundingProfileId": "ua-domestic",
+      "regenerativeAlternativeId": "dual-budget-windows",
+      "compatibilityMechanismId": "public-recovery-procurement",
+      "jurisdictionIds": [
+        "ua",
+        "eu",
+        "us"
+      ],
+      "cooperationMode": "parallel-now",
+      "assessment": "research-only-unassessed",
+      "premise": "Illustrative civilian recovery or risk-reduction question; no new funder commitment is evidenced.",
+      "legalNexus": "Possible jurisdictions to screen, not a factual finding that their laws all apply. Other countries or instrument-specific frameworks may apply.",
+      "requiredChecks": [
+        "Identify actual parties, entities, payment routes, goods, locations, and currency before attributing a legal nexus.",
+        "Distinguish published funding activity from any future proposal, acceptance, aid diversion, or legal permission.",
+        "Independently screen designated persons, ownership/control, export restrictions and relevant current licences.",
+        "Obtain Ukrainian and other competent authority approvals where required; avoid granting one body another's powers."
+      ],
+      "stopCondition": "STOP if transaction authorization, legal ownership, sanctions status, counterparty consent, financing source or civilian safeguards are unresolved; do not execute.",
+      "reviewOwner": "Qualified independent counsel and the competent institutional/government authority",
+      "asOf": "2026-10-16"
+    },
+    {
+      "id": "bridge-ua-domestic-veterans-voluntary-skills",
+      "fundingProfileId": "ua-domestic",
+      "regenerativeAlternativeId": "veterans-voluntary-skills",
+      "compatibilityMechanismId": "civilian-industrial-conversion",
+      "jurisdictionIds": [
+        "ua",
+        "eu",
+        "us"
+      ],
+      "cooperationMode": "parallel-now",
+      "assessment": "research-only-unassessed",
+      "premise": "Illustrative civilian recovery or risk-reduction question; no new funder commitment is evidenced.",
+      "legalNexus": "Possible jurisdictions to screen, not a factual finding that their laws all apply. Other countries or instrument-specific frameworks may apply.",
+      "requiredChecks": [
+        "Identify actual parties, entities, payment routes, goods, locations, and currency before attributing a legal nexus.",
+        "Distinguish published funding activity from any future proposal, acceptance, aid diversion, or legal permission.",
+        "Independently screen designated persons, ownership/control, export restrictions and relevant current licences.",
+        "Obtain Ukrainian and other competent authority approvals where required; avoid granting one body another's powers."
+      ],
+      "stopCondition": "STOP if transaction authorization, legal ownership, sanctions status, counterparty consent, financing source or civilian safeguards are unresolved; do not execute.",
+      "reviewOwner": "Qualified independent counsel and the competent institutional/government authority",
+      "asOf": "2026-10-16"
+    },
+    {
+      "id": "bridge-eu-budget-damage-to-investment-pipeline",
+      "fundingProfileId": "eu-budget",
+      "regenerativeAlternativeId": "damage-to-investment-pipeline",
+      "compatibilityMechanismId": "public-recovery-procurement",
+      "jurisdictionIds": [
+        "eu",
+        "ua",
+        "be"
+      ],
+      "cooperationMode": "parallel-now",
+      "assessment": "research-only-unassessed",
+      "premise": "Illustrative civilian recovery or risk-reduction question; no new funder commitment is evidenced.",
+      "legalNexus": "Possible jurisdictions to screen, not a factual finding that their laws all apply. Other countries or instrument-specific frameworks may apply.",
+      "requiredChecks": [
+        "Identify actual parties, entities, payment routes, goods, locations, and currency before attributing a legal nexus.",
+        "Distinguish published funding activity from any future proposal, acceptance, aid diversion, or legal permission.",
+        "Independently screen designated persons, ownership/control, export restrictions and relevant current licences.",
+        "Obtain Ukrainian and other competent authority approvals where required; avoid granting one body another's powers.",
+        "Registration of damage claims, lawful extraordinary yields, immobilised principal, reparations judgments and disbursement authority must be analyzed as separate concepts."
+      ],
+      "stopCondition": "STOP if transaction authorization, legal ownership, sanctions status, counterparty consent, financing source or civilian safeguards are unresolved; do not execute.",
+      "reviewOwner": "Qualified independent counsel and the competent institutional/government authority",
+      "asOf": "2026-10-16"
+    },
+    {
+      "id": "bridge-eu-budget-municipal-food-water",
+      "fundingProfileId": "eu-budget",
+      "regenerativeAlternativeId": "municipal-food-water",
+      "compatibilityMechanismId": "public-recovery-procurement",
+      "jurisdictionIds": [
+        "eu",
+        "ua",
+        "be"
+      ],
+      "cooperationMode": "parallel-now",
+      "assessment": "research-only-unassessed",
+      "premise": "Illustrative civilian recovery or risk-reduction question; no new funder commitment is evidenced.",
+      "legalNexus": "Possible jurisdictions to screen, not a factual finding that their laws all apply. Other countries or instrument-specific frameworks may apply.",
+      "requiredChecks": [
+        "Identify actual parties, entities, payment routes, goods, locations, and currency before attributing a legal nexus.",
+        "Distinguish published funding activity from any future proposal, acceptance, aid diversion, or legal permission.",
+        "Independently screen designated persons, ownership/control, export restrictions and relevant current licences.",
+        "Obtain Ukrainian and other competent authority approvals where required; avoid granting one body another's powers."
+      ],
+      "stopCondition": "STOP if transaction authorization, legal ownership, sanctions status, counterparty consent, financing source or civilian safeguards are unresolved; do not execute.",
+      "reviewOwner": "Qualified independent counsel and the competent institutional/government authority",
+      "asOf": "2026-10-16"
+    },
+    {
+      "id": "bridge-eu-defence-dual-budget-windows",
+      "fundingProfileId": "eu-defence",
+      "regenerativeAlternativeId": "dual-budget-windows",
+      "compatibilityMechanismId": "public-recovery-procurement",
+      "jurisdictionIds": [
+        "eu",
+        "ua",
+        "be"
+      ],
+      "cooperationMode": "parallel-now",
+      "assessment": "research-only-unassessed",
+      "premise": "Illustrative civilian recovery or risk-reduction question; no new funder commitment is evidenced.",
+      "legalNexus": "Possible jurisdictions to screen, not a factual finding that their laws all apply. Other countries or instrument-specific frameworks may apply.",
+      "requiredChecks": [
+        "Identify actual parties, entities, payment routes, goods, locations, and currency before attributing a legal nexus.",
+        "Distinguish published funding activity from any future proposal, acceptance, aid diversion, or legal permission.",
+        "Independently screen designated persons, ownership/control, export restrictions and relevant current licences.",
+        "Obtain Ukrainian and other competent authority approvals where required; avoid granting one body another's powers."
+      ],
+      "stopCondition": "STOP if transaction authorization, legal ownership, sanctions status, counterparty consent, financing source or civilian safeguards are unresolved; do not execute.",
+      "reviewOwner": "Qualified independent counsel and the competent institutional/government authority",
+      "asOf": "2026-10-16"
+    },
+    {
+      "id": "bridge-eu-defence-accredited-mine-food",
+      "fundingProfileId": "eu-defence",
+      "regenerativeAlternativeId": "accredited-mine-food",
+      "compatibilityMechanismId": "mine-land-release",
+      "jurisdictionIds": [
+        "eu",
+        "ua",
+        "be"
+      ],
+      "cooperationMode": "parallel-now",
+      "assessment": "research-only-unassessed",
+      "premise": "Illustrative civilian recovery or risk-reduction question; no new funder commitment is evidenced.",
+      "legalNexus": "Possible jurisdictions to screen, not a factual finding that their laws all apply. Other countries or instrument-specific frameworks may apply.",
+      "requiredChecks": [
+        "Identify actual parties, entities, payment routes, goods, locations, and currency before attributing a legal nexus.",
+        "Distinguish published funding activity from any future proposal, acceptance, aid diversion, or legal permission.",
+        "Independently screen designated persons, ownership/control, export restrictions and relevant current licences.",
+        "Obtain Ukrainian and other competent authority approvals where required; avoid granting one body another's powers.",
+        "Mine clearance and land release require accredited mine-action authorities and verified handover; an AI map is never safety clearance."
+      ],
+      "stopCondition": "STOP if transaction authorization, legal ownership, sanctions status, counterparty consent, financing source or civilian safeguards are unresolved; do not execute.",
+      "reviewOwner": "Qualified independent counsel and the competent institutional/government authority",
+      "asOf": "2026-10-16"
+    },
+    {
+      "id": "bridge-uk-annual-dual-budget-windows",
+      "fundingProfileId": "uk-annual",
+      "regenerativeAlternativeId": "dual-budget-windows",
+      "compatibilityMechanismId": "public-recovery-procurement",
+      "jurisdictionIds": [
+        "gb",
+        "ua",
+        "eu"
+      ],
+      "cooperationMode": "parallel-now",
+      "assessment": "research-only-unassessed",
+      "premise": "Illustrative civilian recovery or risk-reduction question; no new funder commitment is evidenced.",
+      "legalNexus": "Possible jurisdictions to screen, not a factual finding that their laws all apply. Other countries or instrument-specific frameworks may apply.",
+      "requiredChecks": [
+        "Identify actual parties, entities, payment routes, goods, locations, and currency before attributing a legal nexus.",
+        "Distinguish published funding activity from any future proposal, acceptance, aid diversion, or legal permission.",
+        "Independently screen designated persons, ownership/control, export restrictions and relevant current licences.",
+        "Obtain Ukrainian and other competent authority approvals where required; avoid granting one body another's powers."
+      ],
+      "stopCondition": "STOP if transaction authorization, legal ownership, sanctions status, counterparty consent, financing source or civilian safeguards are unresolved; do not execute.",
+      "reviewOwner": "Qualified independent counsel and the competent institutional/government authority",
+      "asOf": "2026-10-16"
+    },
+    {
+      "id": "bridge-uk-annual-accredited-mine-food",
+      "fundingProfileId": "uk-annual",
+      "regenerativeAlternativeId": "accredited-mine-food",
+      "compatibilityMechanismId": "mine-land-release",
+      "jurisdictionIds": [
+        "gb",
+        "ua",
+        "eu"
+      ],
+      "cooperationMode": "parallel-now",
+      "assessment": "research-only-unassessed",
+      "premise": "Illustrative civilian recovery or risk-reduction question; no new funder commitment is evidenced.",
+      "legalNexus": "Possible jurisdictions to screen, not a factual finding that their laws all apply. Other countries or instrument-specific frameworks may apply.",
+      "requiredChecks": [
+        "Identify actual parties, entities, payment routes, goods, locations, and currency before attributing a legal nexus.",
+        "Distinguish published funding activity from any future proposal, acceptance, aid diversion, or legal permission.",
+        "Independently screen designated persons, ownership/control, export restrictions and relevant current licences.",
+        "Obtain Ukrainian and other competent authority approvals where required; avoid granting one body another's powers.",
+        "Mine clearance and land release require accredited mine-action authorities and verified handover; an AI map is never safety clearance."
+      ],
+      "stopCondition": "STOP if transaction authorization, legal ownership, sanctions status, counterparty consent, financing source or civilian safeguards are unresolved; do not execute.",
+      "reviewOwner": "Qualified independent counsel and the competent institutional/government authority",
+      "asOf": "2026-10-16"
+    },
+    {
+      "id": "bridge-norway-nansen-accredited-mine-food",
+      "fundingProfileId": "norway-nansen",
+      "regenerativeAlternativeId": "accredited-mine-food",
+      "compatibilityMechanismId": "mine-land-release",
+      "jurisdictionIds": [
+        "no",
+        "ua",
+        "eu"
+      ],
+      "cooperationMode": "parallel-now",
+      "assessment": "research-only-unassessed",
+      "premise": "Illustrative civilian recovery or risk-reduction question; no new funder commitment is evidenced.",
+      "legalNexus": "Possible jurisdictions to screen, not a factual finding that their laws all apply. Other countries or instrument-specific frameworks may apply.",
+      "requiredChecks": [
+        "Identify actual parties, entities, payment routes, goods, locations, and currency before attributing a legal nexus.",
+        "Distinguish published funding activity from any future proposal, acceptance, aid diversion, or legal permission.",
+        "Independently screen designated persons, ownership/control, export restrictions and relevant current licences.",
+        "Obtain Ukrainian and other competent authority approvals where required; avoid granting one body another's powers.",
+        "Mine clearance and land release require accredited mine-action authorities and verified handover; an AI map is never safety clearance."
+      ],
+      "stopCondition": "STOP if transaction authorization, legal ownership, sanctions status, counterparty consent, financing source or civilian safeguards are unresolved; do not execute.",
+      "reviewOwner": "Qualified independent counsel and the competent institutional/government authority",
+      "asOf": "2026-10-16"
+    },
+    {
+      "id": "bridge-norway-nansen-conditional-energy-infrastructure",
+      "fundingProfileId": "norway-nansen",
+      "regenerativeAlternativeId": "conditional-energy-infrastructure",
+      "compatibilityMechanismId": "grid-reconstruction",
+      "jurisdictionIds": [
+        "no",
+        "ua",
+        "eu"
+      ],
+      "cooperationMode": "reciprocal-conditional",
+      "assessment": "research-only-unassessed",
+      "premise": "Illustrative civilian recovery or risk-reduction question; no new funder commitment is evidenced.",
+      "legalNexus": "Possible jurisdictions to screen, not a factual finding that their laws all apply. Other countries or instrument-specific frameworks may apply.",
+      "requiredChecks": [
+        "Identify actual parties, entities, payment routes, goods, locations, and currency before attributing a legal nexus.",
+        "Distinguish published funding activity from any future proposal, acceptance, aid diversion, or legal permission.",
+        "Independently screen designated persons, ownership/control, export restrictions and relevant current licences.",
+        "Obtain Ukrainian and other competent authority approvals where required; avoid granting one body another's powers.",
+        "This stage cannot be implemented without a new independently authorized and verified agreement or legal resolution; no sanctions relief or shared finance is implied."
+      ],
+      "stopCondition": "STOP if transaction authorization, legal ownership, sanctions status, counterparty consent, financing source or civilian safeguards are unresolved; do not execute.",
+      "reviewOwner": "Qualified independent counsel and the competent institutional/government authority",
+      "asOf": "2026-10-16"
+    },
+    {
+      "id": "bridge-sweden-framework-dual-budget-windows",
+      "fundingProfileId": "sweden-framework",
+      "regenerativeAlternativeId": "dual-budget-windows",
+      "compatibilityMechanismId": "public-recovery-procurement",
+      "jurisdictionIds": [
+        "se",
+        "eu",
+        "ua"
+      ],
+      "cooperationMode": "parallel-now",
+      "assessment": "research-only-unassessed",
+      "premise": "Illustrative civilian recovery or risk-reduction question; no new funder commitment is evidenced.",
+      "legalNexus": "Possible jurisdictions to screen, not a factual finding that their laws all apply. Other countries or instrument-specific frameworks may apply.",
+      "requiredChecks": [
+        "Identify actual parties, entities, payment routes, goods, locations, and currency before attributing a legal nexus.",
+        "Distinguish published funding activity from any future proposal, acceptance, aid diversion, or legal permission.",
+        "Independently screen designated persons, ownership/control, export restrictions and relevant current licences.",
+        "Obtain Ukrainian and other competent authority approvals where required; avoid granting one body another's powers."
+      ],
+      "stopCondition": "STOP if transaction authorization, legal ownership, sanctions status, counterparty consent, financing source or civilian safeguards are unresolved; do not execute.",
+      "reviewOwner": "Qualified independent counsel and the competent institutional/government authority",
+      "asOf": "2026-10-16"
+    },
+    {
+      "id": "bridge-sweden-framework-civil-society-independent-audit",
+      "fundingProfileId": "sweden-framework",
+      "regenerativeAlternativeId": "civil-society-independent-audit",
+      "compatibilityMechanismId": "public-recovery-procurement",
+      "jurisdictionIds": [
+        "se",
+        "eu",
+        "ua"
+      ],
+      "cooperationMode": "parallel-now",
+      "assessment": "research-only-unassessed",
+      "premise": "Illustrative civilian recovery or risk-reduction question; no new funder commitment is evidenced.",
+      "legalNexus": "Possible jurisdictions to screen, not a factual finding that their laws all apply. Other countries or instrument-specific frameworks may apply.",
+      "requiredChecks": [
+        "Identify actual parties, entities, payment routes, goods, locations, and currency before attributing a legal nexus.",
+        "Distinguish published funding activity from any future proposal, acceptance, aid diversion, or legal permission.",
+        "Independently screen designated persons, ownership/control, export restrictions and relevant current licences.",
+        "Obtain Ukrainian and other competent authority approvals where required; avoid granting one body another's powers."
+      ],
+      "stopCondition": "STOP if transaction authorization, legal ownership, sanctions status, counterparty consent, financing source or civilian safeguards are unresolved; do not execute.",
+      "reviewOwner": "Qualified independent counsel and the competent institutional/government authority",
+      "asOf": "2026-10-16"
+    },
+    {
+      "id": "bridge-germany-support-conditional-energy-infrastructure",
+      "fundingProfileId": "germany-support",
+      "regenerativeAlternativeId": "conditional-energy-infrastructure",
+      "compatibilityMechanismId": "grid-reconstruction",
+      "jurisdictionIds": [
+        "de",
+        "eu",
+        "ua"
+      ],
+      "cooperationMode": "reciprocal-conditional",
+      "assessment": "research-only-unassessed",
+      "premise": "Illustrative civilian recovery or risk-reduction question; no new funder commitment is evidenced.",
+      "legalNexus": "Possible jurisdictions to screen, not a factual finding that their laws all apply. Other countries or instrument-specific frameworks may apply.",
+      "requiredChecks": [
+        "Identify actual parties, entities, payment routes, goods, locations, and currency before attributing a legal nexus.",
+        "Distinguish published funding activity from any future proposal, acceptance, aid diversion, or legal permission.",
+        "Independently screen designated persons, ownership/control, export restrictions and relevant current licences.",
+        "Obtain Ukrainian and other competent authority approvals where required; avoid granting one body another's powers.",
+        "This stage cannot be implemented without a new independently authorized and verified agreement or legal resolution; no sanctions relief or shared finance is implied."
+      ],
+      "stopCondition": "STOP if transaction authorization, legal ownership, sanctions status, counterparty consent, financing source or civilian safeguards are unresolved; do not execute.",
+      "reviewOwner": "Qualified independent counsel and the competent institutional/government authority",
+      "asOf": "2026-10-16"
+    },
+    {
+      "id": "bridge-germany-support-accredited-mine-food",
+      "fundingProfileId": "germany-support",
+      "regenerativeAlternativeId": "accredited-mine-food",
+      "compatibilityMechanismId": "mine-land-release",
+      "jurisdictionIds": [
+        "de",
+        "eu",
+        "ua"
+      ],
+      "cooperationMode": "parallel-now",
+      "assessment": "research-only-unassessed",
+      "premise": "Illustrative civilian recovery or risk-reduction question; no new funder commitment is evidenced.",
+      "legalNexus": "Possible jurisdictions to screen, not a factual finding that their laws all apply. Other countries or instrument-specific frameworks may apply.",
+      "requiredChecks": [
+        "Identify actual parties, entities, payment routes, goods, locations, and currency before attributing a legal nexus.",
+        "Distinguish published funding activity from any future proposal, acceptance, aid diversion, or legal permission.",
+        "Independently screen designated persons, ownership/control, export restrictions and relevant current licences.",
+        "Obtain Ukrainian and other competent authority approvals where required; avoid granting one body another's powers.",
+        "Mine clearance and land release require accredited mine-action authorities and verified handover; an AI map is never safety clearance."
+      ],
+      "stopCondition": "STOP if transaction authorization, legal ownership, sanctions status, counterparty consent, financing source or civilian safeguards are unresolved; do not execute.",
+      "reviewOwner": "Qualified independent counsel and the competent institutional/government authority",
+      "asOf": "2026-10-16"
+    },
+    {
+      "id": "bridge-canada-support-accredited-mine-food",
+      "fundingProfileId": "canada-support",
+      "regenerativeAlternativeId": "accredited-mine-food",
+      "compatibilityMechanismId": "mine-land-release",
+      "jurisdictionIds": [
+        "ca",
+        "ua",
+        "us"
+      ],
+      "cooperationMode": "parallel-now",
+      "assessment": "research-only-unassessed",
+      "premise": "Illustrative civilian recovery or risk-reduction question; no new funder commitment is evidenced.",
+      "legalNexus": "Possible jurisdictions to screen, not a factual finding that their laws all apply. Other countries or instrument-specific frameworks may apply.",
+      "requiredChecks": [
+        "Identify actual parties, entities, payment routes, goods, locations, and currency before attributing a legal nexus.",
+        "Distinguish published funding activity from any future proposal, acceptance, aid diversion, or legal permission.",
+        "Independently screen designated persons, ownership/control, export restrictions and relevant current licences.",
+        "Obtain Ukrainian and other competent authority approvals where required; avoid granting one body another's powers.",
+        "Mine clearance and land release require accredited mine-action authorities and verified handover; an AI map is never safety clearance."
+      ],
+      "stopCondition": "STOP if transaction authorization, legal ownership, sanctions status, counterparty consent, financing source or civilian safeguards are unresolved; do not execute.",
+      "reviewOwner": "Qualified independent counsel and the competent institutional/government authority",
+      "asOf": "2026-10-16"
+    },
+    {
+      "id": "bridge-canada-support-dual-budget-windows",
+      "fundingProfileId": "canada-support",
+      "regenerativeAlternativeId": "dual-budget-windows",
+      "compatibilityMechanismId": "public-recovery-procurement",
+      "jurisdictionIds": [
+        "ca",
+        "ua",
+        "us"
+      ],
+      "cooperationMode": "parallel-now",
+      "assessment": "research-only-unassessed",
+      "premise": "Illustrative civilian recovery or risk-reduction question; no new funder commitment is evidenced.",
+      "legalNexus": "Possible jurisdictions to screen, not a factual finding that their laws all apply. Other countries or instrument-specific frameworks may apply.",
+      "requiredChecks": [
+        "Identify actual parties, entities, payment routes, goods, locations, and currency before attributing a legal nexus.",
+        "Distinguish published funding activity from any future proposal, acceptance, aid diversion, or legal permission.",
+        "Independently screen designated persons, ownership/control, export restrictions and relevant current licences.",
+        "Obtain Ukrainian and other competent authority approvals where required; avoid granting one body another's powers."
+      ],
+      "stopCondition": "STOP if transaction authorization, legal ownership, sanctions status, counterparty consent, financing source or civilian safeguards are unresolved; do not execute.",
+      "reviewOwner": "Qualified independent counsel and the competent institutional/government authority",
+      "asOf": "2026-10-16"
+    },
+    {
+      "id": "bridge-netherlands-defence-accredited-mine-food",
+      "fundingProfileId": "netherlands-defence",
+      "regenerativeAlternativeId": "accredited-mine-food",
+      "compatibilityMechanismId": "mine-land-release",
+      "jurisdictionIds": [
+        "nl",
+        "eu",
+        "ua"
+      ],
+      "cooperationMode": "parallel-now",
+      "assessment": "research-only-unassessed",
+      "premise": "Illustrative civilian recovery or risk-reduction question; no new funder commitment is evidenced.",
+      "legalNexus": "Possible jurisdictions to screen, not a factual finding that their laws all apply. Other countries or instrument-specific frameworks may apply.",
+      "requiredChecks": [
+        "Identify actual parties, entities, payment routes, goods, locations, and currency before attributing a legal nexus.",
+        "Distinguish published funding activity from any future proposal, acceptance, aid diversion, or legal permission.",
+        "Independently screen designated persons, ownership/control, export restrictions and relevant current licences.",
+        "Obtain Ukrainian and other competent authority approvals where required; avoid granting one body another's powers.",
+        "Mine clearance and land release require accredited mine-action authorities and verified handover; an AI map is never safety clearance."
+      ],
+      "stopCondition": "STOP if transaction authorization, legal ownership, sanctions status, counterparty consent, financing source or civilian safeguards are unresolved; do not execute.",
+      "reviewOwner": "Qualified independent counsel and the competent institutional/government authority",
+      "asOf": "2026-10-16"
+    },
+    {
+      "id": "bridge-netherlands-defence-industrial-voluntary-dividends",
+      "fundingProfileId": "netherlands-defence",
+      "regenerativeAlternativeId": "industrial-voluntary-dividends",
+      "compatibilityMechanismId": "civilian-industrial-conversion",
+      "jurisdictionIds": [
+        "nl",
+        "eu",
+        "ua"
+      ],
+      "cooperationMode": "parallel-now",
+      "assessment": "research-only-unassessed",
+      "premise": "Illustrative civilian recovery or risk-reduction question; no new funder commitment is evidenced.",
+      "legalNexus": "Possible jurisdictions to screen, not a factual finding that their laws all apply. Other countries or instrument-specific frameworks may apply.",
+      "requiredChecks": [
+        "Identify actual parties, entities, payment routes, goods, locations, and currency before attributing a legal nexus.",
+        "Distinguish published funding activity from any future proposal, acceptance, aid diversion, or legal permission.",
+        "Independently screen designated persons, ownership/control, export restrictions and relevant current licences.",
+        "Obtain Ukrainian and other competent authority approvals where required; avoid granting one body another's powers."
+      ],
+      "stopCondition": "STOP if transaction authorization, legal ownership, sanctions status, counterparty consent, financing source or civilian safeguards are unresolved; do not execute.",
+      "reviewOwner": "Qualified independent counsel and the competent institutional/government authority",
+      "asOf": "2026-10-16"
+    },
+    {
+      "id": "bridge-netherlands-recovery-municipal-food-water",
+      "fundingProfileId": "netherlands-recovery",
+      "regenerativeAlternativeId": "municipal-food-water",
+      "compatibilityMechanismId": "public-recovery-procurement",
+      "jurisdictionIds": [
+        "nl",
+        "eu",
+        "ua"
+      ],
+      "cooperationMode": "parallel-now",
+      "assessment": "research-only-unassessed",
+      "premise": "Illustrative civilian recovery or risk-reduction question; no new funder commitment is evidenced.",
+      "legalNexus": "Possible jurisdictions to screen, not a factual finding that their laws all apply. Other countries or instrument-specific frameworks may apply.",
+      "requiredChecks": [
+        "Identify actual parties, entities, payment routes, goods, locations, and currency before attributing a legal nexus.",
+        "Distinguish published funding activity from any future proposal, acceptance, aid diversion, or legal permission.",
+        "Independently screen designated persons, ownership/control, export restrictions and relevant current licences.",
+        "Obtain Ukrainian and other competent authority approvals where required; avoid granting one body another's powers."
+      ],
+      "stopCondition": "STOP if transaction authorization, legal ownership, sanctions status, counterparty consent, financing source or civilian safeguards are unresolved; do not execute.",
+      "reviewOwner": "Qualified independent counsel and the competent institutional/government authority",
+      "asOf": "2026-10-16"
+    },
+    {
+      "id": "bridge-netherlands-recovery-urban-circular-reconstruction",
+      "fundingProfileId": "netherlands-recovery",
+      "regenerativeAlternativeId": "urban-circular-reconstruction",
+      "compatibilityMechanismId": "public-recovery-procurement",
+      "jurisdictionIds": [
+        "nl",
+        "eu",
+        "ua"
+      ],
+      "cooperationMode": "parallel-now",
+      "assessment": "research-only-unassessed",
+      "premise": "Illustrative civilian recovery or risk-reduction question; no new funder commitment is evidenced.",
+      "legalNexus": "Possible jurisdictions to screen, not a factual finding that their laws all apply. Other countries or instrument-specific frameworks may apply.",
+      "requiredChecks": [
+        "Identify actual parties, entities, payment routes, goods, locations, and currency before attributing a legal nexus.",
+        "Distinguish published funding activity from any future proposal, acceptance, aid diversion, or legal permission.",
+        "Independently screen designated persons, ownership/control, export restrictions and relevant current licences.",
+        "Obtain Ukrainian and other competent authority approvals where required; avoid granting one body another's powers."
+      ],
+      "stopCondition": "STOP if transaction authorization, legal ownership, sanctions status, counterparty consent, financing source or civilian safeguards are unresolved; do not execute.",
+      "reviewOwner": "Qualified independent counsel and the competent institutional/government authority",
+      "asOf": "2026-10-16"
+    },
+    {
+      "id": "bridge-denmark-support-municipal-food-water",
+      "fundingProfileId": "denmark-support",
+      "regenerativeAlternativeId": "municipal-food-water",
+      "compatibilityMechanismId": "public-recovery-procurement",
+      "jurisdictionIds": [
+        "dk",
+        "eu",
+        "ua"
+      ],
+      "cooperationMode": "parallel-now",
+      "assessment": "research-only-unassessed",
+      "premise": "Illustrative civilian recovery or risk-reduction question; no new funder commitment is evidenced.",
+      "legalNexus": "Possible jurisdictions to screen, not a factual finding that their laws all apply. Other countries or instrument-specific frameworks may apply.",
+      "requiredChecks": [
+        "Identify actual parties, entities, payment routes, goods, locations, and currency before attributing a legal nexus.",
+        "Distinguish published funding activity from any future proposal, acceptance, aid diversion, or legal permission.",
+        "Independently screen designated persons, ownership/control, export restrictions and relevant current licences.",
+        "Obtain Ukrainian and other competent authority approvals where required; avoid granting one body another's powers."
+      ],
+      "stopCondition": "STOP if transaction authorization, legal ownership, sanctions status, counterparty consent, financing source or civilian safeguards are unresolved; do not execute.",
+      "reviewOwner": "Qualified independent counsel and the competent institutional/government authority",
+      "asOf": "2026-10-16"
+    },
+    {
+      "id": "bridge-denmark-support-accredited-mine-food",
+      "fundingProfileId": "denmark-support",
+      "regenerativeAlternativeId": "accredited-mine-food",
+      "compatibilityMechanismId": "mine-land-release",
+      "jurisdictionIds": [
+        "dk",
+        "eu",
+        "ua"
+      ],
+      "cooperationMode": "parallel-now",
+      "assessment": "research-only-unassessed",
+      "premise": "Illustrative civilian recovery or risk-reduction question; no new funder commitment is evidenced.",
+      "legalNexus": "Possible jurisdictions to screen, not a factual finding that their laws all apply. Other countries or instrument-specific frameworks may apply.",
+      "requiredChecks": [
+        "Identify actual parties, entities, payment routes, goods, locations, and currency before attributing a legal nexus.",
+        "Distinguish published funding activity from any future proposal, acceptance, aid diversion, or legal permission.",
+        "Independently screen designated persons, ownership/control, export restrictions and relevant current licences.",
+        "Obtain Ukrainian and other competent authority approvals where required; avoid granting one body another's powers.",
+        "Mine clearance and land release require accredited mine-action authorities and verified handover; an AI map is never safety clearance."
+      ],
+      "stopCondition": "STOP if transaction authorization, legal ownership, sanctions status, counterparty consent, financing source or civilian safeguards are unresolved; do not execute.",
+      "reviewOwner": "Qualified independent counsel and the competent institutional/government authority",
+      "asOf": "2026-10-16"
+    },
+    {
+      "id": "bridge-us-history-dual-budget-windows",
+      "fundingProfileId": "us-history",
+      "regenerativeAlternativeId": "dual-budget-windows",
+      "compatibilityMechanismId": "public-recovery-procurement",
+      "jurisdictionIds": [
+        "us",
+        "ua",
+        "eu"
+      ],
+      "cooperationMode": "parallel-now",
+      "assessment": "research-only-unassessed",
+      "premise": "Illustrative civilian recovery or risk-reduction question; no new funder commitment is evidenced.",
+      "legalNexus": "Possible jurisdictions to screen, not a factual finding that their laws all apply. Other countries or instrument-specific frameworks may apply.",
+      "requiredChecks": [
+        "Identify actual parties, entities, payment routes, goods, locations, and currency before attributing a legal nexus.",
+        "Distinguish published funding activity from any future proposal, acceptance, aid diversion, or legal permission.",
+        "Independently screen designated persons, ownership/control, export restrictions and relevant current licences.",
+        "Obtain Ukrainian and other competent authority approvals where required; avoid granting one body another's powers."
+      ],
+      "stopCondition": "STOP if transaction authorization, legal ownership, sanctions status, counterparty consent, financing source or civilian safeguards are unresolved; do not execute.",
+      "reviewOwner": "Qualified independent counsel and the competent institutional/government authority",
+      "asOf": "2026-10-16"
+    },
+    {
+      "id": "bridge-us-history-veterans-voluntary-skills",
+      "fundingProfileId": "us-history",
+      "regenerativeAlternativeId": "veterans-voluntary-skills",
+      "compatibilityMechanismId": "civilian-industrial-conversion",
+      "jurisdictionIds": [
+        "us",
+        "ua",
+        "eu"
+      ],
+      "cooperationMode": "parallel-now",
+      "assessment": "research-only-unassessed",
+      "premise": "Illustrative civilian recovery or risk-reduction question; no new funder commitment is evidenced.",
+      "legalNexus": "Possible jurisdictions to screen, not a factual finding that their laws all apply. Other countries or instrument-specific frameworks may apply.",
+      "requiredChecks": [
+        "Identify actual parties, entities, payment routes, goods, locations, and currency before attributing a legal nexus.",
+        "Distinguish published funding activity from any future proposal, acceptance, aid diversion, or legal permission.",
+        "Independently screen designated persons, ownership/control, export restrictions and relevant current licences.",
+        "Obtain Ukrainian and other competent authority approvals where required; avoid granting one body another's powers."
+      ],
+      "stopCondition": "STOP if transaction authorization, legal ownership, sanctions status, counterparty consent, financing source or civilian safeguards are unresolved; do not execute.",
+      "reviewOwner": "Qualified independent counsel and the competent institutional/government authority",
+      "asOf": "2026-10-16"
+    },
+    {
+      "id": "bridge-poland-arms-veterans-voluntary-skills",
+      "fundingProfileId": "poland-arms",
+      "regenerativeAlternativeId": "veterans-voluntary-skills",
+      "compatibilityMechanismId": "civilian-industrial-conversion",
+      "jurisdictionIds": [
+        "pl",
+        "eu",
+        "ua"
+      ],
+      "cooperationMode": "parallel-now",
+      "assessment": "research-only-unassessed",
+      "premise": "Illustrative civilian recovery or risk-reduction question; no new funder commitment is evidenced.",
+      "legalNexus": "Possible jurisdictions to screen, not a factual finding that their laws all apply. Other countries or instrument-specific frameworks may apply.",
+      "requiredChecks": [
+        "Identify actual parties, entities, payment routes, goods, locations, and currency before attributing a legal nexus.",
+        "Distinguish published funding activity from any future proposal, acceptance, aid diversion, or legal permission.",
+        "Independently screen designated persons, ownership/control, export restrictions and relevant current licences.",
+        "Obtain Ukrainian and other competent authority approvals where required; avoid granting one body another's powers."
+      ],
+      "stopCondition": "STOP if transaction authorization, legal ownership, sanctions status, counterparty consent, financing source or civilian safeguards are unresolved; do not execute.",
+      "reviewOwner": "Qualified independent counsel and the competent institutional/government authority",
+      "asOf": "2026-10-16"
+    },
+    {
+      "id": "bridge-poland-arms-accredited-mine-food",
+      "fundingProfileId": "poland-arms",
+      "regenerativeAlternativeId": "accredited-mine-food",
+      "compatibilityMechanismId": "mine-land-release",
+      "jurisdictionIds": [
+        "pl",
+        "eu",
+        "ua"
+      ],
+      "cooperationMode": "parallel-now",
+      "assessment": "research-only-unassessed",
+      "premise": "Illustrative civilian recovery or risk-reduction question; no new funder commitment is evidenced.",
+      "legalNexus": "Possible jurisdictions to screen, not a factual finding that their laws all apply. Other countries or instrument-specific frameworks may apply.",
+      "requiredChecks": [
+        "Identify actual parties, entities, payment routes, goods, locations, and currency before attributing a legal nexus.",
+        "Distinguish published funding activity from any future proposal, acceptance, aid diversion, or legal permission.",
+        "Independently screen designated persons, ownership/control, export restrictions and relevant current licences.",
+        "Obtain Ukrainian and other competent authority approvals where required; avoid granting one body another's powers.",
+        "Mine clearance and land release require accredited mine-action authorities and verified handover; an AI map is never safety clearance."
+      ],
+      "stopCondition": "STOP if transaction authorization, legal ownership, sanctions status, counterparty consent, financing source or civilian safeguards are unresolved; do not execute.",
+      "reviewOwner": "Qualified independent counsel and the competent institutional/government authority",
+      "asOf": "2026-10-16"
+    },
+    {
+      "id": "bridge-france-support-conditional-energy-infrastructure",
+      "fundingProfileId": "france-support",
+      "regenerativeAlternativeId": "conditional-energy-infrastructure",
+      "compatibilityMechanismId": "grid-reconstruction",
+      "jurisdictionIds": [
+        "fr",
+        "eu",
+        "ua"
+      ],
+      "cooperationMode": "reciprocal-conditional",
+      "assessment": "research-only-unassessed",
+      "premise": "Illustrative civilian recovery or risk-reduction question; no new funder commitment is evidenced.",
+      "legalNexus": "Possible jurisdictions to screen, not a factual finding that their laws all apply. Other countries or instrument-specific frameworks may apply.",
+      "requiredChecks": [
+        "Identify actual parties, entities, payment routes, goods, locations, and currency before attributing a legal nexus.",
+        "Distinguish published funding activity from any future proposal, acceptance, aid diversion, or legal permission.",
+        "Independently screen designated persons, ownership/control, export restrictions and relevant current licences.",
+        "Obtain Ukrainian and other competent authority approvals where required; avoid granting one body another's powers.",
+        "This stage cannot be implemented without a new independently authorized and verified agreement or legal resolution; no sanctions relief or shared finance is implied."
+      ],
+      "stopCondition": "STOP if transaction authorization, legal ownership, sanctions status, counterparty consent, financing source or civilian safeguards are unresolved; do not execute.",
+      "reviewOwner": "Qualified independent counsel and the competent institutional/government authority",
+      "asOf": "2026-10-16"
+    },
+    {
+      "id": "bridge-france-support-urban-circular-reconstruction",
+      "fundingProfileId": "france-support",
+      "regenerativeAlternativeId": "urban-circular-reconstruction",
+      "compatibilityMechanismId": "public-recovery-procurement",
+      "jurisdictionIds": [
+        "fr",
+        "eu",
+        "ua"
+      ],
+      "cooperationMode": "parallel-now",
+      "assessment": "research-only-unassessed",
+      "premise": "Illustrative civilian recovery or risk-reduction question; no new funder commitment is evidenced.",
+      "legalNexus": "Possible jurisdictions to screen, not a factual finding that their laws all apply. Other countries or instrument-specific frameworks may apply.",
+      "requiredChecks": [
+        "Identify actual parties, entities, payment routes, goods, locations, and currency before attributing a legal nexus.",
+        "Distinguish published funding activity from any future proposal, acceptance, aid diversion, or legal permission.",
+        "Independently screen designated persons, ownership/control, export restrictions and relevant current licences.",
+        "Obtain Ukrainian and other competent authority approvals where required; avoid granting one body another's powers."
+      ],
+      "stopCondition": "STOP if transaction authorization, legal ownership, sanctions status, counterparty consent, financing source or civilian safeguards are unresolved; do not execute.",
+      "reviewOwner": "Qualified independent counsel and the competent institutional/government authority",
+      "asOf": "2026-10-16"
+    },
+    {
+      "id": "bridge-finland-support-accredited-mine-food",
+      "fundingProfileId": "finland-support",
+      "regenerativeAlternativeId": "accredited-mine-food",
+      "compatibilityMechanismId": "mine-land-release",
+      "jurisdictionIds": [
+        "fi",
+        "eu",
+        "ua"
+      ],
+      "cooperationMode": "parallel-now",
+      "assessment": "research-only-unassessed",
+      "premise": "Illustrative civilian recovery or risk-reduction question; no new funder commitment is evidenced.",
+      "legalNexus": "Possible jurisdictions to screen, not a factual finding that their laws all apply. Other countries or instrument-specific frameworks may apply.",
+      "requiredChecks": [
+        "Identify actual parties, entities, payment routes, goods, locations, and currency before attributing a legal nexus.",
+        "Distinguish published funding activity from any future proposal, acceptance, aid diversion, or legal permission.",
+        "Independently screen designated persons, ownership/control, export restrictions and relevant current licences.",
+        "Obtain Ukrainian and other competent authority approvals where required; avoid granting one body another's powers.",
+        "Mine clearance and land release require accredited mine-action authorities and verified handover; an AI map is never safety clearance."
+      ],
+      "stopCondition": "STOP if transaction authorization, legal ownership, sanctions status, counterparty consent, financing source or civilian safeguards are unresolved; do not execute.",
+      "reviewOwner": "Qualified independent counsel and the competent institutional/government authority",
+      "asOf": "2026-10-16"
+    },
+    {
+      "id": "bridge-finland-support-industrial-voluntary-dividends",
+      "fundingProfileId": "finland-support",
+      "regenerativeAlternativeId": "industrial-voluntary-dividends",
+      "compatibilityMechanismId": "civilian-industrial-conversion",
+      "jurisdictionIds": [
+        "fi",
+        "eu",
+        "ua"
+      ],
+      "cooperationMode": "parallel-now",
+      "assessment": "research-only-unassessed",
+      "premise": "Illustrative civilian recovery or risk-reduction question; no new funder commitment is evidenced.",
+      "legalNexus": "Possible jurisdictions to screen, not a factual finding that their laws all apply. Other countries or instrument-specific frameworks may apply.",
+      "requiredChecks": [
+        "Identify actual parties, entities, payment routes, goods, locations, and currency before attributing a legal nexus.",
+        "Distinguish published funding activity from any future proposal, acceptance, aid diversion, or legal permission.",
+        "Independently screen designated persons, ownership/control, export restrictions and relevant current licences.",
+        "Obtain Ukrainian and other competent authority approvals where required; avoid granting one body another's powers."
+      ],
+      "stopCondition": "STOP if transaction authorization, legal ownership, sanctions status, counterparty consent, financing source or civilian safeguards are unresolved; do not execute.",
+      "reviewOwner": "Qualified independent counsel and the competent institutional/government authority",
+      "asOf": "2026-10-16"
+    },
+    {
+      "id": "bridge-g7-era-damage-to-investment-pipeline",
+      "fundingProfileId": "g7-era",
+      "regenerativeAlternativeId": "damage-to-investment-pipeline",
+      "compatibilityMechanismId": "extraordinary-revenue",
+      "jurisdictionIds": [
+        "eu",
+        "be",
+        "us",
+        "gb",
+        "ca",
+        "ua"
+      ],
+      "cooperationMode": "parallel-now",
+      "assessment": "research-only-unassessed",
+      "premise": "Illustrative civilian recovery or risk-reduction question; no new funder commitment is evidenced. Institutional constituent charters, procurement rules and any borrower/project contracts have NOT been evaluated by the national legislative atlas.",
+      "legalNexus": "Possible jurisdictions to screen, not a factual finding that their laws all apply. Other countries or instrument-specific frameworks may apply.",
+      "requiredChecks": [
+        "Identify actual parties, entities, payment routes, goods, locations, and currency before attributing a legal nexus.",
+        "Distinguish published funding activity from any future proposal, acceptance, aid diversion, or legal permission.",
+        "Independently screen designated persons, ownership/control, export restrictions and relevant current licences.",
+        "Obtain Ukrainian and other competent authority approvals where required; avoid granting one body another's powers.",
+        "Registration of damage claims, lawful extraordinary yields, immobilised principal, reparations judgments and disbursement authority must be analyzed as separate concepts."
+      ],
+      "stopCondition": "STOP if transaction authorization, legal ownership, sanctions status, counterparty consent, financing source or civilian safeguards are unresolved; do not execute.",
+      "reviewOwner": "Qualified independent counsel and the competent institutional/government authority",
+      "asOf": "2026-10-16"
+    },
+    {
+      "id": "bridge-g7-era-reparations-ledger",
+      "fundingProfileId": "g7-era",
+      "regenerativeAlternativeId": "reparations-ledger",
+      "compatibilityMechanismId": "immobilised-principal",
+      "jurisdictionIds": [
+        "eu",
+        "be",
+        "us",
+        "gb",
+        "ca",
+        "ua"
+      ],
+      "cooperationMode": "post-agreement",
+      "assessment": "research-only-unassessed",
+      "premise": "Illustrative civilian recovery or risk-reduction question; no new funder commitment is evidenced. Institutional constituent charters, procurement rules and any borrower/project contracts have NOT been evaluated by the national legislative atlas.",
+      "legalNexus": "Possible jurisdictions to screen, not a factual finding that their laws all apply. Other countries or instrument-specific frameworks may apply.",
+      "requiredChecks": [
+        "Identify actual parties, entities, payment routes, goods, locations, and currency before attributing a legal nexus.",
+        "Distinguish published funding activity from any future proposal, acceptance, aid diversion, or legal permission.",
+        "Independently screen designated persons, ownership/control, export restrictions and relevant current licences.",
+        "Obtain Ukrainian and other competent authority approvals where required; avoid granting one body another's powers.",
+        "This stage cannot be implemented without a new independently authorized and verified agreement or legal resolution; no sanctions relief or shared finance is implied.",
+        "Registration of damage claims, lawful extraordinary yields, immobilised principal, reparations judgments and disbursement authority must be analyzed as separate concepts."
+      ],
+      "stopCondition": "STOP if transaction authorization, legal ownership, sanctions status, counterparty consent, financing source or civilian safeguards are unresolved; do not execute.",
+      "reviewOwner": "Qualified independent counsel and the competent institutional/government authority",
+      "asOf": "2026-10-16"
+    },
+    {
+      "id": "bridge-worldbank-urtf-urban-circular-reconstruction",
+      "fundingProfileId": "worldbank-urtf",
+      "regenerativeAlternativeId": "urban-circular-reconstruction",
+      "compatibilityMechanismId": "public-recovery-procurement",
+      "jurisdictionIds": [
+        "ua",
+        "us",
+        "eu"
+      ],
+      "cooperationMode": "parallel-now",
+      "assessment": "research-only-unassessed",
+      "premise": "Illustrative civilian recovery or risk-reduction question; no new funder commitment is evidenced. Institutional constituent charters, procurement rules and any borrower/project contracts have NOT been evaluated by the national legislative atlas.",
+      "legalNexus": "Possible jurisdictions to screen, not a factual finding that their laws all apply. Other countries or instrument-specific frameworks may apply.",
+      "requiredChecks": [
+        "Identify actual parties, entities, payment routes, goods, locations, and currency before attributing a legal nexus.",
+        "Distinguish published funding activity from any future proposal, acceptance, aid diversion, or legal permission.",
+        "Independently screen designated persons, ownership/control, export restrictions and relevant current licences.",
+        "Obtain Ukrainian and other competent authority approvals where required; avoid granting one body another's powers."
+      ],
+      "stopCondition": "STOP if transaction authorization, legal ownership, sanctions status, counterparty consent, financing source or civilian safeguards are unresolved; do not execute.",
+      "reviewOwner": "Qualified independent counsel and the competent institutional/government authority",
+      "asOf": "2026-10-16"
+    },
+    {
+      "id": "bridge-worldbank-urtf-accredited-mine-food",
+      "fundingProfileId": "worldbank-urtf",
+      "regenerativeAlternativeId": "accredited-mine-food",
+      "compatibilityMechanismId": "mine-land-release",
+      "jurisdictionIds": [
+        "ua",
+        "us",
+        "eu"
+      ],
+      "cooperationMode": "parallel-now",
+      "assessment": "research-only-unassessed",
+      "premise": "Illustrative civilian recovery or risk-reduction question; no new funder commitment is evidenced. Institutional constituent charters, procurement rules and any borrower/project contracts have NOT been evaluated by the national legislative atlas.",
+      "legalNexus": "Possible jurisdictions to screen, not a factual finding that their laws all apply. Other countries or instrument-specific frameworks may apply.",
+      "requiredChecks": [
+        "Identify actual parties, entities, payment routes, goods, locations, and currency before attributing a legal nexus.",
+        "Distinguish published funding activity from any future proposal, acceptance, aid diversion, or legal permission.",
+        "Independently screen designated persons, ownership/control, export restrictions and relevant current licences.",
+        "Obtain Ukrainian and other competent authority approvals where required; avoid granting one body another's powers.",
+        "Mine clearance and land release require accredited mine-action authorities and verified handover; an AI map is never safety clearance."
+      ],
+      "stopCondition": "STOP if transaction authorization, legal ownership, sanctions status, counterparty consent, financing source or civilian safeguards are unresolved; do not execute.",
+      "reviewOwner": "Qualified independent counsel and the competent institutional/government authority",
+      "asOf": "2026-10-16"
+    },
+    {
+      "id": "bridge-worldbank-mobilized-municipal-food-water",
+      "fundingProfileId": "worldbank-mobilized",
+      "regenerativeAlternativeId": "municipal-food-water",
+      "compatibilityMechanismId": "public-recovery-procurement",
+      "jurisdictionIds": [
+        "ua",
+        "us",
+        "eu"
+      ],
+      "cooperationMode": "parallel-now",
+      "assessment": "research-only-unassessed",
+      "premise": "Illustrative civilian recovery or risk-reduction question; no new funder commitment is evidenced. Institutional constituent charters, procurement rules and any borrower/project contracts have NOT been evaluated by the national legislative atlas.",
+      "legalNexus": "Possible jurisdictions to screen, not a factual finding that their laws all apply. Other countries or instrument-specific frameworks may apply.",
+      "requiredChecks": [
+        "Identify actual parties, entities, payment routes, goods, locations, and currency before attributing a legal nexus.",
+        "Distinguish published funding activity from any future proposal, acceptance, aid diversion, or legal permission.",
+        "Independently screen designated persons, ownership/control, export restrictions and relevant current licences.",
+        "Obtain Ukrainian and other competent authority approvals where required; avoid granting one body another's powers."
+      ],
+      "stopCondition": "STOP if transaction authorization, legal ownership, sanctions status, counterparty consent, financing source or civilian safeguards are unresolved; do not execute.",
+      "reviewOwner": "Qualified independent counsel and the competent institutional/government authority",
+      "asOf": "2026-10-16"
+    },
+    {
+      "id": "bridge-worldbank-mobilized-civil-society-independent-audit",
+      "fundingProfileId": "worldbank-mobilized",
+      "regenerativeAlternativeId": "civil-society-independent-audit",
+      "compatibilityMechanismId": "public-recovery-procurement",
+      "jurisdictionIds": [
+        "ua",
+        "us",
+        "eu"
+      ],
+      "cooperationMode": "parallel-now",
+      "assessment": "research-only-unassessed",
+      "premise": "Illustrative civilian recovery or risk-reduction question; no new funder commitment is evidenced. Institutional constituent charters, procurement rules and any borrower/project contracts have NOT been evaluated by the national legislative atlas.",
+      "legalNexus": "Possible jurisdictions to screen, not a factual finding that their laws all apply. Other countries or instrument-specific frameworks may apply.",
+      "requiredChecks": [
+        "Identify actual parties, entities, payment routes, goods, locations, and currency before attributing a legal nexus.",
+        "Distinguish published funding activity from any future proposal, acceptance, aid diversion, or legal permission.",
+        "Independently screen designated persons, ownership/control, export restrictions and relevant current licences.",
+        "Obtain Ukrainian and other competent authority approvals where required; avoid granting one body another's powers."
+      ],
+      "stopCondition": "STOP if transaction authorization, legal ownership, sanctions status, counterparty consent, financing source or civilian safeguards are unresolved; do not execute.",
+      "reviewOwner": "Qualified independent counsel and the competent institutional/government authority",
+      "asOf": "2026-10-16"
+    },
+    {
+      "id": "bridge-ebrd-finance-conditional-energy-infrastructure",
+      "fundingProfileId": "ebrd-finance",
+      "regenerativeAlternativeId": "conditional-energy-infrastructure",
+      "compatibilityMechanismId": "grid-reconstruction",
+      "jurisdictionIds": [
+        "ua",
+        "gb",
+        "eu"
+      ],
+      "cooperationMode": "reciprocal-conditional",
+      "assessment": "research-only-unassessed",
+      "premise": "Illustrative civilian recovery or risk-reduction question; no new funder commitment is evidenced. Institutional constituent charters, procurement rules and any borrower/project contracts have NOT been evaluated by the national legislative atlas.",
+      "legalNexus": "Possible jurisdictions to screen, not a factual finding that their laws all apply. Other countries or instrument-specific frameworks may apply.",
+      "requiredChecks": [
+        "Identify actual parties, entities, payment routes, goods, locations, and currency before attributing a legal nexus.",
+        "Distinguish published funding activity from any future proposal, acceptance, aid diversion, or legal permission.",
+        "Independently screen designated persons, ownership/control, export restrictions and relevant current licences.",
+        "Obtain Ukrainian and other competent authority approvals where required; avoid granting one body another's powers.",
+        "This stage cannot be implemented without a new independently authorized and verified agreement or legal resolution; no sanctions relief or shared finance is implied."
+      ],
+      "stopCondition": "STOP if transaction authorization, legal ownership, sanctions status, counterparty consent, financing source or civilian safeguards are unresolved; do not execute.",
+      "reviewOwner": "Qualified independent counsel and the competent institutional/government authority",
+      "asOf": "2026-10-16"
+    },
+    {
+      "id": "bridge-ebrd-finance-damage-to-investment-pipeline",
+      "fundingProfileId": "ebrd-finance",
+      "regenerativeAlternativeId": "damage-to-investment-pipeline",
+      "compatibilityMechanismId": "public-recovery-procurement",
+      "jurisdictionIds": [
+        "ua",
+        "gb",
+        "eu"
+      ],
+      "cooperationMode": "parallel-now",
+      "assessment": "research-only-unassessed",
+      "premise": "Illustrative civilian recovery or risk-reduction question; no new funder commitment is evidenced. Institutional constituent charters, procurement rules and any borrower/project contracts have NOT been evaluated by the national legislative atlas.",
+      "legalNexus": "Possible jurisdictions to screen, not a factual finding that their laws all apply. Other countries or instrument-specific frameworks may apply.",
+      "requiredChecks": [
+        "Identify actual parties, entities, payment routes, goods, locations, and currency before attributing a legal nexus.",
+        "Distinguish published funding activity from any future proposal, acceptance, aid diversion, or legal permission.",
+        "Independently screen designated persons, ownership/control, export restrictions and relevant current licences.",
+        "Obtain Ukrainian and other competent authority approvals where required; avoid granting one body another's powers.",
+        "Registration of damage claims, lawful extraordinary yields, immobilised principal, reparations judgments and disbursement authority must be analyzed as separate concepts."
+      ],
+      "stopCondition": "STOP if transaction authorization, legal ownership, sanctions status, counterparty consent, financing source or civilian safeguards are unresolved; do not execute.",
+      "reviewOwner": "Qualified independent counsel and the competent institutional/government authority",
+      "asOf": "2026-10-16"
+    },
+    {
+      "id": "bridge-ebrd-plan-urban-circular-reconstruction",
+      "fundingProfileId": "ebrd-plan",
+      "regenerativeAlternativeId": "urban-circular-reconstruction",
+      "compatibilityMechanismId": "public-recovery-procurement",
+      "jurisdictionIds": [
+        "ua",
+        "gb",
+        "eu"
+      ],
+      "cooperationMode": "parallel-now",
+      "assessment": "research-only-unassessed",
+      "premise": "Illustrative civilian recovery or risk-reduction question; no new funder commitment is evidenced. Institutional constituent charters, procurement rules and any borrower/project contracts have NOT been evaluated by the national legislative atlas.",
+      "legalNexus": "Possible jurisdictions to screen, not a factual finding that their laws all apply. Other countries or instrument-specific frameworks may apply.",
+      "requiredChecks": [
+        "Identify actual parties, entities, payment routes, goods, locations, and currency before attributing a legal nexus.",
+        "Distinguish published funding activity from any future proposal, acceptance, aid diversion, or legal permission.",
+        "Independently screen designated persons, ownership/control, export restrictions and relevant current licences.",
+        "Obtain Ukrainian and other competent authority approvals where required; avoid granting one body another's powers."
+      ],
+      "stopCondition": "STOP if transaction authorization, legal ownership, sanctions status, counterparty consent, financing source or civilian safeguards are unresolved; do not execute.",
+      "reviewOwner": "Qualified independent counsel and the competent institutional/government authority",
+      "asOf": "2026-10-16"
+    },
+    {
+      "id": "bridge-ebrd-plan-municipal-food-water",
+      "fundingProfileId": "ebrd-plan",
+      "regenerativeAlternativeId": "municipal-food-water",
+      "compatibilityMechanismId": "public-recovery-procurement",
+      "jurisdictionIds": [
+        "ua",
+        "gb",
+        "eu"
+      ],
+      "cooperationMode": "parallel-now",
+      "assessment": "research-only-unassessed",
+      "premise": "Illustrative civilian recovery or risk-reduction question; no new funder commitment is evidenced. Institutional constituent charters, procurement rules and any borrower/project contracts have NOT been evaluated by the national legislative atlas.",
+      "legalNexus": "Possible jurisdictions to screen, not a factual finding that their laws all apply. Other countries or instrument-specific frameworks may apply.",
+      "requiredChecks": [
+        "Identify actual parties, entities, payment routes, goods, locations, and currency before attributing a legal nexus.",
+        "Distinguish published funding activity from any future proposal, acceptance, aid diversion, or legal permission.",
+        "Independently screen designated persons, ownership/control, export restrictions and relevant current licences.",
+        "Obtain Ukrainian and other competent authority approvals where required; avoid granting one body another's powers."
+      ],
+      "stopCondition": "STOP if transaction authorization, legal ownership, sanctions status, counterparty consent, financing source or civilian safeguards are unresolved; do not execute.",
+      "reviewOwner": "Qualified independent counsel and the competent institutional/government authority",
+      "asOf": "2026-10-16"
+    },
+    {
+      "id": "bridge-imf-program-damage-to-investment-pipeline",
+      "fundingProfileId": "imf-program",
+      "regenerativeAlternativeId": "damage-to-investment-pipeline",
+      "compatibilityMechanismId": "public-recovery-procurement",
+      "jurisdictionIds": [
+        "ua",
+        "us",
+        "eu"
+      ],
+      "cooperationMode": "parallel-now",
+      "assessment": "research-only-unassessed",
+      "premise": "Illustrative civilian recovery or risk-reduction question; no new funder commitment is evidenced. Institutional constituent charters, procurement rules and any borrower/project contracts have NOT been evaluated by the national legislative atlas.",
+      "legalNexus": "Possible jurisdictions to screen, not a factual finding that their laws all apply. Other countries or instrument-specific frameworks may apply.",
+      "requiredChecks": [
+        "Identify actual parties, entities, payment routes, goods, locations, and currency before attributing a legal nexus.",
+        "Distinguish published funding activity from any future proposal, acceptance, aid diversion, or legal permission.",
+        "Independently screen designated persons, ownership/control, export restrictions and relevant current licences.",
+        "Obtain Ukrainian and other competent authority approvals where required; avoid granting one body another's powers.",
+        "Registration of damage claims, lawful extraordinary yields, immobilised principal, reparations judgments and disbursement authority must be analyzed as separate concepts."
+      ],
+      "stopCondition": "STOP if transaction authorization, legal ownership, sanctions status, counterparty consent, financing source or civilian safeguards are unresolved; do not execute.",
+      "reviewOwner": "Qualified independent counsel and the competent institutional/government authority",
+      "asOf": "2026-10-16"
+    },
+    {
+      "id": "bridge-imf-program-civil-society-independent-audit",
+      "fundingProfileId": "imf-program",
+      "regenerativeAlternativeId": "civil-society-independent-audit",
+      "compatibilityMechanismId": "public-recovery-procurement",
+      "jurisdictionIds": [
+        "ua",
+        "us",
+        "eu"
+      ],
+      "cooperationMode": "parallel-now",
+      "assessment": "research-only-unassessed",
+      "premise": "Illustrative civilian recovery or risk-reduction question; no new funder commitment is evidenced. Institutional constituent charters, procurement rules and any borrower/project contracts have NOT been evaluated by the national legislative atlas.",
+      "legalNexus": "Possible jurisdictions to screen, not a factual finding that their laws all apply. Other countries or instrument-specific frameworks may apply.",
+      "requiredChecks": [
+        "Identify actual parties, entities, payment routes, goods, locations, and currency before attributing a legal nexus.",
+        "Distinguish published funding activity from any future proposal, acceptance, aid diversion, or legal permission.",
+        "Independently screen designated persons, ownership/control, export restrictions and relevant current licences.",
+        "Obtain Ukrainian and other competent authority approvals where required; avoid granting one body another's powers."
+      ],
+      "stopCondition": "STOP if transaction authorization, legal ownership, sanctions status, counterparty consent, financing source or civilian safeguards are unresolved; do not execute.",
+      "reviewOwner": "Qualified independent counsel and the competent institutional/government authority",
+      "asOf": "2026-10-16"
+    },
+    {
+      "id": "bridge-euroclear-assets-damage-to-investment-pipeline",
+      "fundingProfileId": "euroclear-assets",
+      "regenerativeAlternativeId": "damage-to-investment-pipeline",
+      "compatibilityMechanismId": "extraordinary-revenue",
+      "jurisdictionIds": [
+        "be",
+        "eu",
+        "ua",
+        "us",
+        "gb"
+      ],
+      "cooperationMode": "parallel-now",
+      "assessment": "research-only-unassessed",
+      "premise": "Illustrative civilian recovery or risk-reduction question; no new funder commitment is evidenced.",
+      "legalNexus": "Possible jurisdictions to screen, not a factual finding that their laws all apply. Other countries or instrument-specific frameworks may apply.",
+      "requiredChecks": [
+        "Identify actual parties, entities, payment routes, goods, locations, and currency before attributing a legal nexus.",
+        "Distinguish published funding activity from any future proposal, acceptance, aid diversion, or legal permission.",
+        "Independently screen designated persons, ownership/control, export restrictions and relevant current licences.",
+        "Obtain Ukrainian and other competent authority approvals where required; avoid granting one body another's powers.",
+        "Registration of damage claims, lawful extraordinary yields, immobilised principal, reparations judgments and disbursement authority must be analyzed as separate concepts."
+      ],
+      "stopCondition": "STOP if transaction authorization, legal ownership, sanctions status, counterparty consent, financing source or civilian safeguards are unresolved; do not execute.",
+      "reviewOwner": "Qualified independent counsel and the competent institutional/government authority",
+      "asOf": "2026-10-16"
+    },
+    {
+      "id": "bridge-euroclear-assets-reparations-ledger",
+      "fundingProfileId": "euroclear-assets",
+      "regenerativeAlternativeId": "reparations-ledger",
+      "compatibilityMechanismId": "immobilised-principal",
+      "jurisdictionIds": [
+        "be",
+        "eu",
+        "ua",
+        "us",
+        "gb"
+      ],
+      "cooperationMode": "post-agreement",
+      "assessment": "research-only-unassessed",
+      "premise": "Illustrative civilian recovery or risk-reduction question; no new funder commitment is evidenced.",
+      "legalNexus": "Possible jurisdictions to screen, not a factual finding that their laws all apply. Other countries or instrument-specific frameworks may apply.",
+      "requiredChecks": [
+        "Identify actual parties, entities, payment routes, goods, locations, and currency before attributing a legal nexus.",
+        "Distinguish published funding activity from any future proposal, acceptance, aid diversion, or legal permission.",
+        "Independently screen designated persons, ownership/control, export restrictions and relevant current licences.",
+        "Obtain Ukrainian and other competent authority approvals where required; avoid granting one body another's powers.",
+        "This stage cannot be implemented without a new independently authorized and verified agreement or legal resolution; no sanctions relief or shared finance is implied.",
+        "Registration of damage claims, lawful extraordinary yields, immobilised principal, reparations judgments and disbursement authority must be analyzed as separate concepts."
+      ],
+      "stopCondition": "STOP if transaction authorization, legal ownership, sanctions status, counterparty consent, financing source or civilian safeguards are unresolved; do not execute.",
+      "reviewOwner": "Qualified independent counsel and the competent institutional/government authority",
+      "asOf": "2026-10-16"
+    },
+    {
+      "id": "bridge-china-market-energy-trade-transparency",
+      "fundingProfileId": "china-market",
+      "regenerativeAlternativeId": "energy-trade-transparency",
+      "compatibilityMechanismId": "sanctions-relief",
+      "jurisdictionIds": [
+        "cn",
+        "ru",
+        "eu",
+        "ua",
+        "us"
+      ],
+      "cooperationMode": "reciprocal-conditional",
+      "assessment": "research-only-unassessed",
+      "premise": "This funding relationship is explicitly potential/unverified. It must not be represented as direct war financing or a committed regenerative funding source.",
+      "legalNexus": "Possible jurisdictions to screen, not a factual finding that their laws all apply. Other countries or instrument-specific frameworks may apply.",
+      "requiredChecks": [
+        "Identify actual parties, entities, payment routes, goods, locations, and currency before attributing a legal nexus.",
+        "Distinguish published funding activity from any future proposal, acceptance, aid diversion, or legal permission.",
+        "Independently screen designated persons, ownership/control, export restrictions and relevant current licences.",
+        "Obtain Ukrainian and other competent authority approvals where required; avoid granting one body another's powers.",
+        "No adverse finding against individual persons, intentional financing allegation, or assumption of Russian/DPRK/Iranian participation is made by this research link.",
+        "This stage cannot be implemented without a new independently authorized and verified agreement or legal resolution; no sanctions relief or shared finance is implied."
+      ],
+      "stopCondition": "STOP if transaction authorization, legal ownership, sanctions status, counterparty consent, financing source or civilian safeguards are unresolved; do not execute.",
+      "reviewOwner": "Qualified independent counsel and the competent institutional/government authority",
+      "asOf": "2026-10-16"
+    },
+    {
+      "id": "bridge-china-market-civil-society-independent-audit",
+      "fundingProfileId": "china-market",
+      "regenerativeAlternativeId": "civil-society-independent-audit",
+      "compatibilityMechanismId": "public-recovery-procurement",
+      "jurisdictionIds": [
+        "cn",
+        "ru",
+        "eu",
+        "ua",
+        "us"
+      ],
+      "cooperationMode": "parallel-now",
+      "assessment": "research-only-unassessed",
+      "premise": "This funding relationship is explicitly potential/unverified. It must not be represented as direct war financing or a committed regenerative funding source.",
+      "legalNexus": "Possible jurisdictions to screen, not a factual finding that their laws all apply. Other countries or instrument-specific frameworks may apply.",
+      "requiredChecks": [
+        "Identify actual parties, entities, payment routes, goods, locations, and currency before attributing a legal nexus.",
+        "Distinguish published funding activity from any future proposal, acceptance, aid diversion, or legal permission.",
+        "Independently screen designated persons, ownership/control, export restrictions and relevant current licences.",
+        "Obtain Ukrainian and other competent authority approvals where required; avoid granting one body another's powers.",
+        "No adverse finding against individual persons, intentional financing allegation, or assumption of Russian/DPRK/Iranian participation is made by this research link."
+      ],
+      "stopCondition": "STOP if transaction authorization, legal ownership, sanctions status, counterparty consent, financing source or civilian safeguards are unresolved; do not execute.",
+      "reviewOwner": "Qualified independent counsel and the competent institutional/government authority",
+      "asOf": "2026-10-16"
+    },
+    {
+      "id": "bridge-india-market-energy-trade-transparency",
+      "fundingProfileId": "india-market",
+      "regenerativeAlternativeId": "energy-trade-transparency",
+      "compatibilityMechanismId": "sanctions-relief",
+      "jurisdictionIds": [
+        "in",
+        "ru",
+        "eu",
+        "ua",
+        "us"
+      ],
+      "cooperationMode": "reciprocal-conditional",
+      "assessment": "research-only-unassessed",
+      "premise": "This funding relationship is explicitly potential/unverified. It must not be represented as direct war financing or a committed regenerative funding source.",
+      "legalNexus": "Possible jurisdictions to screen, not a factual finding that their laws all apply. Other countries or instrument-specific frameworks may apply.",
+      "requiredChecks": [
+        "Identify actual parties, entities, payment routes, goods, locations, and currency before attributing a legal nexus.",
+        "Distinguish published funding activity from any future proposal, acceptance, aid diversion, or legal permission.",
+        "Independently screen designated persons, ownership/control, export restrictions and relevant current licences.",
+        "Obtain Ukrainian and other competent authority approvals where required; avoid granting one body another's powers.",
+        "No adverse finding against individual persons, intentional financing allegation, or assumption of Russian/DPRK/Iranian participation is made by this research link.",
+        "This stage cannot be implemented without a new independently authorized and verified agreement or legal resolution; no sanctions relief or shared finance is implied."
+      ],
+      "stopCondition": "STOP if transaction authorization, legal ownership, sanctions status, counterparty consent, financing source or civilian safeguards are unresolved; do not execute.",
+      "reviewOwner": "Qualified independent counsel and the competent institutional/government authority",
+      "asOf": "2026-10-16"
+    },
+    {
+      "id": "bridge-india-market-civil-society-independent-audit",
+      "fundingProfileId": "india-market",
+      "regenerativeAlternativeId": "civil-society-independent-audit",
+      "compatibilityMechanismId": "public-recovery-procurement",
+      "jurisdictionIds": [
+        "in",
+        "ru",
+        "eu",
+        "ua",
+        "us"
+      ],
+      "cooperationMode": "parallel-now",
+      "assessment": "research-only-unassessed",
+      "premise": "This funding relationship is explicitly potential/unverified. It must not be represented as direct war financing or a committed regenerative funding source.",
+      "legalNexus": "Possible jurisdictions to screen, not a factual finding that their laws all apply. Other countries or instrument-specific frameworks may apply.",
+      "requiredChecks": [
+        "Identify actual parties, entities, payment routes, goods, locations, and currency before attributing a legal nexus.",
+        "Distinguish published funding activity from any future proposal, acceptance, aid diversion, or legal permission.",
+        "Independently screen designated persons, ownership/control, export restrictions and relevant current licences.",
+        "Obtain Ukrainian and other competent authority approvals where required; avoid granting one body another's powers.",
+        "No adverse finding against individual persons, intentional financing allegation, or assumption of Russian/DPRK/Iranian participation is made by this research link."
+      ],
+      "stopCondition": "STOP if transaction authorization, legal ownership, sanctions status, counterparty consent, financing source or civilian safeguards are unresolved; do not execute.",
+      "reviewOwner": "Qualified independent counsel and the competent institutional/government authority",
+      "asOf": "2026-10-16"
+    },
+    {
+      "id": "bridge-recovery-investor-damage-to-investment-pipeline",
+      "fundingProfileId": "recovery-investor",
+      "regenerativeAlternativeId": "damage-to-investment-pipeline",
+      "compatibilityMechanismId": "public-recovery-procurement",
+      "jurisdictionIds": [
+        "eu",
+        "ua",
+        "be"
+      ],
+      "cooperationMode": "parallel-now",
+      "assessment": "research-only-unassessed",
+      "premise": "This funding relationship is explicitly potential/unverified. It must not be represented as direct war financing or a committed regenerative funding source. Institutional constituent charters, procurement rules and any borrower/project contracts have NOT been evaluated by the national legislative atlas.",
+      "legalNexus": "Possible jurisdictions to screen, not a factual finding that their laws all apply. Other countries or instrument-specific frameworks may apply.",
+      "requiredChecks": [
+        "Identify actual parties, entities, payment routes, goods, locations, and currency before attributing a legal nexus.",
+        "Distinguish published funding activity from any future proposal, acceptance, aid diversion, or legal permission.",
+        "Independently screen designated persons, ownership/control, export restrictions and relevant current licences.",
+        "Obtain Ukrainian and other competent authority approvals where required; avoid granting one body another's powers.",
+        "Registration of damage claims, lawful extraordinary yields, immobilised principal, reparations judgments and disbursement authority must be analyzed as separate concepts."
+      ],
+      "stopCondition": "STOP if transaction authorization, legal ownership, sanctions status, counterparty consent, financing source or civilian safeguards are unresolved; do not execute.",
+      "reviewOwner": "Qualified independent counsel and the competent institutional/government authority",
+      "asOf": "2026-10-16"
+    },
+    {
+      "id": "bridge-recovery-investor-municipal-food-water",
+      "fundingProfileId": "recovery-investor",
+      "regenerativeAlternativeId": "municipal-food-water",
+      "compatibilityMechanismId": "public-recovery-procurement",
+      "jurisdictionIds": [
+        "eu",
+        "ua",
+        "be"
+      ],
+      "cooperationMode": "parallel-now",
+      "assessment": "research-only-unassessed",
+      "premise": "This funding relationship is explicitly potential/unverified. It must not be represented as direct war financing or a committed regenerative funding source. Institutional constituent charters, procurement rules and any borrower/project contracts have NOT been evaluated by the national legislative atlas.",
+      "legalNexus": "Possible jurisdictions to screen, not a factual finding that their laws all apply. Other countries or instrument-specific frameworks may apply.",
+      "requiredChecks": [
+        "Identify actual parties, entities, payment routes, goods, locations, and currency before attributing a legal nexus.",
+        "Distinguish published funding activity from any future proposal, acceptance, aid diversion, or legal permission.",
+        "Independently screen designated persons, ownership/control, export restrictions and relevant current licences.",
+        "Obtain Ukrainian and other competent authority approvals where required; avoid granting one body another's powers."
+      ],
+      "stopCondition": "STOP if transaction authorization, legal ownership, sanctions status, counterparty consent, financing source or civilian safeguards are unresolved; do not execute.",
+      "reviewOwner": "Qualified independent counsel and the competent institutional/government authority",
+      "asOf": "2026-10-16"
+    }
+  ]
+}

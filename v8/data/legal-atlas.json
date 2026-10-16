@@ -1,0 +1,1547 @@
+{
+  "schemaVersion": "4.2.0",
+  "asOf": "2026-10-16",
+  "purpose": "Public legal discovery index for Russia–Ukraine peace and regeneration analysis. NOT an exhaustive legislation library.",
+  "caveats": [
+    "Directory entries are navigation aids, not legal opinions or confirmations of current force.",
+    "EU law and domestic law may apply jointly; ECHR, IHL and treaty systems must be distinguished.",
+    "Legislation can be amended daily; always recheck the full instrument, implementation measures and current official status.",
+    "Publisher links do not prove applicability, sanctions licenses, institution involvement or a conflict party agreement.",
+    "Country metadata and summaries are offline; the actual law text is accessible only through the external website unless independently downloaded with permission.",
+    "Countries without independently confirmed primary-source portals are not included; regional, local, sanctions and treaty documentation remains selective rather than exhaustive."
+  ],
+  "jurisdictions": [
+    {
+      "id": "ua",
+      "label": "Ukraine",
+      "level": "national",
+      "language": "Ukrainian",
+      "legalNote": "Ukraine's constitutional and legislative authorities govern Ukrainian territory. Validate promulgation and any wartime restrictions."
+    },
+    {
+      "id": "ru",
+      "label": "Russian Federation",
+      "level": "national",
+      "language": "Russian",
+      "legalNote": "Russian legislation is not a source of authority to change Ukrainian sovereignty. Assess conflicts with international law."
+    },
+    {
+      "id": "eu",
+      "label": "European Union",
+      "level": "supranational",
+      "language": "Multiple EU languages",
+      "legalNote": "EU law binds within its competence; sanctions and asset measures require version-specific checks."
+    },
+    {
+      "id": "us",
+      "label": "United States",
+      "level": "national",
+      "language": "English",
+      "legalNote": "Distinguish Congressional acts, executive orders, implementing regulations and licenses."
+    },
+    {
+      "id": "gb",
+      "label": "United Kingdom",
+      "level": "national",
+      "language": "English",
+      "legalNote": "Check current consolidated sanctions regulations, licenses and commencement dates."
+    },
+    {
+      "id": "ca",
+      "label": "Canada",
+      "level": "national",
+      "language": "English/French",
+      "legalNote": "Consult amended sanctions regulations and enabling acts; confirm current designations and permits."
+    },
+    {
+      "id": "pl",
+      "label": "Poland",
+      "level": "national",
+      "language": "Polish",
+      "legalNote": "As an EU member, Poland applies relevant EU measures plus national rules; consult promulgated versions."
+    },
+    {
+      "id": "de",
+      "label": "Germany",
+      "level": "national",
+      "language": "German",
+      "legalNote": "Review national legislation alongside directly applicable EU regulations and German implementation rules."
+    },
+    {
+      "id": "fr",
+      "label": "France",
+      "level": "national",
+      "language": "French",
+      "legalNote": "Review Légifrance, official journal and relevant directly applicable EU regulations."
+    },
+    {
+      "id": "tr",
+      "label": "Türkiye",
+      "level": "national",
+      "language": "Turkish",
+      "legalNote": "Check the Official Gazette and treaty positions independently; EU sanctions do not automatically apply."
+    },
+    {
+      "id": "ch",
+      "label": "Switzerland",
+      "level": "national",
+      "language": "German/French/Italian",
+      "legalNote": "Swiss sanctions law and independent federal measures require separate review."
+    },
+    {
+      "id": "cn",
+      "label": "China",
+      "level": "national",
+      "language": "Chinese",
+      "legalNote": "Review official statutory instruments and governmental positions separately."
+    },
+    {
+      "id": "jp",
+      "label": "Japan",
+      "level": "national",
+      "language": "Japanese",
+      "legalNote": "Japanese regulatory and sanctions measures require Ministry and law-level verification."
+    },
+    {
+      "id": "un",
+      "label": "United Nations",
+      "level": "international",
+      "language": "Multiple UN languages",
+      "legalNote": "Treaty participation, UNSC resolutions and recommendations have distinct legal force and addressee."
+    },
+    {
+      "id": "coe",
+      "label": "Council of Europe / ECHR",
+      "level": "international",
+      "language": "English/French",
+      "legalNote": "Convention jurisdiction and temporal limitations must be checked for each respondent and claim."
+    },
+    {
+      "id": "osce",
+      "label": "OSCE",
+      "level": "international",
+      "language": "English/other",
+      "legalNote": "OSCE commitments, missions and deployments require differentiated mandates; do not assume old missions persist."
+    },
+    {
+      "id": "iaea",
+      "label": "IAEA",
+      "level": "international",
+      "language": "English/other",
+      "legalNote": "Nuclear safeguards and safety monitoring do not create unilateral military enforcement authority."
+    },
+    {
+      "id": "icrc",
+      "label": "ICRC IHL references",
+      "level": "reference",
+      "language": "English/other",
+      "legalNote": "ICRC databases provide humanitarian law texts and status information, not permission for military operations."
+    },
+    {
+      "id": "be",
+      "label": "Belgium",
+      "level": "national",
+      "language": "French/Dutch/German",
+      "legalNote": "Belgian official gazette and national legislation require separate review, notably for asset-custody questions."
+    },
+    {
+      "id": "nl",
+      "label": "Netherlands",
+      "level": "national",
+      "language": "Dutch",
+      "legalNote": "National rules and EU restrictive measures should be reviewed together."
+    },
+    {
+      "id": "it",
+      "label": "Italy",
+      "level": "national",
+      "language": "Italian",
+      "legalNote": "Italian promulgation, consolidation and EU sanctions requirements must be considered separately."
+    },
+    {
+      "id": "no",
+      "label": "Norway",
+      "level": "national",
+      "language": "Norwegian",
+      "legalNote": "Norway is not an EU member; check implementing measures and its own sanctions rules."
+    },
+    {
+      "id": "se",
+      "label": "Sweden",
+      "level": "national",
+      "language": "Swedish",
+      "legalNote": "Swedish official promulgation and EU law are separate legal layers."
+    },
+    {
+      "id": "dk",
+      "label": "Denmark",
+      "level": "national",
+      "language": "Danish",
+      "legalNote": "National legislative database and EU restrictions must both be consulted."
+    },
+    {
+      "id": "ee",
+      "label": "Estonia",
+      "level": "national",
+      "language": "Estonian/English",
+      "legalNote": "National published laws and directly applicable EU law should be read together."
+    },
+    {
+      "id": "lv",
+      "label": "Latvia",
+      "level": "national",
+      "language": "Latvian",
+      "legalNote": "Use current national-law versions plus EU sanctions where applicable."
+    },
+    {
+      "id": "lt",
+      "label": "Lithuania",
+      "level": "national",
+      "language": "Lithuanian/English",
+      "legalNote": "Check the register and effective text alongside EU instruments."
+    },
+    {
+      "id": "ro",
+      "label": "Romania",
+      "level": "national",
+      "language": "Romanian",
+      "legalNote": "Check the official legislative portal and applicable EU law for the exact sector."
+    }
+  ],
+  "documents": [
+    {
+      "id": "law-001",
+      "jurisdictionId": "ua",
+      "kind": "instrument",
+      "category": "constitutional",
+      "title": "Constitution of Ukraine",
+      "url": "https://zakon.rada.gov.ua/laws/show/en/254%D0%BA/96-%D0%B2%D1%80",
+      "note": "Articles 2 and 73 affect territorial integrity and all-Ukrainian referenda; verify official text and wartime rules.",
+      "language": "en",
+      "changeRisk": "medium",
+      "topicTags": [
+        "sovereignty",
+        "territory",
+        "governance"
+      ],
+      "reviewedOn": "2026-10-16",
+      "verification": "publisher-link-reviewed",
+      "legalStatus": "Recheck current legal effect and applicability; registry does not certify validity",
+      "sourceType": "instrument"
+    },
+    {
+      "id": "law-002",
+      "jurisdictionId": "ua",
+      "kind": "repository",
+      "category": "legislation",
+      "title": "Verkhovna Rada legislation repository",
+      "url": "https://zakon.rada.gov.ua/laws/main/en/",
+      "note": "Search adopted laws, codes, regulations, and issuer metadata; informational database rather than official printed edition.",
+      "language": "en/uk",
+      "changeRisk": "high",
+      "topicTags": [
+        "governance",
+        "sanctions",
+        "reconstruction"
+      ],
+      "reviewedOn": "2026-10-16",
+      "verification": "publisher-link-reviewed",
+      "legalStatus": "Recheck current legal effect and applicability; registry does not certify validity",
+      "sourceType": "discovery"
+    },
+    {
+      "id": "law-003",
+      "jurisdictionId": "ua",
+      "kind": "repository",
+      "category": "legislation",
+      "title": "Verkhovna Rada documents by issuer",
+      "url": "https://zakon.rada.gov.ua/laws/main/o1?lang=en",
+      "note": "Official parliamentary catalogue; verify if an item is a proposal, adopted act or effective act.",
+      "language": "en/uk",
+      "changeRisk": "high",
+      "topicTags": [
+        "governance",
+        "sanctions",
+        "reconstruction"
+      ],
+      "reviewedOn": "2026-10-16",
+      "verification": "publisher-link-reviewed",
+      "legalStatus": "Recheck current legal effect and applicability; registry does not certify validity",
+      "sourceType": "discovery"
+    },
+    {
+      "id": "law-004",
+      "jurisdictionId": "ua",
+      "kind": "repository",
+      "category": "legislation",
+      "title": "Official parliamentary portal",
+      "url": "https://www.rada.gov.ua/en/",
+      "note": "Legislative history, committee reports, votes and proceedings.",
+      "language": "en/uk",
+      "changeRisk": "high",
+      "topicTags": [
+        "governance",
+        "sanctions",
+        "reconstruction"
+      ],
+      "reviewedOn": "2026-10-16",
+      "verification": "publisher-link-reviewed",
+      "legalStatus": "Recheck current legal effect and applicability; registry does not certify validity",
+      "sourceType": "discovery"
+    },
+    {
+      "id": "law-005",
+      "jurisdictionId": "ru",
+      "kind": "repository",
+      "category": "legislation",
+      "title": "Official Russian legal-publication portal",
+      "url": "https://publication.pravo.gov.ru/search",
+      "note": "Official published acts; must not be treated as authorizing violations of international law.",
+      "language": "ru",
+      "changeRisk": "high",
+      "topicTags": [
+        "governance",
+        "sanctions",
+        "reconstruction"
+      ],
+      "reviewedOn": "2026-10-16",
+      "verification": "publisher-link-reviewed",
+      "legalStatus": "Recheck current legal effect and applicability; registry does not certify validity",
+      "sourceType": "discovery"
+    },
+    {
+      "id": "law-006",
+      "jurisdictionId": "ru",
+      "kind": "repository",
+      "category": "legislation",
+      "title": "Russian legal information portal",
+      "url": "https://www.pravo.gov.ru/",
+      "note": "Legislation and amended text database; distinguish authentic publication and consolidations.",
+      "language": "ru",
+      "changeRisk": "high",
+      "topicTags": [
+        "governance",
+        "sanctions",
+        "reconstruction"
+      ],
+      "reviewedOn": "2026-10-16",
+      "verification": "publisher-link-reviewed",
+      "legalStatus": "Recheck current legal effect and applicability; registry does not certify validity",
+      "sourceType": "discovery"
+    },
+    {
+      "id": "law-007",
+      "jurisdictionId": "eu",
+      "kind": "instrument",
+      "category": "sanctions",
+      "title": "Council Regulation (EU) No 833/2014",
+      "url": "https://eur-lex.europa.eu/eli/reg/2014/833/oj/eng",
+      "note": "Russia-related sectoral restrictive measures; access current version and official amendments before any action.",
+      "language": "en",
+      "changeRisk": "critical",
+      "topicTags": [
+        "sanctions",
+        "finance"
+      ],
+      "reviewedOn": "2026-10-16",
+      "verification": "publisher-link-reviewed",
+      "legalStatus": "Recheck current legal effect and applicability; registry does not certify validity",
+      "sourceType": "instrument"
+    },
+    {
+      "id": "law-008",
+      "jurisdictionId": "eu",
+      "kind": "instrument",
+      "category": "sanctions",
+      "title": "Council Regulation (EU) No 269/2014",
+      "url": "https://eur-lex.europa.eu/eli/reg/2014/269/oj/eng",
+      "note": "Asset freezes and listings related to territorial integrity; review current designation annexes.",
+      "language": "en",
+      "changeRisk": "critical",
+      "topicTags": [
+        "sanctions",
+        "finance"
+      ],
+      "reviewedOn": "2026-10-16",
+      "verification": "publisher-link-reviewed",
+      "legalStatus": "Recheck current legal effect and applicability; registry does not certify validity",
+      "sourceType": "instrument"
+    },
+    {
+      "id": "law-009",
+      "jurisdictionId": "eu",
+      "kind": "repository",
+      "category": "legislation",
+      "title": "EUR-Lex official EU law portal",
+      "url": "https://eur-lex.europa.eu/homepage.html",
+      "note": "European legislation, consolidated texts, Official Journal and preparatory documents.",
+      "language": "multi",
+      "changeRisk": "high",
+      "topicTags": [
+        "governance",
+        "sanctions",
+        "reconstruction"
+      ],
+      "reviewedOn": "2026-10-16",
+      "verification": "publisher-link-reviewed",
+      "legalStatus": "Recheck current legal effect and applicability; registry does not certify validity",
+      "sourceType": "discovery"
+    },
+    {
+      "id": "law-010",
+      "jurisdictionId": "eu",
+      "kind": "repository",
+      "category": "judgments",
+      "title": "CURIA — Court of Justice of the European Union",
+      "url": "https://curia.europa.eu/",
+      "note": "EU court decisions interpreting EU law; verify specific holdings and current procedural status.",
+      "language": "multi",
+      "changeRisk": "medium",
+      "topicTags": [
+        "justice",
+        "rights"
+      ],
+      "reviewedOn": "2026-10-16",
+      "verification": "publisher-link-reviewed",
+      "legalStatus": "Recheck current legal effect and applicability; registry does not certify validity",
+      "sourceType": "discovery"
+    },
+    {
+      "id": "law-011",
+      "jurisdictionId": "us",
+      "kind": "repository",
+      "category": "legislation",
+      "title": "Congress.gov legislation search",
+      "url": "https://www.congress.gov/",
+      "note": "Bill status and public law history; a bill is not an enacted law.",
+      "language": "en",
+      "changeRisk": "high",
+      "topicTags": [
+        "governance",
+        "sanctions",
+        "reconstruction"
+      ],
+      "reviewedOn": "2026-10-16",
+      "verification": "publisher-link-reviewed",
+      "legalStatus": "Recheck current legal effect and applicability; registry does not certify validity",
+      "sourceType": "discovery"
+    },
+    {
+      "id": "law-012",
+      "jurisdictionId": "us",
+      "kind": "repository",
+      "category": "legislation",
+      "title": "U.S. Code official publication",
+      "url": "https://uscode.house.gov/",
+      "note": "Codified federal statutes; verify effective amendments and cited sections.",
+      "language": "en",
+      "changeRisk": "medium",
+      "topicTags": [
+        "governance",
+        "sanctions",
+        "reconstruction"
+      ],
+      "reviewedOn": "2026-10-16",
+      "verification": "publisher-link-reviewed",
+      "legalStatus": "Recheck current legal effect and applicability; registry does not certify validity",
+      "sourceType": "discovery"
+    },
+    {
+      "id": "law-013",
+      "jurisdictionId": "us",
+      "kind": "repository",
+      "category": "regulation",
+      "title": "Electronic Code of Federal Regulations",
+      "url": "https://www.ecfr.gov/",
+      "note": "Current administrative regulations and effective dates; confirm relevant agency competence.",
+      "language": "en",
+      "changeRisk": "high",
+      "topicTags": [
+        "sanctions",
+        "finance",
+        "procurement"
+      ],
+      "reviewedOn": "2026-10-16",
+      "verification": "publisher-link-reviewed",
+      "legalStatus": "Recheck current legal effect and applicability; registry does not certify validity",
+      "sourceType": "discovery"
+    },
+    {
+      "id": "law-014",
+      "jurisdictionId": "us",
+      "kind": "repository",
+      "category": "legislation",
+      "title": "Federal Register official notices",
+      "url": "https://www.federalregister.gov/",
+      "note": "Executive orders, rulemaking notices and promulgated regulations.",
+      "language": "en",
+      "changeRisk": "high",
+      "topicTags": [
+        "governance",
+        "sanctions",
+        "reconstruction"
+      ],
+      "reviewedOn": "2026-10-16",
+      "verification": "publisher-link-reviewed",
+      "legalStatus": "Recheck current legal effect and applicability; registry does not certify validity",
+      "sourceType": "discovery"
+    },
+    {
+      "id": "law-015",
+      "jurisdictionId": "us",
+      "kind": "guidance",
+      "category": "sanctions",
+      "title": "Treasury OFAC Ukraine-/Russia-related sanctions",
+      "url": "https://ofac.treasury.gov/sanctions-programs-and-country-information/ukraine-russia-related-sanctions",
+      "note": "Program legal authorities and licenses; verify specific restrictions and parties in force.",
+      "language": "en",
+      "changeRisk": "critical",
+      "topicTags": [
+        "sanctions",
+        "finance"
+      ],
+      "reviewedOn": "2026-10-16",
+      "verification": "publisher-link-reviewed",
+      "legalStatus": "Recheck current legal effect and applicability; registry does not certify validity",
+      "sourceType": "discovery"
+    },
+    {
+      "id": "law-016",
+      "jurisdictionId": "us",
+      "kind": "guidance",
+      "category": "sanctions",
+      "title": "Treasury OFAC Russia-related sanctions overview",
+      "url": "https://ofac.treasury.gov/sanctions-programs-and-country-information/russia-related-sanctions",
+      "note": "Cross-program index; changes can be frequent.",
+      "language": "en",
+      "changeRisk": "critical",
+      "topicTags": [
+        "sanctions",
+        "finance"
+      ],
+      "reviewedOn": "2026-10-16",
+      "verification": "publisher-link-reviewed",
+      "legalStatus": "Recheck current legal effect and applicability; registry does not certify validity",
+      "sourceType": "discovery"
+    },
+    {
+      "id": "law-017",
+      "jurisdictionId": "gb",
+      "kind": "instrument",
+      "category": "sanctions",
+      "title": "Russia (Sanctions) (EU Exit) Regulations 2019",
+      "url": "https://www.legislation.gov.uk/uksi/2019/855/contents",
+      "note": "Binding UK sanctions instrument, subject to amendments; check revised text and outstanding effects.",
+      "language": "en",
+      "changeRisk": "critical",
+      "topicTags": [
+        "sanctions",
+        "finance"
+      ],
+      "reviewedOn": "2026-10-16",
+      "verification": "publisher-link-reviewed",
+      "legalStatus": "Recheck current legal effect and applicability; registry does not certify validity",
+      "sourceType": "instrument"
+    },
+    {
+      "id": "law-018",
+      "jurisdictionId": "gb",
+      "kind": "instrument",
+      "category": "sanctions",
+      "title": "Sanctions and Anti-Money Laundering Act 2018",
+      "url": "https://www.legislation.gov.uk/ukpga/2018/13/contents",
+      "note": "Statutory authority for UK sanctions regulations and designation mechanisms.",
+      "language": "en",
+      "changeRisk": "high",
+      "topicTags": [
+        "sanctions",
+        "finance"
+      ],
+      "reviewedOn": "2026-10-16",
+      "verification": "publisher-link-reviewed",
+      "legalStatus": "Recheck current legal effect and applicability; registry does not certify validity",
+      "sourceType": "instrument"
+    },
+    {
+      "id": "law-019",
+      "jurisdictionId": "gb",
+      "kind": "guidance",
+      "category": "sanctions",
+      "title": "UK Russia sanctions statutory guidance",
+      "url": "https://www.gov.uk/government/publications/russia-sanctions-guidance/russia-sanctions-guidance",
+      "note": "Implementation guidance, not a substitute for binding regulations.",
+      "language": "en",
+      "changeRisk": "critical",
+      "topicTags": [
+        "sanctions",
+        "finance"
+      ],
+      "reviewedOn": "2026-10-16",
+      "verification": "publisher-link-reviewed",
+      "legalStatus": "Recheck current legal effect and applicability; registry does not certify validity",
+      "sourceType": "discovery"
+    },
+    {
+      "id": "law-020",
+      "jurisdictionId": "gb",
+      "kind": "repository",
+      "category": "legislation",
+      "title": "UK legislation portal",
+      "url": "https://www.legislation.gov.uk/",
+      "note": "Acts and statutory instruments; consult revision notes and effective dates.",
+      "language": "en",
+      "changeRisk": "high",
+      "topicTags": [
+        "governance",
+        "sanctions",
+        "reconstruction"
+      ],
+      "reviewedOn": "2026-10-16",
+      "verification": "publisher-link-reviewed",
+      "legalStatus": "Recheck current legal effect and applicability; registry does not certify validity",
+      "sourceType": "discovery"
+    },
+    {
+      "id": "law-021",
+      "jurisdictionId": "ca",
+      "kind": "instrument",
+      "category": "sanctions",
+      "title": "Special Economic Measures (Russia) Regulations",
+      "url": "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2014-58/",
+      "note": "Consolidated Canadian Russia sanctions; verify current amendment and designated lists.",
+      "language": "en/fr",
+      "changeRisk": "critical",
+      "topicTags": [
+        "sanctions",
+        "finance"
+      ],
+      "reviewedOn": "2026-10-16",
+      "verification": "publisher-link-reviewed",
+      "legalStatus": "Recheck current legal effect and applicability; registry does not certify validity",
+      "sourceType": "instrument"
+    },
+    {
+      "id": "law-022",
+      "jurisdictionId": "ca",
+      "kind": "instrument",
+      "category": "sanctions",
+      "title": "Special Economic Measures Act",
+      "url": "https://laws-lois.justice.gc.ca/eng/acts/S-14.5/",
+      "note": "Canadian sanctions enabling statute.",
+      "language": "en/fr",
+      "changeRisk": "high",
+      "topicTags": [
+        "sanctions",
+        "finance"
+      ],
+      "reviewedOn": "2026-10-16",
+      "verification": "publisher-link-reviewed",
+      "legalStatus": "Recheck current legal effect and applicability; registry does not certify validity",
+      "sourceType": "instrument"
+    },
+    {
+      "id": "law-023",
+      "jurisdictionId": "ca",
+      "kind": "repository",
+      "category": "legislation",
+      "title": "Justice Laws website",
+      "url": "https://laws-lois.justice.gc.ca/eng/",
+      "note": "Current consolidated federal laws and regulations.",
+      "language": "en/fr",
+      "changeRisk": "medium",
+      "topicTags": [
+        "governance",
+        "sanctions",
+        "reconstruction"
+      ],
+      "reviewedOn": "2026-10-16",
+      "verification": "publisher-link-reviewed",
+      "legalStatus": "Recheck current legal effect and applicability; registry does not certify validity",
+      "sourceType": "discovery"
+    },
+    {
+      "id": "law-024",
+      "jurisdictionId": "ca",
+      "kind": "guidance",
+      "category": "sanctions",
+      "title": "Global Affairs Canada Russia sanctions amendments",
+      "url": "https://www.international.gc.ca/world-monde/international_relations-relations_internationales/sanctions/russia-russie-regulations.aspx?lang=eng",
+      "note": "Amendment timeline; verify effective measures and permits.",
+      "language": "en",
+      "changeRisk": "critical",
+      "topicTags": [
+        "sanctions",
+        "finance"
+      ],
+      "reviewedOn": "2026-10-16",
+      "verification": "publisher-link-reviewed",
+      "legalStatus": "Recheck current legal effect and applicability; registry does not certify validity",
+      "sourceType": "discovery"
+    },
+    {
+      "id": "law-025",
+      "jurisdictionId": "pl",
+      "kind": "repository",
+      "category": "legislation",
+      "title": "ISAP Polish acts database",
+      "url": "https://isap.sejm.gov.pl/",
+      "note": "Free Sejm legislative information database; explicitly not itself an authoritative source of law.",
+      "language": "pl",
+      "changeRisk": "high",
+      "topicTags": [
+        "governance",
+        "sanctions",
+        "reconstruction"
+      ],
+      "reviewedOn": "2026-10-16",
+      "verification": "publisher-link-reviewed",
+      "legalStatus": "Recheck current legal effect and applicability; registry does not certify validity",
+      "sourceType": "discovery"
+    },
+    {
+      "id": "law-026",
+      "jurisdictionId": "pl",
+      "kind": "repository",
+      "category": "legislation",
+      "title": "ISAP advanced legislation search",
+      "url": "https://isap.sejm.gov.pl/isap.nsf/search.xsp",
+      "note": "Filter promulgated laws and international agreements by status and issue.",
+      "language": "pl",
+      "changeRisk": "high",
+      "topicTags": [
+        "governance",
+        "sanctions",
+        "reconstruction"
+      ],
+      "reviewedOn": "2026-10-16",
+      "verification": "publisher-link-reviewed",
+      "legalStatus": "Recheck current legal effect and applicability; registry does not certify validity",
+      "sourceType": "discovery"
+    },
+    {
+      "id": "law-027",
+      "jurisdictionId": "de",
+      "kind": "repository",
+      "category": "legislation",
+      "title": "Gesetze im Internet",
+      "url": "https://www.gesetze-im-internet.de/",
+      "note": "Federal consolidated laws; promulgated source remains relevant for legal effect.",
+      "language": "de",
+      "changeRisk": "high",
+      "topicTags": [
+        "governance",
+        "sanctions",
+        "reconstruction"
+      ],
+      "reviewedOn": "2026-10-16",
+      "verification": "publisher-link-reviewed",
+      "legalStatus": "Recheck current legal effect and applicability; registry does not certify validity",
+      "sourceType": "discovery"
+    },
+    {
+      "id": "law-028",
+      "jurisdictionId": "de",
+      "kind": "repository",
+      "category": "legislation",
+      "title": "Federal Law Gazette (Bundesgesetzblatt)",
+      "url": "https://recht.bund.de/",
+      "note": "Official promulgation of German federal legislation.",
+      "language": "de",
+      "changeRisk": "high",
+      "topicTags": [
+        "governance",
+        "sanctions",
+        "reconstruction"
+      ],
+      "reviewedOn": "2026-10-16",
+      "verification": "publisher-link-reviewed",
+      "legalStatus": "Recheck current legal effect and applicability; registry does not certify validity",
+      "sourceType": "discovery"
+    },
+    {
+      "id": "law-029",
+      "jurisdictionId": "fr",
+      "kind": "repository",
+      "category": "legislation",
+      "title": "Légifrance — national law",
+      "url": "https://www.legifrance.gouv.fr/contenu/menu/droit-national-en-vigueur",
+      "note": "Constitution, codes, current legislation, decrees, jurisprudence and official journal links.",
+      "language": "fr",
+      "changeRisk": "high",
+      "topicTags": [
+        "governance",
+        "sanctions",
+        "reconstruction"
+      ],
+      "reviewedOn": "2026-10-16",
+      "verification": "publisher-link-reviewed",
+      "legalStatus": "Recheck current legal effect and applicability; registry does not certify validity",
+      "sourceType": "discovery"
+    },
+    {
+      "id": "law-030",
+      "jurisdictionId": "fr",
+      "kind": "repository",
+      "category": "legislation",
+      "title": "Légifrance codes",
+      "url": "https://www.legifrance.gouv.fr/liste/code?page=1",
+      "note": "French codes in consolidated form; identify the relevant sections and dates.",
+      "language": "fr",
+      "changeRisk": "high",
+      "topicTags": [
+        "governance",
+        "sanctions",
+        "reconstruction"
+      ],
+      "reviewedOn": "2026-10-16",
+      "verification": "publisher-link-reviewed",
+      "legalStatus": "Recheck current legal effect and applicability; registry does not certify validity",
+      "sourceType": "discovery"
+    },
+    {
+      "id": "law-031",
+      "jurisdictionId": "tr",
+      "kind": "repository",
+      "category": "legislation",
+      "title": "Türkiye Official Gazette (Resmî Gazete)",
+      "url": "https://www.resmigazete.gov.tr/",
+      "note": "Official gazette of statutes, presidential decisions and regulations; Turkish-language source.",
+      "language": "tr",
+      "changeRisk": "high",
+      "topicTags": [
+        "governance",
+        "sanctions",
+        "reconstruction"
+      ],
+      "reviewedOn": "2026-10-16",
+      "verification": "publisher-link-reviewed",
+      "legalStatus": "Recheck current legal effect and applicability; registry does not certify validity",
+      "sourceType": "discovery"
+    },
+    {
+      "id": "law-032",
+      "jurisdictionId": "tr",
+      "kind": "repository",
+      "category": "legislation",
+      "title": "Türkiye legislative information system",
+      "url": "https://www.mevzuat.gov.tr/",
+      "note": "Legislation reference portal linked from the official gazette; direct site may restrict automated access.",
+      "language": "tr",
+      "changeRisk": "high",
+      "topicTags": [
+        "governance",
+        "sanctions",
+        "reconstruction"
+      ],
+      "reviewedOn": "2026-10-16",
+      "verification": "publisher-link-reviewed",
+      "legalStatus": "Recheck current legal effect and applicability; registry does not certify validity",
+      "sourceType": "discovery"
+    },
+    {
+      "id": "law-033",
+      "jurisdictionId": "ch",
+      "kind": "repository",
+      "category": "legislation",
+      "title": "Fedlex federal law portal",
+      "url": "https://www.fedlex.admin.ch/",
+      "note": "Swiss official, classified and gazette federal law plus treaties; check applicable language version.",
+      "language": "de/fr/it",
+      "changeRisk": "high",
+      "topicTags": [
+        "governance",
+        "sanctions",
+        "reconstruction"
+      ],
+      "reviewedOn": "2026-10-16",
+      "verification": "publisher-link-reviewed",
+      "legalStatus": "Recheck current legal effect and applicability; registry does not certify validity",
+      "sourceType": "discovery"
+    },
+    {
+      "id": "law-034",
+      "jurisdictionId": "cn",
+      "kind": "repository",
+      "category": "legislation",
+      "title": "China National Laws and Regulations Database",
+      "url": "https://flk.npc.gov.cn/search",
+      "note": "National People's Congress legislative database with status and promulgation filters.",
+      "language": "zh",
+      "changeRisk": "high",
+      "topicTags": [
+        "governance",
+        "sanctions",
+        "reconstruction"
+      ],
+      "reviewedOn": "2026-10-16",
+      "verification": "publisher-link-reviewed",
+      "legalStatus": "Recheck current legal effect and applicability; registry does not certify validity",
+      "sourceType": "discovery"
+    },
+    {
+      "id": "law-035",
+      "jurisdictionId": "jp",
+      "kind": "repository",
+      "category": "legislation",
+      "title": "Japan e-Gov law search",
+      "url": "https://laws.e-gov.go.jp/",
+      "note": "Japanese legislative reference; check ministry measures separately.",
+      "language": "ja",
+      "changeRisk": "high",
+      "topicTags": [
+        "governance",
+        "sanctions",
+        "reconstruction"
+      ],
+      "reviewedOn": "2026-10-16",
+      "verification": "portal-link-reviewed",
+      "legalStatus": "Recheck current legal effect and applicability; registry does not certify validity",
+      "sourceType": "discovery"
+    },
+    {
+      "id": "law-036",
+      "jurisdictionId": "un",
+      "kind": "repository",
+      "category": "treaty",
+      "title": "United Nations Treaty Collection",
+      "url": "https://treaties.un.org/pages/home.aspx?lang=eng",
+      "note": "Treaty texts and depositary status where UN Secretary-General is depositary; verify state reservations.",
+      "language": "multi",
+      "changeRisk": "high",
+      "topicTags": [
+        "territory",
+        "humanitarian",
+        "arms-control"
+      ],
+      "reviewedOn": "2026-10-16",
+      "verification": "publisher-link-reviewed",
+      "legalStatus": "Recheck current legal effect and applicability; registry does not certify validity",
+      "sourceType": "discovery"
+    },
+    {
+      "id": "law-037",
+      "jurisdictionId": "un",
+      "kind": "repository",
+      "category": "treaty",
+      "title": "UN Treaty Collection participant search",
+      "url": "https://treaties.un.org/Pages/TreatyParticipantSearch.aspx?clang=_en",
+      "note": "Country-by-country participation and reservations; treaty ratification is not inferred from title.",
+      "language": "en",
+      "changeRisk": "high",
+      "topicTags": [
+        "territory",
+        "humanitarian",
+        "arms-control"
+      ],
+      "reviewedOn": "2026-10-16",
+      "verification": "publisher-link-reviewed",
+      "legalStatus": "Recheck current legal effect and applicability; registry does not certify validity",
+      "sourceType": "discovery"
+    },
+    {
+      "id": "law-038",
+      "jurisdictionId": "un",
+      "kind": "repository",
+      "category": "resolutions",
+      "title": "UN Digital Library",
+      "url": "https://digitallibrary.un.org/",
+      "note": "Resolutions, meetings and primary documents; distinguish General Assembly and Security Council effects.",
+      "language": "multi",
+      "changeRisk": "high",
+      "topicTags": [
+        "territory",
+        "mandates",
+        "humanitarian"
+      ],
+      "reviewedOn": "2026-10-16",
+      "verification": "publisher-link-reviewed",
+      "legalStatus": "Recheck current legal effect and applicability; registry does not certify validity",
+      "sourceType": "discovery"
+    },
+    {
+      "id": "law-039",
+      "jurisdictionId": "un",
+      "kind": "instrument",
+      "category": "treaty",
+      "title": "UN Charter",
+      "url": "https://www.un.org/en/about-us/un-charter/full-text",
+      "note": "Sovereignty, peaceful settlement, prohibition on force and Security Council mandates.",
+      "language": "en",
+      "changeRisk": "medium",
+      "topicTags": [
+        "territory",
+        "humanitarian",
+        "arms-control"
+      ],
+      "reviewedOn": "2026-10-16",
+      "verification": "publisher-link-reviewed",
+      "legalStatus": "Recheck current legal effect and applicability; registry does not certify validity",
+      "sourceType": "instrument"
+    },
+    {
+      "id": "law-040",
+      "jurisdictionId": "coe",
+      "kind": "repository",
+      "category": "judgments",
+      "title": "HUDOC ECHR case law",
+      "url": "https://hudoc.echr.coe.int/eng",
+      "note": "Court judgments and admissibility decisions; assess jurisdiction and temporal limits for each case.",
+      "language": "en/fr",
+      "changeRisk": "high",
+      "topicTags": [
+        "justice",
+        "rights"
+      ],
+      "reviewedOn": "2026-10-16",
+      "verification": "publisher-link-reviewed",
+      "legalStatus": "Recheck current legal effect and applicability; registry does not certify validity",
+      "sourceType": "discovery"
+    },
+    {
+      "id": "law-041",
+      "jurisdictionId": "coe",
+      "kind": "repository",
+      "category": "treaty",
+      "title": "Council of Europe treaty office",
+      "url": "https://www.coe.int/en/web/conventions/",
+      "note": "Treaty text, ratifications, reservations and current participation.",
+      "language": "en/fr",
+      "changeRisk": "high",
+      "topicTags": [
+        "territory",
+        "humanitarian",
+        "arms-control"
+      ],
+      "reviewedOn": "2026-10-16",
+      "verification": "publisher-link-reviewed",
+      "legalStatus": "Recheck current legal effect and applicability; registry does not certify validity",
+      "sourceType": "discovery"
+    },
+    {
+      "id": "law-042",
+      "jurisdictionId": "osce",
+      "kind": "instrument",
+      "category": "policy",
+      "title": "OSCE Vienna Document 2011",
+      "url": "https://www.osce.org/fsc/86597",
+      "note": "Politically binding confidence-building commitments; does not authorize a newly deployed field mission.",
+      "language": "en",
+      "changeRisk": "medium",
+      "topicTags": [
+        "arms-control",
+        "verification"
+      ],
+      "reviewedOn": "2026-10-16",
+      "verification": "publisher-link-reviewed",
+      "legalStatus": "Recheck current legal effect and applicability; registry does not certify validity",
+      "sourceType": "instrument"
+    },
+    {
+      "id": "law-043",
+      "jurisdictionId": "osce",
+      "kind": "repository",
+      "category": "policy",
+      "title": "OSCE confidence- and security-building measures",
+      "url": "https://www.osce.org/secretariat/107484",
+      "note": "Policy and verification concepts; check actual institutional mandates separately.",
+      "language": "en",
+      "changeRisk": "medium",
+      "topicTags": [
+        "arms-control",
+        "verification"
+      ],
+      "reviewedOn": "2026-10-16",
+      "verification": "publisher-link-reviewed",
+      "legalStatus": "Recheck current legal effect and applicability; registry does not certify validity",
+      "sourceType": "discovery"
+    },
+    {
+      "id": "law-044",
+      "jurisdictionId": "iaea",
+      "kind": "repository",
+      "category": "nuclear",
+      "title": "IAEA nuclear safety and security in Ukraine",
+      "url": "https://www.iaea.org/topics/response/nuclear-safety-security-and-safeguards-in-ukraine",
+      "note": "Institutional technical statements on nuclear safety in Ukraine; verify per-site permissions.",
+      "language": "en",
+      "changeRisk": "high",
+      "topicTags": [
+        "nuclear",
+        "verification"
+      ],
+      "reviewedOn": "2026-10-16",
+      "verification": "publisher-link-reviewed",
+      "legalStatus": "Recheck current legal effect and applicability; registry does not certify validity",
+      "sourceType": "discovery"
+    },
+    {
+      "id": "law-045",
+      "jurisdictionId": "iaea",
+      "kind": "repository",
+      "category": "nuclear",
+      "title": "IAEA official document portal",
+      "url": "https://www.iaea.org/publications/documents",
+      "note": "IAEA resolutions, technical publications and other documents; independent legal mandate assessment required.",
+      "language": "en",
+      "changeRisk": "high",
+      "topicTags": [
+        "nuclear",
+        "verification"
+      ],
+      "reviewedOn": "2026-10-16",
+      "verification": "publisher-link-reviewed",
+      "legalStatus": "Recheck current legal effect and applicability; registry does not certify validity",
+      "sourceType": "discovery"
+    },
+    {
+      "id": "law-046",
+      "jurisdictionId": "icrc",
+      "kind": "repository",
+      "category": "humanitarian",
+      "title": "ICRC International Humanitarian Law databases",
+      "url": "https://ihl-databases.icrc.org/en",
+      "note": "Treaties, customary IHL and national practice resources; not a military permission authority.",
+      "language": "en",
+      "changeRisk": "medium",
+      "topicTags": [
+        "humanitarian",
+        "rights"
+      ],
+      "reviewedOn": "2026-10-16",
+      "verification": "publisher-link-reviewed",
+      "legalStatus": "Recheck current legal effect and applicability; registry does not certify validity",
+      "sourceType": "discovery"
+    },
+    {
+      "id": "law-047",
+      "jurisdictionId": "be",
+      "kind": "repository",
+      "category": "legislation",
+      "title": "Belgian Official Gazette / Moniteur belge (Justice portal)",
+      "url": "https://www.justice.belgium.be/fr/moniteur_belge",
+      "note": "Belgian Ministry of Justice overview links to authentic official publications and the Justel consolidated database.",
+      "language": "French/Dutch/German",
+      "changeRisk": "high",
+      "topicTags": [
+        "governance",
+        "sanctions",
+        "reconstruction"
+      ],
+      "reviewedOn": "2026-10-16",
+      "verification": "publisher-link-reviewed",
+      "legalStatus": "Recheck current legal effect and applicability; registry does not certify validity",
+      "sourceType": "discovery"
+    },
+    {
+      "id": "law-048",
+      "jurisdictionId": "be",
+      "kind": "repository",
+      "category": "legislation",
+      "title": "Belgian consolidated legislation — Justel (Justice Ministry)",
+      "url": "https://www.justice.belgium.be/fr/legislation_et_reglementation_belge",
+      "note": "Official Justice Ministry access to consolidated Justel texts and institutional Senlex material; confirm legal effect with the authentic Moniteur belge publication.",
+      "language": "French/Dutch/German",
+      "changeRisk": "high",
+      "topicTags": [
+        "governance",
+        "sanctions",
+        "reconstruction"
+      ],
+      "reviewedOn": "2026-10-16",
+      "verification": "publisher-link-reviewed",
+      "legalStatus": "Recheck current legal effect and applicability; registry does not certify validity",
+      "sourceType": "discovery"
+    },
+    {
+      "id": "law-049",
+      "jurisdictionId": "nl",
+      "kind": "repository",
+      "category": "legislation",
+      "title": "Netherlands official consolidated legislation search",
+      "url": "https://wetten.overheid.nl/",
+      "note": "Search Dutch legislation, rules, treaties and date-specific versions.",
+      "language": "Dutch",
+      "changeRisk": "high",
+      "topicTags": [
+        "governance",
+        "sanctions",
+        "reconstruction"
+      ],
+      "reviewedOn": "2026-10-16",
+      "verification": "publisher-link-reviewed",
+      "legalStatus": "Recheck current legal effect and applicability; registry does not certify validity",
+      "sourceType": "discovery"
+    },
+    {
+      "id": "law-050",
+      "jurisdictionId": "it",
+      "kind": "repository",
+      "category": "legislation",
+      "title": "Normattiva Italian consolidated law",
+      "url": "https://www.normattiva.it/home",
+      "note": "Italian statutory text by version; investigate changes over time.",
+      "language": "Italian",
+      "changeRisk": "high",
+      "topicTags": [
+        "governance",
+        "sanctions",
+        "reconstruction"
+      ],
+      "reviewedOn": "2026-10-16",
+      "verification": "publisher-link-reviewed",
+      "legalStatus": "Recheck current legal effect and applicability; registry does not certify validity",
+      "sourceType": "discovery"
+    },
+    {
+      "id": "law-051",
+      "jurisdictionId": "it",
+      "kind": "repository",
+      "category": "legislation",
+      "title": "Gazzetta Ufficiale Italian official journal",
+      "url": "https://www.gazzettaufficiale.it/",
+      "note": "Official gazette for promulgation and formal publications.",
+      "language": "Italian",
+      "changeRisk": "high",
+      "topicTags": [
+        "governance",
+        "sanctions",
+        "reconstruction"
+      ],
+      "reviewedOn": "2026-10-16",
+      "verification": "publisher-link-reviewed",
+      "legalStatus": "Recheck current legal effect and applicability; registry does not certify validity",
+      "sourceType": "discovery"
+    },
+    {
+      "id": "law-052",
+      "jurisdictionId": "no",
+      "kind": "repository",
+      "category": "legislation",
+      "title": "Lovdata Norwegian law and treaties",
+      "url": "https://lovdata.no/",
+      "note": "Access acts, regulations, EEA agreements and treaty references; check legal implementation.",
+      "language": "Norwegian",
+      "changeRisk": "high",
+      "topicTags": [
+        "governance",
+        "sanctions",
+        "reconstruction"
+      ],
+      "reviewedOn": "2026-10-16",
+      "verification": "publisher-link-reviewed",
+      "legalStatus": "Recheck current legal effect and applicability; registry does not certify validity",
+      "sourceType": "discovery"
+    },
+    {
+      "id": "law-053",
+      "jurisdictionId": "se",
+      "kind": "repository",
+      "category": "legislation",
+      "title": "Svensk författningssamling Swedish law",
+      "url": "https://www.svenskforfattningssamling.se/",
+      "note": "Official authentic publication of Swedish legislation and government regulations.",
+      "language": "Swedish",
+      "changeRisk": "high",
+      "topicTags": [
+        "governance",
+        "sanctions",
+        "reconstruction"
+      ],
+      "reviewedOn": "2026-10-16",
+      "verification": "publisher-link-reviewed",
+      "legalStatus": "Recheck current legal effect and applicability; registry does not certify validity",
+      "sourceType": "discovery"
+    },
+    {
+      "id": "law-054",
+      "jurisdictionId": "se",
+      "kind": "repository",
+      "category": "legislation",
+      "title": "Swedish Parliament documents and laws",
+      "url": "https://www.riksdagen.se/sv/dokument-och-lagar/",
+      "note": "Parliamentary records and legislative history. Proposals are not enacted law.",
+      "language": "Swedish",
+      "changeRisk": "high",
+      "topicTags": [
+        "governance",
+        "sanctions",
+        "reconstruction"
+      ],
+      "reviewedOn": "2026-10-16",
+      "verification": "publisher-link-reviewed",
+      "legalStatus": "Recheck current legal effect and applicability; registry does not certify validity",
+      "sourceType": "discovery"
+    },
+    {
+      "id": "law-055",
+      "jurisdictionId": "dk",
+      "kind": "repository",
+      "category": "legislation",
+      "title": "Denmark Retsinformation",
+      "url": "https://retsinformation.dk/",
+      "note": "Central legal information portal with current laws, regulations and proposed legislation.",
+      "language": "Danish",
+      "changeRisk": "high",
+      "topicTags": [
+        "governance",
+        "sanctions",
+        "reconstruction"
+      ],
+      "reviewedOn": "2026-10-16",
+      "verification": "publisher-link-reviewed",
+      "legalStatus": "Recheck current legal effect and applicability; registry does not certify validity",
+      "sourceType": "discovery"
+    },
+    {
+      "id": "law-056",
+      "jurisdictionId": "ee",
+      "kind": "repository",
+      "category": "legislation",
+      "title": "Estonia Riigi Teataja",
+      "url": "https://www.riigiteataja.ee/en",
+      "note": "Official legislative text with consolidated versions and search.",
+      "language": "Estonian/English",
+      "changeRisk": "high",
+      "topicTags": [
+        "governance",
+        "sanctions",
+        "reconstruction"
+      ],
+      "reviewedOn": "2026-10-16",
+      "verification": "publisher-link-reviewed",
+      "legalStatus": "Recheck current legal effect and applicability; registry does not certify validity",
+      "sourceType": "discovery"
+    },
+    {
+      "id": "law-057",
+      "jurisdictionId": "lv",
+      "kind": "repository",
+      "category": "legislation",
+      "title": "Latvia Likumi.lv",
+      "url": "https://likumi.lv/",
+      "note": "National legislation with act status, promulgation and effective dates.",
+      "language": "Latvian",
+      "changeRisk": "high",
+      "topicTags": [
+        "governance",
+        "sanctions",
+        "reconstruction"
+      ],
+      "reviewedOn": "2026-10-16",
+      "verification": "publisher-link-reviewed",
+      "legalStatus": "Recheck current legal effect and applicability; registry does not certify validity",
+      "sourceType": "discovery"
+    },
+    {
+      "id": "law-058",
+      "jurisdictionId": "lt",
+      "kind": "repository",
+      "category": "legislation",
+      "title": "Lithuania Register of Legal Acts",
+      "url": "https://e-tar.lt/portal/en/index",
+      "note": "Office of Seimas legal acts register with consolidated search.",
+      "language": "Lithuanian/English",
+      "changeRisk": "high",
+      "topicTags": [
+        "governance",
+        "sanctions",
+        "reconstruction"
+      ],
+      "reviewedOn": "2026-10-16",
+      "verification": "publisher-link-reviewed",
+      "legalStatus": "Recheck current legal effect and applicability; registry does not certify validity",
+      "sourceType": "discovery"
+    },
+    {
+      "id": "law-059",
+      "jurisdictionId": "ro",
+      "kind": "repository",
+      "category": "legislation",
+      "title": "Romania legislative portal",
+      "url": "https://legislatie.just.ro/",
+      "note": "Official Ministry of Justice legislative search; confirm publishing dates and status.",
+      "language": "Romanian",
+      "changeRisk": "high",
+      "topicTags": [
+        "governance",
+        "sanctions",
+        "reconstruction"
+      ],
+      "reviewedOn": "2026-10-16",
+      "verification": "publisher-link-reviewed",
+      "legalStatus": "Recheck current legal effect and applicability; registry does not certify validity",
+      "sourceType": "discovery"
+    },
+    {
+      "id": "law-060",
+      "jurisdictionId": "un",
+      "kind": "guidance",
+      "category": "humanitarian",
+      "title": "International Mine Action Standards — IMAS 07.11 Land Release",
+      "url": "https://www.mineactionstandards.org/standards/07-11/",
+      "note": "International professional guidance on evidence-based land release and national mine-action authority/accreditation; not a substitute for Ukrainian legal authorization.",
+      "language": "en",
+      "changeRisk": "high",
+      "topicTags": [
+        "demining",
+        "clearance",
+        "reconstruction"
+      ],
+      "reviewedOn": "2026-10-16",
+      "verification": "portal-link-reviewed",
+      "legalStatus": "Source-mapped context only; verify current text and applicability independently",
+      "sourceType": "discovery"
+    },
+    {
+      "id": "law-061",
+      "jurisdictionId": "us",
+      "kind": "guidance",
+      "category": "sanctions",
+      "title": "OFAC Russian Harmful Foreign Activities sanctions: general licenses",
+      "url": "https://ofac.treasury.gov/sanctions-programs-and-country-information/russian-harmful-foreign-activities-sanctions",
+      "note": "OFAC general licenses identify specific otherwise-prohibited transactions authorized within stated terms; live licensing and persons-screening required.",
+      "language": "en",
+      "changeRisk": "high",
+      "topicTags": [
+        "sanctions",
+        "licenses",
+        "finance"
+      ],
+      "reviewedOn": "2026-10-16",
+      "verification": "portal-link-reviewed",
+      "legalStatus": "Source-mapped context only; verify current text and applicability independently",
+      "sourceType": "discovery"
+    },
+    {
+      "id": "law-062",
+      "jurisdictionId": "eu",
+      "kind": "instrument",
+      "category": "sanctions",
+      "title": "EU Council Regulation 833/2014 — restrictive measures",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32014R0833",
+      "note": "Economic/sectoral restrictions in force subject to amendments, exceptions and current consolidation; not evidence that a specific activity is licensed.",
+      "language": "en",
+      "changeRisk": "high",
+      "topicTags": [
+        "sanctions",
+        "industrial",
+        "energy"
+      ],
+      "reviewedOn": "2026-10-16",
+      "verification": "publisher-link-reviewed",
+      "legalStatus": "Source-mapped context only; verify current text and applicability independently",
+      "sourceType": "instrument"
+    },
+    {
+      "id": "law-063",
+      "jurisdictionId": "eu",
+      "kind": "guidance",
+      "category": "sanctions",
+      "title": "European Commission sanctions resources, authority and official law references",
+      "url": "https://finance.ec.europa.eu/eu-and-world/sanctions-restrictive-measures/overview-sanctions-and-related-resources_en",
+      "note": "EU Commission guidance and access to financial sanctions lists, legal acts and competent authorities; not a substitute for the Official Journal.",
+      "language": "en",
+      "changeRisk": "high",
+      "topicTags": [
+        "sanctions",
+        "assets",
+        "finance"
+      ],
+      "reviewedOn": "2026-10-16",
+      "verification": "publisher-link-reviewed",
+      "legalStatus": "Source-mapped context only; verify current text and applicability independently",
+      "sourceType": "discovery"
+    },
+    {
+      "id": "law-064",
+      "jurisdictionId": "ca",
+      "kind": "guidance",
+      "category": "sanctions",
+      "title": "Canadian sanctions — permits and certificates",
+      "url": "https://www.international.gc.ca/world-monde/international_relations-relations_internationales/sanctions/certificates_permits-certificats_permis.aspx?lang=eng",
+      "note": "Permits or certificates may exceptionally authorize specified otherwise-prohibited transactions; no approval is guaranteed and the applicable act and signed permission are required.",
+      "language": "en",
+      "changeRisk": "high",
+      "topicTags": [
+        "sanctions",
+        "finance",
+        "exports"
+      ],
+      "reviewedOn": "2026-10-16",
+      "verification": "portal-link-reviewed",
+      "legalStatus": "Source-mapped context only; verify current text and applicability independently",
+      "sourceType": "discovery"
+    },
+    {
+      "id": "law-065",
+      "jurisdictionId": "gb",
+      "kind": "guidance",
+      "category": "sanctions",
+      "title": "UK OFSI financial sanctions licence application guidance",
+      "url": "https://www.gov.uk/guidance/licences-that-allow-activity-prohibited-by-financial-sanctions",
+      "note": "OFSI licence requirements, relevant legal grounds, and transaction disclosure; no proposed project is pre-authorized.",
+      "language": "en",
+      "changeRisk": "high",
+      "topicTags": [
+        "sanctions",
+        "licenses",
+        "finance"
+      ],
+      "reviewedOn": "2026-10-16",
+      "verification": "portal-link-reviewed",
+      "legalStatus": "Source-mapped context only; verify current text and applicability independently",
+      "sourceType": "discovery"
+    }
+  ],
+  "categories": [
+    {
+      "id": "constitutional",
+      "label": "Constitutional"
+    },
+    {
+      "id": "humanitarian",
+      "label": "Humanitarian"
+    },
+    {
+      "id": "judgments",
+      "label": "Judgments"
+    },
+    {
+      "id": "legislation",
+      "label": "Legislation"
+    },
+    {
+      "id": "nuclear",
+      "label": "Nuclear"
+    },
+    {
+      "id": "policy",
+      "label": "Policy"
+    },
+    {
+      "id": "regulation",
+      "label": "Regulation"
+    },
+    {
+      "id": "resolutions",
+      "label": "Resolutions"
+    },
+    {
+      "id": "sanctions",
+      "label": "Sanctions"
+    },
+    {
+      "id": "treaty",
+      "label": "Treaty"
+    }
+  ],
+  "reviewQuestions": [
+    "Identify the exact paragraph, enactment date, amendments and legal effect.",
+    "Identify actors and territory over which the law applies.",
+    "Distinguish enacted binding law from policy, draft, treaty signature and judgment.",
+    "Verify treaty ratification, reservations and jurisdiction at the relevant date.",
+    "Review national implementing measures, exceptions, permits and sanctions designations.",
+    "Do not rely on a translated summary where an authoritative text is required.",
+    "Document provenance, access date, review owner and evidence against the proposed intervention."
+  ]
+}

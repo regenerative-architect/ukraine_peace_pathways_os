@@ -1,3 +1,25 @@
+# v4.5 — Financing × Legislative Gates (2026-10-16)
+
+- Adds `data/finance-law-bridge.json` and a strict schema: 60 curated, nonbinding actor × regenerative-option research links with explicit legal research gates.
+- Adds interactive route with four filters, 218 provisional jurisdiction reviews, source-backed right inspector, independent scrolling, Markdown/CSV/JSON exports, and linked legal/funding and Pathway Forge handoffs.
+- Adds Finland and India official legislative repository links to the 28-jurisdiction legal directory, bringing it to 30 jurisdictions / 67 documents.
+- Adds schema and reference checks rejecting unknown actors, laws and options; rejects invented permission statuses; enforces stage consistency and full coverage of funding records.
+- Adds 11 new Python tests (53 total) and desktop/mobile browser smoke scripts. Retains original v4.4 application modules, data and local-case persistence.
+- Explicitly retains uncertain or not-assessed classifications. Does **not** render sanctions clearance, proof of funds, legal opinions or accepted peace commitments.
+
+---
+
+# v4.4 — Evidence-graded conflict financing & support atlas (2026-10-16)
+
+- 30 public-source-backed financing, weapons-transfer, economic or proposed-participation dossier records, 22 dated sources, 78 stakeholder actors and seven differentiated funding/support channels.
+- New research route with separate scrollable list and right-side dossier, source URLs, role/status filters, source-anchored Markdown, CSV and Pathway Forge handoff.
+- Funding roles integrated inside existing Stakeholder Atlas dossiers, with opt-in 'show mapped actors' filter.
+- Clear differentiation between Russian state war budget, transfers supporting Russia, lawful defence of Ukraine, civilian-recovery funding, financial intermediaries, indirect market exposure and unverified prospective partners.
+- Budget allocations, loans, guarantees, actual payouts, arms-transfer trend indicators and market revenue are recorded as distinct accounting classes, not summed.
+- Versioned Draft 2020-12 funding schema; build rejects broken actor/source references, duplicate profiles, future-dated source snapshots, invalid categories and unverifiable approval states.
+- Offline embedded metadata, standalone source data precached for hosted PWAs, 42 automated unit tests and desktop/mobile smoke checks.
+- No new integrations, authenticated funding evidence, bank access, institutional endorsements or automatic follow-up monitoring.
+
 # v4.2 — Legal & Institutional Documentation Atlas (2026-10-16)
 
 - Added `data/legal-atlas.json`: 59 curated public official-source URLs from 28 national/supranational/international jurisdictions, with instrument/repository/guidance distinctions, reference dates, language, legal caveats, subjects, and current-law recheck flags.

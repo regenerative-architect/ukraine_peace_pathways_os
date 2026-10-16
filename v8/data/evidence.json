@@ -1,0 +1,432 @@
+[
+  {
+    "id": "un-charter",
+    "name": "Charter of the United Nations, Articles 2 and 51",
+    "date": "1945-06-26",
+    "class": "LEGAL TEXT",
+    "confidence": "High",
+    "claim": "Sovereign equality, peaceful dispute resolution, prohibition of force and self-defence provide foundational legal constraints.",
+    "url": "https://www.un.org/en/about-us/un-charter/full-text",
+    "implication": "No forced territorial recognition or coercive settlement proposal."
+  },
+  {
+    "id": "ohchr-sep",
+    "name": "OHCHR civilian-protection report: September 2026",
+    "date": "2026-10-15",
+    "class": "VERIFIED MONITORING REPORT",
+    "confidence": "High for documented minimum counts",
+    "claim": "At least 328 civilians killed and 2,105 injured in Ukraine during September 2026 (documented minimum).",
+    "url": "https://ukraine.ohchr.org/en/Protection-of-Civilians-in-Armed-Conflict-September-2026",
+    "implication": "Prioritize verified civilian protection and warn against undercounting."
+  },
+  {
+    "id": "iaea-oct",
+    "name": "Reuters: IAEA-facilitated Zaporizhzhia repair truce",
+    "date": "2026-10-15",
+    "class": "REPORTED DEVELOPMENT",
+    "confidence": "Medium–high; independent repair outcome not established here",
+    "claim": "Rosatom reported a locally scoped IAEA-mediated truce for power-supply repairs.",
+    "url": "https://www.reuters.com/world/russias-rosatom-says-truce-place-zaporizhzhia-power-supply-repairs-2026-10-15/",
+    "implication": "Test narrow technical pause models, not a claim of general ceasefire."
+  },
+  {
+    "id": "osce-feb",
+    "name": "OSCE support for monitoring a negotiated settlement",
+    "date": "2026-02-02",
+    "class": "OFFICIAL POSITION",
+    "confidence": "High",
+    "claim": "OSCE leadership indicated readiness to support implementation monitoring, if authorized.",
+    "url": "https://www.osce.org/chairpersonship/661975",
+    "implication": "Explore consent-based monitoring mandates and funding."
+  },
+  {
+    "id": "icrc-neutral",
+    "name": "ICRC: value of neutrality for humanitarian work",
+    "date": "2025-02-21",
+    "class": "OFFICIAL HUMANITARIAN MANDATE",
+    "confidence": "High",
+    "claim": "Neutral, independent and impartial intermediary activities include repatriation and reconnecting families.",
+    "url": "https://www.icrc.org/en/article/russia-ukraine-international-armed-conflict-value-neutrality-humanitarian-work",
+    "implication": "Respect confidentiality; do not publish sensitive cases or impose advocacy roles."
+  },
+  {
+    "id": "rdna5",
+    "name": "World Bank Group support to Ukraine: March 2026",
+    "date": "2026-03-01",
+    "class": "INSTITUTIONAL ESTIMATE",
+    "confidence": "High for published estimate; projections uncertain",
+    "claim": "February 2026 RDNA5 estimated nearly US$588 billion in reconstruction needs over the following decade.",
+    "url": "https://thedocs.worldbank.org/en/doc/ccf8044b6df7e0dd03f3899580b97d35-0080012026/original/WBG-Support-Ukraine-March-2026.pdf",
+    "implication": "Financing designs need audits, prioritization and local ownership."
+  },
+  {
+    "id": "trystero-doc",
+    "name": "Trystero: official getting started and connection requirements",
+    "date": "2026-10-16",
+    "class": "TECHNICAL DOCUMENTATION CHECKED",
+    "confidence": "High for API at version 0.26.0",
+    "claim": "Both peers must share app ID, room ID, signaling strategy and password; some network pairs need TURN.",
+    "url": "https://trystero.dev/docs/connections/",
+    "implication": "Opt-in peer connection with room-code diagnostics and honest TURN fallback."
+  },
+  {
+    "id": "trystero-strategy",
+    "name": "Trystero: signaling strategies",
+    "date": "2026-10-16",
+    "class": "TECHNICAL DOCUMENTATION CHECKED",
+    "confidence": "High for version 0.26.0",
+    "claim": "Default Trystero uses public Nostr relays; signaling and data transport are distinct.",
+    "url": "https://trystero.dev/docs/signaling-strategies/",
+    "implication": "Never claim network or relay availability in offline mode."
+  },
+  {
+    "id": "un-ga-2026",
+    "name": "UN General Assembly leadership on sovereignty and ceasefire",
+    "date": "2026-02-24",
+    "class": "INSTITUTIONAL POSITION",
+    "confidence": "High: attributed public statement",
+    "claim": "UN General Assembly leadership reiterated Ukrainian sovereignty and internationally recognized borders, cessation of hostilities, and the importance of a UN Charter-based negotiated peace.",
+    "url": "https://www.un.org/pga/80/2026/02/24/pga-remarks-at-the-general-assembly-eleventh-emergency-special-session-resumed-the-situation-in-temporarily-occupied-ukraine-delivered-by-vice-president/",
+    "implication": "Settlement proposals must disclose and test compatibility with international law; do not treat territorial coercion as consent."
+  },
+  {
+    "id": "paris-2026",
+    "name": "Paris declaration on security guarantees",
+    "date": "2026-01-06",
+    "class": "MULTILATERAL POSITION",
+    "confidence": "High: primary public statement",
+    "claim": "Ukraine, the US and Coalition of the Willing participants stressed sovereign security and politically/legally binding guarantees to take effect after a ceasefire; pledges remain subject to their legal arrangements.",
+    "url": "https://www.president.gov.ua/en/news/parizka-deklaraciya-nadijni-garantiyi-bezpeki-dlya-micnogo-j-102313",
+    "implication": "Security arrangements require named guarantors, domestic authority, clear trigger, verification, and credible breach response."
+  },
+  {
+    "id": "uk-e3-jun",
+    "name": "E3 and Ukrainian leaders on negotiation conditions",
+    "date": "2026-06-07",
+    "class": "MULTILATERAL POSITION",
+    "confidence": "High: government statement",
+    "claim": "Leaders called for immediate ceasefire, negotiations beginning from the line of contact without changing borders by force, legally binding security guarantees, and appropriate EU/NATO consent for arrangements involving them.",
+    "url": "https://www.gov.uk/government/news/joint-e3-leaders-statement-with-president-volodymyr-zelenskyy-of-ukraine-7-june-2026",
+    "implication": "Distinguish negotiating starting points from territorial recognition; EU and NATO are not bound by external proposals without authorization."
+  },
+  {
+    "id": "osce-closed",
+    "name": "OSCE Special Monitoring Mission to Ukraine — closed",
+    "date": "2022-03-31",
+    "class": "INSTITUTIONAL RECORD",
+    "confidence": "High",
+    "claim": "The OSCE Special Monitoring Mission to Ukraine ceased operations on 31 March 2022; it is not a presently deployed verification body.",
+    "url": "https://www.osce.org/special-monitoring-mission-to-ukraine",
+    "implication": "Any new mission needs its own authorization, mandate, security access, budget and compliance design."
+  },
+  {
+    "id": "osce-lessons",
+    "name": "OSCE: A Peaceful Presence, first five years of SMM",
+    "date": "2021-06-29",
+    "class": "LESSONS LEARNED",
+    "confidence": "High: institutional study",
+    "claim": "Monitoring missions face mandate, access, safety and technical limitations; implementation mechanisms cannot be assumed from a signature alone.",
+    "url": "https://www.osce.org/secretariat/491220",
+    "implication": "Specify monitor mandate, access, reporting, incident review, and obstruction outcomes separately."
+  },
+  {
+    "id": "icrc-neutral-roles",
+    "name": "ICRC neutral intermediary — role and consent",
+    "date": "2023-12-01",
+    "class": "HUMANITARIAN POLICY",
+    "confidence": "High: official explanatory page",
+    "claim": "ICRC may facilitate family links and exchanges as a neutral intermediary but can only act with agreement of the involved parties.",
+    "url": "https://www.icrc.org/en/what-we-do/neutral-intermediary",
+    "implication": "Never nominate or represent ICRC without its own acceptance and the relevant parties’ agreement."
+  },
+  {
+    "id": "reuters-ceasefire-2026",
+    "name": "Reuters: Kremlin rejected proposed 60-day ceasefire",
+    "date": "2026-10-12",
+    "class": "REPORTED POSITION",
+    "confidence": "Reported public statement; time-sensitive",
+    "claim": "Kremlin rejected a proposed short-term 60-day ceasefire tied to Ukrainian elections and emphasized seeking an overall long-term arrangement; not proof about acceptance of other proposals.",
+    "url": "https://www.reuters.com/world/europe/kremlin-rejects-ukrainian-leaders-idea-60-day-ceasefire-says-it-wants-an-overall-2026-10-12/",
+    "implication": "Political willingness and acceptable sequencing cannot be deduced from interest in talks."
+  },
+  {
+    "id": "reuters-energy-2026",
+    "name": "Reuters: Ukraine awaits details of proposed energy ceasefire",
+    "date": "2026-10-11",
+    "class": "REPORTED POSITION",
+    "confidence": "Reported public statement; time-sensitive",
+    "claim": "Ukrainian president welcomed a proposed energy ceasefire in principle but said details and actual Russian compliance were needed amid continuing attacks.",
+    "url": "https://www.reuters.com/world/europe/ukraine-awaits-details-ceasefire-proposals-us-russia-maintains-attacks-zelenskiy-2026-10-11/",
+    "implication": "Announced proposals are not mutually signed or verified restraint agreements."
+  },
+  {
+    "id": "reuters-zone-2026",
+    "name": "Reuters: Russian non-negotiable security-zone claim",
+    "date": "2026-10-16",
+    "class": "REPORTED POSITION",
+    "confidence": "Reported public statement; time-sensitive",
+    "claim": "Putin publicly characterized a security zone in Ukrainian border regions as non-negotiable; this is a reported Russian position, not an internationally accepted legal arrangement.",
+    "url": "https://www.reuters.com/world/putin-says-russia-is-building-non-negotiable-security-zone-ukraine-along-border-2026-10-16/",
+    "implication": "Record incompatibilities and test whether a draft is actually negotiable; do not convert asserted control into legal recognition."
+  },
+  {
+    "id": "reuters-aid-2026",
+    "name": "Reuters: Kremlin supports Vatican aid initiative for Oleshky",
+    "date": "2026-10-16",
+    "class": "REPORTED POSITION",
+    "confidence": "Reported public statement; time-sensitive",
+    "claim": "Kremlin said Russia would cooperate with a Vatican-backed humanitarian-aid proposal for Oleshky; this alone is not a verified, agreed and implemented ceasefire.",
+    "url": "https://www.reuters.com/world/europe/kremlin-says-putin-told-pope-leo-he-backs-vatican-idea-help-civilians-in-oleshky-2026-10-16/",
+    "implication": "Potential narrow humanitarian entry point still requires the other parties, independent access and safety guarantees."
+  },
+  {
+    "id": "osce-mandate-ended",
+    "name": "OSCE Special Monitoring Mission closed",
+    "date": "2022-04-28",
+    "class": "INSTITUTIONAL STATUS",
+    "confidence": "High for cited institutional description; not a commitment to this project",
+    "claim": "OSCE SMM closed after its extension failed to secure consensus; cannot simply reactivate it.",
+    "url": "https://www.osce.org/chairpersonship/516933",
+    "implication": "A proposed ceasefire sensor/observer arrangement requires new authority and access."
+  },
+  {
+    "id": "iaea-five-principles",
+    "name": "IAEA nuclear safety and security in Ukraine",
+    "date": "2026-10-16",
+    "class": "AGENCY GUIDANCE",
+    "confidence": "High for cited institutional description; not a commitment to this project",
+    "claim": "IAEA Five Concrete Principles and Seven Pillars are safety norms and monitoring frameworks, not unilateral IAEA policing powers.",
+    "url": "https://www.iaea.org/topics/response/nuclear-safety-security-and-safeguards-in-ukraine",
+    "implication": "Consent and effective protective restraint must be organized by the parties; IAEA can assess and report within mandate."
+  },
+  {
+    "id": "echr-russia-jurisdiction",
+    "name": "ECHR respondent states and Russia temporal jurisdiction",
+    "date": "2026-10-16",
+    "class": "COURT JURISDICTION",
+    "confidence": "High for cited institutional description; not a commitment to this project",
+    "claim": "Russia ceased to be a party to the ECHR on 16 September 2022; the Court retains competence for relevant earlier conduct.",
+    "url": "https://www.echr.coe.int/en/respondent-governments",
+    "implication": "Do not imply a new ECHR guarantee compelling Russia on future incidents."
+  },
+  {
+    "id": "un-elections-2022",
+    "name": "UN General Assembly condemns purported annexations",
+    "date": "2022-10-12",
+    "class": "UN RESOLUTION",
+    "confidence": "High for cited institutional description; not a commitment to this project",
+    "claim": "UN General Assembly condemned attempted annexation and called for nonrecognition of illegal purported referenda.",
+    "url": "https://press.un.org/en/2022/ga12458.doc.htm",
+    "implication": "A cooling period cannot automatically legitimate an occupied-territory status referendum."
+  },
+  {
+    "id": "un-temporary-authority",
+    "name": "UN Security Council Resolution 1272 (East Timor)",
+    "date": "1999-10-25",
+    "class": "HISTORIC PRECEDENT",
+    "confidence": "High for cited institutional description; not a commitment to this project",
+    "claim": "A UN transitional administration was specifically created by a Security Council mandate in East Timor; it is not an automatically available tool in Ukraine.",
+    "url": "https://digitallibrary.un.org/record/291410?ln=en",
+    "implication": "Any proposal requires a distinct legal basis, Ukrainian assent, and realistic Security Council voting analysis."
+  },
+  {
+    "id": "entsoe-connected",
+    "name": "ENTSO-E Ukraine/Moldova synchronisation",
+    "date": "2024-03-15",
+    "class": "GRID OPERATOR",
+    "confidence": "High for cited institutional description; not a commitment to this project",
+    "claim": "Ukraine and Moldova synchronised their electricity systems with continental Europe in March 2022.",
+    "url": "https://www.entsoe.eu/news/2024/03/15/two-years-since-ukraine-and-moldova-synchronised-electricity-grids-with-eu/",
+    "implication": "Proposals should strengthen an existing interconnection, not claim to initiate it."
+  },
+  {
+    "id": "imas-land-release",
+    "name": "International Mine Action Standard 07.11 land release",
+    "date": "2026-01-16",
+    "class": "TECHNICAL STANDARD",
+    "confidence": "High for cited institutional description; not a commitment to this project",
+    "claim": "Mine action relies on evidence-based survey, accreditation, quality assurance and national authorization; technology is an aid to accredited clearance.",
+    "url": "https://www.mineactionstandards.org/standards/07-11/",
+    "implication": "AI systems cannot autonomously certify farmland safe for public use."
+  },
+  {
+    "id": "imo-black-sea",
+    "name": "IMO maritime safety in Black Sea and Sea of Azov",
+    "date": "2026-07-13",
+    "class": "MULTILATERAL MARITIME",
+    "confidence": "High for cited institutional description; not a commitment to this project",
+    "claim": "IMO warns of serious dangers to civilian vessels; previous UN Black Sea Grain Initiative expired in July 2023.",
+    "url": "https://www.imo.org/en/mediacentre/hottopics/pages/maritimesecurityandsafetyintheblackseaandseaofazov.aspx",
+    "implication": "An AIS feed alone does not render a sea lane safe or establish a maritime ceasefire."
+  },
+  {
+    "id": "icrc-protected-persons",
+    "name": "ICRC Geneva law for prisoners and other detainees",
+    "date": "1949-08-12",
+    "class": "HUMANITARIAN LAW",
+    "confidence": "High for cited institutional description; not a commitment to this project",
+    "claim": "Geneva conventions govern treatment and release of prisoners and other protected persons with distinct legal classifications.",
+    "url": "https://www.icrc.org/en/law-and-policy/protected-persons-prisoners-war-and-detainees",
+    "implication": "Do not collapse POW repatriation, civilian internee release and hostage-related issues into a political swap."
+  },
+  {
+    "id": "imas-master",
+    "name": "International Mine Action Standards index",
+    "date": "2026-10-16",
+    "class": "TECHNICAL STANDARD",
+    "confidence": "High for cited institutional description; not a commitment to this project",
+    "claim": "Humanitarian survey, clearance and land-release standards distinguish detection claims from certified safe handover.",
+    "url": "https://www.mineactionstandards.org/standards/",
+    "implication": "Use certified independent quality assurance and national release."
+  },
+  {
+    "id": "eu-windfall-mechanism",
+    "name": "EU Council: immobilised asset extraordinary revenues and allocation",
+    "date": "2026-10-05",
+    "class": "LEGAL/FINANCIAL BASELINE",
+    "confidence": "High for EU legislation and implementation; future amendments require current review",
+    "claim": "EU extraordinary revenues are governed by existing legal allocations, including 95% to the Ukraine Loan Cooperation Mechanism and 5% to the European Peace Facility; they are not uncommitted assets available to a new discretionary trust.",
+    "url": "https://www.consilium.europa.eu/en/policies/ukraine-solidarity-financial-support/",
+    "implication": "A new fund must identify new or reallocated, legally authorized financing; it cannot double count existing earmarked revenue."
+  },
+  {
+    "id": "osce-vienna-document",
+    "name": "OSCE Vienna Document 2011: confidence- and security-building measures",
+    "date": "2011-12-22",
+    "class": "PRIMARY / REGIONAL SECURITY",
+    "confidence": "High for framework, current applicability requires review",
+    "claim": "Vienna Document structures exchanges of military information and confidence-building measures; no new 2026 agreement implied.",
+    "url": "https://www.osce.org/forum-for-security-cooperation/107432",
+    "implication": "Any updated arms-transparency proposal needs explicit state competence, agreed disclosure scope and review of current applicability."
+  },
+  {
+    "id": "un-ddr-standard",
+    "name": "UN Integrated Disarmament, Demobilization and Reintegration Standards",
+    "date": "2019-01-01",
+    "class": "PRIMARY / IMPLEMENTATION GUIDANCE",
+    "confidence": "High for framework; no Russia–Ukraine DDR mandate implied",
+    "claim": "UN DDR standards outline voluntary, rights-sensitive program design, reintegration and protections across mission and non-mission contexts.",
+    "url": "https://www.unddr.org/the-iddrs/",
+    "implication": "Use only as comparative guidance for voluntary reintegration; do not assume imposed state disarmament."
+  },
+  {
+    "id": "un-mine-action-2026",
+    "name": "UN Ukraine: From Clearance to Outcomes — mine action",
+    "date": "2026-06-11",
+    "class": "UN PROGRAM GUIDANCE",
+    "confidence": "High for methodological guidance; verify precise publication date",
+    "claim": "Remote sensing and AI support prioritization but must be validated with field evidence and professional judgment.",
+    "url": "https://ukraine.un.org/en/317120-clearance-outcomes-rethinking-mine-action-ukraine",
+    "implication": "No autonomous AI clearance or land release; accreditation and human field validation are prerequisites."
+  },
+  {
+    "id": "reuters-znpp-oct-2026",
+    "name": "Reuters: Zaporizhzhia electricity repair truce reported",
+    "date": "2026-10-15",
+    "class": "INDEPENDENT NEWS / TIME SENSITIVE",
+    "confidence": "Report of a specific temporary repair arrangement; not a general ceasefire",
+    "claim": "A narrow repair-related truce was reported around restoring electrical supply at Zaporizhzhia.",
+    "url": "https://www.reuters.com/world/russias-rosatom-says-truce-place-zaporizhzhia-power-supply-repairs-2026-10-15/",
+    "implication": "Use narrow, monitored repair access as a feasibility case rather than claiming a countrywide ceasefire."
+  },
+  {
+    "id": "sipri-2026-spending",
+    "name": "SIPRI World Military Expenditure 2025",
+    "date": "2026-04-27",
+    "class": "RESEARCH / ESTIMATE",
+    "confidence": "Source-backed, applicability context-dependent",
+    "claim": "SIPRI estimates 2025 global military spending at $2,887 billion; Russian spending $190 billion and Ukrainian spending $84.1 billion. Figures are not an available peace dividend.",
+    "url": "https://www.sipri.org/media/press-release/2026/global-military-spending-rise-continues-european-and-asian-expenditures-surge",
+    "implication": "Model fiscal opportunity costs, not a transferable funding pot."
+  },
+  {
+    "id": "rdna5-2026",
+    "name": "Joint Ukraine Rapid Damage and Needs Assessment 5",
+    "date": "2026-02-23",
+    "class": "JOINT INSTITUTIONAL ASSESSMENT",
+    "confidence": "Source-backed, applicability context-dependent",
+    "claim": "World Bank, Ukraine, EU and UN estimate nearly $588 billion in ten-year recovery and reconstruction needs as of Dec 31 2025.",
+    "url": "https://www.worldbank.org/en/news/press-release/2026/02/23/updated-ukraine-recovery-and-reconstruction-needs-assessment-released",
+    "implication": "Prioritize Ukrainian-led recovery needs and avoid fictitious finance commitments."
+  },
+  {
+    "id": "undp-local-finance",
+    "name": "UNDP Ukraine Local Development Finance Facility",
+    "date": "2026-02-20",
+    "class": "INSTITUTIONAL PROGRAM",
+    "confidence": "Source-backed, applicability context-dependent",
+    "claim": "UNDP, Ukrainian Finance Ministry and National Development Institution launched a local development financing facility for priority municipal, energy, environmental and SME investments.",
+    "url": "https://www.undp.org/ukraine/press-releases/undp-and-national-development-institution-launch-local-development-finance-facility-drive-ukraines-sustainable-recovery",
+    "implication": "Existing institutional reference for lawful mobilization of locally directed finance; not a PRA partner."
+  },
+  {
+    "id": "worldbank-urtf-2026",
+    "name": "World Bank Ukraine Relief, Recovery, Reconstruction and Reform Trust Fund",
+    "date": "2026-08-10",
+    "class": "INSTITUTIONAL PROGRAM",
+    "confidence": "Source-backed, applicability context-dependent",
+    "claim": "World Bank URTF channels donor support into Ukraine Government-led recovery priorities, including power, housing, health and agriculture.",
+    "url": "https://www.worldbank.org/en/programs/urtf",
+    "implication": "Consider established grant/donor channels rather than claiming new disbursement authority."
+  },
+  {
+    "id": "rd4u-register-2026",
+    "name": "Council of Europe Register of Damage for Ukraine",
+    "date": "2026-09-30",
+    "class": "LEGAL/INSTITUTIONAL PROGRAM",
+    "confidence": "Source-backed, applicability context-dependent",
+    "claim": "The register records eligible claims and evidence, including environmental harm; it does not award compensation or make payments.",
+    "url": "https://www.coe.int/en/web/kyiv/-/register-of-damage-for-ukraine-now-fully-open-for-compensation-claims",
+    "implication": "Separate evidence preservation and adjudicated reparations from discretionary bargaining and asset-release decisions."
+  },
+  {
+    "id": "rd4u-commission-2026",
+    "name": "Council of Europe International Claims Commission status",
+    "date": "2026-10-06",
+    "class": "LEGAL/INSTITUTIONAL STATUS",
+    "confidence": "Source-backed, applicability context-dependent",
+    "claim": "The Claims Commission is preparatory and not yet an operating compensation payer; its convention has entry-into-force requirements.",
+    "url": "https://www.coe.int/en/web/portal/international-claims-commission-for-ukraine-",
+    "implication": "Do not imply claims have been adjudicated or reparations paid."
+  },
+  {
+    "id": "undp-mine-finance",
+    "name": "UNDP Study: Enhancing Mine Action Finance in Ukraine",
+    "date": "2024-10-15",
+    "class": "FEASIBILITY STUDY",
+    "confidence": "Source-backed, applicability context-dependent",
+    "claim": "Examines sustainability-linked bonds and outcome-based partnerships for safe mine action and environmental/agricultural recovery; not implemented funding commitments.",
+    "url": "https://www.undp.org/ukraine/publications/enhancing-mine-action-finance-ukraine",
+    "implication": "Outcome funding may be evaluated, but clearance and land release need accredited independent authority."
+  },
+  {
+    "id": "ukraine-dream-2026",
+    "name": "Ukraine DREAM Public Investment Management System",
+    "date": "2026-10-16",
+    "class": "INSTITUTIONAL PUBLIC PLATFORM",
+    "confidence": "Source-backed, applicability context-dependent",
+    "claim": "DREAM tracks Ukrainian public investments across planning, financing, contracting and reporting.",
+    "url": "https://dream.gov.ua/en",
+    "implication": "Prefer alignment and interoperability with state-led transparency frameworks rather than a replacement ledger."
+  },
+  {
+    "id": "undp-debris-2026",
+    "name": "UNDP Ukraine circular debris recovery study",
+    "date": "2026-06-09",
+    "class": "INSTITUTIONAL STUDY",
+    "confidence": "Source-backed, applicability context-dependent",
+    "claim": "UNDP published a study evaluating market-based recycling and reuse of war-related building debris; materials require hazardous-contamination screening.",
+    "url": "https://www.undp.org/ukraine/press-releases/ukraine-could-recover-82-million-tonnes-secondary-raw-materials-war-generated-debris-undp-study-reveals",
+    "implication": "Model safe circular construction with mine/asbestos/contaminant safeguards."
+  },
+  {
+    "id": "undp-green-2026",
+    "name": "UNDP Environment for Ukraine Forum",
+    "date": "2026-06-11",
+    "class": "INSTITUTIONAL PROGRAM",
+    "confidence": "Source-backed, applicability context-dependent",
+    "claim": "Ukrainian authorities and partners discussed green recovery, ecological policy, and EU environmental alignment.",
+    "url": "https://www.undp.org/ukraine/press-releases/ukraines-green-recovery-government-partners-and-experts-agree-key-priorities-environmental-forum",
+    "implication": "Tie regenerative projects to Ukrainian policy priorities and review."
+  }
+]

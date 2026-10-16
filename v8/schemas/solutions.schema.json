@@ -1,0 +1,217 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://planetaryrestorationarchive.com/schemas/solutions.schema.json",
+  "title": "solutions",
+  "type": "array",
+  "minItems": 1,
+  "items": {
+    "type": "object",
+    "required": [
+      "id",
+      "title",
+      "category",
+      "trackId",
+      "phaseId",
+      "outcome",
+      "executionSteps",
+      "metrics",
+      "risks",
+      "references",
+      "mandateGate",
+      "status"
+    ],
+    "properties": {
+      "id": {
+        "type": "string",
+        "pattern": "^[a-z][a-z0-9_-]*$"
+      },
+      "title": {
+        "type": "string",
+        "minLength": 1
+      },
+      "trackId": {
+        "enum": [
+          "t1",
+          "t2",
+          "t3"
+        ]
+      },
+      "phaseId": {
+        "enum": [
+          "p1",
+          "p2",
+          "p3"
+        ]
+      },
+      "category": {
+        "type": "string",
+        "minLength": 1
+      },
+      "outcome": {
+        "type": "string",
+        "minLength": 1
+      },
+      "first": {
+        "type": "string"
+      },
+      "verify": {
+        "type": "string"
+      },
+      "failure": {
+        "type": "string"
+      },
+      "legal": {
+        "type": "string"
+      },
+      "metric": {
+        "type": "string"
+      },
+      "status": {
+        "type": "string",
+        "minLength": 1
+      },
+      "mandateGate": {
+        "type": "string",
+        "minLength": 1
+      },
+      "references": {
+        "type": "array",
+        "minItems": 1,
+        "items": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9_-]*$"
+        }
+      },
+      "executionSteps": {
+        "type": "array",
+        "minItems": 1,
+        "items": {
+          "type": "object",
+          "required": [
+            "order",
+            "owner",
+            "action",
+            "acceptanceEvidence"
+          ],
+          "properties": {
+            "order": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "owner": {
+              "type": "string",
+              "minLength": 1
+            },
+            "action": {
+              "type": "string",
+              "minLength": 1
+            },
+            "acceptanceEvidence": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "additionalProperties": true
+        }
+      },
+      "metrics": {
+        "type": "array",
+        "minItems": 1,
+        "items": {
+          "type": "object",
+          "required": [
+            "id",
+            "label",
+            "unit",
+            "definition",
+            "proposalTarget",
+            "baseline",
+            "validation"
+          ],
+          "properties": {
+            "id": {
+              "type": "string",
+              "pattern": "^[a-z][a-z0-9_-]*$"
+            },
+            "label": {
+              "type": "string",
+              "minLength": 1
+            },
+            "unit": {
+              "type": "string",
+              "minLength": 1
+            },
+            "definition": {
+              "type": "string",
+              "minLength": 1
+            },
+            "proposalTarget": {
+              "type": "string",
+              "minLength": 1
+            },
+            "baseline": {
+              "type": "string",
+              "minLength": 1
+            },
+            "validation": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "additionalProperties": true
+        }
+      },
+      "risks": {
+        "type": "array",
+        "minItems": 1,
+        "items": {
+          "type": "object",
+          "required": [
+            "risk",
+            "mitigation",
+            "stopOrReviewTrigger"
+          ],
+          "properties": {
+            "risk": {
+              "type": "string",
+              "minLength": 1
+            },
+            "mitigation": {
+              "type": "string",
+              "minLength": 1
+            },
+            "stopOrReviewTrigger": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "additionalProperties": true
+        }
+      },
+      "dependencies": {
+        "type": "array",
+        "minItems": 0,
+        "items": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "stages": {
+        "type": "array",
+        "minItems": 0,
+        "items": {
+          "type": "object"
+        }
+      },
+      "dependencyIds": {
+        "type": "array",
+        "uniqueItems": true,
+        "items": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9_-]*$"
+        }
+      }
+    },
+    "additionalProperties": true
+  }
+}

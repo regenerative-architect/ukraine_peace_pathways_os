@@ -22,10 +22,10 @@ class LegalAtlasSuite(unittest.TestCase):
  def write(self,obj):self.file().write_text(json.dumps(obj))
  def test_complete_directory_and_curated_sources(self):
   d=b.validate()['legal-atlas']
-  self.assertEqual(len(d['jurisdictions']),28)
-  self.assertEqual(len(d['documents']),59)
+  self.assertEqual(len(d['jurisdictions']),30)
+  self.assertEqual(len(d['documents']),67)
   self.assertTrue(all(x['url'].startswith('https://') for x in d['documents']))
-  self.assertEqual(len({x['url'] for x in d['documents']}),59)
+  self.assertEqual(len({x['url'] for x in d['documents']}),67)
  def test_bogus_jurisdiction_rejected(self):
   d=self.read();d['documents'][0]['jurisdictionId']='zz';self.write(d)
   self.assertRaisesRegex(ValueError,'unknown jurisdiction',b.validate)

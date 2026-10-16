@@ -44,3 +44,49 @@ h1{font-size:clamp(1.75rem,3vw,2.5rem);line-height:1.16;margin:8px 0 14px}h2{fon
 @media print{.legal-layout{display:block}.legal-list,.legal-inspector{height:auto;max-height:none;overflow:visible;position:static}}
 /* Mobile navigation regression fix: a fixed-height drawer must scroll independently. */
 @media(max-width:790px){.sidebar{height:calc(100dvh - 70px);max-height:calc(100dvh - 70px);overflow-x:hidden;overflow-y:auto;overscroll-behavior:contain;touch-action:pan-y;align-self:auto}}
+
+/* V4.3 — accessible research matrix: visible statuses not traffic-light approvals. */
+.compat-filters{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+.compat-grid-scroll{overflow-x:auto;overscroll-behavior-inline:contain;max-width:100%;border:1px solid var(--border);border-radius:9px;scrollbar-width:thin}
+.compat-grid{width:max-content;min-width:100%;border-collapse:separate;border-spacing:0;font-size:.79rem}
+.compat-grid td{padding:6px;text-align:center;min-width:118px;white-space:nowrap}
+.compat-grid thead th{min-width:132px;max-width:158px;white-space:normal;overflow-wrap:anywhere;position:sticky;top:0;background:var(--paper2);z-index:2}
+.compat-grid .compat-sticky{position:sticky;left:0;min-width:140px;max-width:180px;background:var(--paper2);z-index:3;text-align:left;border-right:2px solid var(--border)}
+.compat-grid th small{display:block;font-weight:400;color:var(--muted)}
+.compat-cell{min-width:102px;min-height:39px;border:1px solid var(--border);border-radius:7px;background:var(--paper2);color:var(--ink);font-size:.68rem;font-weight:750;letter-spacing:.025em;cursor:pointer}
+.compat-cell[aria-pressed="true"]{outline:3px solid var(--accent);outline-offset:1px}
+.compat-chip{font-size:.78rem;display:inline-block;padding:3px 7px;border:1px solid var(--border);border-radius:6px;background:var(--paper2)}
+.compat-constitutional-conflict{border-left:4px solid #be4141!important}.compat-restriction-screen{border-left:4px solid #b57922!important}.compat-authorization-gate{border-left:4px solid #6784b7!important}.compat-standards-review{border-left:4px solid #238174!important}.compat-not-assessed{border-left:4px solid var(--border)!important}
+.compat-layout{display:grid;grid-template-columns:minmax(280px,.85fr) minmax(0,1.15fr);gap:18px;align-items:start}.compat-layout>section{min-width:0}
+.compat-picks{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:6px;max-height:200px;overflow-y:auto;padding:8px;border:1px solid var(--border);border-radius:8px;margin:10px 0;overscroll-behavior:contain}
+.compat-picks label{font-size:.8rem;display:flex;align-items:center;gap:6px}.compat-picks input{width:17px;height:17px;flex:none}
+.compat-comparisons{max-height:420px;overflow-y:auto;overscroll-behavior:contain}
+.compat-inspector{position:sticky;top:86px;height:calc(100dvh - 105px);min-height:350px;max-height:1000px;overflow-y:auto;scrollbar-gutter:stable;scrollbar-width:thin;overscroll-behavior:contain;touch-action:pan-y;overflow-wrap:anywhere}
+.compat-inspector .notice p{margin:6px 0}.compat-inspector ul li{margin:7px 0}
+@media(max-width:1100px){.compat-filters{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:920px){.compat-layout{grid-template-columns:1fr}.compat-inspector{position:relative;top:auto;height:58dvh;max-height:670px}}
+@media(max-width:570px){.compat-filters{grid-template-columns:1fr}.compat-grid th,.compat-grid td{padding:5px}.compat-picks{grid-template-columns:1fr 1fr}}
+@media print{.compat-layout{display:block}.compat-inspector,.compat-comparisons,.compat-picks,.compat-grid-scroll{position:static;height:auto;max-height:none;overflow:visible}.compat-grid{width:auto}.compat-grid td,.compat-grid thead th{min-width:0!important;max-width:none!important} }
+
+/* V4.4 finance evidence atlas — independent dossier + source list scrolling */
+.funding-filters{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:18px 0}
+.funding-filters label{font-size:.82rem;font-weight:600}.funding-filters input,.funding-filters select{margin-top:6px;width:100%}
+.funding-layout{display:grid;grid-template-columns:minmax(260px,.88fr) minmax(0,1.12fr);gap:18px;align-items:start}.funding-layout>*{min-width:0}
+.funding-list{overflow-y:auto;max-height:calc(100dvh - 180px);min-height:280px;scrollbar-width:thin;overscroll-behavior:contain;touch-action:pan-y}
+.funding-inspector{position:sticky;top:86px;height:calc(100dvh - 105px);min-height:330px;max-height:1100px;overflow-y:auto;overscroll-behavior:contain;scrollbar-gutter:stable;scrollbar-width:thin;touch-action:pan-y;overflow-wrap:anywhere}
+.funding-inline-filter{display:flex;align-items:center;gap:8px;font-size:.84rem;margin-bottom:16px}.funding-inline-filter input{height:19px;width:19px;flex:none}
+@media(max-width:980px){.funding-layout{grid-template-columns:1fr}.funding-list{max-height:35dvh;min-height:150px}.funding-inspector{position:relative;top:auto;height:56dvh;max-height:760px}}
+@media(max-width:620px){.funding-filters{grid-template-columns:1fr}}
+@media print{.funding-layout{display:block}.funding-list,.funding-inspector{position:static;height:auto;max-height:none;overflow:visible}}
+
+/* v4.5 Funding × Law, independent inspector, compact review controls. */
+.fl-filters{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:16px 0}
+.fl-filters label{min-width:0}.fl-filters input,.fl-filters select{max-width:100%}
+.fl-layout{display:grid;grid-template-columns:minmax(250px,.85fr) minmax(0,1.15fr);gap:16px;align-items:start}.fl-layout>*{min-width:0}
+.fl-list{max-height:calc(100dvh - 175px);overflow-y:auto;overscroll-behavior:contain;scrollbar-width:thin;touch-action:pan-y;scrollbar-gutter:stable}
+.fl-inspector{position:sticky;top:86px;max-height:calc(100dvh - 105px);min-height:340px;overflow-y:auto;overscroll-behavior:contain;scrollbar-width:thin;scrollbar-gutter:stable;touch-action:pan-y;overflow-wrap:anywhere}
+.fl-juris{border:1px solid var(--border);border-radius:10px;padding:12px;margin:12px 0}.fl-juris h4{margin:0 0 8px;font-size:1rem}.fl-inspector li{margin:7px 0}.fl-inspector a{overflow-wrap:anywhere}
+@media(max-width:1120px){.fl-filters{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:920px){.fl-layout{grid-template-columns:1fr}.fl-inspector{position:relative;top:auto;height:55dvh;min-height:300px;max-height:680px}.fl-list{max-height:32dvh;min-height:160px}}
+@media(max-width:580px){.fl-filters{grid-template-columns:1fr}}
+@media print{.fl-layout{display:block}.fl-list,.fl-inspector{position:static;max-height:none;height:auto;overflow:visible}}

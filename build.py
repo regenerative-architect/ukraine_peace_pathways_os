@@ -19,7 +19,7 @@ import sys
 import tempfile
 
 ROOT=Path(__file__).resolve().parent
-CORE=('entities','evidence','guide-bank','pathway-catalog','solutions','demilitarization','regenerative-funding','legal-atlas')
+CORE=('entities','evidence','guide-bank','pathway-catalog','solutions','demilitarization','regenerative-funding','legal-atlas','compatibility-matrix','funding-atlas','finance-law-bridge')
 
 
 def _read_json(path:Path):
@@ -81,6 +81,72 @@ def _semantic(data):
         if not record['url'].startswith('https://'):err(record['id']+': non-HTTPS source')
         if record['reviewedOn']>la['asOf']:err(record['id']+': future review date')
     if len(docids)<40:err('legal-atlas: expected at least 40 primary-publication and official portal records')
+    # V4.3: legal compatibility source references and jurisdiction/mechanism pair integrity.
+    cm=data['compatibility-matrix']
+    mids=_need_unique(cm['mechanisms'],'compatibility-matrix.mechanisms')
+    aids=_need_unique(cm['assessments'],'compatibility-matrix.assessments')
+    statuses=_need_unique(cm['statuses'],'compatibility-matrix.statuses')
+    if statuses!={'constitutional-conflict','restriction-screen','authorization-gate','standards-review','not-assessed'}:
+        err('compatibility-matrix: invalid outcome vocabulary')
+    existing_os={x['id'] for x in data['pathway-catalog']['pathways']} | {x['id'] for x in data['demilitarization']['scenarioBlocks']} | {x['id'] for x in data['regenerative-funding']['alternatives']} | solutions
+    for mechanism in cm['mechanisms']:
+        for rid in mechanism['relatedOsIds']:
+            if rid not in existing_os:err(mechanism['id']+': missing referenced OS mechanism '+rid)
+    seen_pairs=set()
+    for a in cm['assessments']:
+        key=(a['mechanismId'],a['jurisdictionId'])
+        if key in seen_pairs:err(a['id']+': duplicate jurisdiction / mechanism pair')
+        seen_pairs.add(key)
+        if a['mechanismId'] not in mids:err(a['id']+': unknown mechanism')
+        if a['jurisdictionId'] not in jurisdiction_ids:err(a['id']+': unknown jurisdiction')
+        if a['checkedOn']>cm['asOf']:err(a['id']+': future assessment date')
+        for sid in a['sourceIds']:
+            if sid not in docids:err(a['id']+': unknown sourceId '+sid)
+    if len(cm['mechanisms'])*len(jurisdiction_ids)<300:err('compatibility-matrix insufficient jurisdiction×mechanism coverage')
+
+    # V4.4: evidence-graded funder relationships, with mandatory actor and source traceability.
+    fa=data['funding-atlas']
+    fundid=_need_unique(fa['profiles'],'funding-atlas.profiles')
+    sourceid=_need_unique(fa['sources'],'funding-atlas.sources')
+    kindid=_need_unique(fa['channels'],'funding-atlas.channels')
+    fstatus=_need_unique(fa['statuses'],'funding-atlas.statuses')
+    for p in fa['profiles']:
+        if p['actorId'] not in actors:err(p['id']+': unknown funding actorId')
+        if p['channel'] not in kindid:err(p['id']+': unknown funding channel')
+        if p['status'] not in fstatus:err(p['id']+': unknown funding status')
+        if p['asOf']>fa['asOf']:err(p['id']+': future assessment snapshot')
+        for rid in p['sourceIds']:
+            if rid not in sourceid:err(p['id']+': missing funder source '+rid)
+        if p['status']=='potential-unverified' and ('unverified' not in p['status']):err(p['id']+': invalid prospective label')
+    for src in fa['sources']:
+        if src['date']>fa['asOf']:err(src['id']+': future funding source')
+    if len(fundid)<20:err('funding-atlas: inadequate stakeholder coverage')
+
+    # V4.5 — cross-dataset finance/legal mapping checks: every record is a
+    # research-only question. A legal 'approval' field is intentionally forbidden.
+    bridge=data['finance-law-bridge']
+    links=_need_unique(bridge['links'],'finance-law-bridge.links')
+    alternatives_by_id={x['id']:x for x in data['regenerative-funding']['alternatives']}
+    linked_funding=set()
+    seen_link_pairs=set()
+    for x in bridge['links']:
+        if x['fundingProfileId'] not in fundid:err(x['id']+': missing source funding record')
+        if x['regenerativeAlternativeId'] not in alternatives_by_id:err(x['id']+': missing regenerative alternative')
+        if x['compatibilityMechanismId'] not in mids:err(x['id']+': unknown compatibility mechanism')
+        if x['asOf']>bridge['asOf']:err(x['id']+': future asOf date')
+        if x['assessment'] != 'research-only-unassessed':err(x['id']+': forbidden legal clearance classification')
+        pair=(x['fundingProfileId'],x['regenerativeAlternativeId'])
+        if pair in seen_link_pairs:err(x['id']+': duplicate funding/alternative mapping')
+        seen_link_pairs.add(pair);linked_funding.add(x['fundingProfileId'])
+        for j in x['jurisdictionIds']:
+            if j not in jurisdiction_ids:err(x['id']+': unknown jurisdiction '+j)
+        if x['regenerativeAlternativeId'] in alternatives_by_id and x['cooperationMode'] != alternatives_by_id[x['regenerativeAlternativeId']]['cooperationMode']:
+            err(x['id']+': cooperation mode differs from source proposal')
+        if x['cooperationMode'] != 'parallel-now' and not any('agreement' in check.lower() for check in x['requiredChecks']):
+            err(x['id']+': conditional/post-agreement proposal missing agreement gate')
+    if linked_funding != fundid:err('finance-law-bridge: every source funding profile must have one or more explicit links')
+    if len(links)<55:err('finance-law-bridge: expected broad actor mapping')
+
     # New v4.1 civilian economic conversion and conflict-finance alternatives.
     rg=data['regenerative-funding']
     funders=_need_unique(rg['funderKinds'],'regenerative-funding.funderKinds')
@@ -179,11 +245,11 @@ def validate():
 def build(data):
     # Embed all research guides so file:// and offline deployments remain useful.
     catalog=data['pathway-catalog']
-    payload={'version':'4.2.0','asOf':catalog['asOf'],
+    payload={'version':'4.5.0','asOf':catalog['asOf'],
              'entities':data['entities'],'evidence':data['evidence'],
              'solutions':data['solutions'],'pathways':catalog['pathways'],
              'tracks':catalog['trackDefinitions'],'phases':catalog['phases'],
-             'guides':data['guide-bank'], 'demilitarization':data['demilitarization'], 'regenerativeFunding':data['regenerative-funding'],'legalAtlas':data['legal-atlas']}
+             'guides':data['guide-bank'], 'demilitarization':data['demilitarization'], 'regenerativeFunding':data['regenerative-funding'],'legalAtlas':data['legal-atlas'], 'compatibilityMatrix':data['compatibility-matrix'],'fundingAtlas':data['funding-atlas'],'financeLawBridge':data['finance-law-bridge']}
 
     text=json.dumps(payload,ensure_ascii=False,separators=(',',':'),allow_nan=False)
     # Inside a script[type=application/json], raw closing tags must not appear.
@@ -199,7 +265,7 @@ def build(data):
     try:os.replace(tmp,target)
     finally:tmp.unlink(missing_ok=True)
     # Non-authenticating SHA-256 manifest: exact generated file integrity, not provenance.
-    manifest={'version':'4.2.0','asOf':catalog['asOf'],'algorithm':'SHA-256',
+    manifest={'version':'4.5.0','asOf':catalog['asOf'],'algorithm':'SHA-256',
        'meaning':'Integrity digest only; SHA-256 does not prove author or authorization.',
        'files':{}}
     paths=[ROOT/'index.html',ROOT/'app.js',ROOT/'styles.css',ROOT/'sw.js',ROOT/'index.template.html']
@@ -221,7 +287,7 @@ def main(argv=None):
     args=parser.parse_args(argv)
     try:
         data=validate()
-        print(f"PASS: schema + semantics; {len(data['entities'])} actors, {len(data['evidence'])} evidence, {len(data['guide-bank'])} guides, {len(data['solutions'])} solutions, {len(data['pathway-catalog']['pathways'])} pathways, {len(data['demilitarization']['scenarioBlocks'])} civilian demilitarization scenarios, {len(data['regenerative-funding']['alternatives'])} regenerative finance options, {len(data['legal-atlas']['documents'])} legal references")
+        print(f"PASS: schema + semantics; {len(data['entities'])} actors, {len(data['evidence'])} evidence, {len(data['guide-bank'])} guides, {len(data['solutions'])} solutions, {len(data['pathway-catalog']['pathways'])} pathways, {len(data['demilitarization']['scenarioBlocks'])} civilian demilitarization scenarios, {len(data['regenerative-funding']['alternatives'])} regenerative finance options, {len(data['legal-atlas']['documents'])} legal references, {len(data['compatibility-matrix']['assessments'])} sourced compatibility flags, {len(data['funding-atlas']['profiles'])} financing profiles, {len(data['finance-law-bridge']['links'])} funding/legal screens")
         if not args.check:
             path,n=build(data)
             print(f'BUILT {path.relative_to(ROOT)} ({n:,} UTF-8 bytes) · no network requests')

@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://planetaryrestorationarchive.com/schemas/entities.schema.json",
+  "title": "entities",
+  "type": "array",
+  "minItems": 1,
+  "items": {
+    "type": "object",
+    "required": [
+      "id",
+      "name",
+      "kind",
+      "capabilities",
+      "mandate",
+      "constraint",
+      "stakeholderModel"
+    ],
+    "properties": {
+      "id": {
+        "type": "string",
+        "pattern": "^[a-z][a-z0-9_-]*$"
+      },
+      "name": {
+        "type": "string",
+        "minLength": 1
+      },
+      "kind": {
+        "type": "string",
+        "minLength": 1
+      },
+      "capabilities": {
+        "type": "array",
+        "minItems": 1,
+        "items": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "mandate": {
+        "type": "string",
+        "minLength": 1
+      },
+      "constraint": {
+        "type": "string",
+        "minLength": 1
+      },
+      "status": {
+        "type": "string"
+      },
+      "stakeholderModel": {
+        "type": "object"
+      }
+    },
+    "additionalProperties": true
+  }
+}

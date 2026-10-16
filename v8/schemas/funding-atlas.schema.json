@@ -1,0 +1,196 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Funding stakeholder evidence registry v4.4",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "asOf",
+    "classification",
+    "methodology",
+    "channels",
+    "statuses",
+    "sources",
+    "profiles"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": "4.4.0"
+    },
+    "asOf": {
+      "type": "string",
+      "format": "date"
+    },
+    "classification": {
+      "type": "string",
+      "minLength": 20
+    },
+    "methodology": {
+      "type": "array",
+      "minItems": 4,
+      "items": {
+        "type": "string"
+      }
+    },
+    "channels": {
+      "type": "array",
+      "minItems": 6,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "label"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "label": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "statuses": {
+      "type": "array",
+      "minItems": 4,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "label"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "label": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 8,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "title",
+          "date",
+          "kind",
+          "url"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "date": {
+            "type": "string",
+            "format": "date"
+          },
+          "kind": {
+            "type": "string",
+            "enum": [
+              "official-government",
+              "official-institution",
+              "independent-research",
+              "professional-reporting"
+            ]
+          },
+          "url": {
+            "type": "string",
+            "pattern": "^https://"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "profiles": {
+      "type": "array",
+      "minItems": 20,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "actorId",
+          "channel",
+          "status",
+          "title",
+          "description",
+          "amountOrMetric",
+          "limits",
+          "regenerativeAlternative",
+          "sourceIds",
+          "asOf",
+          "amountClass",
+          "verifiedFor"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "actorId": {
+            "type": "string",
+            "minLength": 1
+          },
+          "channel": {
+            "type": "string",
+            "minLength": 1
+          },
+          "status": {
+            "type": "string",
+            "minLength": 1
+          },
+          "title": {
+            "type": "string",
+            "minLength": 1
+          },
+          "description": {
+            "type": "string",
+            "minLength": 1
+          },
+          "amountOrMetric": {
+            "type": "string",
+            "minLength": 1
+          },
+          "limits": {
+            "type": "string",
+            "minLength": 1
+          },
+          "regenerativeAlternative": {
+            "type": "string",
+            "minLength": 1
+          },
+          "asOf": {
+            "type": "string",
+            "minLength": 1
+          },
+          "amountClass": {
+            "type": "string",
+            "minLength": 1
+          },
+          "verifiedFor": {
+            "type": "string",
+            "minLength": 1
+          },
+          "sourceIds": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

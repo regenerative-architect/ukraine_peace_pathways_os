@@ -24,3 +24,19 @@ World Bank RDNA5, World Bank Ukraine URTF, UNDP Ukraine Local Development Financ
 ## v4.2 legal directory references
 
 This project indexes links and descriptive metadata for official national legislative publishers, treaty registries, supranational legislation services, ICRC/IAEA/OSCE reference sites and other legal authorities. The original legal texts, translations and databases remain governed by their publishers' attribution, authenticity and reproduction terms. No such body endorses this OS. Catalog URLs are navigation aids, not redistributed legal content or current-in-force certification.
+
+
+## v4.4 funding-source attribution
+
+Evidence relationships are authored summaries linked to official ministries, Council of the EU, World Bank, EBRD, IMF, the Kiel Institute's Ukraine Support Tracker, SIPRI and Reuters reporting. All external material remains owned and licensed by its original publishers. Figures are as-of-date descriptions, not a normalized financial dataset and not live compliance advice. Individual or institutional endorsement is never presumed. See the source index in `data/funding-atlas.json`.
+
+
+### v4.5 additional source portals
+
+- [Finlex — Finland Ministry of Justice](https://www.finlex.fi/en/legislation) — public legal reference.
+- [India Code — Government of India](https://www.indiacode.nic.in/indiacode/home.jsp) — public legislation reference.
+- [OFAC Russian Harmful Foreign Activities Sanctions](https://ofac.treasury.gov/sanctions-programs-and-country-information/russian-harmful-foreign-activities-sanctions) — public sanctions reference.
+- [UK Russia sanctions statutory guidance](https://www.gov.uk/government/publications/russia-sanctions-guidance/russia-sanctions-guidance) — public sanctions reference.
+- [Global Affairs Canada permits](https://www.international.gc.ca/world-monde/international_relations-relations_internationales/sanctions/certificates_permits-certificats_permis.aspx?lang=eng) — public guidance.
+
+External publishers retain their own copyrights; links are not imported statutory text or institutional endorsement.

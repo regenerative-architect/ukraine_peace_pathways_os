@@ -1,0 +1,139 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Funding \u00d7 legislative review links v4.5",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "asOf",
+    "classification",
+    "interpretationRules",
+    "statuses",
+    "links"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": "4.5.0"
+    },
+    "asOf": {
+      "type": "string",
+      "format": "date"
+    },
+    "classification": {
+      "type": "string",
+      "minLength": 30
+    },
+    "interpretationRules": {
+      "type": "array",
+      "minItems": 5,
+      "items": {
+        "type": "string"
+      }
+    },
+    "statuses": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "label"
+        ],
+        "properties": {
+          "id": {
+            "const": "research-only-unassessed"
+          },
+          "label": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "links": {
+      "type": "array",
+      "minItems": 55,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "fundingProfileId",
+          "regenerativeAlternativeId",
+          "compatibilityMechanismId",
+          "jurisdictionIds",
+          "cooperationMode",
+          "assessment",
+          "premise",
+          "legalNexus",
+          "requiredChecks",
+          "stopCondition",
+          "reviewOwner",
+          "asOf"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^bridge-[a-z0-9-]+$"
+          },
+          "fundingProfileId": {
+            "type": "string"
+          },
+          "regenerativeAlternativeId": {
+            "type": "string"
+          },
+          "compatibilityMechanismId": {
+            "type": "string"
+          },
+          "jurisdictionIds": {
+            "type": "array",
+            "minItems": 2,
+            "maxItems": 8,
+            "uniqueItems": true,
+            "items": {
+              "type": "string"
+            }
+          },
+          "cooperationMode": {
+            "enum": [
+              "parallel-now",
+              "reciprocal-conditional",
+              "post-agreement"
+            ]
+          },
+          "assessment": {
+            "const": "research-only-unassessed"
+          },
+          "premise": {
+            "type": "string",
+            "minLength": 30
+          },
+          "legalNexus": {
+            "type": "string",
+            "minLength": 30
+          },
+          "requiredChecks": {
+            "type": "array",
+            "minItems": 3,
+            "items": {
+              "type": "string",
+              "minLength": 15
+            }
+          },
+          "stopCondition": {
+            "type": "string",
+            "minLength": 30
+          },
+          "reviewOwner": {
+            "type": "string",
+            "minLength": 15
+          },
+          "asOf": {
+            "type": "string",
+            "format": "date"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

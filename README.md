@@ -1,8 +1,12 @@
-# Peace Pathways OS v4.2 — Peace, Regeneration & Legal Documentation Commons
+# Peace Pathways OS v4.5 — Funding × Law integration
+
+**New:** 60 actor-to-regeneration research links, 218 jurisdictional reviews, 30 legal jurisdictions and 67 source entries. Open **Financing × legislative gates** in the sidebar; original funding, regenerative, legal and Forge modules remain accessible. Read `FUNDING_LEGISLATIVE_GUIDE.md`. All candidate transactions remain legally unassessed.
+
+# Peace Pathways OS v4.4 — Peace, Regeneration & Funding Evidence Atlas
 
 **Foster + Navi / Planetary Restoration Archive · 16 October 2026**
 
-An offline-first, non-gamified **independent decision-support research system** for examining lawful, civilian-centered options for de-escalation in the Russia–Ukraine war. This edition retains the merged peace and reconstruction workspace and adds a source-linked, offline-indexed Legal & Institutional Documentation Atlas covering 28 jurisdictions and 59 curated official-source records. The atlas is a discovery directory, not a mirror of every law, a legal opinion, or a live legislative update service.
+An offline-first, non-gamified **independent decision-support research system** for examining lawful, civilian-centered options for de-escalation in the Russia–Ukraine war. This edition retains the merged peace and reconstruction workspace and adds a source-linked, offline-indexed Legal & Institutional Documentation Atlas covering 28 jurisdictions and 65 curated official-source records. The atlas is a discovery directory, not a mirror of every law, a legal opinion, or a live legislative update service.
 
 It **is not** a peace treaty, a negotiation participant, a deployment authority, a live monitoring service or a substitute for qualified legal, humanitarian or diplomatic review. None of the cited institutions have endorsed this project. Military-restraint cases are conditional policy hypotheses: no imposed unilateral disarmament or changes of sovereignty are assumed.
 
@@ -32,7 +36,9 @@ python build.py
 | Regenerative finance & conflict-funder alternatives | 14 separately gated, civilian-first options grouped by legal financing class and potential funder roles |
 | Demilitarization pathways | Ten conditional civilian protection, arms-restraint, verification and recovery scenarios |
 | Pathway Forge | Eight generated interdisciplinary options per batch, nine evidence-gated prompt stages and independent right-hand scrolling |
-| Legal & institutional documentation atlas | Search 28 jurisdictions and 59 curated official law/treaty/guidance sources; independent inspector, Markdown/JSON export and Forge handoff |
+| Legal & institutional documentation atlas | Search 28 jurisdictions and 65 curated official law/treaty/guidance sources; independent inspector, Markdown/JSON export and Forge handoff |
+| Financing and support evidence atlas | 30 records linked to 22 dated sources; separately labeled Russian war budget, external weapons material, Ukraine defensive funding, civilian investment, intermediary finance and unverified prospects. Dedicated independent scrolling inspector, CSV/Markdown downloads and Forge handoff. |
+| Stakeholder Atlas finance details | Integrated evidenced funding records in actor dossiers, with original citations and caveats. |
 | 747 research templates | Local offline search, inspector, and case creation |
 | Institutional review packets | Eight categories with specific technical review requests, risks and Markdown exports |
 | Negotiation workbench | Local cases with lawful authority, independent verification and noncompliance gates |
@@ -44,9 +50,21 @@ python build.py
 
 ## Source data and build checks
 
-`data/entities.json` (75), `evidence.json` (33), `guide-bank.json` (747), `pathway-catalog.json` (13 pathways), `solutions.json` (45 dossiers) and new `demilitarization.json` (10 scenarios; 8 review-audience types), and `regenerative-funding.json` (14 interventions, 8 funder categories and 3 separate cooperation gates). All eight files have Draft 2020-12 schemas. `build.py --check` validates type/schema, duplicate IDs, references, units/metrics as represented by schemas, three tracks and phases, no unverified status disguised as authorization, and dependency cycles. A bad validation run does not overwrite `index.html`. A successful build emits a SHA-256 manifest; hash checks **do not prove authorship**.
+`data/entities.json` (78), `evidence.json` (43), `guide-bank.json` (747), `pathway-catalog.json` (13 pathways), `solutions.json` (45 dossiers) and new `demilitarization.json` (10 scenarios; 8 review-audience types), and `regenerative-funding.json` (14 interventions, 8 funder categories and 3 separate cooperation gates). All ten core data files have Draft 2020-12 schemas. `build.py --check` validates type/schema, duplicate IDs, references, units/metrics as represented by schemas, three tracks and phases, no unverified status disguised as authorization, and dependency cycles. A bad validation run does not overwrite `index.html`. A successful build emits a SHA-256 manifest; hash checks **do not prove authorship**.
 
-All 747 research guides and the 59-record legal metadata directory are embedded into the generated `index.html` to support searching on `file://` and offline. **The linked publishers and the current legal texts themselves require internet access.** The HTML is kept below 2 MB. The guides are research **templates**, not 747 externally reviewed plans.
+All 747 research guides and the 65-record legal metadata directory are embedded into the generated `index.html` to support searching on `file://` and offline. **The linked publishers and the current legal texts themselves require internet access.** The HTML is kept below 2 MB. The guides are research **templates**, not 747 externally reviewed plans.
+
+## V4.4 funding evidence protocol
+
+- **Confirmed recurring** means a published multi-year framework, continuing government budget appropriation, or documented repeated funding—not an indication that the organization participates in this OS.
+- **Confirmed dated** means independently documented historical transfers/allocations; recurrence in October 2026 must not be inferred.
+- **Indirect documented** denotes aggregate fiscal revenue channels, not traced private financial transactions.
+- **Potential / unverified** marks research leads and is explicitly *not* an allegation, war-funding attribution or proof of sanction violations.
+- **Avoid double counting:** Kiel allocations, SIPRI trend-indicator value, EU loans, national pledges, World Bank mobilization, EBRD investments and sovereign-asset proceeds are not equivalent or additive measurements.
+- All profile metadata is bundled offline; current disbursements, sanctions status and primary-source changes require online reconfirmation.
+- The atlas indexes public **institutional programs and systems**, not private bank accounts or personal details. No outreach, real-time tracking or sanction screening is implemented.
+
+Start at `#/funding` or follow **Stakeholder atlas → Show only actors with finance records**. The standalone data are in `data/funding-atlas.json`; each record links to source IDs with dates, source kind, documented role, magnitude/measurement caveats, and a hypothetical lawful regenerative alternative. Review the `FUNDING_STAKEHOLDER_GUIDE.md` before external circulation.
 
 ## Migration
 

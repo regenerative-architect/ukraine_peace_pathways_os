@@ -206,6 +206,20 @@
       "level": "national",
       "language": "Romanian",
       "legalNote": "Check the official legislative portal and applicable EU law for the exact sector."
+    },
+    {
+      "id": "fi",
+      "label": "Finland",
+      "level": "national",
+      "language": "Finnish / Swedish",
+      "legalNote": "Review Finnish domestic law alongside binding EU restrictions; translated online documents may not be authoritative."
+    },
+    {
+      "id": "in",
+      "label": "India",
+      "level": "national",
+      "language": "Hindi / English",
+      "legalNote": "Independent Indian legal nexus and competent authority analysis required; third-country trade must not automatically be labeled illicit war financing."
     }
   ],
   "documents": [
@@ -1370,6 +1384,166 @@
       "reviewedOn": "2026-10-16",
       "verification": "publisher-link-reviewed",
       "legalStatus": "Recheck current legal effect and applicability; registry does not certify validity",
+      "sourceType": "discovery"
+    },
+    {
+      "id": "law-060",
+      "jurisdictionId": "un",
+      "kind": "guidance",
+      "category": "humanitarian",
+      "title": "International Mine Action Standards — IMAS 07.11 Land Release",
+      "url": "https://www.mineactionstandards.org/standards/07-11/",
+      "note": "International professional guidance on evidence-based land release and national mine-action authority/accreditation; not a substitute for Ukrainian legal authorization.",
+      "language": "en",
+      "changeRisk": "high",
+      "topicTags": [
+        "demining",
+        "clearance",
+        "reconstruction"
+      ],
+      "reviewedOn": "2026-10-16",
+      "verification": "portal-link-reviewed",
+      "legalStatus": "Source-mapped context only; verify current text and applicability independently",
+      "sourceType": "discovery"
+    },
+    {
+      "id": "law-061",
+      "jurisdictionId": "us",
+      "kind": "guidance",
+      "category": "sanctions",
+      "title": "OFAC Russian Harmful Foreign Activities sanctions: general licenses",
+      "url": "https://ofac.treasury.gov/sanctions-programs-and-country-information/russian-harmful-foreign-activities-sanctions",
+      "note": "OFAC general licenses identify specific otherwise-prohibited transactions authorized within stated terms; live licensing and persons-screening required.",
+      "language": "en",
+      "changeRisk": "high",
+      "topicTags": [
+        "sanctions",
+        "licenses",
+        "finance"
+      ],
+      "reviewedOn": "2026-10-16",
+      "verification": "portal-link-reviewed",
+      "legalStatus": "Source-mapped context only; verify current text and applicability independently",
+      "sourceType": "discovery"
+    },
+    {
+      "id": "law-062",
+      "jurisdictionId": "eu",
+      "kind": "instrument",
+      "category": "sanctions",
+      "title": "EU Council Regulation 833/2014 — restrictive measures",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32014R0833",
+      "note": "Economic/sectoral restrictions in force subject to amendments, exceptions and current consolidation; not evidence that a specific activity is licensed.",
+      "language": "en",
+      "changeRisk": "high",
+      "topicTags": [
+        "sanctions",
+        "industrial",
+        "energy"
+      ],
+      "reviewedOn": "2026-10-16",
+      "verification": "publisher-link-reviewed",
+      "legalStatus": "Source-mapped context only; verify current text and applicability independently",
+      "sourceType": "instrument"
+    },
+    {
+      "id": "law-063",
+      "jurisdictionId": "eu",
+      "kind": "guidance",
+      "category": "sanctions",
+      "title": "European Commission sanctions resources, authority and official law references",
+      "url": "https://finance.ec.europa.eu/eu-and-world/sanctions-restrictive-measures/overview-sanctions-and-related-resources_en",
+      "note": "EU Commission guidance and access to financial sanctions lists, legal acts and competent authorities; not a substitute for the Official Journal.",
+      "language": "en",
+      "changeRisk": "high",
+      "topicTags": [
+        "sanctions",
+        "assets",
+        "finance"
+      ],
+      "reviewedOn": "2026-10-16",
+      "verification": "publisher-link-reviewed",
+      "legalStatus": "Source-mapped context only; verify current text and applicability independently",
+      "sourceType": "discovery"
+    },
+    {
+      "id": "law-064",
+      "jurisdictionId": "ca",
+      "kind": "guidance",
+      "category": "sanctions",
+      "title": "Canadian sanctions — permits and certificates",
+      "url": "https://www.international.gc.ca/world-monde/international_relations-relations_internationales/sanctions/certificates_permits-certificats_permis.aspx?lang=eng",
+      "note": "Permits or certificates may exceptionally authorize specified otherwise-prohibited transactions; no approval is guaranteed and the applicable act and signed permission are required.",
+      "language": "en",
+      "changeRisk": "high",
+      "topicTags": [
+        "sanctions",
+        "finance",
+        "exports"
+      ],
+      "reviewedOn": "2026-10-16",
+      "verification": "portal-link-reviewed",
+      "legalStatus": "Source-mapped context only; verify current text and applicability independently",
+      "sourceType": "discovery"
+    },
+    {
+      "id": "law-065",
+      "jurisdictionId": "gb",
+      "kind": "guidance",
+      "category": "sanctions",
+      "title": "UK OFSI financial sanctions licence application guidance",
+      "url": "https://www.gov.uk/guidance/licences-that-allow-activity-prohibited-by-financial-sanctions",
+      "note": "OFSI licence requirements, relevant legal grounds, and transaction disclosure; no proposed project is pre-authorized.",
+      "language": "en",
+      "changeRisk": "high",
+      "topicTags": [
+        "sanctions",
+        "licenses",
+        "finance"
+      ],
+      "reviewedOn": "2026-10-16",
+      "verification": "portal-link-reviewed",
+      "legalStatus": "Source-mapped context only; verify current text and applicability independently",
+      "sourceType": "discovery"
+    },
+    {
+      "id": "law-066",
+      "jurisdictionId": "fi",
+      "kind": "repository",
+      "category": "legal-repository",
+      "title": "Finlex — Finland legislation and Statute Book",
+      "url": "https://www.finlex.fi/en/legislation",
+      "note": "Official Finnish Ministry of Justice-maintained legislation service; check applicable law and authentic language text. Does not assess specific Ukraine-related financial transactions.",
+      "language": "en",
+      "changeRisk": "medium",
+      "topicTags": [
+        "finance",
+        "statutes",
+        "sanctions"
+      ],
+      "reviewedOn": "2026-10-16",
+      "verification": "publisher-link-reviewed",
+      "legalStatus": "Source index only; legal applicability is not certified",
+      "sourceType": "discovery"
+    },
+    {
+      "id": "law-067",
+      "jurisdictionId": "in",
+      "kind": "repository",
+      "category": "legal-repository",
+      "title": "India Code — Government of India acts and subordinate legislation",
+      "url": "https://www.indiacode.nic.in/indiacode/home.jsp",
+      "note": "Government repository of Indian statutes; no sanctions, trade, or foreign-exchange clearance is inferred.",
+      "language": "en",
+      "changeRisk": "medium",
+      "topicTags": [
+        "finance",
+        "trade",
+        "statutes"
+      ],
+      "reviewedOn": "2026-10-16",
+      "verification": "publisher-link-reviewed",
+      "legalStatus": "Source index only; legal applicability is not certified",
       "sourceType": "discovery"
     }
   ],

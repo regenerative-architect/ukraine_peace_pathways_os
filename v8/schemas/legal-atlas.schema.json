@@ -1,0 +1,196 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Legal Documentation Atlas",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "asOf",
+    "purpose",
+    "caveats",
+    "jurisdictions",
+    "documents",
+    "categories",
+    "reviewQuestions"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": "4.2.0"
+    },
+    "asOf": {
+      "type": "string",
+      "format": "date"
+    },
+    "purpose": {
+      "type": "string",
+      "minLength": 20
+    },
+    "caveats": {
+      "type": "array",
+      "minItems": 4,
+      "items": {
+        "type": "string",
+        "minLength": 20
+      }
+    },
+    "jurisdictions": {
+      "type": "array",
+      "minItems": 14,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "label",
+          "level",
+          "language",
+          "legalNote"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z]{2,4}$"
+          },
+          "label": {
+            "type": "string"
+          },
+          "level": {
+            "enum": [
+              "national",
+              "international",
+              "supranational",
+              "reference"
+            ]
+          },
+          "language": {
+            "type": "string"
+          },
+          "legalNote": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "documents": {
+      "type": "array",
+      "minItems": 40,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "jurisdictionId",
+          "kind",
+          "category",
+          "title",
+          "url",
+          "note",
+          "language",
+          "changeRisk",
+          "topicTags",
+          "reviewedOn",
+          "verification",
+          "legalStatus",
+          "sourceType"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^law-[0-9]{3}$"
+          },
+          "jurisdictionId": {
+            "type": "string"
+          },
+          "kind": {
+            "enum": [
+              "instrument",
+              "repository",
+              "guidance"
+            ]
+          },
+          "category": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string",
+            "minLength": 5
+          },
+          "url": {
+            "type": "string",
+            "format": "uri",
+            "pattern": "^https://"
+          },
+          "note": {
+            "type": "string",
+            "minLength": 10
+          },
+          "language": {
+            "type": "string"
+          },
+          "changeRisk": {
+            "enum": [
+              "medium",
+              "high",
+              "critical"
+            ]
+          },
+          "topicTags": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "items": {
+              "type": "string"
+            }
+          },
+          "reviewedOn": {
+            "type": "string",
+            "format": "date"
+          },
+          "verification": {
+            "enum": [
+              "publisher-link-reviewed",
+              "portal-link-reviewed"
+            ]
+          },
+          "legalStatus": {
+            "type": "string"
+          },
+          "sourceType": {
+            "enum": [
+              "instrument",
+              "discovery"
+            ]
+          }
+        }
+      }
+    },
+    "categories": {
+      "type": "array",
+      "minItems": 5,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "label"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "label": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "reviewQuestions": {
+      "type": "array",
+      "minItems": 5,
+      "items": {
+        "type": "string",
+        "minLength": 8
+      }
+    }
+  }
+}

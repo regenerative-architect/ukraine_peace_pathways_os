@@ -1,0 +1,29 @@
+{
+  "version": "4.2.0",
+  "asOf": "2026-10-16",
+  "algorithm": "SHA-256",
+  "meaning": "Integrity digest only; SHA-256 does not prove author or authorization.",
+  "files": {
+    "index.html": "979bc0ed4170a43871cf444eb6ca754ea261efd0cf3422408e90607a4f733821",
+    "app.js": "b24b0163b1bd1847304cf9396c00a6b615dd5d426633f42936fc7fe641f7e0e7",
+    "styles.css": "01d985351338b377ecfd329c14695d0631ee4818f0ec0c364502434f05e095c4",
+    "sw.js": "1a60c6c8b6cbc091a1d79aab282aaa870e8f143d9ea8c01cfcdf52df6fdc97ca",
+    "index.template.html": "469c77d0560d1d97b2078aae4dce012500f6b90f676af993b2e69cf15409f740",
+    "data/entities.json": "a371871806bd3e26e51dc0f98ec54eef59c6057f1a206a59eefccc345171b6e4",
+    "data/evidence.json": "c5f695934e2a8f6c22ce0e26d4692e9e282700d9b5b6a80a4971d24015239882",
+    "data/guide-bank.json": "0215ace22d5fbb6ccbd5b684d3ae0b138d7bd8acd36468c1c8f3445a4605c58a",
+    "data/pathway-catalog.json": "c2afb941d6b208e1dff7a8cd5552c46cc644e021d42e422ca830be51e5b70e06",
+    "data/solutions.json": "9721106f8ba85c4a4334677e120351f253b11340c5eeebc88322abb02445a61d",
+    "data/demilitarization.json": "11bc1079bdca5907b1af6f67518d5abc800f6a8c7d1486ad4055e22b7cdb7239",
+    "data/regenerative-funding.json": "2ae928c6af3d4e9ba14b9bd7f3ee0c5c3496cdb23864aae7c42fe092c3a2aad7",
+    "data/legal-atlas.json": "3e850f77b9fd3c582d9fcf495dbf665eb73c2b07774684c175214cfc39645fa2",
+    "schemas/entities.schema.json": "26447e9f6c59cb3cd3ec822a9077f210334bdedf8c061ad2ffdb8c049e4f4438",
+    "schemas/evidence.schema.json": "f435f2bc51b9dc32e50f5752d5502bc30509daa03624431494be9b69b19e8dee",
+    "schemas/guide-bank.schema.json": "3c7cb17db78712cee6fdf25a941cc8dda421f1f069bf8a98ae5a091370cb9559",
+    "schemas/pathway-catalog.schema.json": "049a7852630abe165bfac301398765b7553153c506957b134a0a3fc9a9e73065",
+    "schemas/solutions.schema.json": "752b001ed485de4fe41e3d7e0bab56c428422fcf41a7b7dd8a68f3eb7fcc688f",
+    "schemas/demilitarization.schema.json": "9bd5b15429e0f139ffc8749b029c8806e8c9fb897b6f0edb246452dfa63e0237",
+    "schemas/regenerative-funding.schema.json": "1dcba8e170b9063af034c18453462d15a019ee7315bf605cbae8283e5f32e7ed",
+    "schemas/legal-atlas.schema.json": "9d84dbe09b62a5112fb71111bec4a0ed631c43863a94fab8b59b4199ed3bc955"
+  }
+}

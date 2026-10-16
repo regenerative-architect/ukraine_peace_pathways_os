@@ -1,0 +1,221 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "asOf",
+    "classification",
+    "scope",
+    "statements",
+    "statuses",
+    "mechanisms",
+    "assessments",
+    "reviewChecklist"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": "4.3.0"
+    },
+    "asOf": {
+      "type": "string",
+      "format": "date"
+    },
+    "classification": {
+      "type": "string",
+      "minLength": 18
+    },
+    "scope": {
+      "type": "string",
+      "minLength": 30
+    },
+    "statements": {
+      "type": "array",
+      "minItems": 4,
+      "items": {
+        "type": "string",
+        "minLength": 15
+      }
+    },
+    "statuses": {
+      "type": "array",
+      "minItems": 5,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "label",
+          "description",
+          "priority"
+        ],
+        "properties": {
+          "id": {
+            "enum": [
+              "constitutional-conflict",
+              "restriction-screen",
+              "authorization-gate",
+              "standards-review",
+              "not-assessed"
+            ]
+          },
+          "label": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string",
+            "minLength": 25
+          },
+          "priority": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 5
+          }
+        }
+      }
+    },
+    "mechanisms": {
+      "type": "array",
+      "minItems": 14,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "title",
+          "sector",
+          "proposal",
+          "authorityQuestion",
+          "mandatoryChecks",
+          "tags",
+          "relatedOsIds"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z-]{5,50}$"
+          },
+          "title": {
+            "type": "string",
+            "minLength": 8
+          },
+          "sector": {
+            "enum": [
+              "sovereignty",
+              "sanctions",
+              "finance",
+              "humanitarian",
+              "security",
+              "nuclear",
+              "environment"
+            ]
+          },
+          "proposal": {
+            "type": "string",
+            "minLength": 50
+          },
+          "authorityQuestion": {
+            "type": "string",
+            "minLength": 25
+          },
+          "mandatoryChecks": {
+            "type": "array",
+            "minItems": 3,
+            "items": {
+              "type": "string",
+              "minLength": 8
+            }
+          },
+          "tags": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string"
+            }
+          },
+          "relatedOsIds": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "assessments": {
+      "type": "array",
+      "minItems": 50,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "mechanismId",
+          "jurisdictionId",
+          "status",
+          "sourceIds",
+          "reason",
+          "competentReviewer",
+          "haltCondition",
+          "researchClass",
+          "checkedOn"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "mechanismId": {
+            "type": "string"
+          },
+          "jurisdictionId": {
+            "type": "string"
+          },
+          "status": {
+            "enum": [
+              "constitutional-conflict",
+              "restriction-screen",
+              "authorization-gate",
+              "standards-review"
+            ]
+          },
+          "sourceIds": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "items": {
+              "type": "string"
+            }
+          },
+          "reason": {
+            "type": "string",
+            "minLength": 50
+          },
+          "competentReviewer": {
+            "type": "string",
+            "minLength": 10
+          },
+          "haltCondition": {
+            "type": "string",
+            "minLength": 15
+          },
+          "researchClass": {
+            "const": "source-mapped-preliminary"
+          },
+          "checkedOn": {
+            "type": "string",
+            "format": "date"
+          }
+        }
+      }
+    },
+    "reviewChecklist": {
+      "type": "array",
+      "minItems": 7,
+      "items": {
+        "type": "string",
+        "minLength": 30
+      }
+    }
+  }
+}

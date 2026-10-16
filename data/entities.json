@@ -2183,5 +2183,86 @@
       "BATNA": "UNCERTAIN: validate documented alternatives and opportunity costs; do not invent private motives.",
       "spoilerRisk": "Loss of mandate, non-cooperation, disinformation, funding gaps or verification failure; test context specifically."
     }
+  },
+  {
+    "id": "sweden",
+    "name": "Sweden",
+    "kind": "state",
+    "capabilities": [
+      "finance",
+      "humanitarian",
+      "reconstruction",
+      "decision"
+    ],
+    "mandate": "Government appropriations and public international aid arrangements subject to national legal authority.",
+    "constraint": "Budget authorization, sovereign rights, procurement transparency and no presumed acceptance of any OS proposal.",
+    "status": "Funding facts independently source-linked; participation in PRA unverified",
+    "stakeholderModel": {
+      "documentedAuthority": "Government subject to domestic legislative oversight.",
+      "potentialLeverage": [
+        "funding",
+        "diplomacy",
+        "restoration"
+      ],
+      "inferredIncentive": "INFERENCE ONLY: may pursue security and Ukrainian civilian recovery under existing public mandates.",
+      "constraints": "Do not infer new obligations.",
+      "redLines": "Unknown without competent consultation.",
+      "BATNA": "Unknown.",
+      "spoilerRisk": "Parliamentary, implementation and audit risks."
+    }
+  },
+  {
+    "id": "netherlands",
+    "name": "Netherlands",
+    "kind": "state",
+    "capabilities": [
+      "finance",
+      "humanitarian",
+      "reconstruction",
+      "decision"
+    ],
+    "mandate": "Government appropriations and public international aid arrangements subject to national legal authority.",
+    "constraint": "Budget authorization, sovereign rights, procurement transparency and no presumed acceptance of any OS proposal.",
+    "status": "Funding facts independently source-linked; participation in PRA unverified",
+    "stakeholderModel": {
+      "documentedAuthority": "Government subject to domestic legislative oversight.",
+      "potentialLeverage": [
+        "funding",
+        "diplomacy",
+        "restoration"
+      ],
+      "inferredIncentive": "INFERENCE ONLY: may pursue security and Ukrainian civilian recovery under existing public mandates.",
+      "constraints": "Do not infer new obligations.",
+      "redLines": "Unknown without competent consultation.",
+      "BATNA": "Unknown.",
+      "spoilerRisk": "Parliamentary, implementation and audit risks."
+    }
+  },
+  {
+    "id": "denmark",
+    "name": "Denmark",
+    "kind": "state",
+    "capabilities": [
+      "finance",
+      "humanitarian",
+      "reconstruction",
+      "decision"
+    ],
+    "mandate": "Government appropriations and public international aid arrangements subject to national legal authority.",
+    "constraint": "Budget authorization, sovereign rights, procurement transparency and no presumed acceptance of any OS proposal.",
+    "status": "Funding facts independently source-linked; participation in PRA unverified",
+    "stakeholderModel": {
+      "documentedAuthority": "Government subject to domestic legislative oversight.",
+      "potentialLeverage": [
+        "funding",
+        "diplomacy",
+        "restoration"
+      ],
+      "inferredIncentive": "INFERENCE ONLY: may pursue security and Ukrainian civilian recovery under existing public mandates.",
+      "constraints": "Do not infer new obligations.",
+      "redLines": "Unknown without competent consultation.",
+      "BATNA": "Unknown.",
+      "spoilerRisk": "Parliamentary, implementation and audit risks."
+    }
   }
 ]

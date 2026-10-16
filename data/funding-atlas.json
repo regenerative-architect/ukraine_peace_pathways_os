@@ -1,0 +1,736 @@
+{
+  "schemaVersion": "4.4.0",
+  "asOf": "2026-10-16",
+  "classification": "EVIDENCE-GRADED PUBLIC FUNDING RELATIONSHIPS; NO ENDORSEMENTS; NO REAL-TIME FINANCIAL INTELLIGENCE",
+  "methodology": [
+    "Distinct lanes: Russian war financing and transfers supporting Russia; Ukrainian defensive assistance; civilian/reconstruction funding; financial intermediation; indirect market exposures; uncommitted prospects.",
+    "A historic confirmed transaction is NOT a verified current recurring flow. A multi-year allocation does NOT establish full disbursement.",
+    "SIPRI trend-indicator values are NOT currency. World Bank mobilized funds, EU loans, national aid and ERA financing may overlap: never sum raw amounts.",
+    "National finance budgets and commodity tax receipts do not establish tracing of a private purchaser payment directly to military expenditure.",
+    "Indirect trade exposure and potential partners must not be falsely categorized as war sponsors or sanction violators.",
+    "No automatic list of people, account numbers, bank routing data, sanctions screening or tactical military procurement. No private individual targeting."
+  ],
+  "channels": [
+    {
+      "id": "budget-aggression",
+      "label": "Russian state war budget / industry"
+    },
+    {
+      "id": "external-material-to-russia",
+      "label": "External military materiel supplied to Russia"
+    },
+    {
+      "id": "defence-ukraine",
+      "label": "Ukraine lawful defence support"
+    },
+    {
+      "id": "civilian-ukraine",
+      "label": "Ukraine civilian recovery / macro-finance"
+    },
+    {
+      "id": "intermediation",
+      "label": "Trust fund / asset proceeds administration"
+    },
+    {
+      "id": "indirect-exposure",
+      "label": "Indirect state revenue / market exposure"
+    },
+    {
+      "id": "prospective",
+      "label": "Prospective partner, no commitment"
+    }
+  ],
+  "statuses": [
+    {
+      "id": "confirmed-recurring",
+      "label": "Confirmed recurring / multi-year programme"
+    },
+    {
+      "id": "confirmed-dated",
+      "label": "Documented historical or dated support"
+    },
+    {
+      "id": "indirect-documented",
+      "label": "Documented aggregate revenue, indirect nexus"
+    },
+    {
+      "id": "potential-unverified",
+      "label": "Potential only / no established commitment"
+    }
+  ],
+  "sources": [
+    {
+      "id": "kiel-oct26",
+      "title": "Kiel Ukraine Support Tracker — October 2026 update",
+      "date": "2026-10-08",
+      "kind": "independent-research",
+      "url": "https://www.kielinstitut.de/index.php?id=10"
+    },
+    {
+      "id": "sipri-mar26",
+      "title": "SIPRI Trends in International Arms Transfers 2025",
+      "date": "2026-03-09",
+      "kind": "independent-research",
+      "url": "https://www.sipri.org/publications/2026/sipri-fact-sheets/trends-international-arms-transfers-2025"
+    },
+    {
+      "id": "russia-rev-oct26",
+      "title": "Reuters estimate: Russian oil and gas tax revenue in October 2026",
+      "date": "2026-10-15",
+      "kind": "professional-reporting",
+      "url": "https://www.reuters.com/business/energy/russias-oil-gas-revenue-seen-up-10-yy-october-12-billion-2026-10-15/"
+    },
+    {
+      "id": "uk-evidence",
+      "title": "UK support to Ukraine fact sheet, updated 13 October 2026",
+      "date": "2026-10-13",
+      "kind": "official-government",
+      "url": "https://www.gov.uk/government/publications/uk-support-to-ukraine-factsheet/uk-support-to-ukraine-factsheet"
+    },
+    {
+      "id": "norway-2026",
+      "title": "Norway 2026 Nansen Support Programme allocation",
+      "date": "2026-01-12",
+      "kind": "official-government",
+      "url": "https://www.regjeringen.no/en/whats-new/allocation-of-funding-under-the-nansen-support-programme-for-ukraine-in-2026/id3145799/"
+    },
+    {
+      "id": "norway-programme",
+      "title": "Norway Nansen Programme multi-year funding summary",
+      "date": "2026-01-12",
+      "kind": "official-government",
+      "url": "https://www.regjeringen.no/en/topics/foreign-affairs/humanitarian-efforts/neighbour_support/id2908141/"
+    },
+    {
+      "id": "sweden-2026",
+      "title": "Swedish government military support to Ukraine 2026–27",
+      "date": "2026-05-28",
+      "kind": "official-government",
+      "url": "https://www.government.se/government-policy/swedens-support-to-ukraine/military-support-to-ukraine/"
+    },
+    {
+      "id": "germany-2026",
+      "title": "German federal government Ukraine assistance summary",
+      "date": "2026-09-01",
+      "kind": "official-government",
+      "url": "https://www.bundesregierung.de/breg-en/service/germany-aid-for-ukraine-2192480"
+    },
+    {
+      "id": "canada-2026",
+      "title": "Canada Department of National Defence Ukraine military and energy support",
+      "date": "2026-02-24",
+      "kind": "official-government",
+      "url": "https://www.canada.ca/en/department-national-defence/news/2026/02/government-of-canada-reaffirms-unwavering-support-for-ukraine-four-years-into-russias-full-scale-invasion.html"
+    },
+    {
+      "id": "netherlands-2026",
+      "title": "Netherlands additional 2027–29 Ukraine civilian reconstruction support",
+      "date": "2026-09-15",
+      "kind": "official-government",
+      "url": "https://www.government.nl/latest/news/2026/09/15/budget-day-2026-extra-money-to-support-ukraine-and-for-development-cooperation"
+    },
+    {
+      "id": "netherlands-purl",
+      "title": "Netherlands 2026 Ukraine military assistance package",
+      "date": "2026-06-18",
+      "kind": "official-government",
+      "url": "https://www.rijksoverheid.nl/actueel/nieuws/2026/06/18/nieuw-steunpakket-van-euro-500-miljoen-voor-oekraine"
+    },
+    {
+      "id": "denmark-2026",
+      "title": "Danish Ministry of Foreign Affairs funding overview",
+      "date": "2026-08-13",
+      "kind": "official-government",
+      "url": "https://um.dk/en/foreign-policy/danish-support-for-ukraine"
+    },
+    {
+      "id": "eu-facility",
+      "title": "Council EU Ukraine Facility: multi-year plan",
+      "date": "2026-09-24",
+      "kind": "official-institution",
+      "url": "https://www.consilium.europa.eu/en/policies/ukraine-facility/"
+    },
+    {
+      "id": "eu-era",
+      "title": "Council of EU G7 ERA loan mechanism",
+      "date": "2024-10-23",
+      "kind": "official-institution",
+      "url": "https://www.consilium.europa.eu/en/press/press-releases/2024/10/23/immobilised-assets-council-greenlights-up-to-35-billion-in-macro-financial-assistance-to-ukraine-and-new-loan-mechanism-implementing-g7-commitment/"
+    },
+    {
+      "id": "eu-loan",
+      "title": "Kiel briefing: 2026–27 EU Ukraine Support Loan and US weapons reliance",
+      "date": "2026-08-13",
+      "kind": "independent-research",
+      "url": "https://www.kielinstitut.de/media/news/ukraine-support-tracker-europe-leads-on-aid-us-weapons-remain-key/"
+    },
+    {
+      "id": "worldbank-donor",
+      "title": "World Bank Group donor financing mechanisms for Ukraine",
+      "date": "2026-04-13",
+      "kind": "official-institution",
+      "url": "https://www.worldbank.org/en/brief/2026/04/13/world-bank-group-donor-financing-mechanisms-for-supporting-ukraine"
+    },
+    {
+      "id": "worldbank-finance",
+      "title": "World Bank financing mobilized through August 2026",
+      "date": "2026-08-31",
+      "kind": "official-institution",
+      "url": "https://www.worldbank.org/en/brief/2026/05/31/world-bank-emergency-financing-package-for-ukraine"
+    },
+    {
+      "id": "ebrd-2026",
+      "title": "EBRD 2026 recovery conference investments",
+      "date": "2026-06-26",
+      "kind": "official-institution",
+      "url": "https://www.ebrd.com/home/news-and-events/news/2026/ebrd-support-for-wartime-ukraine-surpasses--10-5-billion-as-bank.html"
+    },
+    {
+      "id": "ebrd-plan",
+      "title": "EBRD strategic capital framework 2026–30",
+      "date": "2025-05-01",
+      "kind": "official-institution",
+      "url": "https://www.ebrd.com/home/what-we-do/strategic-and-capital-framework.html"
+    },
+    {
+      "id": "imf-review",
+      "title": "IMF four-year Ukraine EFF arrangement review",
+      "date": "2026-06-12",
+      "kind": "official-institution",
+      "url": "https://www.imf.org/en/news/articles/2026/06/12/pr-26202-ukraine-imf-reaches-agreement-1st-rev-of-eff-arrang-2026-art-iv-consult"
+    },
+    {
+      "id": "eu-industrial-oct26",
+      "title": "EU Council sanctions 826 companies in Russian military-industrial complex, 12 October 2026",
+      "date": "2026-10-12",
+      "kind": "official-institution",
+      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/10/12/russia-s-war-of-aggression-against-ukraine-eu-agrees-largest-ever-package-of-listings-targeting-almost-1600-individuals-and-entities-in-russia-s-military-industrial-complex/"
+    },
+    {
+      "id": "eu-dprk-oct26",
+      "title": "EU Council reports DPRK-Russia military-economic collaboration and arms-for-oil trade, 12 October 2026",
+      "date": "2026-10-12",
+      "kind": "official-institution",
+      "url": "https://www.consilium.europa.eu/da/press/press-releases/2026/10/12/dprk-council-adds-three-individuals-and-four-entities-to-sanctions-lists-over-nuclear-missile-programmes-and-russia-ties/"
+    }
+  ],
+  "profiles": [
+    {
+      "id": "rus-budget",
+      "actorId": "russia",
+      "channel": "budget-aggression",
+      "status": "confirmed-recurring",
+      "title": "Russian federal government war expenditure",
+      "description": "State budget outlays fund Russian military operations; oil/gas taxes are one revenue stream.",
+      "amountOrMetric": "Oil/gas revenue forecast ≈ RUB 1 trillion for October 2026; ≈20% of total government income; NOT a traced payment to a specific unit.",
+      "limits": "Revenue is fungible; this is not an audited rupee-by-rupee war-spending ledger.",
+      "regenerativeAlternative": "A ceasefire and verified cessation of aggression can reduce future outlays and civilian damage.",
+      "sourceIds": [
+        "russia-rev-oct26"
+      ],
+      "asOf": "2026-10-16",
+      "amountClass": "mixed-instruments",
+      "verifiedFor": "documented relationship only; not a commitment to participate in the OS"
+    },
+    {
+      "id": "rus-hydrocarbon",
+      "actorId": "russia",
+      "channel": "indirect-exposure",
+      "status": "indirect-documented",
+      "title": "Russian oil and gas tax receipts",
+      "description": "Energy production and sales contribute tax revenue to the Russian treasury.",
+      "amountOrMetric": "Reuters cited 2026 forecast 8.918 trillion roubles in oil/gas revenue; forecasts are not receipts.",
+      "limits": "Does not show each purchaser intends to fund war or that every transaction is prohibited.",
+      "regenerativeAlternative": "Lawful energy diversification and transparent sanctions enforcement can reduce risk exposure.",
+      "sourceIds": [
+        "russia-rev-oct26"
+      ],
+      "asOf": "2026-10-16",
+      "amountClass": "mixed-instruments",
+      "verifiedFor": "documented relationship only; not a commitment to participate in the OS"
+    },
+    {
+      "id": "rus-military-industry",
+      "actorId": "russian-military-industrial-and-state-controlled-sectors",
+      "channel": "budget-aggression",
+      "status": "confirmed-dated",
+      "title": "Russian state military-industrial procurement system",
+      "description": "The EU Council identifies companies in Russia’s military-industrial complex supplying components for advanced Russian weapons systems.",
+      "amountOrMetric": "Magnitude not estimated in this catalog; do not invent contract values.",
+      "limits": "A sector is not an identifiable individual company or an independently audited set of transactions.",
+      "regenerativeAlternative": "Post-agreement, externally verified civilian industrial conversion only after lawful authorization.",
+      "sourceIds": [
+        "eu-industrial-oct26",
+        "sipri-mar26",
+        "russia-rev-oct26"
+      ],
+      "asOf": "2026-10-16",
+      "amountClass": "mixed-instruments",
+      "verifiedFor": "documented relationship only; not a commitment to participate in the OS"
+    },
+    {
+      "id": "dprk-material",
+      "actorId": "north-korean-government",
+      "channel": "external-material-to-russia",
+      "status": "confirmed-dated",
+      "title": "DPRK weapons/material transfers to Russia",
+      "description": "SIPRI records Russia imports of DPRK artillery and missiles in 2021–25; the EU Council separately identifies military-economic cooperation and arms-for-oil trade in October 2026.",
+      "amountOrMetric": "SIPRI trend-indicator data are not purchase prices or 2026 recurring payment records.",
+      "limits": "The source does not establish a 2026 transfer schedule or undisclosed financial terms.",
+      "regenerativeAlternative": "Respect UN sanctions, cease transfers, independent monitoring and diplomacy.",
+      "sourceIds": [
+        "eu-dprk-oct26",
+        "sipri-mar26"
+      ],
+      "asOf": "2026-10-16",
+      "amountClass": "non-financial-material",
+      "verifiedFor": "documented relationship only; not a commitment to participate in the OS"
+    },
+    {
+      "id": "iran-material",
+      "actorId": "iranian-government-and-relevant-institutions",
+      "channel": "external-material-to-russia",
+      "status": "confirmed-dated",
+      "title": "Iran-origin strike systems transferred to Russia",
+      "description": "SIPRI documents transfers of drones and other missiles to Russia in 2021–25.",
+      "amountOrMetric": "No monetary total used; material support is distinct from cash grants.",
+      "limits": "Do not assume specific new deliveries or an unconditional current financing flow.",
+      "regenerativeAlternative": "Weapons-transfer compliance, independent inspection and confidence-building only under lawful mandates.",
+      "sourceIds": [
+        "sipri-mar26"
+      ],
+      "asOf": "2026-10-16",
+      "amountClass": "non-financial-material",
+      "verifiedFor": "documented relationship only; not a commitment to participate in the OS"
+    },
+    {
+      "id": "ua-domestic",
+      "actorId": "ukraine",
+      "channel": "defence-ukraine",
+      "status": "confirmed-recurring",
+      "title": "Ukraine state own-source defence budget",
+      "description": "Ukraine finances its defence and essential functions through its national budget and legally authorized receipts.",
+      "amountOrMetric": "No uncited current defence-budget amount used.",
+      "limits": "Sovereign defence expenditure is not equivalent to financing Russia’s invasion.",
+      "regenerativeAlternative": "Civilian protection, accountable procurement and voluntary verified post-agreement drawdowns.",
+      "sourceIds": [
+        "imf-review",
+        "kiel-oct26"
+      ],
+      "asOf": "2026-10-16",
+      "amountClass": "mixed-instruments",
+      "verifiedFor": "documented relationship only; not a commitment to participate in the OS"
+    },
+    {
+      "id": "eu-budget",
+      "actorId": "european-union",
+      "channel": "civilian-ukraine",
+      "status": "confirmed-recurring",
+      "title": "EU Ukraine Facility",
+      "description": "Multi-year EU loans/grants support Ukraine budget, reform and recovery.",
+      "amountOrMetric": "Initially €50bn 2024–27; €43.3bn mobilised according to Council page; commitment vs mobilization not equivalent.",
+      "limits": "EU facility is not all military assistance, and scheduled payments depend on conditions.",
+      "regenerativeAlternative": "Audit-ready public restoration and energy resilience investments.",
+      "sourceIds": [
+        "eu-facility"
+      ],
+      "asOf": "2026-10-16",
+      "amountClass": "mixed-instruments",
+      "verifiedFor": "documented relationship only; not a commitment to participate in the OS"
+    },
+    {
+      "id": "eu-defence",
+      "actorId": "european-union",
+      "channel": "defence-ukraine",
+      "status": "confirmed-recurring",
+      "title": "EU 2026–27 support loan and security support",
+      "description": "EU funds and EU-level initiatives support Ukraine defence and budget needs.",
+      "amountOrMetric": "€90bn Ukraine Support Loan designed for 2026–27; mixed military and budget purposes.",
+      "limits": "EU-level support must not be double-counted with individual member-state aid.",
+      "regenerativeAlternative": "Independent civilian reconstruction alongside lawful defensive support.",
+      "sourceIds": [
+        "eu-loan"
+      ],
+      "asOf": "2026-10-16",
+      "amountClass": "mixed-instruments",
+      "verifiedFor": "documented relationship only; not a commitment to participate in the OS"
+    },
+    {
+      "id": "uk-annual",
+      "actorId": "united-kingdom",
+      "channel": "defence-ukraine",
+      "status": "confirmed-recurring",
+      "title": "UK annual military support",
+      "description": "UK commits at least £3bn annually to Ukraine through 2030–31.",
+      "amountOrMetric": "UK fact sheet reports £16bn military commitments cumulatively and £3bn yearly floor.",
+      "limits": "Long-term commitment is not proof of full future disbursement or endorsement of our OS.",
+      "regenerativeAlternative": "Develop audited civilian energy/recovery investment alongside protection mandates.",
+      "sourceIds": [
+        "uk-evidence"
+      ],
+      "asOf": "2026-10-16",
+      "amountClass": "mixed-instruments",
+      "verifiedFor": "documented relationship only; not a commitment to participate in the OS"
+    },
+    {
+      "id": "norway-nansen",
+      "actorId": "norway",
+      "channel": "defence-ukraine",
+      "status": "confirmed-recurring",
+      "title": "Norwegian Nansen Programme military and civilian allocations",
+      "description": "Norwegian government allocates multi-year military and humanitarian support.",
+      "amountOrMetric": "2026 NOK 85bn allocated: 70bn military + 15bn civilian and humanitarian.",
+      "limits": "Allocation is not the same as delivered funds; civilian allocation includes Moldova component.",
+      "regenerativeAlternative": "Fund hospital resilience, district heat, grid restoration and accredited mine action.",
+      "sourceIds": [
+        "norway-2026",
+        "norway-programme"
+      ],
+      "asOf": "2026-10-16",
+      "amountClass": "mixed-instruments",
+      "verifiedFor": "documented relationship only; not a commitment to participate in the OS"
+    },
+    {
+      "id": "sweden-framework",
+      "actorId": "sweden",
+      "channel": "defence-ukraine",
+      "status": "confirmed-recurring",
+      "title": "Swedish 2026–27 military aid framework",
+      "description": "Government sets SEK 80bn military aid framework over 2026–27.",
+      "amountOrMetric": "SEK 40bn allocated for each of 2026 and 2027; package figures not cumulative delivered cash.",
+      "limits": "Future acquisitions and deliveries remain distinct.",
+      "regenerativeAlternative": "Civil defence, energy protection and workforce recovery alongside legitimate security support.",
+      "sourceIds": [
+        "sweden-2026"
+      ],
+      "asOf": "2026-10-16",
+      "amountClass": "mixed-instruments",
+      "verifiedFor": "documented relationship only; not a commitment to participate in the OS"
+    },
+    {
+      "id": "germany-support",
+      "actorId": "germany",
+      "channel": "defence-ukraine",
+      "status": "confirmed-recurring",
+      "title": "German defence and civilian Ukraine assistance",
+      "description": "Germany records sustained support including future earmarked equipment and civilian energy assistance.",
+      "amountOrMetric": "Federal page lists >€43.3bn bilateral civilian and ≈€57.6bn military provided or earmarked.",
+      "limits": "Kiel warns official totals may include refugee spending in Germany and future promises; do not conflate.",
+      "regenerativeAlternative": "Grid repair, winterization, quality-assured infrastructure regeneration.",
+      "sourceIds": [
+        "germany-2026",
+        "kiel-oct26"
+      ],
+      "asOf": "2026-10-16",
+      "amountClass": "mixed-instruments",
+      "verifiedFor": "documented relationship only; not a commitment to participate in the OS"
+    },
+    {
+      "id": "canada-support",
+      "actorId": "canada",
+      "channel": "defence-ukraine",
+      "status": "confirmed-recurring",
+      "title": "Canada FY2026–27 Ukraine military assistance",
+      "description": "Officially announced funding supports Ukrainian defensive capability and civilian energy.",
+      "amountOrMetric": "~CAD 2bn military funding FY 2026–27, part previously authorized.",
+      "limits": "Previously approved funds and new announcements are not necessarily additive.",
+      "regenerativeAlternative": "Energy repair and humanitarian mine action co-financing.",
+      "sourceIds": [
+        "canada-2026"
+      ],
+      "asOf": "2026-10-16",
+      "amountClass": "mixed-instruments",
+      "verifiedFor": "documented relationship only; not a commitment to participate in the OS"
+    },
+    {
+      "id": "netherlands-defence",
+      "actorId": "netherlands",
+      "channel": "defence-ukraine",
+      "status": "confirmed-dated",
+      "title": "Netherlands 2026 military package",
+      "description": "A June 2026 package includes procurement and US-origin defence acquisitions.",
+      "amountOrMetric": "€500m military support announced June 2026 (split €250m and €250m).",
+      "limits": "Procurement announcement is not proof every article has been delivered.",
+      "regenerativeAlternative": "Independent procurement oversight, energy protection and non-military recovery.",
+      "sourceIds": [
+        "netherlands-purl"
+      ],
+      "asOf": "2026-10-16",
+      "amountClass": "mixed-instruments",
+      "verifiedFor": "documented relationship only; not a commitment to participate in the OS"
+    },
+    {
+      "id": "netherlands-recovery",
+      "actorId": "netherlands",
+      "channel": "civilian-ukraine",
+      "status": "confirmed-recurring",
+      "title": "Netherlands civilian reconstruction 2027–29",
+      "description": "The Netherlands budget identifies multi-year civilian restoration.",
+      "amountOrMetric": "Additional €327m 2027–29 plus €878m earlier pledged for same window.",
+      "limits": "Parliamentary appropriations and execution need following; do not assume full delivery.",
+      "regenerativeAlternative": "Ukrainian-led reconstruction and traceable ecological projects.",
+      "sourceIds": [
+        "netherlands-2026"
+      ],
+      "asOf": "2026-10-16",
+      "amountClass": "mixed-instruments",
+      "verifiedFor": "documented relationship only; not a commitment to participate in the OS"
+    },
+    {
+      "id": "denmark-support",
+      "actorId": "denmark",
+      "channel": "defence-ukraine",
+      "status": "confirmed-recurring",
+      "title": "Denmark Ukraine Fund and Mykolaiv partnership",
+      "description": "Danish national Ukraine Fund provides multi-year defensive and civilian assistance.",
+      "amountOrMetric": "Fund 60.4bn DKK military allocation 2023–28; ministry says ≈€10.3bn military support since 2022.",
+      "limits": "Funding envelope and historic support cannot simply be summed.",
+      "regenerativeAlternative": "Municipal Mykolaiv rebuilding, mine clearance and public services.",
+      "sourceIds": [
+        "denmark-2026"
+      ],
+      "asOf": "2026-10-16",
+      "amountClass": "mixed-instruments",
+      "verifiedFor": "documented relationship only; not a commitment to participate in the OS"
+    },
+    {
+      "id": "us-history",
+      "actorId": "united-states",
+      "channel": "defence-ukraine",
+      "status": "confirmed-dated",
+      "title": "US military equipment supply / historical allocations",
+      "description": "The US is a significant documented historical supplier of defence materiel to Ukraine; recent allocations have fluctuated.",
+      "amountOrMetric": "SIPRI estimates US sourced 41% of Ukraine major arms imports 2021–25 by TIV, not 41% of aid dollars.",
+      "limits": "2026 recurrence and government net spending require fresh verification; sales paid by third countries are not US grants.",
+      "regenerativeAlternative": "Assurance and humanitarian protection review; do not assume fresh US funding.",
+      "sourceIds": [
+        "sipri-mar26",
+        "kiel-oct26"
+      ],
+      "asOf": "2026-10-16",
+      "amountClass": "mixed-instruments",
+      "verifiedFor": "documented relationship only; not a commitment to participate in the OS"
+    },
+    {
+      "id": "poland-arms",
+      "actorId": "poland",
+      "channel": "defence-ukraine",
+      "status": "confirmed-dated",
+      "title": "Polish major arms deliveries 2021–25",
+      "description": "SIPRI identifies Poland as an important historical defence supplier to Ukraine.",
+      "amountOrMetric": "9.4% of Ukrainian major arms imports measured by SIPRI TIV 2021–25.",
+      "limits": "TIV is not a cash flow or verified 2026 annual commitment.",
+      "regenerativeAlternative": "Logistics, refugee services and accountable reconstruction collaboration.",
+      "sourceIds": [
+        "sipri-mar26"
+      ],
+      "asOf": "2026-10-16",
+      "amountClass": "mixed-instruments",
+      "verifiedFor": "documented relationship only; not a commitment to participate in the OS"
+    },
+    {
+      "id": "france-support",
+      "actorId": "france",
+      "channel": "defence-ukraine",
+      "status": "confirmed-dated",
+      "title": "French defence assistance / donor",
+      "description": "Identified among states supplying or financing support to Ukraine across 2022–26.",
+      "amountOrMetric": "No current individual total asserted here; validate recipient and classification.",
+      "limits": "This dossier does not establish a fixed annual financial commitment.",
+      "regenerativeAlternative": "Support civilian safety and repair of water and energy infrastructure.",
+      "sourceIds": [
+        "kiel-oct26"
+      ],
+      "asOf": "2026-10-16",
+      "amountClass": "mixed-instruments",
+      "verifiedFor": "documented relationship only; not a commitment to participate in the OS"
+    },
+    {
+      "id": "finland-support",
+      "actorId": "finland",
+      "channel": "defence-ukraine",
+      "status": "confirmed-dated",
+      "title": "Finnish defence assistance / donor",
+      "description": "Finland is recorded in the Ukraine Support Tracker donor universe.",
+      "amountOrMetric": "Exact latest allocation must be checked in the underlying dataset.",
+      "limits": "Do not infer recurring contracted transfers from tracker inclusion alone.",
+      "regenerativeAlternative": "Civilian resilience and accountable demining cooperation.",
+      "sourceIds": [
+        "kiel-oct26"
+      ],
+      "asOf": "2026-10-16",
+      "amountClass": "mixed-instruments",
+      "verifiedFor": "documented relationship only; not a commitment to participate in the OS"
+    },
+    {
+      "id": "g7-era",
+      "actorId": "g7",
+      "channel": "intermediation",
+      "status": "confirmed-recurring",
+      "title": "G7 extraordinary-revenue-acceleration loan initiative",
+      "description": "G7-backed financing uses extraordinary revenues accruing from immobilized Russian assets to service loans to Ukraine.",
+      "amountOrMetric": "G7 announced up to US$50bn; principal remains legally distinct from earnings.",
+      "limits": "The G7 is coordination, not a single treasury; component loans overlap national and EU totals.",
+      "regenerativeAlternative": "Future lawful reconstruction funding, accounting, dispute and reparations safeguards.",
+      "sourceIds": [
+        "eu-era"
+      ],
+      "asOf": "2026-10-16",
+      "amountClass": "mixed-instruments",
+      "verifiedFor": "documented relationship only; not a commitment to participate in the OS"
+    },
+    {
+      "id": "worldbank-urtf",
+      "actorId": "world-bank-group",
+      "channel": "intermediation",
+      "status": "confirmed-recurring",
+      "title": "World Bank URTF and donor-funded programs",
+      "description": "World Bank mobilizes and administers contributions, trust funds, guarantees and loans for civilian services and recovery.",
+      "amountOrMetric": "URTF as of March 2026: $2.8bn donor contributions mobilized, $1.8bn disbursed.",
+      "limits": "World Bank is not necessarily original donor; avoid double-counting partners.",
+      "regenerativeAlternative": "Audited Ukrainian-led water, health, transport and biodiversity repairs.",
+      "sourceIds": [
+        "worldbank-donor"
+      ],
+      "asOf": "2026-10-16",
+      "amountClass": "mixed-instruments",
+      "verifiedFor": "documented relationship only; not a commitment to participate in the OS"
+    },
+    {
+      "id": "worldbank-mobilized",
+      "actorId": "world-bank-group",
+      "channel": "civilian-ukraine",
+      "status": "confirmed-recurring",
+      "title": "World Bank mobilized finance",
+      "description": "World Bank administered/mobilized substantial funding for Ukraine public service continuity.",
+      "amountOrMetric": "As of Aug 31 2026, $91bn mobilized for Ukraine, majority on behalf of donors and partners.",
+      "limits": "Mobilized funding is not World Bank own grant spending nor all yet disbursed.",
+      "regenerativeAlternative": "Transparent grant and guarantee alignment with regenerative recovery.",
+      "sourceIds": [
+        "worldbank-finance"
+      ],
+      "asOf": "2026-10-16",
+      "amountClass": "mixed-instruments",
+      "verifiedFor": "documented relationship only; not a commitment to participate in the OS"
+    },
+    {
+      "id": "ebrd-finance",
+      "actorId": "ebrd",
+      "channel": "civilian-ukraine",
+      "status": "confirmed-recurring",
+      "title": "EBRD wartime investments",
+      "description": "EBRD invests in energy, municipalities, private-sector resilience and recovery.",
+      "amountOrMetric": "€10.5bn wartime finance according to June 2026 EBRD update; €500m+ URC new commitments.",
+      "limits": "Financing instruments include loans and donor-backed investment, not donations or combat operations.",
+      "regenerativeAlternative": "Regenerative grid, renewables, local livelihoods and independently measured impact.",
+      "sourceIds": [
+        "ebrd-2026"
+      ],
+      "asOf": "2026-10-16",
+      "amountClass": "mixed-instruments",
+      "verifiedFor": "documented relationship only; not a commitment to participate in the OS"
+    },
+    {
+      "id": "ebrd-plan",
+      "actorId": "ebrd",
+      "channel": "civilian-ukraine",
+      "status": "confirmed-recurring",
+      "title": "EBRD forward investment framework",
+      "description": "2026–30 capital strategy targets continued wartime investment and reconstruction.",
+      "amountOrMetric": "At least €1.5bn annual investment targeted while war continues; a strategic aim not guaranteed delivery.",
+      "limits": "Investment objective should not be double-counted with historic deployed investment.",
+      "regenerativeAlternative": "Green infrastructure and SME diversification.",
+      "sourceIds": [
+        "ebrd-plan"
+      ],
+      "asOf": "2026-10-16",
+      "amountClass": "mixed-instruments",
+      "verifiedFor": "documented relationship only; not a commitment to participate in the OS"
+    },
+    {
+      "id": "imf-program",
+      "actorId": "imf",
+      "channel": "civilian-ukraine",
+      "status": "confirmed-recurring",
+      "title": "IMF Extended Fund Facility",
+      "description": "Multi-year conditional macroeconomic financing supports Ukraine economic stability.",
+      "amountOrMetric": "2026 June staff-level review described $8.1bn four-year EFF; proposed US$690m access subject to Board approval.",
+      "limits": "Staff-level approval does not confirm executive board disbursement; civilian financial stability is not a weapons grant.",
+      "regenerativeAlternative": "Budget transparency and sustainable fiscal recovery.",
+      "sourceIds": [
+        "imf-review"
+      ],
+      "asOf": "2026-10-16",
+      "amountClass": "mixed-instruments",
+      "verifiedFor": "documented relationship only; not a commitment to participate in the OS"
+    },
+    {
+      "id": "euroclear-assets",
+      "actorId": "euroclear-and-european-financial-authorities",
+      "channel": "intermediation",
+      "status": "confirmed-dated",
+      "title": "Immobilized-asset securities-depository returns",
+      "description": "EU law structures distribution of extraordinary net profits associated with immobilised Russian sovereign assets.",
+      "amountOrMetric": "An EU legal financing channel; no company-specific sovereign principal amount inferred here.",
+      "limits": "Custody does not mean Euroclear owns the sovereign principal or independently authorized transfers.",
+      "regenerativeAlternative": "Legally reviewed reparations-linked recovery oversight, with auditability.",
+      "sourceIds": [
+        "eu-era"
+      ],
+      "asOf": "2026-10-16",
+      "amountClass": "mixed-instruments",
+      "verifiedFor": "documented relationship only; not a commitment to participate in the OS"
+    },
+    {
+      "id": "china-market",
+      "actorId": "china",
+      "channel": "indirect-exposure",
+      "status": "potential-unverified",
+      "title": "Third-country trade/revenue exposure: China",
+      "description": "Potential transmission through cross-border commodity trade merits sanctions- and causality-aware research.",
+      "amountOrMetric": "No claim of direct Chinese state war funding or a specific 2026 monetary payment.",
+      "limits": "Ordinary energy purchases are not proof of intent or illegal financial support.",
+      "regenerativeAlternative": "Independent trade-flow assessment; voluntary lawful market transitions.",
+      "sourceIds": [
+        "russia-rev-oct26"
+      ],
+      "asOf": "2026-10-16",
+      "amountClass": "mixed-instruments",
+      "verifiedFor": "documented relationship only; not a commitment to participate in the OS"
+    },
+    {
+      "id": "india-market",
+      "actorId": "india",
+      "channel": "indirect-exposure",
+      "status": "potential-unverified",
+      "title": "Third-country trade/revenue exposure: India",
+      "description": "Potential Russian commodity-tax exposure merits careful market accounting.",
+      "amountOrMetric": "No allegation of direct financing or specific sanctioned transaction here.",
+      "limits": "Do not infer geopolitical intent or illegal behavior from trade alone.",
+      "regenerativeAlternative": "Transparent legal energy substitution and ecological transition cooperation.",
+      "sourceIds": [
+        "russia-rev-oct26"
+      ],
+      "asOf": "2026-10-16",
+      "amountClass": "mixed-instruments",
+      "verifiedFor": "documented relationship only; not a commitment to participate in the OS"
+    },
+    {
+      "id": "recovery-investor",
+      "actorId": "european-investment-bank",
+      "channel": "prospective",
+      "status": "potential-unverified",
+      "title": "Prospective joint ecological recovery co-financing",
+      "description": "A possible partner category for Ukrainian-approved regenerative work, subject to mandate and eligibility review.",
+      "amountOrMetric": "No unverified new grant or pledged amount is assigned.",
+      "limits": "A hypothetical application cannot imply institutional endorsement.",
+      "regenerativeAlternative": "Explore lawful guarantee and green-infrastructure proposals using ordinary published procedures.",
+      "sourceIds": [
+        "worldbank-donor"
+      ],
+      "asOf": "2026-10-16",
+      "amountClass": "mixed-instruments",
+      "verifiedFor": "documented relationship only; not a commitment to participate in the OS"
+    }
+  ]
+}

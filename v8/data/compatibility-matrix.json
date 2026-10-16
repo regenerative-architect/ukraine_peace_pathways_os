@@ -1,0 +1,2155 @@
+{
+  "schemaVersion": "4.3.0",
+  "asOf": "2026-10-16",
+  "classification": "UNCERTIFIED RESEARCH MATRIX — NOT LEGAL ADVICE",
+  "scope": "28 jurisdictions and institutional systems × 16 intervention families; unpublished combinations intentionally marked not assessed.",
+  "statements": [
+    "No status is a finding of legal permission or endorsement.",
+    "Authorizations and sanctions lists require live primary-source checks and competent professional review.",
+    "Treat EU regulations and member-state enforcement rules as layered, not alternatives.",
+    "Treat international humanitarian obligations as independently binding where applicable, not negotiable concessions.",
+    "A discovered source portal is not the text of a governing legal provision.",
+    "The matrix does not monitor law changes, issue licenses, or send diplomatic messages."
+  ],
+  "statuses": [
+    {
+      "id": "constitutional-conflict",
+      "label": "Constitutional/sovereignty conflict",
+      "description": "As framed, the proposal collides with an identified high-priority constitutional or sovereignty constraint.",
+      "priority": 5
+    },
+    {
+      "id": "restriction-screen",
+      "label": "Sanctions / restrictions screening",
+      "description": "Relevant official restrictive measures identified; specific transaction or counterparty must be screened by competent counsel.",
+      "priority": 4
+    },
+    {
+      "id": "authorization-gate",
+      "label": "Specific authority / mandate required",
+      "description": "Consent, approval, accredited implementation, or a new mandate is necessary before action.",
+      "priority": 3
+    },
+    {
+      "id": "standards-review",
+      "label": "Framework or policy review required",
+      "description": "Professional, treaty, or broad legislative framework identified; applicability and legal effects remain unverified.",
+      "priority": 2
+    },
+    {
+      "id": "not-assessed",
+      "label": "Not assessed",
+      "description": "No case-specific provision mapped. This is not a determination of compatibility or inapplicability.",
+      "priority": 1
+    }
+  ],
+  "mechanisms": [
+    {
+      "id": "local-plebiscite",
+      "title": "Local territorial plebiscite",
+      "sector": "sovereignty",
+      "proposal": "A binding local referendum after a cooling period would purport to decide a change in Ukrainian territorial status.",
+      "authorityQuestion": "Can a local vote lawfully change Ukraine’s territory, and who has competence?",
+      "mandatoryChecks": [
+        "Article 73 constitutional review",
+        "Ukrainian nationwide authorization",
+        "No occupation coercion",
+        "International territorial-integrity norms"
+      ],
+      "tags": [
+        "territory",
+        "constitutional"
+      ],
+      "relatedOsIds": [
+        "path-referendum-legality"
+      ]
+    },
+    {
+      "id": "un-administration",
+      "title": "External transitional territory administration",
+      "sector": "sovereignty",
+      "proposal": "Hypothetical UN-administered interim economic-service zone within internationally recognized Ukrainian territory.",
+      "authorityQuestion": "What Ukrainian consent, UN competence, and accountable mandate would be required?",
+      "mandatoryChecks": [
+        "Ukraine sovereign consent",
+        "Any necessary UN mandate",
+        "Protection of residents",
+        "No implied recognition of unlawful annexation"
+      ],
+      "tags": [
+        "sovereignty",
+        "governance"
+      ],
+      "relatedOsIds": [
+        "path-un-economic-zone"
+      ]
+    },
+    {
+      "id": "sanctions-relief",
+      "title": "Staged Russia-related sanctions relief",
+      "sector": "sanctions",
+      "proposal": "Conditional relief for specified listed persons, entities, goods, or financial activity.",
+      "authorityQuestion": "Which competent authority can amend, license or revoke the applicable restrictions?",
+      "mandatoryChecks": [
+        "Current consolidated sanctions",
+        "Persons and beneficial ownership",
+        "Specific applicable prohibitions",
+        "Competent licensing authority",
+        "No relief from duties toward civilians"
+      ],
+      "tags": [
+        "sanctions",
+        "licensing"
+      ],
+      "relatedOsIds": [
+        "armistice-verified-incentive"
+      ]
+    },
+    {
+      "id": "immobilised-principal",
+      "title": "Transfer of immobilised sovereign principal",
+      "sector": "finance",
+      "proposal": "Proposed transfer of restricted Russian sovereign principal to a reconstruction vehicle.",
+      "authorityQuestion": "Can the custodian and relevant states lawfully transfer principal, considering immunity, title and litigation?",
+      "mandatoryChecks": [
+        "Assets vs earnings distinction",
+        "Sovereign immunity",
+        "Custody jurisdiction",
+        "Domestic and EU statutory authority",
+        "No presumed money availability"
+      ],
+      "tags": [
+        "sanctions",
+        "assets"
+      ],
+      "relatedOsIds": [
+        "damage-to-investment-pipeline"
+      ]
+    },
+    {
+      "id": "extraordinary-revenue",
+      "title": "Use of extraordinary earnings from immobilised assets",
+      "sector": "finance",
+      "proposal": "Use of legislatively allocated extraordinary revenues, distinct from title to frozen sovereign principal.",
+      "authorityQuestion": "What binding instrument and appropriation permit collection, disbursement and use?",
+      "mandatoryChecks": [
+        "Current EU acts and budget authority",
+        "Restrictions on destination",
+        "Accounting and independent audit",
+        "No double-counting"
+      ],
+      "tags": [
+        "assets",
+        "finance"
+      ],
+      "relatedOsIds": [
+        "reparations-ledger"
+      ]
+    },
+    {
+      "id": "restricted-joint-investment",
+      "title": "Joint civilian investment involving sanctioned actors",
+      "sector": "finance",
+      "proposal": "Hypothetical civilian consortium that includes or indirectly benefits restricted Russian persons or entities.",
+      "authorityQuestion": "Are participants restricted and can resources legally be made available?",
+      "mandatoryChecks": [
+        "KYC/beneficial owners",
+        "Sanctions and licensing",
+        "Procurement and export controls",
+        "Anti-corruption",
+        "Ukrainian approval"
+      ],
+      "tags": [
+        "sanctions",
+        "finance"
+      ],
+      "relatedOsIds": [
+        "industrial-voluntary-dividends"
+      ]
+    },
+    {
+      "id": "protected-exchanges",
+      "title": "Protected-person exchanges and tracing",
+      "sector": "humanitarian",
+      "proposal": "Voluntary, rights-respecting release, tracing and transfer of detainees, wounded and seriously ill people.",
+      "authorityQuestion": "Which humanitarian-law and domestic authorities regulate custody and safe transfer?",
+      "mandatoryChecks": [
+        "Geneva protections",
+        "ICRC independent access where accepted",
+        "Family notification and privacy",
+        "No forced return"
+      ],
+      "tags": [
+        "humanitarian",
+        "rights"
+      ],
+      "relatedOsIds": [
+        "path-wounded-exchange"
+      ]
+    },
+    {
+      "id": "weapons-separation",
+      "title": "Reciprocal heavy-weapons separation",
+      "sector": "security",
+      "proposal": "Proposed conditional separation and monitoring of heavy weaponry around a cessation line.",
+      "authorityQuestion": "What agreement, competent parties and independent monitoring mandate exist?",
+      "mandatoryChecks": [
+        "Reciprocal voluntary agreement",
+        "No unilateral disarmament requirement",
+        "Civilian safety",
+        "Monitoring security and independent verification"
+      ],
+      "tags": [
+        "ceasefire",
+        "arms-control"
+      ],
+      "relatedOsIds": [
+        "path-artillery-separation-30km"
+      ]
+    },
+    {
+      "id": "nuclear-safety",
+      "title": "Nuclear facility safety perimeters",
+      "sector": "nuclear",
+      "proposal": "Civilian protection and repair access near nuclear facilities; not military enforcement by the IAEA.",
+      "authorityQuestion": "Which facility access, national authorization and IAEA technical mandate are available?",
+      "mandatoryChecks": [
+        "Civilian nuclear safety mandate",
+        "Host state authority",
+        "Agreed access with all relevant controllers",
+        "No imaginary IAEA military powers"
+      ],
+      "tags": [
+        "nuclear",
+        "security"
+      ],
+      "relatedOsIds": [
+        "path-nuclear-safety-zone"
+      ]
+    },
+    {
+      "id": "ceasefire-mission",
+      "title": "International ceasefire verification mission",
+      "sector": "security",
+      "proposal": "Independent incident-monitoring or sensor-based mission following an agreed ceasefire.",
+      "authorityQuestion": "What UN, OSCE, national or other mandate exists now?",
+      "mandatoryChecks": [
+        "Fresh mandate and funding",
+        "Host consent",
+        "Neutrality and data minimization",
+        "Incident dispute protocol"
+      ],
+      "tags": [
+        "ceasefire",
+        "monitoring"
+      ],
+      "relatedOsIds": [
+        "path-sensor-verification"
+      ]
+    },
+    {
+      "id": "maritime-access",
+      "title": "Protected civilian maritime transit",
+      "sector": "humanitarian",
+      "proposal": "Civilian-shipping corridor, AIS monitoring and de-risking measures compatible with navigation law.",
+      "authorityQuestion": "Which coastal, flag-state, port and maritime authorities must agree?",
+      "mandatoryChecks": [
+        "Law of the sea and IHL",
+        "Civilian navigation safety",
+        "No disclosure of tactical sensitive movements",
+        "Relevant shipping sanctions and insurance"
+      ],
+      "tags": [
+        "maritime",
+        "humanitarian"
+      ],
+      "relatedOsIds": [
+        "path-maritime-civilian-corridor"
+      ]
+    },
+    {
+      "id": "mine-land-release",
+      "title": "Accredited humanitarian mine action and land release",
+      "sector": "environment",
+      "proposal": "Risk-survey prioritization and certified clearance before allowing agricultural use.",
+      "authorityQuestion": "Which competent mine-action authority accredits the operator and accepts handover?",
+      "mandatoryChecks": [
+        "National mine action standard",
+        "IMAS 07.11 reference",
+        "No autonomous live explosives handling",
+        "Formal quality control and land release"
+      ],
+      "tags": [
+        "demining",
+        "environment"
+      ],
+      "relatedOsIds": [
+        "path-ai-assisted-mine-action"
+      ]
+    },
+    {
+      "id": "grid-reconstruction",
+      "title": "Ukraine–Europe energy-grid restoration",
+      "sector": "environment",
+      "proposal": "Civilian grid repair and renewable-energy resilience across borders.",
+      "authorityQuestion": "Which grid operators, regulators, procurement and sanctions rules govern the project?",
+      "mandatoryChecks": [
+        "Ukrainian authorization and land access",
+        "Energy regulator/network agreement",
+        "Procurement safety",
+        "Dual-use/sanctions screens as applicable"
+      ],
+      "tags": [
+        "energy",
+        "reconstruction"
+      ],
+      "relatedOsIds": [
+        "path-entsoe-restoration"
+      ]
+    },
+    {
+      "id": "public-recovery-procurement",
+      "title": "Transparent reconstruction procurement",
+      "sector": "finance",
+      "proposal": "Ukrainian-approved recovery contracts with independent audit and published milestones.",
+      "authorityQuestion": "Which public procurement, donor finance and anti-corruption controls govern contract awards?",
+      "mandatoryChecks": [
+        "Ukrainian procurement law",
+        "Competitive and transparent process",
+        "Conflict of interest and beneficial ownership",
+        "Sanctions screens",
+        "Local consent"
+      ],
+      "tags": [
+        "finance",
+        "procurement"
+      ],
+      "relatedOsIds": [
+        "civil-society-independent-audit"
+      ]
+    },
+    {
+      "id": "civilian-industrial-conversion",
+      "title": "Voluntary defense supplier civilian production",
+      "sector": "finance",
+      "proposal": "Voluntary retooling into civilian manufacturing without restricted technology or sanctioned transfers.",
+      "authorityQuestion": "Which export-control, sanctions, labor and industrial approvals are required?",
+      "mandatoryChecks": [
+        "No unlawful dual-use transfer",
+        "Worker safety",
+        "Export licensing",
+        "Restricted counterparties screen"
+      ],
+      "tags": [
+        "sanctions",
+        "exports"
+      ],
+      "relatedOsIds": [
+        "demobilization-retraining"
+      ]
+    },
+    {
+      "id": "transboundary-ecology",
+      "title": "Cross-border environmental repair",
+      "sector": "environment",
+      "proposal": "Watershed, wetland, and biodiversity restoration that may eventually involve actors across borders.",
+      "authorityQuestion": "Who may authorize access, data sharing, finance, and work within Ukraine?",
+      "mandatoryChecks": [
+        "Ukraine sovereign consent",
+        "Environmental impact review",
+        "No funding for sanctioned parties",
+        "Land and community rights",
+        "Independent restoration metrics"
+      ],
+      "tags": [
+        "environment",
+        "treaties"
+      ],
+      "relatedOsIds": [
+        "river-basin-repair"
+      ]
+    }
+  ],
+  "assessments": [
+    {
+      "id": "assess-ceasefire-mission-osce",
+      "mechanismId": "ceasefire-mission",
+      "jurisdictionId": "osce",
+      "status": "authorization-gate",
+      "sourceIds": [
+        "law-042",
+        "law-043"
+      ],
+      "reason": "Existing confidence-building instruments do not re-create the expired Ukraine SMM; any new mission needs a fresh mandate.",
+      "competentReviewer": "OSCE participating States and consenting parties",
+      "haltCondition": "Do not represent the former SMM as active.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-ceasefire-mission-un",
+      "mechanismId": "ceasefire-mission",
+      "jurisdictionId": "un",
+      "status": "authorization-gate",
+      "sourceIds": [
+        "law-039"
+      ],
+      "reason": "A new mission needs a valid competent mandate, party/host arrangements, resources and safety.",
+      "competentReviewer": "Competent UN organ and consenting parties",
+      "haltCondition": "No mission exists simply because the OS proposes it.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-civilian-industrial-conversion-be",
+      "mechanismId": "civilian-industrial-conversion",
+      "jurisdictionId": "be",
+      "status": "restriction-screen",
+      "sourceIds": [
+        "law-007",
+        "law-008",
+        "law-047"
+      ],
+      "reason": "EU designated-person and/or sectoral restrictions may apply, alongside national enforcement and any licensing; screen exact parties and transaction.",
+      "competentReviewer": "Relevant EU and member-state competent authorities",
+      "haltCondition": "No transfer until documented authorization and current screening.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-civilian-industrial-conversion-ca",
+      "mechanismId": "civilian-industrial-conversion",
+      "jurisdictionId": "ca",
+      "status": "restriction-screen",
+      "sourceIds": [
+        "law-021",
+        "law-064"
+      ],
+      "reason": "Country-specific Russia-related sanctions and licensing requirements may apply based on persons, nexus, goods, services and effective dates; no authorization follows from this map.",
+      "competentReviewer": "CA competent sanctions/permit authority",
+      "haltCondition": "Run current asset/person/license and beneficial-ownership screening first.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-civilian-industrial-conversion-de",
+      "mechanismId": "civilian-industrial-conversion",
+      "jurisdictionId": "de",
+      "status": "restriction-screen",
+      "sourceIds": [
+        "law-007",
+        "law-008",
+        "law-027"
+      ],
+      "reason": "EU designated-person and/or sectoral restrictions may apply, alongside national enforcement and any licensing; screen exact parties and transaction.",
+      "competentReviewer": "Relevant EU and member-state competent authorities",
+      "haltCondition": "No transfer until documented authorization and current screening.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-civilian-industrial-conversion-dk",
+      "mechanismId": "civilian-industrial-conversion",
+      "jurisdictionId": "dk",
+      "status": "restriction-screen",
+      "sourceIds": [
+        "law-007",
+        "law-008",
+        "law-055"
+      ],
+      "reason": "EU designated-person and/or sectoral restrictions may apply, alongside national enforcement and any licensing; screen exact parties and transaction.",
+      "competentReviewer": "Relevant EU and member-state competent authorities",
+      "haltCondition": "No transfer until documented authorization and current screening.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-civilian-industrial-conversion-ee",
+      "mechanismId": "civilian-industrial-conversion",
+      "jurisdictionId": "ee",
+      "status": "restriction-screen",
+      "sourceIds": [
+        "law-007",
+        "law-008",
+        "law-056"
+      ],
+      "reason": "EU designated-person and/or sectoral restrictions may apply, alongside national enforcement and any licensing; screen exact parties and transaction.",
+      "competentReviewer": "Relevant EU and member-state competent authorities",
+      "haltCondition": "No transfer until documented authorization and current screening.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-civilian-industrial-conversion-eu",
+      "mechanismId": "civilian-industrial-conversion",
+      "jurisdictionId": "eu",
+      "status": "restriction-screen",
+      "sourceIds": [
+        "law-007",
+        "law-008"
+      ],
+      "reason": "EU designated-person and/or sectoral restrictions may apply, alongside national enforcement and any licensing; screen exact parties and transaction.",
+      "competentReviewer": "Relevant EU and member-state competent authorities",
+      "haltCondition": "No transfer until documented authorization and current screening.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-civilian-industrial-conversion-fr",
+      "mechanismId": "civilian-industrial-conversion",
+      "jurisdictionId": "fr",
+      "status": "restriction-screen",
+      "sourceIds": [
+        "law-007",
+        "law-008",
+        "law-029"
+      ],
+      "reason": "EU designated-person and/or sectoral restrictions may apply, alongside national enforcement and any licensing; screen exact parties and transaction.",
+      "competentReviewer": "Relevant EU and member-state competent authorities",
+      "haltCondition": "No transfer until documented authorization and current screening.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-civilian-industrial-conversion-gb",
+      "mechanismId": "civilian-industrial-conversion",
+      "jurisdictionId": "gb",
+      "status": "restriction-screen",
+      "sourceIds": [
+        "law-017",
+        "law-065"
+      ],
+      "reason": "Country-specific Russia-related sanctions and licensing requirements may apply based on persons, nexus, goods, services and effective dates; no authorization follows from this map.",
+      "competentReviewer": "GB competent sanctions/permit authority",
+      "haltCondition": "Run current asset/person/license and beneficial-ownership screening first.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-civilian-industrial-conversion-it",
+      "mechanismId": "civilian-industrial-conversion",
+      "jurisdictionId": "it",
+      "status": "restriction-screen",
+      "sourceIds": [
+        "law-007",
+        "law-008",
+        "law-050"
+      ],
+      "reason": "EU designated-person and/or sectoral restrictions may apply, alongside national enforcement and any licensing; screen exact parties and transaction.",
+      "competentReviewer": "Relevant EU and member-state competent authorities",
+      "haltCondition": "No transfer until documented authorization and current screening.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-civilian-industrial-conversion-lt",
+      "mechanismId": "civilian-industrial-conversion",
+      "jurisdictionId": "lt",
+      "status": "restriction-screen",
+      "sourceIds": [
+        "law-007",
+        "law-008",
+        "law-058"
+      ],
+      "reason": "EU designated-person and/or sectoral restrictions may apply, alongside national enforcement and any licensing; screen exact parties and transaction.",
+      "competentReviewer": "Relevant EU and member-state competent authorities",
+      "haltCondition": "No transfer until documented authorization and current screening.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-civilian-industrial-conversion-lv",
+      "mechanismId": "civilian-industrial-conversion",
+      "jurisdictionId": "lv",
+      "status": "restriction-screen",
+      "sourceIds": [
+        "law-007",
+        "law-008",
+        "law-057"
+      ],
+      "reason": "EU designated-person and/or sectoral restrictions may apply, alongside national enforcement and any licensing; screen exact parties and transaction.",
+      "competentReviewer": "Relevant EU and member-state competent authorities",
+      "haltCondition": "No transfer until documented authorization and current screening.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-civilian-industrial-conversion-nl",
+      "mechanismId": "civilian-industrial-conversion",
+      "jurisdictionId": "nl",
+      "status": "restriction-screen",
+      "sourceIds": [
+        "law-007",
+        "law-008",
+        "law-049"
+      ],
+      "reason": "EU designated-person and/or sectoral restrictions may apply, alongside national enforcement and any licensing; screen exact parties and transaction.",
+      "competentReviewer": "Relevant EU and member-state competent authorities",
+      "haltCondition": "No transfer until documented authorization and current screening.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-civilian-industrial-conversion-pl",
+      "mechanismId": "civilian-industrial-conversion",
+      "jurisdictionId": "pl",
+      "status": "restriction-screen",
+      "sourceIds": [
+        "law-007",
+        "law-008",
+        "law-025"
+      ],
+      "reason": "EU designated-person and/or sectoral restrictions may apply, alongside national enforcement and any licensing; screen exact parties and transaction.",
+      "competentReviewer": "Relevant EU and member-state competent authorities",
+      "haltCondition": "No transfer until documented authorization and current screening.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-civilian-industrial-conversion-ro",
+      "mechanismId": "civilian-industrial-conversion",
+      "jurisdictionId": "ro",
+      "status": "restriction-screen",
+      "sourceIds": [
+        "law-007",
+        "law-008",
+        "law-059"
+      ],
+      "reason": "EU designated-person and/or sectoral restrictions may apply, alongside national enforcement and any licensing; screen exact parties and transaction.",
+      "competentReviewer": "Relevant EU and member-state competent authorities",
+      "haltCondition": "No transfer until documented authorization and current screening.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-civilian-industrial-conversion-se",
+      "mechanismId": "civilian-industrial-conversion",
+      "jurisdictionId": "se",
+      "status": "restriction-screen",
+      "sourceIds": [
+        "law-007",
+        "law-008",
+        "law-053"
+      ],
+      "reason": "EU designated-person and/or sectoral restrictions may apply, alongside national enforcement and any licensing; screen exact parties and transaction.",
+      "competentReviewer": "Relevant EU and member-state competent authorities",
+      "haltCondition": "No transfer until documented authorization and current screening.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-civilian-industrial-conversion-us",
+      "mechanismId": "civilian-industrial-conversion",
+      "jurisdictionId": "us",
+      "status": "restriction-screen",
+      "sourceIds": [
+        "law-015",
+        "law-061"
+      ],
+      "reason": "Country-specific Russia-related sanctions and licensing requirements may apply based on persons, nexus, goods, services and effective dates; no authorization follows from this map.",
+      "competentReviewer": "US competent sanctions/permit authority",
+      "haltCondition": "Run current asset/person/license and beneficial-ownership screening first.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-extraordinary-revenue-be",
+      "mechanismId": "extraordinary-revenue",
+      "jurisdictionId": "be",
+      "status": "restriction-screen",
+      "sourceIds": [
+        "law-007",
+        "law-008",
+        "law-047"
+      ],
+      "reason": "Revenue allocation must be distinguished from ownership of principal; verify the exact EU instrument, budget decision and national implementation.",
+      "competentReviewer": "Relevant EU and member-state competent authorities",
+      "haltCondition": "No transfer until documented authorization and current screening.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-extraordinary-revenue-ca",
+      "mechanismId": "extraordinary-revenue",
+      "jurisdictionId": "ca",
+      "status": "restriction-screen",
+      "sourceIds": [
+        "law-021",
+        "law-064"
+      ],
+      "reason": "Country-specific Russia-related sanctions and licensing requirements may apply based on persons, nexus, goods, services and effective dates; no authorization follows from this map.",
+      "competentReviewer": "CA competent sanctions/permit authority",
+      "haltCondition": "Run current asset/person/license and beneficial-ownership screening first.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-extraordinary-revenue-de",
+      "mechanismId": "extraordinary-revenue",
+      "jurisdictionId": "de",
+      "status": "restriction-screen",
+      "sourceIds": [
+        "law-007",
+        "law-008",
+        "law-027"
+      ],
+      "reason": "Revenue allocation must be distinguished from ownership of principal; verify the exact EU instrument, budget decision and national implementation.",
+      "competentReviewer": "Relevant EU and member-state competent authorities",
+      "haltCondition": "No transfer until documented authorization and current screening.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-extraordinary-revenue-dk",
+      "mechanismId": "extraordinary-revenue",
+      "jurisdictionId": "dk",
+      "status": "restriction-screen",
+      "sourceIds": [
+        "law-007",
+        "law-008",
+        "law-055"
+      ],
+      "reason": "Revenue allocation must be distinguished from ownership of principal; verify the exact EU instrument, budget decision and national implementation.",
+      "competentReviewer": "Relevant EU and member-state competent authorities",
+      "haltCondition": "No transfer until documented authorization and current screening.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-extraordinary-revenue-ee",
+      "mechanismId": "extraordinary-revenue",
+      "jurisdictionId": "ee",
+      "status": "restriction-screen",
+      "sourceIds": [
+        "law-007",
+        "law-008",
+        "law-056"
+      ],
+      "reason": "Revenue allocation must be distinguished from ownership of principal; verify the exact EU instrument, budget decision and national implementation.",
+      "competentReviewer": "Relevant EU and member-state competent authorities",
+      "haltCondition": "No transfer until documented authorization and current screening.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-extraordinary-revenue-eu",
+      "mechanismId": "extraordinary-revenue",
+      "jurisdictionId": "eu",
+      "status": "restriction-screen",
+      "sourceIds": [
+        "law-007",
+        "law-008"
+      ],
+      "reason": "Revenue allocation must be distinguished from ownership of principal; verify the exact EU instrument, budget decision and national implementation.",
+      "competentReviewer": "Relevant EU and member-state competent authorities",
+      "haltCondition": "No transfer until documented authorization and current screening.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-extraordinary-revenue-fr",
+      "mechanismId": "extraordinary-revenue",
+      "jurisdictionId": "fr",
+      "status": "restriction-screen",
+      "sourceIds": [
+        "law-007",
+        "law-008",
+        "law-029"
+      ],
+      "reason": "Revenue allocation must be distinguished from ownership of principal; verify the exact EU instrument, budget decision and national implementation.",
+      "competentReviewer": "Relevant EU and member-state competent authorities",
+      "haltCondition": "No transfer until documented authorization and current screening.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-extraordinary-revenue-gb",
+      "mechanismId": "extraordinary-revenue",
+      "jurisdictionId": "gb",
+      "status": "restriction-screen",
+      "sourceIds": [
+        "law-017",
+        "law-065"
+      ],
+      "reason": "Country-specific Russia-related sanctions and licensing requirements may apply based on persons, nexus, goods, services and effective dates; no authorization follows from this map.",
+      "competentReviewer": "GB competent sanctions/permit authority",
+      "haltCondition": "Run current asset/person/license and beneficial-ownership screening first.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-extraordinary-revenue-it",
+      "mechanismId": "extraordinary-revenue",
+      "jurisdictionId": "it",
+      "status": "restriction-screen",
+      "sourceIds": [
+        "law-007",
+        "law-008",
+        "law-050"
+      ],
+      "reason": "Revenue allocation must be distinguished from ownership of principal; verify the exact EU instrument, budget decision and national implementation.",
+      "competentReviewer": "Relevant EU and member-state competent authorities",
+      "haltCondition": "No transfer until documented authorization and current screening.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-extraordinary-revenue-lt",
+      "mechanismId": "extraordinary-revenue",
+      "jurisdictionId": "lt",
+      "status": "restriction-screen",
+      "sourceIds": [
+        "law-007",
+        "law-008",
+        "law-058"
+      ],
+      "reason": "Revenue allocation must be distinguished from ownership of principal; verify the exact EU instrument, budget decision and national implementation.",
+      "competentReviewer": "Relevant EU and member-state competent authorities",
+      "haltCondition": "No transfer until documented authorization and current screening.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-extraordinary-revenue-lv",
+      "mechanismId": "extraordinary-revenue",
+      "jurisdictionId": "lv",
+      "status": "restriction-screen",
+      "sourceIds": [
+        "law-007",
+        "law-008",
+        "law-057"
+      ],
+      "reason": "Revenue allocation must be distinguished from ownership of principal; verify the exact EU instrument, budget decision and national implementation.",
+      "competentReviewer": "Relevant EU and member-state competent authorities",
+      "haltCondition": "No transfer until documented authorization and current screening.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-extraordinary-revenue-nl",
+      "mechanismId": "extraordinary-revenue",
+      "jurisdictionId": "nl",
+      "status": "restriction-screen",
+      "sourceIds": [
+        "law-007",
+        "law-008",
+        "law-049"
+      ],
+      "reason": "Revenue allocation must be distinguished from ownership of principal; verify the exact EU instrument, budget decision and national implementation.",
+      "competentReviewer": "Relevant EU and member-state competent authorities",
+      "haltCondition": "No transfer until documented authorization and current screening.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-extraordinary-revenue-pl",
+      "mechanismId": "extraordinary-revenue",
+      "jurisdictionId": "pl",
+      "status": "restriction-screen",
+      "sourceIds": [
+        "law-007",
+        "law-008",
+        "law-025"
+      ],
+      "reason": "Revenue allocation must be distinguished from ownership of principal; verify the exact EU instrument, budget decision and national implementation.",
+      "competentReviewer": "Relevant EU and member-state competent authorities",
+      "haltCondition": "No transfer until documented authorization and current screening.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-extraordinary-revenue-ro",
+      "mechanismId": "extraordinary-revenue",
+      "jurisdictionId": "ro",
+      "status": "restriction-screen",
+      "sourceIds": [
+        "law-007",
+        "law-008",
+        "law-059"
+      ],
+      "reason": "Revenue allocation must be distinguished from ownership of principal; verify the exact EU instrument, budget decision and national implementation.",
+      "competentReviewer": "Relevant EU and member-state competent authorities",
+      "haltCondition": "No transfer until documented authorization and current screening.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-extraordinary-revenue-se",
+      "mechanismId": "extraordinary-revenue",
+      "jurisdictionId": "se",
+      "status": "restriction-screen",
+      "sourceIds": [
+        "law-007",
+        "law-008",
+        "law-053"
+      ],
+      "reason": "Revenue allocation must be distinguished from ownership of principal; verify the exact EU instrument, budget decision and national implementation.",
+      "competentReviewer": "Relevant EU and member-state competent authorities",
+      "haltCondition": "No transfer until documented authorization and current screening.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-extraordinary-revenue-us",
+      "mechanismId": "extraordinary-revenue",
+      "jurisdictionId": "us",
+      "status": "restriction-screen",
+      "sourceIds": [
+        "law-015",
+        "law-061"
+      ],
+      "reason": "Country-specific Russia-related sanctions and licensing requirements may apply based on persons, nexus, goods, services and effective dates; no authorization follows from this map.",
+      "competentReviewer": "US competent sanctions/permit authority",
+      "haltCondition": "Run current asset/person/license and beneficial-ownership screening first.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-grid-reconstruction-ua",
+      "mechanismId": "grid-reconstruction",
+      "jurisdictionId": "ua",
+      "status": "authorization-gate",
+      "sourceIds": [
+        "law-002"
+      ],
+      "reason": "Host-government, grid operator, environmental and procurement permissions require current legal review.",
+      "competentReviewer": "Ukraine grid regulators, owners and project authorities",
+      "haltCondition": "No physical access without permission.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-immobilised-principal-be",
+      "mechanismId": "immobilised-principal",
+      "jurisdictionId": "be",
+      "status": "restriction-screen",
+      "sourceIds": [
+        "law-007",
+        "law-008",
+        "law-047"
+      ],
+      "reason": "EU asset restrictions and national custody/implementation rules are relevant; release of sovereign principal cannot be assumed from asset immobilization.",
+      "competentReviewer": "Relevant EU and member-state competent authorities",
+      "haltCondition": "No transfer until documented authorization and current screening.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-immobilised-principal-ca",
+      "mechanismId": "immobilised-principal",
+      "jurisdictionId": "ca",
+      "status": "restriction-screen",
+      "sourceIds": [
+        "law-021",
+        "law-064"
+      ],
+      "reason": "Country-specific Russia-related sanctions and licensing requirements may apply based on persons, nexus, goods, services and effective dates; no authorization follows from this map.",
+      "competentReviewer": "CA competent sanctions/permit authority",
+      "haltCondition": "Run current asset/person/license and beneficial-ownership screening first.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-immobilised-principal-de",
+      "mechanismId": "immobilised-principal",
+      "jurisdictionId": "de",
+      "status": "restriction-screen",
+      "sourceIds": [
+        "law-007",
+        "law-008",
+        "law-027"
+      ],
+      "reason": "EU asset restrictions and national custody/implementation rules are relevant; release of sovereign principal cannot be assumed from asset immobilization.",
+      "competentReviewer": "Relevant EU and member-state competent authorities",
+      "haltCondition": "No transfer until documented authorization and current screening.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-immobilised-principal-dk",
+      "mechanismId": "immobilised-principal",
+      "jurisdictionId": "dk",
+      "status": "restriction-screen",
+      "sourceIds": [
+        "law-007",
+        "law-008",
+        "law-055"
+      ],
+      "reason": "EU asset restrictions and national custody/implementation rules are relevant; release of sovereign principal cannot be assumed from asset immobilization.",
+      "competentReviewer": "Relevant EU and member-state competent authorities",
+      "haltCondition": "No transfer until documented authorization and current screening.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-immobilised-principal-ee",
+      "mechanismId": "immobilised-principal",
+      "jurisdictionId": "ee",
+      "status": "restriction-screen",
+      "sourceIds": [
+        "law-007",
+        "law-008",
+        "law-056"
+      ],
+      "reason": "EU asset restrictions and national custody/implementation rules are relevant; release of sovereign principal cannot be assumed from asset immobilization.",
+      "competentReviewer": "Relevant EU and member-state competent authorities",
+      "haltCondition": "No transfer until documented authorization and current screening.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-immobilised-principal-eu",
+      "mechanismId": "immobilised-principal",
+      "jurisdictionId": "eu",
+      "status": "restriction-screen",
+      "sourceIds": [
+        "law-007",
+        "law-008"
+      ],
+      "reason": "EU asset restrictions and national custody/implementation rules are relevant; release of sovereign principal cannot be assumed from asset immobilization.",
+      "competentReviewer": "Relevant EU and member-state competent authorities",
+      "haltCondition": "No transfer until documented authorization and current screening.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-immobilised-principal-fr",
+      "mechanismId": "immobilised-principal",
+      "jurisdictionId": "fr",
+      "status": "restriction-screen",
+      "sourceIds": [
+        "law-007",
+        "law-008",
+        "law-029"
+      ],
+      "reason": "EU asset restrictions and national custody/implementation rules are relevant; release of sovereign principal cannot be assumed from asset immobilization.",
+      "competentReviewer": "Relevant EU and member-state competent authorities",
+      "haltCondition": "No transfer until documented authorization and current screening.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-immobilised-principal-gb",
+      "mechanismId": "immobilised-principal",
+      "jurisdictionId": "gb",
+      "status": "restriction-screen",
+      "sourceIds": [
+        "law-017",
+        "law-065"
+      ],
+      "reason": "Country-specific Russia-related sanctions and licensing requirements may apply based on persons, nexus, goods, services and effective dates; no authorization follows from this map.",
+      "competentReviewer": "GB competent sanctions/permit authority",
+      "haltCondition": "Run current asset/person/license and beneficial-ownership screening first.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-immobilised-principal-it",
+      "mechanismId": "immobilised-principal",
+      "jurisdictionId": "it",
+      "status": "restriction-screen",
+      "sourceIds": [
+        "law-007",
+        "law-008",
+        "law-050"
+      ],
+      "reason": "EU asset restrictions and national custody/implementation rules are relevant; release of sovereign principal cannot be assumed from asset immobilization.",
+      "competentReviewer": "Relevant EU and member-state competent authorities",
+      "haltCondition": "No transfer until documented authorization and current screening.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-immobilised-principal-lt",
+      "mechanismId": "immobilised-principal",
+      "jurisdictionId": "lt",
+      "status": "restriction-screen",
+      "sourceIds": [
+        "law-007",
+        "law-008",
+        "law-058"
+      ],
+      "reason": "EU asset restrictions and national custody/implementation rules are relevant; release of sovereign principal cannot be assumed from asset immobilization.",
+      "competentReviewer": "Relevant EU and member-state competent authorities",
+      "haltCondition": "No transfer until documented authorization and current screening.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-immobilised-principal-lv",
+      "mechanismId": "immobilised-principal",
+      "jurisdictionId": "lv",
+      "status": "restriction-screen",
+      "sourceIds": [
+        "law-007",
+        "law-008",
+        "law-057"
+      ],
+      "reason": "EU asset restrictions and national custody/implementation rules are relevant; release of sovereign principal cannot be assumed from asset immobilization.",
+      "competentReviewer": "Relevant EU and member-state competent authorities",
+      "haltCondition": "No transfer until documented authorization and current screening.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-immobilised-principal-nl",
+      "mechanismId": "immobilised-principal",
+      "jurisdictionId": "nl",
+      "status": "restriction-screen",
+      "sourceIds": [
+        "law-007",
+        "law-008",
+        "law-049"
+      ],
+      "reason": "EU asset restrictions and national custody/implementation rules are relevant; release of sovereign principal cannot be assumed from asset immobilization.",
+      "competentReviewer": "Relevant EU and member-state competent authorities",
+      "haltCondition": "No transfer until documented authorization and current screening.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-immobilised-principal-pl",
+      "mechanismId": "immobilised-principal",
+      "jurisdictionId": "pl",
+      "status": "restriction-screen",
+      "sourceIds": [
+        "law-007",
+        "law-008",
+        "law-025"
+      ],
+      "reason": "EU asset restrictions and national custody/implementation rules are relevant; release of sovereign principal cannot be assumed from asset immobilization.",
+      "competentReviewer": "Relevant EU and member-state competent authorities",
+      "haltCondition": "No transfer until documented authorization and current screening.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-immobilised-principal-ro",
+      "mechanismId": "immobilised-principal",
+      "jurisdictionId": "ro",
+      "status": "restriction-screen",
+      "sourceIds": [
+        "law-007",
+        "law-008",
+        "law-059"
+      ],
+      "reason": "EU asset restrictions and national custody/implementation rules are relevant; release of sovereign principal cannot be assumed from asset immobilization.",
+      "competentReviewer": "Relevant EU and member-state competent authorities",
+      "haltCondition": "No transfer until documented authorization and current screening.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-immobilised-principal-se",
+      "mechanismId": "immobilised-principal",
+      "jurisdictionId": "se",
+      "status": "restriction-screen",
+      "sourceIds": [
+        "law-007",
+        "law-008",
+        "law-053"
+      ],
+      "reason": "EU asset restrictions and national custody/implementation rules are relevant; release of sovereign principal cannot be assumed from asset immobilization.",
+      "competentReviewer": "Relevant EU and member-state competent authorities",
+      "haltCondition": "No transfer until documented authorization and current screening.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-immobilised-principal-us",
+      "mechanismId": "immobilised-principal",
+      "jurisdictionId": "us",
+      "status": "restriction-screen",
+      "sourceIds": [
+        "law-015",
+        "law-061"
+      ],
+      "reason": "Country-specific Russia-related sanctions and licensing requirements may apply based on persons, nexus, goods, services and effective dates; no authorization follows from this map.",
+      "competentReviewer": "US competent sanctions/permit authority",
+      "haltCondition": "Run current asset/person/license and beneficial-ownership screening first.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-local-plebiscite-coe",
+      "mechanismId": "local-plebiscite",
+      "jurisdictionId": "coe",
+      "status": "standards-review",
+      "sourceIds": [
+        "law-040",
+        "law-041"
+      ],
+      "reason": "Human-rights materials are not an independent source of power to alter Ukrainian territorial status.",
+      "competentReviewer": "Competent domestic authorities and courts",
+      "haltCondition": "No automatic external endorsement.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-local-plebiscite-ru",
+      "mechanismId": "local-plebiscite",
+      "jurisdictionId": "ru",
+      "status": "constitutional-conflict",
+      "sourceIds": [
+        "law-001",
+        "law-039"
+      ],
+      "reason": "Russian domestic legal acts cannot independently confer a right to alter Ukraine’s internationally recognized territory.",
+      "competentReviewer": "Competent Ukrainian authorities and international law",
+      "haltCondition": "Reject unilateral annexation premises.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-local-plebiscite-ua",
+      "mechanismId": "local-plebiscite",
+      "jurisdictionId": "ua",
+      "status": "constitutional-conflict",
+      "sourceIds": [
+        "law-001"
+      ],
+      "reason": "Ukraine Constitution Art. 73 requires an all-Ukrainian referendum for territorial alterations; a local-only binding territorial vote is not a competent substitute.",
+      "competentReviewer": "Ukrainian constitutionally competent authorities and courts",
+      "haltCondition": "Do not use a local vote to alter territorial status.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-maritime-access-un",
+      "mechanismId": "maritime-access",
+      "jurisdictionId": "un",
+      "status": "standards-review",
+      "sourceIds": [
+        "law-039"
+      ],
+      "reason": "International-law and coastal-state permissions require current legal assessment; this Charter portal does not settle navigation law.",
+      "competentReviewer": "Competent flag/coastal states",
+      "haltCondition": "No implied cross-border permission.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-mine-land-release-ua",
+      "mechanismId": "mine-land-release",
+      "jurisdictionId": "ua",
+      "status": "authorization-gate",
+      "sourceIds": [
+        "law-002",
+        "law-060"
+      ],
+      "reason": "Ukrainian national mine-action authorizations and accredited land release are required; IMAS is professional guidance, not domestic permission.",
+      "competentReviewer": "Ukraine national mine action authority / accredited operator",
+      "haltCondition": "No land-use permission from AI mapping alone.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-mine-land-release-un",
+      "mechanismId": "mine-land-release",
+      "jurisdictionId": "un",
+      "status": "standards-review",
+      "sourceIds": [
+        "law-060"
+      ],
+      "reason": "IMAS professional reference, subject to the relevant national mine-action framework and accreditation.",
+      "competentReviewer": "National mine-action authority",
+      "haltCondition": "No implied cross-border permission.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-nuclear-safety-iaea",
+      "mechanismId": "nuclear-safety",
+      "jurisdictionId": "iaea",
+      "status": "authorization-gate",
+      "sourceIds": [
+        "law-044",
+        "law-045"
+      ],
+      "reason": "IAEA technical advice and observation are distinct from military enforcement or territorial administration.",
+      "competentReviewer": "IAEA within accepted mandate and Ukraine",
+      "haltCondition": "No military exclusion authority presumed.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-nuclear-safety-ua",
+      "mechanismId": "nuclear-safety",
+      "jurisdictionId": "ua",
+      "status": "authorization-gate",
+      "sourceIds": [
+        "law-002",
+        "law-044"
+      ],
+      "reason": "Technical nuclear safety and facility access permissions are necessary; IAEA cannot unilaterally impose military exclusion.",
+      "competentReviewer": "Ukrainian regulators and IAEA within mandate",
+      "haltCondition": "No implied IAEA enforcement power.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-protected-exchanges-icrc",
+      "mechanismId": "protected-exchanges",
+      "jurisdictionId": "icrc",
+      "status": "standards-review",
+      "sourceIds": [
+        "law-046"
+      ],
+      "reason": "ICRC IHL references help identify protections; the ICRC does not thereby authorize a specific exchange.",
+      "competentReviewer": "Detaining powers and independent humanitarian intermediaries",
+      "haltCondition": "Protect confidentiality and impartiality.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-protected-exchanges-ua",
+      "mechanismId": "protected-exchanges",
+      "jurisdictionId": "ua",
+      "status": "authorization-gate",
+      "sourceIds": [
+        "law-046"
+      ],
+      "reason": "Humanitarian protections and competent custody authorities govern transfers; no automated or coerced release.",
+      "competentReviewer": "Detaining powers, humanitarian actors within approved mandates",
+      "haltCondition": "Safeguard protected-person data.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-protected-exchanges-un",
+      "mechanismId": "protected-exchanges",
+      "jurisdictionId": "un",
+      "status": "standards-review",
+      "sourceIds": [
+        "law-046"
+      ],
+      "reason": "Geneva-law sources define protection requirements but do not document a specific exchange agreement.",
+      "competentReviewer": "Custodial actors and humanitarian reviewer",
+      "haltCondition": "No implied cross-border permission.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-public-recovery-procurement-be",
+      "mechanismId": "public-recovery-procurement",
+      "jurisdictionId": "be",
+      "status": "standards-review",
+      "sourceIds": [
+        "law-009",
+        "law-047"
+      ],
+      "reason": "EU and national procurement rules may both apply; the national link is a discovery portal and does not establish an applicable provision.",
+      "competentReviewer": "Contracting authority / local counsel",
+      "haltCondition": "Recheck instruments and delegated competence.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-public-recovery-procurement-ca",
+      "mechanismId": "public-recovery-procurement",
+      "jurisdictionId": "ca",
+      "status": "standards-review",
+      "sourceIds": [
+        "law-023"
+      ],
+      "reason": "Donor procurement, sanctions and anti-corruption rules require project-specific review; this link is a general official portal, not substantive legal clearance.",
+      "competentReviewer": "Project funder and procurement lawyer",
+      "haltCondition": "No implied procurement approval.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-public-recovery-procurement-de",
+      "mechanismId": "public-recovery-procurement",
+      "jurisdictionId": "de",
+      "status": "standards-review",
+      "sourceIds": [
+        "law-009",
+        "law-027"
+      ],
+      "reason": "EU and national procurement rules may both apply; the national link is a discovery portal and does not establish an applicable provision.",
+      "competentReviewer": "Contracting authority / local counsel",
+      "haltCondition": "Recheck instruments and delegated competence.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-public-recovery-procurement-dk",
+      "mechanismId": "public-recovery-procurement",
+      "jurisdictionId": "dk",
+      "status": "standards-review",
+      "sourceIds": [
+        "law-009",
+        "law-055"
+      ],
+      "reason": "EU and national procurement rules may both apply; the national link is a discovery portal and does not establish an applicable provision.",
+      "competentReviewer": "Contracting authority / local counsel",
+      "haltCondition": "Recheck instruments and delegated competence.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-public-recovery-procurement-ee",
+      "mechanismId": "public-recovery-procurement",
+      "jurisdictionId": "ee",
+      "status": "standards-review",
+      "sourceIds": [
+        "law-009",
+        "law-056"
+      ],
+      "reason": "EU and national procurement rules may both apply; the national link is a discovery portal and does not establish an applicable provision.",
+      "competentReviewer": "Contracting authority / local counsel",
+      "haltCondition": "Recheck instruments and delegated competence.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-public-recovery-procurement-eu",
+      "mechanismId": "public-recovery-procurement",
+      "jurisdictionId": "eu",
+      "status": "standards-review",
+      "sourceIds": [
+        "law-009"
+      ],
+      "reason": "Donor procurement, sanctions and anti-corruption rules require project-specific review; this link is a general official portal, not substantive legal clearance.",
+      "competentReviewer": "Project funder and procurement lawyer",
+      "haltCondition": "No implied procurement approval.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-public-recovery-procurement-fr",
+      "mechanismId": "public-recovery-procurement",
+      "jurisdictionId": "fr",
+      "status": "standards-review",
+      "sourceIds": [
+        "law-009",
+        "law-029"
+      ],
+      "reason": "EU and national procurement rules may both apply; the national link is a discovery portal and does not establish an applicable provision.",
+      "competentReviewer": "Contracting authority / local counsel",
+      "haltCondition": "Recheck instruments and delegated competence.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-public-recovery-procurement-gb",
+      "mechanismId": "public-recovery-procurement",
+      "jurisdictionId": "gb",
+      "status": "standards-review",
+      "sourceIds": [
+        "law-020"
+      ],
+      "reason": "Donor procurement, sanctions and anti-corruption rules require project-specific review; this link is a general official portal, not substantive legal clearance.",
+      "competentReviewer": "Project funder and procurement lawyer",
+      "haltCondition": "No implied procurement approval.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-public-recovery-procurement-it",
+      "mechanismId": "public-recovery-procurement",
+      "jurisdictionId": "it",
+      "status": "standards-review",
+      "sourceIds": [
+        "law-009",
+        "law-050"
+      ],
+      "reason": "EU and national procurement rules may both apply; the national link is a discovery portal and does not establish an applicable provision.",
+      "competentReviewer": "Contracting authority / local counsel",
+      "haltCondition": "Recheck instruments and delegated competence.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-public-recovery-procurement-lt",
+      "mechanismId": "public-recovery-procurement",
+      "jurisdictionId": "lt",
+      "status": "standards-review",
+      "sourceIds": [
+        "law-009",
+        "law-058"
+      ],
+      "reason": "EU and national procurement rules may both apply; the national link is a discovery portal and does not establish an applicable provision.",
+      "competentReviewer": "Contracting authority / local counsel",
+      "haltCondition": "Recheck instruments and delegated competence.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-public-recovery-procurement-lv",
+      "mechanismId": "public-recovery-procurement",
+      "jurisdictionId": "lv",
+      "status": "standards-review",
+      "sourceIds": [
+        "law-009",
+        "law-057"
+      ],
+      "reason": "EU and national procurement rules may both apply; the national link is a discovery portal and does not establish an applicable provision.",
+      "competentReviewer": "Contracting authority / local counsel",
+      "haltCondition": "Recheck instruments and delegated competence.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-public-recovery-procurement-nl",
+      "mechanismId": "public-recovery-procurement",
+      "jurisdictionId": "nl",
+      "status": "standards-review",
+      "sourceIds": [
+        "law-009",
+        "law-049"
+      ],
+      "reason": "EU and national procurement rules may both apply; the national link is a discovery portal and does not establish an applicable provision.",
+      "competentReviewer": "Contracting authority / local counsel",
+      "haltCondition": "Recheck instruments and delegated competence.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-public-recovery-procurement-pl",
+      "mechanismId": "public-recovery-procurement",
+      "jurisdictionId": "pl",
+      "status": "standards-review",
+      "sourceIds": [
+        "law-009",
+        "law-025"
+      ],
+      "reason": "EU and national procurement rules may both apply; the national link is a discovery portal and does not establish an applicable provision.",
+      "competentReviewer": "Contracting authority / local counsel",
+      "haltCondition": "Recheck instruments and delegated competence.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-public-recovery-procurement-ro",
+      "mechanismId": "public-recovery-procurement",
+      "jurisdictionId": "ro",
+      "status": "standards-review",
+      "sourceIds": [
+        "law-009",
+        "law-059"
+      ],
+      "reason": "EU and national procurement rules may both apply; the national link is a discovery portal and does not establish an applicable provision.",
+      "competentReviewer": "Contracting authority / local counsel",
+      "haltCondition": "Recheck instruments and delegated competence.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-public-recovery-procurement-se",
+      "mechanismId": "public-recovery-procurement",
+      "jurisdictionId": "se",
+      "status": "standards-review",
+      "sourceIds": [
+        "law-009",
+        "law-053"
+      ],
+      "reason": "EU and national procurement rules may both apply; the national link is a discovery portal and does not establish an applicable provision.",
+      "competentReviewer": "Contracting authority / local counsel",
+      "haltCondition": "Recheck instruments and delegated competence.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-public-recovery-procurement-us",
+      "mechanismId": "public-recovery-procurement",
+      "jurisdictionId": "us",
+      "status": "standards-review",
+      "sourceIds": [
+        "law-011"
+      ],
+      "reason": "Donor procurement, sanctions and anti-corruption rules require project-specific review; this link is a general official portal, not substantive legal clearance.",
+      "competentReviewer": "Project funder and procurement lawyer",
+      "haltCondition": "No implied procurement approval.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-restricted-joint-investment-be",
+      "mechanismId": "restricted-joint-investment",
+      "jurisdictionId": "be",
+      "status": "restriction-screen",
+      "sourceIds": [
+        "law-007",
+        "law-008",
+        "law-047"
+      ],
+      "reason": "EU designated-person and/or sectoral restrictions may apply, alongside national enforcement and any licensing; screen exact parties and transaction.",
+      "competentReviewer": "Relevant EU and member-state competent authorities",
+      "haltCondition": "No transfer until documented authorization and current screening.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-restricted-joint-investment-ca",
+      "mechanismId": "restricted-joint-investment",
+      "jurisdictionId": "ca",
+      "status": "restriction-screen",
+      "sourceIds": [
+        "law-021",
+        "law-064"
+      ],
+      "reason": "Country-specific Russia-related sanctions and licensing requirements may apply based on persons, nexus, goods, services and effective dates; no authorization follows from this map.",
+      "competentReviewer": "CA competent sanctions/permit authority",
+      "haltCondition": "Run current asset/person/license and beneficial-ownership screening first.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-restricted-joint-investment-de",
+      "mechanismId": "restricted-joint-investment",
+      "jurisdictionId": "de",
+      "status": "restriction-screen",
+      "sourceIds": [
+        "law-007",
+        "law-008",
+        "law-027"
+      ],
+      "reason": "EU designated-person and/or sectoral restrictions may apply, alongside national enforcement and any licensing; screen exact parties and transaction.",
+      "competentReviewer": "Relevant EU and member-state competent authorities",
+      "haltCondition": "No transfer until documented authorization and current screening.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-restricted-joint-investment-dk",
+      "mechanismId": "restricted-joint-investment",
+      "jurisdictionId": "dk",
+      "status": "restriction-screen",
+      "sourceIds": [
+        "law-007",
+        "law-008",
+        "law-055"
+      ],
+      "reason": "EU designated-person and/or sectoral restrictions may apply, alongside national enforcement and any licensing; screen exact parties and transaction.",
+      "competentReviewer": "Relevant EU and member-state competent authorities",
+      "haltCondition": "No transfer until documented authorization and current screening.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-restricted-joint-investment-ee",
+      "mechanismId": "restricted-joint-investment",
+      "jurisdictionId": "ee",
+      "status": "restriction-screen",
+      "sourceIds": [
+        "law-007",
+        "law-008",
+        "law-056"
+      ],
+      "reason": "EU designated-person and/or sectoral restrictions may apply, alongside national enforcement and any licensing; screen exact parties and transaction.",
+      "competentReviewer": "Relevant EU and member-state competent authorities",
+      "haltCondition": "No transfer until documented authorization and current screening.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-restricted-joint-investment-eu",
+      "mechanismId": "restricted-joint-investment",
+      "jurisdictionId": "eu",
+      "status": "restriction-screen",
+      "sourceIds": [
+        "law-007",
+        "law-008"
+      ],
+      "reason": "EU designated-person and/or sectoral restrictions may apply, alongside national enforcement and any licensing; screen exact parties and transaction.",
+      "competentReviewer": "Relevant EU and member-state competent authorities",
+      "haltCondition": "No transfer until documented authorization and current screening.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-restricted-joint-investment-fr",
+      "mechanismId": "restricted-joint-investment",
+      "jurisdictionId": "fr",
+      "status": "restriction-screen",
+      "sourceIds": [
+        "law-007",
+        "law-008",
+        "law-029"
+      ],
+      "reason": "EU designated-person and/or sectoral restrictions may apply, alongside national enforcement and any licensing; screen exact parties and transaction.",
+      "competentReviewer": "Relevant EU and member-state competent authorities",
+      "haltCondition": "No transfer until documented authorization and current screening.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-restricted-joint-investment-gb",
+      "mechanismId": "restricted-joint-investment",
+      "jurisdictionId": "gb",
+      "status": "restriction-screen",
+      "sourceIds": [
+        "law-017",
+        "law-065"
+      ],
+      "reason": "Country-specific Russia-related sanctions and licensing requirements may apply based on persons, nexus, goods, services and effective dates; no authorization follows from this map.",
+      "competentReviewer": "GB competent sanctions/permit authority",
+      "haltCondition": "Run current asset/person/license and beneficial-ownership screening first.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-restricted-joint-investment-it",
+      "mechanismId": "restricted-joint-investment",
+      "jurisdictionId": "it",
+      "status": "restriction-screen",
+      "sourceIds": [
+        "law-007",
+        "law-008",
+        "law-050"
+      ],
+      "reason": "EU designated-person and/or sectoral restrictions may apply, alongside national enforcement and any licensing; screen exact parties and transaction.",
+      "competentReviewer": "Relevant EU and member-state competent authorities",
+      "haltCondition": "No transfer until documented authorization and current screening.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-restricted-joint-investment-lt",
+      "mechanismId": "restricted-joint-investment",
+      "jurisdictionId": "lt",
+      "status": "restriction-screen",
+      "sourceIds": [
+        "law-007",
+        "law-008",
+        "law-058"
+      ],
+      "reason": "EU designated-person and/or sectoral restrictions may apply, alongside national enforcement and any licensing; screen exact parties and transaction.",
+      "competentReviewer": "Relevant EU and member-state competent authorities",
+      "haltCondition": "No transfer until documented authorization and current screening.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-restricted-joint-investment-lv",
+      "mechanismId": "restricted-joint-investment",
+      "jurisdictionId": "lv",
+      "status": "restriction-screen",
+      "sourceIds": [
+        "law-007",
+        "law-008",
+        "law-057"
+      ],
+      "reason": "EU designated-person and/or sectoral restrictions may apply, alongside national enforcement and any licensing; screen exact parties and transaction.",
+      "competentReviewer": "Relevant EU and member-state competent authorities",
+      "haltCondition": "No transfer until documented authorization and current screening.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-restricted-joint-investment-nl",
+      "mechanismId": "restricted-joint-investment",
+      "jurisdictionId": "nl",
+      "status": "restriction-screen",
+      "sourceIds": [
+        "law-007",
+        "law-008",
+        "law-049"
+      ],
+      "reason": "EU designated-person and/or sectoral restrictions may apply, alongside national enforcement and any licensing; screen exact parties and transaction.",
+      "competentReviewer": "Relevant EU and member-state competent authorities",
+      "haltCondition": "No transfer until documented authorization and current screening.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-restricted-joint-investment-pl",
+      "mechanismId": "restricted-joint-investment",
+      "jurisdictionId": "pl",
+      "status": "restriction-screen",
+      "sourceIds": [
+        "law-007",
+        "law-008",
+        "law-025"
+      ],
+      "reason": "EU designated-person and/or sectoral restrictions may apply, alongside national enforcement and any licensing; screen exact parties and transaction.",
+      "competentReviewer": "Relevant EU and member-state competent authorities",
+      "haltCondition": "No transfer until documented authorization and current screening.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-restricted-joint-investment-ro",
+      "mechanismId": "restricted-joint-investment",
+      "jurisdictionId": "ro",
+      "status": "restriction-screen",
+      "sourceIds": [
+        "law-007",
+        "law-008",
+        "law-059"
+      ],
+      "reason": "EU designated-person and/or sectoral restrictions may apply, alongside national enforcement and any licensing; screen exact parties and transaction.",
+      "competentReviewer": "Relevant EU and member-state competent authorities",
+      "haltCondition": "No transfer until documented authorization and current screening.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-restricted-joint-investment-se",
+      "mechanismId": "restricted-joint-investment",
+      "jurisdictionId": "se",
+      "status": "restriction-screen",
+      "sourceIds": [
+        "law-007",
+        "law-008",
+        "law-053"
+      ],
+      "reason": "EU designated-person and/or sectoral restrictions may apply, alongside national enforcement and any licensing; screen exact parties and transaction.",
+      "competentReviewer": "Relevant EU and member-state competent authorities",
+      "haltCondition": "No transfer until documented authorization and current screening.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-restricted-joint-investment-us",
+      "mechanismId": "restricted-joint-investment",
+      "jurisdictionId": "us",
+      "status": "restriction-screen",
+      "sourceIds": [
+        "law-015",
+        "law-061"
+      ],
+      "reason": "Country-specific Russia-related sanctions and licensing requirements may apply based on persons, nexus, goods, services and effective dates; no authorization follows from this map.",
+      "competentReviewer": "US competent sanctions/permit authority",
+      "haltCondition": "Run current asset/person/license and beneficial-ownership screening first.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-sanctions-relief-be",
+      "mechanismId": "sanctions-relief",
+      "jurisdictionId": "be",
+      "status": "restriction-screen",
+      "sourceIds": [
+        "law-007",
+        "law-008",
+        "law-047"
+      ],
+      "reason": "EU designated-person and/or sectoral restrictions may apply, alongside national enforcement and any licensing; screen exact parties and transaction.",
+      "competentReviewer": "Relevant EU and member-state competent authorities",
+      "haltCondition": "No transfer until documented authorization and current screening.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-sanctions-relief-ca",
+      "mechanismId": "sanctions-relief",
+      "jurisdictionId": "ca",
+      "status": "restriction-screen",
+      "sourceIds": [
+        "law-021",
+        "law-064"
+      ],
+      "reason": "Country-specific Russia-related sanctions and licensing requirements may apply based on persons, nexus, goods, services and effective dates; no authorization follows from this map.",
+      "competentReviewer": "CA competent sanctions/permit authority",
+      "haltCondition": "Run current asset/person/license and beneficial-ownership screening first.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-sanctions-relief-de",
+      "mechanismId": "sanctions-relief",
+      "jurisdictionId": "de",
+      "status": "restriction-screen",
+      "sourceIds": [
+        "law-007",
+        "law-008",
+        "law-027"
+      ],
+      "reason": "EU designated-person and/or sectoral restrictions may apply, alongside national enforcement and any licensing; screen exact parties and transaction.",
+      "competentReviewer": "Relevant EU and member-state competent authorities",
+      "haltCondition": "No transfer until documented authorization and current screening.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-sanctions-relief-dk",
+      "mechanismId": "sanctions-relief",
+      "jurisdictionId": "dk",
+      "status": "restriction-screen",
+      "sourceIds": [
+        "law-007",
+        "law-008",
+        "law-055"
+      ],
+      "reason": "EU designated-person and/or sectoral restrictions may apply, alongside national enforcement and any licensing; screen exact parties and transaction.",
+      "competentReviewer": "Relevant EU and member-state competent authorities",
+      "haltCondition": "No transfer until documented authorization and current screening.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-sanctions-relief-ee",
+      "mechanismId": "sanctions-relief",
+      "jurisdictionId": "ee",
+      "status": "restriction-screen",
+      "sourceIds": [
+        "law-007",
+        "law-008",
+        "law-056"
+      ],
+      "reason": "EU designated-person and/or sectoral restrictions may apply, alongside national enforcement and any licensing; screen exact parties and transaction.",
+      "competentReviewer": "Relevant EU and member-state competent authorities",
+      "haltCondition": "No transfer until documented authorization and current screening.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-sanctions-relief-eu",
+      "mechanismId": "sanctions-relief",
+      "jurisdictionId": "eu",
+      "status": "restriction-screen",
+      "sourceIds": [
+        "law-007",
+        "law-008"
+      ],
+      "reason": "EU designated-person and/or sectoral restrictions may apply, alongside national enforcement and any licensing; screen exact parties and transaction.",
+      "competentReviewer": "Relevant EU and member-state competent authorities",
+      "haltCondition": "No transfer until documented authorization and current screening.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-sanctions-relief-fr",
+      "mechanismId": "sanctions-relief",
+      "jurisdictionId": "fr",
+      "status": "restriction-screen",
+      "sourceIds": [
+        "law-007",
+        "law-008",
+        "law-029"
+      ],
+      "reason": "EU designated-person and/or sectoral restrictions may apply, alongside national enforcement and any licensing; screen exact parties and transaction.",
+      "competentReviewer": "Relevant EU and member-state competent authorities",
+      "haltCondition": "No transfer until documented authorization and current screening.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-sanctions-relief-gb",
+      "mechanismId": "sanctions-relief",
+      "jurisdictionId": "gb",
+      "status": "restriction-screen",
+      "sourceIds": [
+        "law-017",
+        "law-065"
+      ],
+      "reason": "Country-specific Russia-related sanctions and licensing requirements may apply based on persons, nexus, goods, services and effective dates; no authorization follows from this map.",
+      "competentReviewer": "GB competent sanctions/permit authority",
+      "haltCondition": "Run current asset/person/license and beneficial-ownership screening first.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-sanctions-relief-it",
+      "mechanismId": "sanctions-relief",
+      "jurisdictionId": "it",
+      "status": "restriction-screen",
+      "sourceIds": [
+        "law-007",
+        "law-008",
+        "law-050"
+      ],
+      "reason": "EU designated-person and/or sectoral restrictions may apply, alongside national enforcement and any licensing; screen exact parties and transaction.",
+      "competentReviewer": "Relevant EU and member-state competent authorities",
+      "haltCondition": "No transfer until documented authorization and current screening.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-sanctions-relief-lt",
+      "mechanismId": "sanctions-relief",
+      "jurisdictionId": "lt",
+      "status": "restriction-screen",
+      "sourceIds": [
+        "law-007",
+        "law-008",
+        "law-058"
+      ],
+      "reason": "EU designated-person and/or sectoral restrictions may apply, alongside national enforcement and any licensing; screen exact parties and transaction.",
+      "competentReviewer": "Relevant EU and member-state competent authorities",
+      "haltCondition": "No transfer until documented authorization and current screening.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-sanctions-relief-lv",
+      "mechanismId": "sanctions-relief",
+      "jurisdictionId": "lv",
+      "status": "restriction-screen",
+      "sourceIds": [
+        "law-007",
+        "law-008",
+        "law-057"
+      ],
+      "reason": "EU designated-person and/or sectoral restrictions may apply, alongside national enforcement and any licensing; screen exact parties and transaction.",
+      "competentReviewer": "Relevant EU and member-state competent authorities",
+      "haltCondition": "No transfer until documented authorization and current screening.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-sanctions-relief-nl",
+      "mechanismId": "sanctions-relief",
+      "jurisdictionId": "nl",
+      "status": "restriction-screen",
+      "sourceIds": [
+        "law-007",
+        "law-008",
+        "law-049"
+      ],
+      "reason": "EU designated-person and/or sectoral restrictions may apply, alongside national enforcement and any licensing; screen exact parties and transaction.",
+      "competentReviewer": "Relevant EU and member-state competent authorities",
+      "haltCondition": "No transfer until documented authorization and current screening.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-sanctions-relief-pl",
+      "mechanismId": "sanctions-relief",
+      "jurisdictionId": "pl",
+      "status": "restriction-screen",
+      "sourceIds": [
+        "law-007",
+        "law-008",
+        "law-025"
+      ],
+      "reason": "EU designated-person and/or sectoral restrictions may apply, alongside national enforcement and any licensing; screen exact parties and transaction.",
+      "competentReviewer": "Relevant EU and member-state competent authorities",
+      "haltCondition": "No transfer until documented authorization and current screening.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-sanctions-relief-ro",
+      "mechanismId": "sanctions-relief",
+      "jurisdictionId": "ro",
+      "status": "restriction-screen",
+      "sourceIds": [
+        "law-007",
+        "law-008",
+        "law-059"
+      ],
+      "reason": "EU designated-person and/or sectoral restrictions may apply, alongside national enforcement and any licensing; screen exact parties and transaction.",
+      "competentReviewer": "Relevant EU and member-state competent authorities",
+      "haltCondition": "No transfer until documented authorization and current screening.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-sanctions-relief-se",
+      "mechanismId": "sanctions-relief",
+      "jurisdictionId": "se",
+      "status": "restriction-screen",
+      "sourceIds": [
+        "law-007",
+        "law-008",
+        "law-053"
+      ],
+      "reason": "EU designated-person and/or sectoral restrictions may apply, alongside national enforcement and any licensing; screen exact parties and transaction.",
+      "competentReviewer": "Relevant EU and member-state competent authorities",
+      "haltCondition": "No transfer until documented authorization and current screening.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-sanctions-relief-us",
+      "mechanismId": "sanctions-relief",
+      "jurisdictionId": "us",
+      "status": "restriction-screen",
+      "sourceIds": [
+        "law-015",
+        "law-061"
+      ],
+      "reason": "Country-specific Russia-related sanctions and licensing requirements may apply based on persons, nexus, goods, services and effective dates; no authorization follows from this map.",
+      "competentReviewer": "US competent sanctions/permit authority",
+      "haltCondition": "Run current asset/person/license and beneficial-ownership screening first.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-transboundary-ecology-un",
+      "mechanismId": "transboundary-ecology",
+      "jurisdictionId": "un",
+      "status": "standards-review",
+      "sourceIds": [
+        "law-036"
+      ],
+      "reason": "Relevant environmental treaties and domestic permissions must be identified from the treaty repository before proceeding.",
+      "competentReviewer": "Competent affected states",
+      "haltCondition": "No implied cross-border permission.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-un-administration-ua",
+      "mechanismId": "un-administration",
+      "jurisdictionId": "ua",
+      "status": "authorization-gate",
+      "sourceIds": [
+        "law-001",
+        "law-039"
+      ],
+      "reason": "Ukraine sovereignty and a valid international mandate/consent are prerequisites; UN administration is not presumptively authorized.",
+      "competentReviewer": "Ukraine and a competent international organ",
+      "haltCondition": "No UN-administered zone without lawful consent and mandate.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-un-administration-un",
+      "mechanismId": "un-administration",
+      "jurisdictionId": "un",
+      "status": "authorization-gate",
+      "sourceIds": [
+        "law-039"
+      ],
+      "reason": "External interim administration cannot be created by an AI or research proposal; competence, Ukrainian consent and mandate remain unresolved.",
+      "competentReviewer": "Competent UN organ and Ukraine",
+      "haltCondition": "No presumed territorial administrative powers.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-weapons-separation-osce",
+      "mechanismId": "weapons-separation",
+      "jurisdictionId": "osce",
+      "status": "authorization-gate",
+      "sourceIds": [
+        "law-042"
+      ],
+      "reason": "The Vienna Document is a confidence-building reference, not consent to a specific buffer or verification mission.",
+      "competentReviewer": "OSCE and relevant parties",
+      "haltCondition": "No pre-agreed 30km buffer.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    },
+    {
+      "id": "assess-weapons-separation-un",
+      "mechanismId": "weapons-separation",
+      "jurisdictionId": "un",
+      "status": "authorization-gate",
+      "sourceIds": [
+        "law-039"
+      ],
+      "reason": "Proposed international supervision needs negotiated terms and a legally constituted mission.",
+      "competentReviewer": "Competent UN organ and parties",
+      "haltCondition": "No automatic deployment authority.",
+      "researchClass": "source-mapped-preliminary",
+      "checkedOn": "2026-10-16"
+    }
+  ],
+  "reviewChecklist": [
+    "Identify exact proposed conduct, legal entities, locations and nationalities; avoid confidential data in public exports.",
+    "Identify jurisdictional nexus and law in force on the decision date, including amendments and delegated acts.",
+    "Link the exact section/article—not only an official search portal—and classify binding law versus guidance.",
+    "Evaluate who may authorize, license, consent, ratify and fund; document documentary proof, not inference.",
+    "Screen restricted persons, ownership/control, goods, transport, technology, banking and humanitarian exceptions.",
+    "Assess Ukrainian constitutional authority and territorial integrity without conflating de facto and de jure status.",
+    "Check humanitarian protections, independent oversight, data minimization, anti-corruption and civilian-safety obligations.",
+    "Document unresolved conflicts, required approvals, potential vetoes, and conditions for suspension or rejection.",
+    "Assign independent reviewers, sign-off date and expiry; revalidate before any consequential reliance."
+  ]
+}

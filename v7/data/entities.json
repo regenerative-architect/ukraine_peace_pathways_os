@@ -1,0 +1,2187 @@
+[
+  {
+    "id": "ukraine",
+    "name": "Ukraine",
+    "kind": "state",
+    "capabilities": [
+      "decision",
+      "security",
+      "humanitarian",
+      "legal",
+      "civilian",
+      "energy",
+      "maritime"
+    ],
+    "mandate": "Authorized Ukrainian authorities must consent to sovereign decisions and operational instructions.",
+    "constraint": "Security, territorial integrity, protection of civilians and meaningful guarantees are vital.",
+    "status": "Potential contribution — not an endorsement, pledge or verified participation",
+    "confidence": "Medium: capability assessment; willingness unverified",
+    "stakeholderModel": {
+      "documentedAuthority": "Authorized Ukrainian authorities must consent to sovereign decisions and operational instructions.",
+      "potentialLeverage": [
+        "decision",
+        "security",
+        "humanitarian",
+        "legal",
+        "civilian",
+        "energy",
+        "maritime"
+      ],
+      "inferredIncentive": "INFERENCE, NOT AN OFFICIAL POSITION: Protect civilian lives, maintain lawful agency and secure credible commitments.",
+      "constraints": "Security, territorial integrity, protection of civilians and meaningful guarantees are vital.",
+      "redLines": "UNKNOWN without entity-specific authorized, dated consultation; law and affected communities must be protected.",
+      "BATNA": "UNCERTAIN: validate documented alternatives and opportunity costs; do not invent private motives.",
+      "spoilerRisk": "Loss of mandate, non-cooperation, disinformation, funding gaps or verification failure; test context specifically."
+    }
+  },
+  {
+    "id": "russia",
+    "name": "Russia",
+    "kind": "state",
+    "capabilities": [
+      "decision",
+      "security",
+      "trade",
+      "energy",
+      "maritime",
+      "legal"
+    ],
+    "mandate": "Russian civilian and military authorities can decide whether Russian forces cease attacks or withdraw.",
+    "constraint": "Russian acceptance cannot be inferred from talks; independently verify implementation.",
+    "status": "Potential contribution — not an endorsement, pledge or verified participation",
+    "confidence": "Medium: capability assessment; willingness unverified",
+    "stakeholderModel": {
+      "documentedAuthority": "Russian civilian and military authorities can decide whether Russian forces cease attacks or withdraw.",
+      "potentialLeverage": [
+        "decision",
+        "security",
+        "trade",
+        "energy",
+        "maritime",
+        "legal"
+      ],
+      "inferredIncentive": "INFERENCE, NOT AN OFFICIAL POSITION: A credible, bounded arrangement should improve civilian safety while respecting this actor’s mandate and constraints.",
+      "constraints": "Russian acceptance cannot be inferred from talks; independently verify implementation.",
+      "redLines": "UNKNOWN without entity-specific authorized, dated consultation; law and affected communities must be protected.",
+      "BATNA": "UNCERTAIN: validate documented alternatives and opportunity costs; do not invent private motives.",
+      "spoilerRisk": "Loss of mandate, non-cooperation, disinformation, funding gaps or verification failure; test context specifically."
+    }
+  },
+  {
+    "id": "united-states",
+    "name": "United States",
+    "kind": "state",
+    "capabilities": [
+      "mediation",
+      "security",
+      "finance",
+      "trade",
+      "legal"
+    ],
+    "mandate": "Coordinates high-level diplomacy, sanctions and potential security commitments.",
+    "constraint": "Changes in policy may undermine counterpart confidence and predictability.",
+    "status": "Potential contribution — not an endorsement, pledge or verified participation",
+    "confidence": "Medium: capability assessment; willingness unverified",
+    "stakeholderModel": {
+      "documentedAuthority": "Coordinates high-level diplomacy, sanctions and potential security commitments.",
+      "potentialLeverage": [
+        "mediation",
+        "security",
+        "finance",
+        "trade",
+        "legal"
+      ],
+      "inferredIncentive": "INFERENCE, NOT AN OFFICIAL POSITION: A credible, bounded arrangement should improve civilian safety while respecting this actor’s mandate and constraints.",
+      "constraints": "Changes in policy may undermine counterpart confidence and predictability.",
+      "redLines": "UNKNOWN without entity-specific authorized, dated consultation; law and affected communities must be protected.",
+      "BATNA": "UNCERTAIN: validate documented alternatives and opportunity costs; do not invent private motives.",
+      "spoilerRisk": "Loss of mandate, non-cooperation, disinformation, funding gaps or verification failure; test context specifically."
+    }
+  },
+  {
+    "id": "european-union",
+    "name": "European Union",
+    "kind": "intergovernmental",
+    "capabilities": [
+      "finance",
+      "trade",
+      "security",
+      "legal",
+      "reconstruction",
+      "verification"
+    ],
+    "mandate": "EU institutions and member states control important European financial and sanctions decisions.",
+    "constraint": "Member-state powers, legal competences and unanimity requirements differ.",
+    "status": "Potential contribution — not an endorsement, pledge or verified participation",
+    "confidence": "Medium: capability assessment; willingness unverified",
+    "stakeholderModel": {
+      "documentedAuthority": "EU institutions and member states control important European financial and sanctions decisions.",
+      "potentialLeverage": [
+        "finance",
+        "trade",
+        "security",
+        "legal",
+        "reconstruction",
+        "verification"
+      ],
+      "inferredIncentive": "INFERENCE, NOT AN OFFICIAL POSITION: A credible, bounded arrangement should improve civilian safety while respecting this actor’s mandate and constraints.",
+      "constraints": "Member-state powers, legal competences and unanimity requirements differ.",
+      "redLines": "UNKNOWN without entity-specific authorized, dated consultation; law and affected communities must be protected.",
+      "BATNA": "UNCERTAIN: validate documented alternatives and opportunity costs; do not invent private motives.",
+      "spoilerRisk": "Loss of mandate, non-cooperation, disinformation, funding gaps or verification failure; test context specifically."
+    }
+  },
+  {
+    "id": "china",
+    "name": "China",
+    "kind": "state",
+    "capabilities": [
+      "trade",
+      "mediation",
+      "finance",
+      "decision"
+    ],
+    "mandate": "Maintains extensive political and commercial ties and diplomatic access to Moscow.",
+    "constraint": "Willingness to exercise costly influence remains unproven.",
+    "status": "Potential contribution — not an endorsement, pledge or verified participation",
+    "confidence": "Medium: capability assessment; willingness unverified",
+    "stakeholderModel": {
+      "documentedAuthority": "Maintains extensive political and commercial ties and diplomatic access to Moscow.",
+      "potentialLeverage": [
+        "trade",
+        "mediation",
+        "finance",
+        "decision"
+      ],
+      "inferredIncentive": "INFERENCE, NOT AN OFFICIAL POSITION: A credible, bounded arrangement should improve civilian safety while respecting this actor’s mandate and constraints.",
+      "constraints": "Willingness to exercise costly influence remains unproven.",
+      "redLines": "UNKNOWN without entity-specific authorized, dated consultation; law and affected communities must be protected.",
+      "BATNA": "UNCERTAIN: validate documented alternatives and opportunity costs; do not invent private motives.",
+      "spoilerRisk": "Loss of mandate, non-cooperation, disinformation, funding gaps or verification failure; test context specifically."
+    }
+  },
+  {
+    "id": "turkiye",
+    "name": "Türkiye",
+    "kind": "state",
+    "capabilities": [
+      "mediation",
+      "maritime",
+      "trade",
+      "security",
+      "humanitarian"
+    ],
+    "mandate": "Can convene talks and support technical Black Sea maritime arrangements.",
+    "constraint": "Shipping safety cannot be guaranteed unilaterally.",
+    "status": "Potential contribution — not an endorsement, pledge or verified participation",
+    "confidence": "Medium: capability assessment; willingness unverified",
+    "stakeholderModel": {
+      "documentedAuthority": "Can convene talks and support technical Black Sea maritime arrangements.",
+      "potentialLeverage": [
+        "mediation",
+        "maritime",
+        "trade",
+        "security",
+        "humanitarian"
+      ],
+      "inferredIncentive": "INFERENCE, NOT AN OFFICIAL POSITION: A credible, bounded arrangement should improve civilian safety while respecting this actor’s mandate and constraints.",
+      "constraints": "Shipping safety cannot be guaranteed unilaterally.",
+      "redLines": "UNKNOWN without entity-specific authorized, dated consultation; law and affected communities must be protected.",
+      "BATNA": "UNCERTAIN: validate documented alternatives and opportunity costs; do not invent private motives.",
+      "spoilerRisk": "Loss of mandate, non-cooperation, disinformation, funding gaps or verification failure; test context specifically."
+    }
+  },
+  {
+    "id": "india",
+    "name": "India",
+    "kind": "state",
+    "capabilities": [
+      "mediation",
+      "trade",
+      "energy",
+      "maritime",
+      "finance"
+    ],
+    "mandate": "Can connect energy, maritime, commercial and diplomatic workstreams.",
+    "constraint": "May prioritize strategic autonomy; commitments require explicit consent.",
+    "status": "Potential contribution — not an endorsement, pledge or verified participation",
+    "confidence": "Medium: capability assessment; willingness unverified",
+    "stakeholderModel": {
+      "documentedAuthority": "Can connect energy, maritime, commercial and diplomatic workstreams.",
+      "potentialLeverage": [
+        "mediation",
+        "trade",
+        "energy",
+        "maritime",
+        "finance"
+      ],
+      "inferredIncentive": "INFERENCE, NOT AN OFFICIAL POSITION: A credible, bounded arrangement should improve civilian safety while respecting this actor’s mandate and constraints.",
+      "constraints": "May prioritize strategic autonomy; commitments require explicit consent.",
+      "redLines": "UNKNOWN without entity-specific authorized, dated consultation; law and affected communities must be protected.",
+      "BATNA": "UNCERTAIN: validate documented alternatives and opportunity costs; do not invent private motives.",
+      "spoilerRisk": "Loss of mandate, non-cooperation, disinformation, funding gaps or verification failure; test context specifically."
+    }
+  },
+  {
+    "id": "united-arab-emirates",
+    "name": "United Arab Emirates",
+    "kind": "state",
+    "capabilities": [
+      "mediation",
+      "humanitarian",
+      "finance"
+    ],
+    "mandate": "Has experience facilitating prisoner exchanges and hosting meetings.",
+    "constraint": "Humanitarian success does not demonstrate comprehensive-settlement authority.",
+    "status": "Potential contribution — not an endorsement, pledge or verified participation",
+    "confidence": "Medium: capability assessment; willingness unverified",
+    "stakeholderModel": {
+      "documentedAuthority": "Has experience facilitating prisoner exchanges and hosting meetings.",
+      "potentialLeverage": [
+        "mediation",
+        "humanitarian",
+        "finance"
+      ],
+      "inferredIncentive": "INFERENCE, NOT AN OFFICIAL POSITION: A credible, bounded arrangement should improve civilian safety while respecting this actor’s mandate and constraints.",
+      "constraints": "Humanitarian success does not demonstrate comprehensive-settlement authority.",
+      "redLines": "UNKNOWN without entity-specific authorized, dated consultation; law and affected communities must be protected.",
+      "BATNA": "UNCERTAIN: validate documented alternatives and opportunity costs; do not invent private motives.",
+      "spoilerRisk": "Loss of mandate, non-cooperation, disinformation, funding gaps or verification failure; test context specifically."
+    }
+  },
+  {
+    "id": "united-kingdom",
+    "name": "United Kingdom",
+    "kind": "state",
+    "capabilities": [
+      "security",
+      "finance",
+      "legal",
+      "reconstruction",
+      "verification"
+    ],
+    "mandate": "Could underwrite security and implementation support through lawful commitments.",
+    "constraint": "Cannot unilaterally guarantee another government's decisions.",
+    "status": "Potential contribution — not an endorsement, pledge or verified participation",
+    "confidence": "Medium: capability assessment; willingness unverified",
+    "stakeholderModel": {
+      "documentedAuthority": "Could underwrite security and implementation support through lawful commitments.",
+      "potentialLeverage": [
+        "security",
+        "finance",
+        "legal",
+        "reconstruction",
+        "verification"
+      ],
+      "inferredIncentive": "INFERENCE, NOT AN OFFICIAL POSITION: A credible, bounded arrangement should improve civilian safety while respecting this actor’s mandate and constraints.",
+      "constraints": "Cannot unilaterally guarantee another government's decisions.",
+      "redLines": "UNKNOWN without entity-specific authorized, dated consultation; law and affected communities must be protected.",
+      "BATNA": "UNCERTAIN: validate documented alternatives and opportunity costs; do not invent private motives.",
+      "spoilerRisk": "Loss of mandate, non-cooperation, disinformation, funding gaps or verification failure; test context specifically."
+    }
+  },
+  {
+    "id": "france",
+    "name": "France",
+    "kind": "state",
+    "capabilities": [
+      "security",
+      "mediation",
+      "legal",
+      "reconstruction",
+      "verification"
+    ],
+    "mandate": "Has UN, EU and European security channels and reconstruction capacity.",
+    "constraint": "Post-ceasefire security activity requires mandates and consent.",
+    "status": "Potential contribution — not an endorsement, pledge or verified participation",
+    "confidence": "Medium: capability assessment; willingness unverified",
+    "stakeholderModel": {
+      "documentedAuthority": "Has UN, EU and European security channels and reconstruction capacity.",
+      "potentialLeverage": [
+        "security",
+        "mediation",
+        "legal",
+        "reconstruction",
+        "verification"
+      ],
+      "inferredIncentive": "INFERENCE, NOT AN OFFICIAL POSITION: A credible, bounded arrangement should improve civilian safety while respecting this actor’s mandate and constraints.",
+      "constraints": "Post-ceasefire security activity requires mandates and consent.",
+      "redLines": "UNKNOWN without entity-specific authorized, dated consultation; law and affected communities must be protected.",
+      "BATNA": "UNCERTAIN: validate documented alternatives and opportunity costs; do not invent private motives.",
+      "spoilerRisk": "Loss of mandate, non-cooperation, disinformation, funding gaps or verification failure; test context specifically."
+    }
+  },
+  {
+    "id": "germany",
+    "name": "Germany",
+    "kind": "state",
+    "capabilities": [
+      "finance",
+      "security",
+      "reconstruction",
+      "energy",
+      "trade"
+    ],
+    "mandate": "Can mobilize industrial, energy and recovery resources.",
+    "constraint": "Domestic political and budgetary tradeoffs apply.",
+    "status": "Potential contribution — not an endorsement, pledge or verified participation",
+    "confidence": "Medium: capability assessment; willingness unverified",
+    "stakeholderModel": {
+      "documentedAuthority": "Can mobilize industrial, energy and recovery resources.",
+      "potentialLeverage": [
+        "finance",
+        "security",
+        "reconstruction",
+        "energy",
+        "trade"
+      ],
+      "inferredIncentive": "INFERENCE, NOT AN OFFICIAL POSITION: A credible, bounded arrangement should improve civilian safety while respecting this actor’s mandate and constraints.",
+      "constraints": "Domestic political and budgetary tradeoffs apply.",
+      "redLines": "UNKNOWN without entity-specific authorized, dated consultation; law and affected communities must be protected.",
+      "BATNA": "UNCERTAIN: validate documented alternatives and opportunity costs; do not invent private motives.",
+      "spoilerRisk": "Loss of mandate, non-cooperation, disinformation, funding gaps or verification failure; test context specifically."
+    }
+  },
+  {
+    "id": "coalition-of-the-willing",
+    "name": "Coalition of the Willing",
+    "kind": "coalition",
+    "capabilities": [
+      "security",
+      "verification",
+      "finance",
+      "reconstruction"
+    ],
+    "mandate": "Potentially organizes voluntary security commitments after hostilities cease.",
+    "constraint": "Composition, authorities and deployments cannot be presumed.",
+    "status": "Potential contribution — not an endorsement, pledge or verified participation",
+    "confidence": "Medium: capability assessment; willingness unverified",
+    "stakeholderModel": {
+      "documentedAuthority": "Potentially organizes voluntary security commitments after hostilities cease.",
+      "potentialLeverage": [
+        "security",
+        "verification",
+        "finance",
+        "reconstruction"
+      ],
+      "inferredIncentive": "INFERENCE, NOT AN OFFICIAL POSITION: A credible, bounded arrangement should improve civilian safety while respecting this actor’s mandate and constraints.",
+      "constraints": "Composition, authorities and deployments cannot be presumed.",
+      "redLines": "UNKNOWN without entity-specific authorized, dated consultation; law and affected communities must be protected.",
+      "BATNA": "UNCERTAIN: validate documented alternatives and opportunity costs; do not invent private motives.",
+      "spoilerRisk": "Loss of mandate, non-cooperation, disinformation, funding gaps or verification failure; test context specifically."
+    }
+  },
+  {
+    "id": "nato",
+    "name": "NATO",
+    "kind": "alliance",
+    "capabilities": [
+      "security",
+      "verification",
+      "defensive-cyber"
+    ],
+    "mandate": "Coordinates allied defence and deterrence commitments.",
+    "constraint": "Alliance consensus and escalation risks constrain options.",
+    "status": "Potential contribution — not an endorsement, pledge or verified participation",
+    "confidence": "Medium: capability assessment; willingness unverified",
+    "stakeholderModel": {
+      "documentedAuthority": "Coordinates allied defence and deterrence commitments.",
+      "potentialLeverage": [
+        "security",
+        "verification",
+        "defensive cyber"
+      ],
+      "inferredIncentive": "INFERENCE, NOT AN OFFICIAL POSITION: A credible, bounded arrangement should improve civilian safety while respecting this actor’s mandate and constraints.",
+      "constraints": "Alliance consensus and escalation risks constrain options.",
+      "redLines": "UNKNOWN without entity-specific authorized, dated consultation; law and affected communities must be protected.",
+      "BATNA": "UNCERTAIN: validate documented alternatives and opportunity costs; do not invent private motives.",
+      "spoilerRisk": "Loss of mandate, non-cooperation, disinformation, funding gaps or verification failure; test context specifically."
+    }
+  },
+  {
+    "id": "egypt",
+    "name": "Egypt",
+    "kind": "state",
+    "capabilities": [
+      "mediation",
+      "maritime",
+      "trade",
+      "humanitarian"
+    ],
+    "mandate": "Could help convene a food-and-shipping safe-passage workstream.",
+    "constraint": "No authority to command belligerents or commercial ships.",
+    "status": "Potential contribution — not an endorsement, pledge or verified participation",
+    "confidence": "Medium: capability assessment; willingness unverified",
+    "stakeholderModel": {
+      "documentedAuthority": "Could help convene a food-and-shipping safe-passage workstream.",
+      "potentialLeverage": [
+        "mediation",
+        "maritime",
+        "trade",
+        "humanitarian"
+      ],
+      "inferredIncentive": "INFERENCE, NOT AN OFFICIAL POSITION: A credible, bounded arrangement should improve civilian safety while respecting this actor’s mandate and constraints.",
+      "constraints": "No authority to command belligerents or commercial ships.",
+      "redLines": "UNKNOWN without entity-specific authorized, dated consultation; law and affected communities must be protected.",
+      "BATNA": "UNCERTAIN: validate documented alternatives and opportunity costs; do not invent private motives.",
+      "spoilerRisk": "Loss of mandate, non-cooperation, disinformation, funding gaps or verification failure; test context specifically."
+    }
+  },
+  {
+    "id": "brazil",
+    "name": "Brazil",
+    "kind": "state",
+    "capabilities": [
+      "mediation",
+      "trade",
+      "finance",
+      "civilian"
+    ],
+    "mandate": "Offers Global South diplomatic connectivity and multilateral diplomacy.",
+    "constraint": "Any mediation formula must genuinely include Ukraine.",
+    "status": "Potential contribution — not an endorsement, pledge or verified participation",
+    "confidence": "Medium: capability assessment; willingness unverified",
+    "stakeholderModel": {
+      "documentedAuthority": "Offers Global South diplomatic connectivity and multilateral diplomacy.",
+      "potentialLeverage": [
+        "mediation",
+        "trade",
+        "finance",
+        "civilian"
+      ],
+      "inferredIncentive": "INFERENCE, NOT AN OFFICIAL POSITION: A credible, bounded arrangement should improve civilian safety while respecting this actor’s mandate and constraints.",
+      "constraints": "Any mediation formula must genuinely include Ukraine.",
+      "redLines": "UNKNOWN without entity-specific authorized, dated consultation; law and affected communities must be protected.",
+      "BATNA": "UNCERTAIN: validate documented alternatives and opportunity costs; do not invent private motives.",
+      "spoilerRisk": "Loss of mandate, non-cooperation, disinformation, funding gaps or verification failure; test context specifically."
+    }
+  },
+  {
+    "id": "switzerland",
+    "name": "Switzerland",
+    "kind": "state",
+    "capabilities": [
+      "mediation",
+      "verification",
+      "legal",
+      "humanitarian"
+    ],
+    "mandate": "Could host diplomacy and develop monitoring procedures.",
+    "constraint": "Neutral facilitation cannot substitute for mandate or consent.",
+    "status": "Potential contribution — not an endorsement, pledge or verified participation",
+    "confidence": "Medium: capability assessment; willingness unverified",
+    "stakeholderModel": {
+      "documentedAuthority": "Could host diplomacy and develop monitoring procedures.",
+      "potentialLeverage": [
+        "mediation",
+        "verification",
+        "legal",
+        "humanitarian"
+      ],
+      "inferredIncentive": "INFERENCE, NOT AN OFFICIAL POSITION: A credible, bounded arrangement should improve civilian safety while respecting this actor’s mandate and constraints.",
+      "constraints": "Neutral facilitation cannot substitute for mandate or consent.",
+      "redLines": "UNKNOWN without entity-specific authorized, dated consultation; law and affected communities must be protected.",
+      "BATNA": "UNCERTAIN: validate documented alternatives and opportunity costs; do not invent private motives.",
+      "spoilerRisk": "Loss of mandate, non-cooperation, disinformation, funding gaps or verification failure; test context specifically."
+    }
+  },
+  {
+    "id": "osce",
+    "name": "OSCE",
+    "kind": "intergovernmental",
+    "capabilities": [
+      "verification",
+      "mediation",
+      "security",
+      "legal"
+    ],
+    "mandate": "Possible technical monitoring, incident processes and dialogue support.",
+    "constraint": "Mandate, access, resources and consensus are significant hurdles.",
+    "status": "Potential contribution — not an endorsement, pledge or verified participation",
+    "confidence": "Medium: capability assessment; willingness unverified",
+    "stakeholderModel": {
+      "documentedAuthority": "Possible technical monitoring, incident processes and dialogue support.",
+      "potentialLeverage": [
+        "verification",
+        "mediation",
+        "security",
+        "legal"
+      ],
+      "inferredIncentive": "INFERENCE, NOT AN OFFICIAL POSITION: A credible, bounded arrangement should improve civilian safety while respecting this actor’s mandate and constraints.",
+      "constraints": "Mandate, access, resources and consensus are significant hurdles.",
+      "redLines": "UNKNOWN without entity-specific authorized, dated consultation; law and affected communities must be protected.",
+      "BATNA": "UNCERTAIN: validate documented alternatives and opportunity costs; do not invent private motives.",
+      "spoilerRisk": "Loss of mandate, non-cooperation, disinformation, funding gaps or verification failure; test context specifically."
+    }
+  },
+  {
+    "id": "united-nations-secretariat",
+    "name": "United Nations Secretariat",
+    "kind": "intergovernmental",
+    "capabilities": [
+      "mediation",
+      "humanitarian",
+      "legal",
+      "verification"
+    ],
+    "mandate": "Offers good offices, operational coordination and international framework.",
+    "constraint": "Secretariat cannot impose a settlement or exceed mandate.",
+    "status": "Potential contribution — not an endorsement, pledge or verified participation",
+    "confidence": "Medium: capability assessment; willingness unverified",
+    "stakeholderModel": {
+      "documentedAuthority": "Offers good offices, operational coordination and international framework.",
+      "potentialLeverage": [
+        "mediation",
+        "humanitarian",
+        "legal",
+        "verification"
+      ],
+      "inferredIncentive": "INFERENCE, NOT AN OFFICIAL POSITION: A credible, bounded arrangement should improve civilian safety while respecting this actor’s mandate and constraints.",
+      "constraints": "Secretariat cannot impose a settlement or exceed mandate.",
+      "redLines": "UNKNOWN without entity-specific authorized, dated consultation; law and affected communities must be protected.",
+      "BATNA": "UNCERTAIN: validate documented alternatives and opportunity costs; do not invent private motives.",
+      "spoilerRisk": "Loss of mandate, non-cooperation, disinformation, funding gaps or verification failure; test context specifically."
+    }
+  },
+  {
+    "id": "saudi-arabia",
+    "name": "Saudi Arabia",
+    "kind": "state",
+    "capabilities": [
+      "mediation",
+      "energy",
+      "trade",
+      "finance"
+    ],
+    "mandate": "May convene talks and support commodity and confidence measures.",
+    "constraint": "High-level access is not proof of effective coercive leverage.",
+    "status": "Potential contribution — not an endorsement, pledge or verified participation",
+    "confidence": "Medium: capability assessment; willingness unverified",
+    "stakeholderModel": {
+      "documentedAuthority": "May convene talks and support commodity and confidence measures.",
+      "potentialLeverage": [
+        "mediation",
+        "energy",
+        "trade",
+        "finance"
+      ],
+      "inferredIncentive": "INFERENCE, NOT AN OFFICIAL POSITION: A credible, bounded arrangement should improve civilian safety while respecting this actor’s mandate and constraints.",
+      "constraints": "High-level access is not proof of effective coercive leverage.",
+      "redLines": "UNKNOWN without entity-specific authorized, dated consultation; law and affected communities must be protected.",
+      "BATNA": "UNCERTAIN: validate documented alternatives and opportunity costs; do not invent private motives.",
+      "spoilerRisk": "Loss of mandate, non-cooperation, disinformation, funding gaps or verification failure; test context specifically."
+    }
+  },
+  {
+    "id": "kazakhstan",
+    "name": "Kazakhstan",
+    "kind": "state",
+    "capabilities": [
+      "mediation",
+      "trade",
+      "humanitarian"
+    ],
+    "mandate": "Offers regional diplomacy and possible confidence-building channels.",
+    "constraint": "Political and economic dependencies constrain room to maneuver.",
+    "status": "Potential contribution — not an endorsement, pledge or verified participation",
+    "confidence": "Medium: capability assessment; willingness unverified",
+    "stakeholderModel": {
+      "documentedAuthority": "Offers regional diplomacy and possible confidence-building channels.",
+      "potentialLeverage": [
+        "mediation",
+        "trade",
+        "humanitarian"
+      ],
+      "inferredIncentive": "INFERENCE, NOT AN OFFICIAL POSITION: A credible, bounded arrangement should improve civilian safety while respecting this actor’s mandate and constraints.",
+      "constraints": "Political and economic dependencies constrain room to maneuver.",
+      "redLines": "UNKNOWN without entity-specific authorized, dated consultation; law and affected communities must be protected.",
+      "BATNA": "UNCERTAIN: validate documented alternatives and opportunity costs; do not invent private motives.",
+      "spoilerRisk": "Loss of mandate, non-cooperation, disinformation, funding gaps or verification failure; test context specifically."
+    }
+  },
+  {
+    "id": "iaea",
+    "name": "IAEA",
+    "kind": "intergovernmental",
+    "capabilities": [
+      "nuclear",
+      "verification",
+      "energy",
+      "legal"
+    ],
+    "mandate": "Provides nuclear-safety expertise and supports technical repair arrangements.",
+    "constraint": "Safeguards mandate is not a general ceasefire-enforcement mandate.",
+    "status": "Potential contribution — not an endorsement, pledge or verified participation",
+    "confidence": "Medium: capability assessment; willingness unverified",
+    "stakeholderModel": {
+      "documentedAuthority": "Provides nuclear-safety expertise and supports technical repair arrangements.",
+      "potentialLeverage": [
+        "nuclear",
+        "verification",
+        "energy",
+        "legal"
+      ],
+      "inferredIncentive": "INFERENCE, NOT AN OFFICIAL POSITION: A credible, bounded arrangement should improve civilian safety while respecting this actor’s mandate and constraints.",
+      "constraints": "Safeguards mandate is not a general ceasefire-enforcement mandate.",
+      "redLines": "UNKNOWN without entity-specific authorized, dated consultation; law and affected communities must be protected.",
+      "BATNA": "UNCERTAIN: validate documented alternatives and opportunity costs; do not invent private motives.",
+      "spoilerRisk": "Loss of mandate, non-cooperation, disinformation, funding gaps or verification failure; test context specifically."
+    }
+  },
+  {
+    "id": "icrc",
+    "name": "ICRC",
+    "kind": "humanitarian",
+    "capabilities": [
+      "humanitarian",
+      "prisoners",
+      "children",
+      "civilian",
+      "legal"
+    ],
+    "mandate": "Neutral, impartial intermediary for detention, tracing and repatriation.",
+    "constraint": "Requires access, parties' cooperation and humanitarian confidentiality.",
+    "status": "Potential contribution — not an endorsement, pledge or verified participation",
+    "confidence": "Medium: capability assessment; willingness unverified",
+    "stakeholderModel": {
+      "documentedAuthority": "Neutral, impartial intermediary for detention, tracing and repatriation.",
+      "potentialLeverage": [
+        "humanitarian",
+        "prisoners",
+        "children",
+        "civilian",
+        "legal"
+      ],
+      "inferredIncentive": "INFERENCE, NOT AN OFFICIAL POSITION: A credible, bounded arrangement should improve civilian safety while respecting this actor’s mandate and constraints.",
+      "constraints": "Requires access, parties' cooperation and humanitarian confidentiality.",
+      "redLines": "UNKNOWN without entity-specific authorized, dated consultation; law and affected communities must be protected.",
+      "BATNA": "UNCERTAIN: validate documented alternatives and opportunity costs; do not invent private motives.",
+      "spoilerRisk": "Loss of mandate, non-cooperation, disinformation, funding gaps or verification failure; test context specifically."
+    }
+  },
+  {
+    "id": "qatar",
+    "name": "Qatar",
+    "kind": "state",
+    "capabilities": [
+      "mediation",
+      "children",
+      "humanitarian"
+    ],
+    "mandate": "Offers child and family reunification mediation experience.",
+    "constraint": "Consent and child protection govern all interventions.",
+    "status": "Potential contribution — not an endorsement, pledge or verified participation",
+    "confidence": "Medium: capability assessment; willingness unverified",
+    "stakeholderModel": {
+      "documentedAuthority": "Offers child and family reunification mediation experience.",
+      "potentialLeverage": [
+        "mediation",
+        "children",
+        "humanitarian"
+      ],
+      "inferredIncentive": "INFERENCE, NOT AN OFFICIAL POSITION: A credible, bounded arrangement should improve civilian safety while respecting this actor’s mandate and constraints.",
+      "constraints": "Consent and child protection govern all interventions.",
+      "redLines": "UNKNOWN without entity-specific authorized, dated consultation; law and affected communities must be protected.",
+      "BATNA": "UNCERTAIN: validate documented alternatives and opportunity costs; do not invent private motives.",
+      "spoilerRisk": "Loss of mandate, non-cooperation, disinformation, funding gaps or verification failure; test context specifically."
+    }
+  },
+  {
+    "id": "ukrainian-and-russian-military-commands",
+    "name": "Ukrainian and Russian military commands",
+    "kind": "operational",
+    "capabilities": [
+      "decision",
+      "security",
+      "verification",
+      "energy",
+      "maritime"
+    ],
+    "mandate": "Only authorized command structures can transmit synchronized ceasefire orders.",
+    "constraint": "No third party may impersonate, instruct or target combatants.",
+    "status": "Potential contribution — not an endorsement, pledge or verified participation",
+    "confidence": "Medium: capability assessment; willingness unverified",
+    "stakeholderModel": {
+      "documentedAuthority": "Only authorized command structures can transmit synchronized ceasefire orders.",
+      "potentialLeverage": [
+        "decision",
+        "security",
+        "verification",
+        "energy",
+        "maritime"
+      ],
+      "inferredIncentive": "INFERENCE, NOT AN OFFICIAL POSITION: A credible, bounded arrangement should improve civilian safety while respecting this actor’s mandate and constraints.",
+      "constraints": "No third party may impersonate, instruct or target combatants.",
+      "redLines": "UNKNOWN without entity-specific authorized, dated consultation; law and affected communities must be protected.",
+      "BATNA": "UNCERTAIN: validate documented alternatives and opportunity costs; do not invent private motives.",
+      "spoilerRisk": "Loss of mandate, non-cooperation, disinformation, funding gaps or verification failure; test context specifically."
+    }
+  },
+  {
+    "id": "un-ocha",
+    "name": "UN OCHA",
+    "kind": "humanitarian",
+    "capabilities": [
+      "humanitarian",
+      "civilian",
+      "verification"
+    ],
+    "mandate": "Can coordinate relief and protection information within its mandate.",
+    "constraint": "Access is negotiated; no guarantee of safe corridors.",
+    "status": "Potential contribution — not an endorsement, pledge or verified participation",
+    "confidence": "Medium: capability assessment; willingness unverified",
+    "stakeholderModel": {
+      "documentedAuthority": "Can coordinate relief and protection information within its mandate.",
+      "potentialLeverage": [
+        "humanitarian",
+        "civilian",
+        "verification"
+      ],
+      "inferredIncentive": "INFERENCE, NOT AN OFFICIAL POSITION: A credible, bounded arrangement should improve civilian safety while respecting this actor’s mandate and constraints.",
+      "constraints": "Access is negotiated; no guarantee of safe corridors.",
+      "redLines": "UNKNOWN without entity-specific authorized, dated consultation; law and affected communities must be protected.",
+      "BATNA": "UNCERTAIN: validate documented alternatives and opportunity costs; do not invent private motives.",
+      "spoilerRisk": "Loss of mandate, non-cooperation, disinformation, funding gaps or verification failure; test context specifically."
+    }
+  },
+  {
+    "id": "imo",
+    "name": "IMO",
+    "kind": "intergovernmental",
+    "capabilities": [
+      "maritime",
+      "trade",
+      "legal",
+      "verification"
+    ],
+    "mandate": "Provides maritime safety standards, coordination and reporting channels.",
+    "constraint": "No military enforcement powers.",
+    "status": "Potential contribution — not an endorsement, pledge or verified participation",
+    "confidence": "Medium: capability assessment; willingness unverified",
+    "stakeholderModel": {
+      "documentedAuthority": "Provides maritime safety standards, coordination and reporting channels.",
+      "potentialLeverage": [
+        "maritime",
+        "trade",
+        "legal",
+        "verification"
+      ],
+      "inferredIncentive": "INFERENCE, NOT AN OFFICIAL POSITION: A credible, bounded arrangement should improve civilian safety while respecting this actor’s mandate and constraints.",
+      "constraints": "No military enforcement powers.",
+      "redLines": "UNKNOWN without entity-specific authorized, dated consultation; law and affected communities must be protected.",
+      "BATNA": "UNCERTAIN: validate documented alternatives and opportunity costs; do not invent private motives.",
+      "spoilerRisk": "Loss of mandate, non-cooperation, disinformation, funding gaps or verification failure; test context specifically."
+    }
+  },
+  {
+    "id": "unctad",
+    "name": "UNCTAD",
+    "kind": "intergovernmental",
+    "capabilities": [
+      "trade",
+      "maritime",
+      "finance",
+      "food"
+    ],
+    "mandate": "Can study and facilitate trade, grain, fertilizers and supply chains.",
+    "constraint": "Commercial facilitation is not a military agreement.",
+    "status": "Potential contribution — not an endorsement, pledge or verified participation",
+    "confidence": "Medium: capability assessment; willingness unverified",
+    "stakeholderModel": {
+      "documentedAuthority": "Can study and facilitate trade, grain, fertilizers and supply chains.",
+      "potentialLeverage": [
+        "trade",
+        "maritime",
+        "finance",
+        "food"
+      ],
+      "inferredIncentive": "INFERENCE, NOT AN OFFICIAL POSITION: A credible, bounded arrangement should improve civilian safety while respecting this actor’s mandate and constraints.",
+      "constraints": "Commercial facilitation is not a military agreement.",
+      "redLines": "UNKNOWN without entity-specific authorized, dated consultation; law and affected communities must be protected.",
+      "BATNA": "UNCERTAIN: validate documented alternatives and opportunity costs; do not invent private motives.",
+      "spoilerRisk": "Loss of mandate, non-cooperation, disinformation, funding gaps or verification failure; test context specifically."
+    }
+  },
+  {
+    "id": "world-food-programme",
+    "name": "World Food Programme",
+    "kind": "humanitarian",
+    "capabilities": [
+      "food",
+      "humanitarian",
+      "trade",
+      "logistics"
+    ],
+    "mandate": "Supports food-security analysis, sourcing and distribution.",
+    "constraint": "Access and funding constrain operations.",
+    "status": "Potential contribution — not an endorsement, pledge or verified participation",
+    "confidence": "Medium: capability assessment; willingness unverified",
+    "stakeholderModel": {
+      "documentedAuthority": "Supports food-security analysis, sourcing and distribution.",
+      "potentialLeverage": [
+        "food",
+        "humanitarian",
+        "trade",
+        "logistics"
+      ],
+      "inferredIncentive": "INFERENCE, NOT AN OFFICIAL POSITION: A credible, bounded arrangement should improve civilian safety while respecting this actor’s mandate and constraints.",
+      "constraints": "Access and funding constrain operations.",
+      "redLines": "UNKNOWN without entity-specific authorized, dated consultation; law and affected communities must be protected.",
+      "BATNA": "UNCERTAIN: validate documented alternatives and opportunity costs; do not invent private motives.",
+      "spoilerRisk": "Loss of mandate, non-cooperation, disinformation, funding gaps or verification failure; test context specifically."
+    }
+  },
+  {
+    "id": "unicef",
+    "name": "UNICEF",
+    "kind": "humanitarian",
+    "capabilities": [
+      "children",
+      "civilian",
+      "humanitarian",
+      "education"
+    ],
+    "mandate": "Child protection, education and basic-services support.",
+    "constraint": "Protection and safeguarding requirements are paramount.",
+    "status": "Potential contribution — not an endorsement, pledge or verified participation",
+    "confidence": "Medium: capability assessment; willingness unverified",
+    "stakeholderModel": {
+      "documentedAuthority": "Child protection, education and basic-services support.",
+      "potentialLeverage": [
+        "children",
+        "civilian",
+        "humanitarian",
+        "education"
+      ],
+      "inferredIncentive": "INFERENCE, NOT AN OFFICIAL POSITION: A credible, bounded arrangement should improve civilian safety while respecting this actor’s mandate and constraints.",
+      "constraints": "Protection and safeguarding requirements are paramount.",
+      "redLines": "UNKNOWN without entity-specific authorized, dated consultation; law and affected communities must be protected.",
+      "BATNA": "UNCERTAIN: validate documented alternatives and opportunity costs; do not invent private motives.",
+      "spoilerRisk": "Loss of mandate, non-cooperation, disinformation, funding gaps or verification failure; test context specifically."
+    }
+  },
+  {
+    "id": "unhcr",
+    "name": "UNHCR",
+    "kind": "humanitarian",
+    "capabilities": [
+      "humanitarian",
+      "civilian",
+      "refugees",
+      "reconstruction"
+    ],
+    "mandate": "Assists displaced people and supports voluntary, safe durable solutions.",
+    "constraint": "Returns cannot be compelled or presumed safe.",
+    "status": "Potential contribution — not an endorsement, pledge or verified participation",
+    "confidence": "Medium: capability assessment; willingness unverified",
+    "stakeholderModel": {
+      "documentedAuthority": "Assists displaced people and supports voluntary, safe durable solutions.",
+      "potentialLeverage": [
+        "humanitarian",
+        "civilian",
+        "refugees",
+        "reconstruction"
+      ],
+      "inferredIncentive": "INFERENCE, NOT AN OFFICIAL POSITION: A credible, bounded arrangement should improve civilian safety while respecting this actor’s mandate and constraints.",
+      "constraints": "Returns cannot be compelled or presumed safe.",
+      "redLines": "UNKNOWN without entity-specific authorized, dated consultation; law and affected communities must be protected.",
+      "BATNA": "UNCERTAIN: validate documented alternatives and opportunity costs; do not invent private motives.",
+      "spoilerRisk": "Loss of mandate, non-cooperation, disinformation, funding gaps or verification failure; test context specifically."
+    }
+  },
+  {
+    "id": "international-coalition-for-return-of-ukrainian-children",
+    "name": "International Coalition for Return of Ukrainian Children",
+    "kind": "coalition",
+    "capabilities": [
+      "children",
+      "humanitarian",
+      "legal",
+      "verification"
+    ],
+    "mandate": "Can coordinate lawful return and reunification efforts.",
+    "constraint": "Child identity, consent and privacy require careful safeguards.",
+    "status": "Potential contribution — not an endorsement, pledge or verified participation",
+    "confidence": "Medium: capability assessment; willingness unverified",
+    "stakeholderModel": {
+      "documentedAuthority": "Can coordinate lawful return and reunification efforts.",
+      "potentialLeverage": [
+        "children",
+        "humanitarian",
+        "legal",
+        "verification"
+      ],
+      "inferredIncentive": "INFERENCE, NOT AN OFFICIAL POSITION: A credible, bounded arrangement should improve civilian safety while respecting this actor’s mandate and constraints.",
+      "constraints": "Child identity, consent and privacy require careful safeguards.",
+      "redLines": "UNKNOWN without entity-specific authorized, dated consultation; law and affected communities must be protected.",
+      "BATNA": "UNCERTAIN: validate documented alternatives and opportunity costs; do not invent private motives.",
+      "spoilerRisk": "Loss of mandate, non-cooperation, disinformation, funding gaps or verification failure; test context specifically."
+    }
+  },
+  {
+    "id": "eu-satellite-centre",
+    "name": "EU Satellite Centre",
+    "kind": "institution",
+    "capabilities": [
+      "verification",
+      "data",
+      "security"
+    ],
+    "mandate": "Could provide authorized earth-observation analysis for civilian verification.",
+    "constraint": "Geospatial intelligence must avoid operational targeting and privacy harms.",
+    "status": "Potential contribution — not an endorsement, pledge or verified participation",
+    "confidence": "Medium: capability assessment; willingness unverified",
+    "stakeholderModel": {
+      "documentedAuthority": "Could provide authorized earth-observation analysis for civilian verification.",
+      "potentialLeverage": [
+        "verification",
+        "data",
+        "security"
+      ],
+      "inferredIncentive": "INFERENCE, NOT AN OFFICIAL POSITION: A credible, bounded arrangement should improve civilian safety while respecting this actor’s mandate and constraints.",
+      "constraints": "Geospatial intelligence must avoid operational targeting and privacy harms.",
+      "redLines": "UNKNOWN without entity-specific authorized, dated consultation; law and affected communities must be protected.",
+      "BATNA": "UNCERTAIN: validate documented alternatives and opportunity costs; do not invent private motives.",
+      "spoilerRisk": "Loss of mandate, non-cooperation, disinformation, funding gaps or verification failure; test context specifically."
+    }
+  },
+  {
+    "id": "ukrainian-and-russian-energy-grid-operators",
+    "name": "Ukrainian and Russian energy-grid operators",
+    "kind": "operational",
+    "capabilities": [
+      "energy",
+      "nuclear",
+      "verification",
+      "logistics"
+    ],
+    "mandate": "Can perform technically authorized repairs and grid-level protection planning.",
+    "constraint": "Work requires permits, safety guarantees and protected access.",
+    "status": "Potential contribution — not an endorsement, pledge or verified participation",
+    "confidence": "Medium: capability assessment; willingness unverified",
+    "stakeholderModel": {
+      "documentedAuthority": "Can perform technically authorized repairs and grid-level protection planning.",
+      "potentialLeverage": [
+        "energy",
+        "nuclear",
+        "verification",
+        "logistics"
+      ],
+      "inferredIncentive": "INFERENCE, NOT AN OFFICIAL POSITION: A credible, bounded arrangement should improve civilian safety while respecting this actor’s mandate and constraints.",
+      "constraints": "Work requires permits, safety guarantees and protected access.",
+      "redLines": "UNKNOWN without entity-specific authorized, dated consultation; law and affected communities must be protected.",
+      "BATNA": "UNCERTAIN: validate documented alternatives and opportunity costs; do not invent private motives.",
+      "spoilerRisk": "Loss of mandate, non-cooperation, disinformation, funding gaps or verification failure; test context specifically."
+    }
+  },
+  {
+    "id": "poland",
+    "name": "Poland",
+    "kind": "state",
+    "capabilities": [
+      "security",
+      "logistics",
+      "finance",
+      "reconstruction",
+      "refugees"
+    ],
+    "mandate": "Critical logistics and cross-border relief coordination.",
+    "constraint": "Security responsibilities and domestic interests matter.",
+    "status": "Potential contribution — not an endorsement, pledge or verified participation",
+    "confidence": "Medium: capability assessment; willingness unverified",
+    "stakeholderModel": {
+      "documentedAuthority": "Critical logistics and cross-border relief coordination.",
+      "potentialLeverage": [
+        "security",
+        "logistics",
+        "finance",
+        "reconstruction",
+        "refugees"
+      ],
+      "inferredIncentive": "INFERENCE, NOT AN OFFICIAL POSITION: A credible, bounded arrangement should improve civilian safety while respecting this actor’s mandate and constraints.",
+      "constraints": "Security responsibilities and domestic interests matter.",
+      "redLines": "UNKNOWN without entity-specific authorized, dated consultation; law and affected communities must be protected.",
+      "BATNA": "UNCERTAIN: validate documented alternatives and opportunity costs; do not invent private motives.",
+      "spoilerRisk": "Loss of mandate, non-cooperation, disinformation, funding gaps or verification failure; test context specifically."
+    }
+  },
+  {
+    "id": "canada",
+    "name": "Canada",
+    "kind": "state",
+    "capabilities": [
+      "security",
+      "finance",
+      "mediation",
+      "reconstruction"
+    ],
+    "mandate": "Can coordinate assistance, diplomacy and recovery support.",
+    "constraint": "Limited independent leverage over Moscow.",
+    "status": "Potential contribution — not an endorsement, pledge or verified participation",
+    "confidence": "Medium: capability assessment; willingness unverified",
+    "stakeholderModel": {
+      "documentedAuthority": "Can coordinate assistance, diplomacy and recovery support.",
+      "potentialLeverage": [
+        "security",
+        "finance",
+        "mediation",
+        "reconstruction"
+      ],
+      "inferredIncentive": "INFERENCE, NOT AN OFFICIAL POSITION: A credible, bounded arrangement should improve civilian safety while respecting this actor’s mandate and constraints.",
+      "constraints": "Limited independent leverage over Moscow.",
+      "redLines": "UNKNOWN without entity-specific authorized, dated consultation; law and affected communities must be protected.",
+      "BATNA": "UNCERTAIN: validate documented alternatives and opportunity costs; do not invent private motives.",
+      "spoilerRisk": "Loss of mandate, non-cooperation, disinformation, funding gaps or verification failure; test context specifically."
+    }
+  },
+  {
+    "id": "finland",
+    "name": "Finland",
+    "kind": "state",
+    "capabilities": [
+      "security",
+      "verification",
+      "mediation",
+      "defensive-cyber"
+    ],
+    "mandate": "Can offer resilience and security-policy expertise.",
+    "constraint": "Border and alliance security sensitivities matter.",
+    "status": "Potential contribution — not an endorsement, pledge or verified participation",
+    "confidence": "Medium: capability assessment; willingness unverified",
+    "stakeholderModel": {
+      "documentedAuthority": "Can offer resilience and security-policy expertise.",
+      "potentialLeverage": [
+        "security",
+        "verification",
+        "mediation",
+        "defensive cyber"
+      ],
+      "inferredIncentive": "INFERENCE, NOT AN OFFICIAL POSITION: A credible, bounded arrangement should improve civilian safety while respecting this actor’s mandate and constraints.",
+      "constraints": "Border and alliance security sensitivities matter.",
+      "redLines": "UNKNOWN without entity-specific authorized, dated consultation; law and affected communities must be protected.",
+      "BATNA": "UNCERTAIN: validate documented alternatives and opportunity costs; do not invent private motives.",
+      "spoilerRisk": "Loss of mandate, non-cooperation, disinformation, funding gaps or verification failure; test context specifically."
+    }
+  },
+  {
+    "id": "norway",
+    "name": "Norway",
+    "kind": "state",
+    "capabilities": [
+      "energy",
+      "maritime",
+      "finance",
+      "reconstruction"
+    ],
+    "mandate": "Energy, maritime engineering and humanitarian financing expertise.",
+    "constraint": "Not a direct party to territorial negotiations.",
+    "status": "Potential contribution — not an endorsement, pledge or verified participation",
+    "confidence": "Medium: capability assessment; willingness unverified",
+    "stakeholderModel": {
+      "documentedAuthority": "Energy, maritime engineering and humanitarian financing expertise.",
+      "potentialLeverage": [
+        "energy",
+        "maritime",
+        "finance",
+        "reconstruction"
+      ],
+      "inferredIncentive": "INFERENCE, NOT AN OFFICIAL POSITION: A credible, bounded arrangement should improve civilian safety while respecting this actor’s mandate and constraints.",
+      "constraints": "Not a direct party to territorial negotiations.",
+      "redLines": "UNKNOWN without entity-specific authorized, dated consultation; law and affected communities must be protected.",
+      "BATNA": "UNCERTAIN: validate documented alternatives and opportunity costs; do not invent private motives.",
+      "spoilerRisk": "Loss of mandate, non-cooperation, disinformation, funding gaps or verification failure; test context specifically."
+    }
+  },
+  {
+    "id": "romania",
+    "name": "Romania",
+    "kind": "state",
+    "capabilities": [
+      "maritime",
+      "security",
+      "logistics",
+      "trade"
+    ],
+    "mandate": "Black Sea logistics, trade and regional safety.",
+    "constraint": "Spillover and regional escalation risks.",
+    "status": "Potential contribution — not an endorsement, pledge or verified participation",
+    "confidence": "Medium: capability assessment; willingness unverified",
+    "stakeholderModel": {
+      "documentedAuthority": "Black Sea logistics, trade and regional safety.",
+      "potentialLeverage": [
+        "maritime",
+        "security",
+        "logistics",
+        "trade"
+      ],
+      "inferredIncentive": "INFERENCE, NOT AN OFFICIAL POSITION: A credible, bounded arrangement should improve civilian safety while respecting this actor’s mandate and constraints.",
+      "constraints": "Spillover and regional escalation risks.",
+      "redLines": "UNKNOWN without entity-specific authorized, dated consultation; law and affected communities must be protected.",
+      "BATNA": "UNCERTAIN: validate documented alternatives and opportunity costs; do not invent private motives.",
+      "spoilerRisk": "Loss of mandate, non-cooperation, disinformation, funding gaps or verification failure; test context specifically."
+    }
+  },
+  {
+    "id": "bulgaria",
+    "name": "Bulgaria",
+    "kind": "state",
+    "capabilities": [
+      "maritime",
+      "trade",
+      "security"
+    ],
+    "mandate": "Black Sea technical safety and port logistics.",
+    "constraint": "Limited direct diplomatic leverage.",
+    "status": "Potential contribution — not an endorsement, pledge or verified participation",
+    "confidence": "Medium: capability assessment; willingness unverified",
+    "stakeholderModel": {
+      "documentedAuthority": "Black Sea technical safety and port logistics.",
+      "potentialLeverage": [
+        "maritime",
+        "trade",
+        "security"
+      ],
+      "inferredIncentive": "INFERENCE, NOT AN OFFICIAL POSITION: A credible, bounded arrangement should improve civilian safety while respecting this actor’s mandate and constraints.",
+      "constraints": "Limited direct diplomatic leverage.",
+      "redLines": "UNKNOWN without entity-specific authorized, dated consultation; law and affected communities must be protected.",
+      "BATNA": "UNCERTAIN: validate documented alternatives and opportunity costs; do not invent private motives.",
+      "spoilerRisk": "Loss of mandate, non-cooperation, disinformation, funding gaps or verification failure; test context specifically."
+    }
+  },
+  {
+    "id": "estonia-latvia-lithuania",
+    "name": "Estonia Latvia Lithuania",
+    "kind": "coalition",
+    "capabilities": [
+      "security",
+      "defensive-cyber",
+      "legal",
+      "verification"
+    ],
+    "mandate": "Regional digital resilience, defence cooperation and sanctions expertise.",
+    "constraint": "This is an analytical grouping, not a single legal entity.",
+    "status": "Potential contribution — not an endorsement, pledge or verified participation",
+    "confidence": "Medium: capability assessment; willingness unverified",
+    "stakeholderModel": {
+      "documentedAuthority": "Regional digital resilience, defence cooperation and sanctions expertise.",
+      "potentialLeverage": [
+        "security",
+        "defensive cyber",
+        "legal",
+        "verification"
+      ],
+      "inferredIncentive": "INFERENCE, NOT AN OFFICIAL POSITION: A credible, bounded arrangement should improve civilian safety while respecting this actor’s mandate and constraints.",
+      "constraints": "This is an analytical grouping, not a single legal entity.",
+      "redLines": "UNKNOWN without entity-specific authorized, dated consultation; law and affected communities must be protected.",
+      "BATNA": "UNCERTAIN: validate documented alternatives and opportunity costs; do not invent private motives.",
+      "spoilerRisk": "Loss of mandate, non-cooperation, disinformation, funding gaps or verification failure; test context specifically."
+    }
+  },
+  {
+    "id": "italy",
+    "name": "Italy",
+    "kind": "state",
+    "capabilities": [
+      "reconstruction",
+      "finance",
+      "mediation",
+      "humanitarian"
+    ],
+    "mandate": "Recovery financing, EU negotiation and welfare coordination.",
+    "constraint": "Support depends on political and financial mandates.",
+    "status": "Potential contribution — not an endorsement, pledge or verified participation",
+    "confidence": "Medium: capability assessment; willingness unverified",
+    "stakeholderModel": {
+      "documentedAuthority": "Recovery financing, EU negotiation and welfare coordination.",
+      "potentialLeverage": [
+        "reconstruction",
+        "finance",
+        "mediation",
+        "humanitarian"
+      ],
+      "inferredIncentive": "INFERENCE, NOT AN OFFICIAL POSITION: A credible, bounded arrangement should improve civilian safety while respecting this actor’s mandate and constraints.",
+      "constraints": "Support depends on political and financial mandates.",
+      "redLines": "UNKNOWN without entity-specific authorized, dated consultation; law and affected communities must be protected.",
+      "BATNA": "UNCERTAIN: validate documented alternatives and opportunity costs; do not invent private motives.",
+      "spoilerRisk": "Loss of mandate, non-cooperation, disinformation, funding gaps or verification failure; test context specifically."
+    }
+  },
+  {
+    "id": "belgium",
+    "name": "Belgium",
+    "kind": "state",
+    "capabilities": [
+      "finance",
+      "legal",
+      "trade",
+      "reconstruction"
+    ],
+    "mandate": "Important EU financial infrastructure and immobilized-asset legal questions.",
+    "constraint": "Asset treatment requires judicial and international-law review.",
+    "status": "Potential contribution — not an endorsement, pledge or verified participation",
+    "confidence": "Medium: capability assessment; willingness unverified",
+    "stakeholderModel": {
+      "documentedAuthority": "Important EU financial infrastructure and immobilized-asset legal questions.",
+      "potentialLeverage": [
+        "finance",
+        "legal",
+        "trade",
+        "reconstruction"
+      ],
+      "inferredIncentive": "INFERENCE, NOT AN OFFICIAL POSITION: A credible, bounded arrangement should improve civilian safety while respecting this actor’s mandate and constraints.",
+      "constraints": "Asset treatment requires judicial and international-law review.",
+      "redLines": "UNKNOWN without entity-specific authorized, dated consultation; law and affected communities must be protected.",
+      "BATNA": "UNCERTAIN: validate documented alternatives and opportunity costs; do not invent private motives.",
+      "spoilerRisk": "Loss of mandate, non-cooperation, disinformation, funding gaps or verification failure; test context specifically."
+    }
+  },
+  {
+    "id": "japan",
+    "name": "Japan",
+    "kind": "state",
+    "capabilities": [
+      "finance",
+      "reconstruction",
+      "trade",
+      "energy"
+    ],
+    "mandate": "G7 coordination, resilient infrastructure and economic financing.",
+    "constraint": "Security commitments differ from European allies.",
+    "status": "Potential contribution — not an endorsement, pledge or verified participation",
+    "confidence": "Medium: capability assessment; willingness unverified",
+    "stakeholderModel": {
+      "documentedAuthority": "G7 coordination, resilient infrastructure and economic financing.",
+      "potentialLeverage": [
+        "finance",
+        "reconstruction",
+        "trade",
+        "energy"
+      ],
+      "inferredIncentive": "INFERENCE, NOT AN OFFICIAL POSITION: A credible, bounded arrangement should improve civilian safety while respecting this actor’s mandate and constraints.",
+      "constraints": "Security commitments differ from European allies.",
+      "redLines": "UNKNOWN without entity-specific authorized, dated consultation; law and affected communities must be protected.",
+      "BATNA": "UNCERTAIN: validate documented alternatives and opportunity costs; do not invent private motives.",
+      "spoilerRisk": "Loss of mandate, non-cooperation, disinformation, funding gaps or verification failure; test context specifically."
+    }
+  },
+  {
+    "id": "south-korea",
+    "name": "South Korea",
+    "kind": "state",
+    "capabilities": [
+      "reconstruction",
+      "trade",
+      "finance",
+      "technology"
+    ],
+    "mandate": "Industrial, recovery and digital resilience capabilities.",
+    "constraint": "Domestic and regional security constraints apply.",
+    "status": "Potential contribution — not an endorsement, pledge or verified participation",
+    "confidence": "Medium: capability assessment; willingness unverified",
+    "stakeholderModel": {
+      "documentedAuthority": "Industrial, recovery and digital resilience capabilities.",
+      "potentialLeverage": [
+        "reconstruction",
+        "trade",
+        "finance",
+        "technology"
+      ],
+      "inferredIncentive": "INFERENCE, NOT AN OFFICIAL POSITION: A credible, bounded arrangement should improve civilian safety while respecting this actor’s mandate and constraints.",
+      "constraints": "Domestic and regional security constraints apply.",
+      "redLines": "UNKNOWN without entity-specific authorized, dated consultation; law and affected communities must be protected.",
+      "BATNA": "UNCERTAIN: validate documented alternatives and opportunity costs; do not invent private motives.",
+      "spoilerRisk": "Loss of mandate, non-cooperation, disinformation, funding gaps or verification failure; test context specifically."
+    }
+  },
+  {
+    "id": "australia-new-zealand",
+    "name": "Australia New Zealand",
+    "kind": "coalition",
+    "capabilities": [
+      "finance",
+      "humanitarian",
+      "legal",
+      "security"
+    ],
+    "mandate": "Can support global diplomatic coalitions, relief and lawful measures.",
+    "constraint": "Analytical grouping; each government decides independently.",
+    "status": "Potential contribution — not an endorsement, pledge or verified participation",
+    "confidence": "Medium: capability assessment; willingness unverified",
+    "stakeholderModel": {
+      "documentedAuthority": "Can support global diplomatic coalitions, relief and lawful measures.",
+      "potentialLeverage": [
+        "finance",
+        "humanitarian",
+        "legal",
+        "security"
+      ],
+      "inferredIncentive": "INFERENCE, NOT AN OFFICIAL POSITION: A credible, bounded arrangement should improve civilian safety while respecting this actor’s mandate and constraints.",
+      "constraints": "Analytical grouping; each government decides independently.",
+      "redLines": "UNKNOWN without entity-specific authorized, dated consultation; law and affected communities must be protected.",
+      "BATNA": "UNCERTAIN: validate documented alternatives and opportunity costs; do not invent private motives.",
+      "spoilerRisk": "Loss of mandate, non-cooperation, disinformation, funding gaps or verification failure; test context specifically."
+    }
+  },
+  {
+    "id": "south-africa",
+    "name": "South Africa",
+    "kind": "state",
+    "capabilities": [
+      "mediation",
+      "trade",
+      "legal",
+      "civilian"
+    ],
+    "mandate": "May connect African and BRICS diplomatic networks.",
+    "constraint": "Access does not prove successful leverage.",
+    "status": "Potential contribution — not an endorsement, pledge or verified participation",
+    "confidence": "Medium: capability assessment; willingness unverified",
+    "stakeholderModel": {
+      "documentedAuthority": "May connect African and BRICS diplomatic networks.",
+      "potentialLeverage": [
+        "mediation",
+        "trade",
+        "legal",
+        "civilian"
+      ],
+      "inferredIncentive": "INFERENCE, NOT AN OFFICIAL POSITION: A credible, bounded arrangement should improve civilian safety while respecting this actor’s mandate and constraints.",
+      "constraints": "Access does not prove successful leverage.",
+      "redLines": "UNKNOWN without entity-specific authorized, dated consultation; law and affected communities must be protected.",
+      "BATNA": "UNCERTAIN: validate documented alternatives and opportunity costs; do not invent private motives.",
+      "spoilerRisk": "Loss of mandate, non-cooperation, disinformation, funding gaps or verification failure; test context specifically."
+    }
+  },
+  {
+    "id": "african-union-commission",
+    "name": "African Union Commission",
+    "kind": "intergovernmental",
+    "capabilities": [
+      "mediation",
+      "food",
+      "civilian",
+      "humanitarian"
+    ],
+    "mandate": "Can represent continental conflict-prevention and food-security priorities.",
+    "constraint": "No general mandate to resolve European territorial disputes.",
+    "status": "Potential contribution — not an endorsement, pledge or verified participation",
+    "confidence": "Medium: capability assessment; willingness unverified",
+    "stakeholderModel": {
+      "documentedAuthority": "Can represent continental conflict-prevention and food-security priorities.",
+      "potentialLeverage": [
+        "mediation",
+        "food",
+        "civilian",
+        "humanitarian"
+      ],
+      "inferredIncentive": "INFERENCE, NOT AN OFFICIAL POSITION: A credible, bounded arrangement should improve civilian safety while respecting this actor’s mandate and constraints.",
+      "constraints": "No general mandate to resolve European territorial disputes.",
+      "redLines": "UNKNOWN without entity-specific authorized, dated consultation; law and affected communities must be protected.",
+      "BATNA": "UNCERTAIN: validate documented alternatives and opportunity costs; do not invent private motives.",
+      "spoilerRisk": "Loss of mandate, non-cooperation, disinformation, funding gaps or verification failure; test context specifically."
+    }
+  },
+  {
+    "id": "g7",
+    "name": "G7",
+    "kind": "coalition",
+    "capabilities": [
+      "finance",
+      "trade",
+      "reconstruction",
+      "security",
+      "legal"
+    ],
+    "mandate": "Could coordinate financial instruments, sanctions and security assistance.",
+    "constraint": "Not all influential third countries are members.",
+    "status": "Potential contribution — not an endorsement, pledge or verified participation",
+    "confidence": "Medium: capability assessment; willingness unverified",
+    "stakeholderModel": {
+      "documentedAuthority": "Could coordinate financial instruments, sanctions and security assistance.",
+      "potentialLeverage": [
+        "finance",
+        "trade",
+        "reconstruction",
+        "security",
+        "legal"
+      ],
+      "inferredIncentive": "INFERENCE, NOT AN OFFICIAL POSITION: A credible, bounded arrangement should improve civilian safety while respecting this actor’s mandate and constraints.",
+      "constraints": "Not all influential third countries are members.",
+      "redLines": "UNKNOWN without entity-specific authorized, dated consultation; law and affected communities must be protected.",
+      "BATNA": "UNCERTAIN: validate documented alternatives and opportunity costs; do not invent private motives.",
+      "spoilerRisk": "Loss of mandate, non-cooperation, disinformation, funding gaps or verification failure; test context specifically."
+    }
+  },
+  {
+    "id": "g20",
+    "name": "G20",
+    "kind": "coalition",
+    "capabilities": [
+      "trade",
+      "finance",
+      "mediation",
+      "food"
+    ],
+    "mandate": "Can convene major economies on global spillovers.",
+    "constraint": "Consensus is difficult and decisions rarely enforceable.",
+    "status": "Potential contribution — not an endorsement, pledge or verified participation",
+    "confidence": "Medium: capability assessment; willingness unverified",
+    "stakeholderModel": {
+      "documentedAuthority": "Can convene major economies on global spillovers.",
+      "potentialLeverage": [
+        "trade",
+        "finance",
+        "mediation",
+        "food"
+      ],
+      "inferredIncentive": "INFERENCE, NOT AN OFFICIAL POSITION: A credible, bounded arrangement should improve civilian safety while respecting this actor’s mandate and constraints.",
+      "constraints": "Consensus is difficult and decisions rarely enforceable.",
+      "redLines": "UNKNOWN without entity-specific authorized, dated consultation; law and affected communities must be protected.",
+      "BATNA": "UNCERTAIN: validate documented alternatives and opportunity costs; do not invent private motives.",
+      "spoilerRisk": "Loss of mandate, non-cooperation, disinformation, funding gaps or verification failure; test context specifically."
+    }
+  },
+  {
+    "id": "brics",
+    "name": "BRICS",
+    "kind": "coalition",
+    "capabilities": [
+      "trade",
+      "finance",
+      "mediation",
+      "food"
+    ],
+    "mandate": "Connects countries with important trade and diplomatic channels.",
+    "constraint": "Members have diverging incentives and positions.",
+    "status": "Potential contribution — not an endorsement, pledge or verified participation",
+    "confidence": "Medium: capability assessment; willingness unverified",
+    "stakeholderModel": {
+      "documentedAuthority": "Connects countries with important trade and diplomatic channels.",
+      "potentialLeverage": [
+        "trade",
+        "finance",
+        "mediation",
+        "food"
+      ],
+      "inferredIncentive": "INFERENCE, NOT AN OFFICIAL POSITION: A credible, bounded arrangement should improve civilian safety while respecting this actor’s mandate and constraints.",
+      "constraints": "Members have diverging incentives and positions.",
+      "redLines": "UNKNOWN without entity-specific authorized, dated consultation; law and affected communities must be protected.",
+      "BATNA": "UNCERTAIN: validate documented alternatives and opportunity costs; do not invent private motives.",
+      "spoilerRisk": "Loss of mandate, non-cooperation, disinformation, funding gaps or verification failure; test context specifically."
+    }
+  },
+  {
+    "id": "un-general-assembly",
+    "name": "UN General Assembly",
+    "kind": "intergovernmental",
+    "capabilities": [
+      "legal",
+      "civilian",
+      "mediation",
+      "verification"
+    ],
+    "mandate": "Can build legitimacy and express member-state positions.",
+    "constraint": "Resolutions typically do not compel force compliance.",
+    "status": "Potential contribution — not an endorsement, pledge or verified participation",
+    "confidence": "Medium: capability assessment; willingness unverified",
+    "stakeholderModel": {
+      "documentedAuthority": "Can build legitimacy and express member-state positions.",
+      "potentialLeverage": [
+        "legal",
+        "civilian",
+        "mediation",
+        "verification"
+      ],
+      "inferredIncentive": "INFERENCE, NOT AN OFFICIAL POSITION: A credible, bounded arrangement should improve civilian safety while respecting this actor’s mandate and constraints.",
+      "constraints": "Resolutions typically do not compel force compliance.",
+      "redLines": "UNKNOWN without entity-specific authorized, dated consultation; law and affected communities must be protected.",
+      "BATNA": "UNCERTAIN: validate documented alternatives and opportunity costs; do not invent private motives.",
+      "spoilerRisk": "Loss of mandate, non-cooperation, disinformation, funding gaps or verification failure; test context specifically."
+    }
+  },
+  {
+    "id": "un-security-council",
+    "name": "UN Security Council",
+    "kind": "intergovernmental",
+    "capabilities": [
+      "legal",
+      "security",
+      "verification",
+      "mediation"
+    ],
+    "mandate": "Could authorize appropriate international mechanisms if members agree.",
+    "constraint": "Permanent-member veto and legal limits are central.",
+    "status": "Potential contribution — not an endorsement, pledge or verified participation",
+    "confidence": "Medium: capability assessment; willingness unverified",
+    "stakeholderModel": {
+      "documentedAuthority": "Could authorize appropriate international mechanisms if members agree.",
+      "potentialLeverage": [
+        "legal",
+        "security",
+        "verification",
+        "mediation"
+      ],
+      "inferredIncentive": "INFERENCE, NOT AN OFFICIAL POSITION: A credible, bounded arrangement should improve civilian safety while respecting this actor’s mandate and constraints.",
+      "constraints": "Permanent-member veto and legal limits are central.",
+      "redLines": "UNKNOWN without entity-specific authorized, dated consultation; law and affected communities must be protected.",
+      "BATNA": "UNCERTAIN: validate documented alternatives and opportunity costs; do not invent private motives.",
+      "spoilerRisk": "Loss of mandate, non-cooperation, disinformation, funding gaps or verification failure; test context specifically."
+    }
+  },
+  {
+    "id": "indonesia",
+    "name": "Indonesia",
+    "kind": "state",
+    "capabilities": [
+      "mediation",
+      "trade",
+      "food"
+    ],
+    "mandate": "Global South convening and food-market diplomacy.",
+    "constraint": "Indirect influence on battlefield decisions.",
+    "status": "Potential contribution — not an endorsement, pledge or verified participation",
+    "confidence": "Medium: capability assessment; willingness unverified",
+    "stakeholderModel": {
+      "documentedAuthority": "Global South convening and food-market diplomacy.",
+      "potentialLeverage": [
+        "mediation",
+        "trade",
+        "food"
+      ],
+      "inferredIncentive": "INFERENCE, NOT AN OFFICIAL POSITION: A credible, bounded arrangement should improve civilian safety while respecting this actor’s mandate and constraints.",
+      "constraints": "Indirect influence on battlefield decisions.",
+      "redLines": "UNKNOWN without entity-specific authorized, dated consultation; law and affected communities must be protected.",
+      "BATNA": "UNCERTAIN: validate documented alternatives and opportunity costs; do not invent private motives.",
+      "spoilerRisk": "Loss of mandate, non-cooperation, disinformation, funding gaps or verification failure; test context specifically."
+    }
+  },
+  {
+    "id": "arab-league-and-oic",
+    "name": "Arab League and OIC",
+    "kind": "coalition",
+    "capabilities": [
+      "mediation",
+      "humanitarian",
+      "food",
+      "maritime"
+    ],
+    "mandate": "Could coordinate relief, food and diplomatic appeals.",
+    "constraint": "Independent mandates and diverse memberships.",
+    "status": "Potential contribution — not an endorsement, pledge or verified participation",
+    "confidence": "Medium: capability assessment; willingness unverified",
+    "stakeholderModel": {
+      "documentedAuthority": "Could coordinate relief, food and diplomatic appeals.",
+      "potentialLeverage": [
+        "mediation",
+        "humanitarian",
+        "food",
+        "maritime"
+      ],
+      "inferredIncentive": "INFERENCE, NOT AN OFFICIAL POSITION: A credible, bounded arrangement should improve civilian safety while respecting this actor’s mandate and constraints.",
+      "constraints": "Independent mandates and diverse memberships.",
+      "redLines": "UNKNOWN without entity-specific authorized, dated consultation; law and affected communities must be protected.",
+      "BATNA": "UNCERTAIN: validate documented alternatives and opportunity costs; do not invent private motives.",
+      "spoilerRisk": "Loss of mandate, non-cooperation, disinformation, funding gaps or verification failure; test context specifically."
+    }
+  },
+  {
+    "id": "moldova",
+    "name": "Moldova",
+    "kind": "state",
+    "capabilities": [
+      "refugees",
+      "security",
+      "humanitarian",
+      "reconstruction"
+    ],
+    "mandate": "Regional safety and displaced-person support.",
+    "constraint": "Vulnerability to conflict spillover.",
+    "status": "Potential contribution — not an endorsement, pledge or verified participation",
+    "confidence": "Medium: capability assessment; willingness unverified",
+    "stakeholderModel": {
+      "documentedAuthority": "Regional safety and displaced-person support.",
+      "potentialLeverage": [
+        "refugees",
+        "security",
+        "humanitarian",
+        "reconstruction"
+      ],
+      "inferredIncentive": "INFERENCE, NOT AN OFFICIAL POSITION: A credible, bounded arrangement should improve civilian safety while respecting this actor’s mandate and constraints.",
+      "constraints": "Vulnerability to conflict spillover.",
+      "redLines": "UNKNOWN without entity-specific authorized, dated consultation; law and affected communities must be protected.",
+      "BATNA": "UNCERTAIN: validate documented alternatives and opportunity costs; do not invent private motives.",
+      "spoilerRisk": "Loss of mandate, non-cooperation, disinformation, funding gaps or verification failure; test context specifically."
+    }
+  },
+  {
+    "id": "us-treasury-ofac-and-eu-sanctions-authorities",
+    "name": "US Treasury OFAC and EU sanctions authorities",
+    "kind": "regulatory",
+    "capabilities": [
+      "finance",
+      "trade",
+      "legal",
+      "verification"
+    ],
+    "mandate": "May administer lawful conditional and reversible sanctions measures.",
+    "constraint": "Measures require precise authority and compliance verification.",
+    "status": "Potential contribution — not an endorsement, pledge or verified participation",
+    "confidence": "Medium: capability assessment; willingness unverified",
+    "stakeholderModel": {
+      "documentedAuthority": "May administer lawful conditional and reversible sanctions measures.",
+      "potentialLeverage": [
+        "finance",
+        "trade",
+        "legal",
+        "verification"
+      ],
+      "inferredIncentive": "INFERENCE, NOT AN OFFICIAL POSITION: A credible, bounded arrangement should improve civilian safety while respecting this actor’s mandate and constraints.",
+      "constraints": "Measures require precise authority and compliance verification.",
+      "redLines": "UNKNOWN without entity-specific authorized, dated consultation; law and affected communities must be protected.",
+      "BATNA": "UNCERTAIN: validate documented alternatives and opportunity costs; do not invent private motives.",
+      "spoilerRisk": "Loss of mandate, non-cooperation, disinformation, funding gaps or verification failure; test context specifically."
+    }
+  },
+  {
+    "id": "euroclear-and-european-financial-authorities",
+    "name": "Euroclear and European financial authorities",
+    "kind": "institution",
+    "capabilities": [
+      "finance",
+      "legal",
+      "reconstruction"
+    ],
+    "mandate": "Could lawfully administer financial instruments within applicable law.",
+    "constraint": "Sovereign-asset treatment is legally and politically contested.",
+    "status": "Potential contribution — not an endorsement, pledge or verified participation",
+    "confidence": "Medium: capability assessment; willingness unverified",
+    "stakeholderModel": {
+      "documentedAuthority": "Could lawfully administer financial instruments within applicable law.",
+      "potentialLeverage": [
+        "finance",
+        "legal",
+        "reconstruction"
+      ],
+      "inferredIncentive": "INFERENCE, NOT AN OFFICIAL POSITION: A credible, bounded arrangement should improve civilian safety while respecting this actor’s mandate and constraints.",
+      "constraints": "Sovereign-asset treatment is legally and politically contested.",
+      "redLines": "UNKNOWN without entity-specific authorized, dated consultation; law and affected communities must be protected.",
+      "BATNA": "UNCERTAIN: validate documented alternatives and opportunity costs; do not invent private motives.",
+      "spoilerRisk": "Loss of mandate, non-cooperation, disinformation, funding gaps or verification failure; test context specifically."
+    }
+  },
+  {
+    "id": "world-bank-group",
+    "name": "World Bank Group",
+    "kind": "development",
+    "capabilities": [
+      "finance",
+      "reconstruction",
+      "energy",
+      "civilian"
+    ],
+    "mandate": "Can manage recovery financing, development safeguards and public accountability.",
+    "constraint": "Eligibility, debt, anti-corruption and security risks.",
+    "status": "Potential contribution — not an endorsement, pledge or verified participation",
+    "confidence": "Medium: capability assessment; willingness unverified",
+    "stakeholderModel": {
+      "documentedAuthority": "Can manage recovery financing, development safeguards and public accountability.",
+      "potentialLeverage": [
+        "finance",
+        "reconstruction",
+        "energy",
+        "civilian"
+      ],
+      "inferredIncentive": "INFERENCE, NOT AN OFFICIAL POSITION: A credible, bounded arrangement should improve civilian safety while respecting this actor’s mandate and constraints.",
+      "constraints": "Eligibility, debt, anti-corruption and security risks.",
+      "redLines": "UNKNOWN without entity-specific authorized, dated consultation; law and affected communities must be protected.",
+      "BATNA": "UNCERTAIN: validate documented alternatives and opportunity costs; do not invent private motives.",
+      "spoilerRisk": "Loss of mandate, non-cooperation, disinformation, funding gaps or verification failure; test context specifically."
+    }
+  },
+  {
+    "id": "ebrd",
+    "name": "EBRD",
+    "kind": "development",
+    "capabilities": [
+      "finance",
+      "reconstruction",
+      "energy",
+      "trade"
+    ],
+    "mandate": "Can finance private-sector resilience and infrastructure.",
+    "constraint": "Banking mandate and procurement safeguards apply.",
+    "status": "Potential contribution — not an endorsement, pledge or verified participation",
+    "confidence": "Medium: capability assessment; willingness unverified",
+    "stakeholderModel": {
+      "documentedAuthority": "Can finance private-sector resilience and infrastructure.",
+      "potentialLeverage": [
+        "finance",
+        "reconstruction",
+        "energy",
+        "trade"
+      ],
+      "inferredIncentive": "INFERENCE, NOT AN OFFICIAL POSITION: A credible, bounded arrangement should improve civilian safety while respecting this actor’s mandate and constraints.",
+      "constraints": "Banking mandate and procurement safeguards apply.",
+      "redLines": "UNKNOWN without entity-specific authorized, dated consultation; law and affected communities must be protected.",
+      "BATNA": "UNCERTAIN: validate documented alternatives and opportunity costs; do not invent private motives.",
+      "spoilerRisk": "Loss of mandate, non-cooperation, disinformation, funding gaps or verification failure; test context specifically."
+    }
+  },
+  {
+    "id": "european-investment-bank",
+    "name": "European Investment Bank",
+    "kind": "development",
+    "capabilities": [
+      "finance",
+      "reconstruction",
+      "energy"
+    ],
+    "mandate": "Can finance long-life resilient infrastructure.",
+    "constraint": "Financing mandates and project safeguards apply.",
+    "status": "Potential contribution — not an endorsement, pledge or verified participation",
+    "confidence": "Medium: capability assessment; willingness unverified",
+    "stakeholderModel": {
+      "documentedAuthority": "Can finance long-life resilient infrastructure.",
+      "potentialLeverage": [
+        "finance",
+        "reconstruction",
+        "energy"
+      ],
+      "inferredIncentive": "INFERENCE, NOT AN OFFICIAL POSITION: A credible, bounded arrangement should improve civilian safety while respecting this actor’s mandate and constraints.",
+      "constraints": "Financing mandates and project safeguards apply.",
+      "redLines": "UNKNOWN without entity-specific authorized, dated consultation; law and affected communities must be protected.",
+      "BATNA": "UNCERTAIN: validate documented alternatives and opportunity costs; do not invent private motives.",
+      "spoilerRisk": "Loss of mandate, non-cooperation, disinformation, funding gaps or verification failure; test context specifically."
+    }
+  },
+  {
+    "id": "imf",
+    "name": "IMF",
+    "kind": "development",
+    "capabilities": [
+      "finance",
+      "legal",
+      "reconstruction"
+    ],
+    "mandate": "Supports macro-financial resilience and transparent fiscal planning.",
+    "constraint": "Is not a peace-enforcement body.",
+    "status": "Potential contribution — not an endorsement, pledge or verified participation",
+    "confidence": "Medium: capability assessment; willingness unverified",
+    "stakeholderModel": {
+      "documentedAuthority": "Supports macro-financial resilience and transparent fiscal planning.",
+      "potentialLeverage": [
+        "finance",
+        "legal",
+        "reconstruction"
+      ],
+      "inferredIncentive": "INFERENCE, NOT AN OFFICIAL POSITION: A credible, bounded arrangement should improve civilian safety while respecting this actor’s mandate and constraints.",
+      "constraints": "Is not a peace-enforcement body.",
+      "redLines": "UNKNOWN without entity-specific authorized, dated consultation; law and affected communities must be protected.",
+      "BATNA": "UNCERTAIN: validate documented alternatives and opportunity costs; do not invent private motives.",
+      "spoilerRisk": "Loss of mandate, non-cooperation, disinformation, funding gaps or verification failure; test context specifically."
+    }
+  },
+  {
+    "id": "shipping-insurers-and-p-i-clubs",
+    "name": "Shipping insurers and P&I clubs",
+    "kind": "commercial",
+    "capabilities": [
+      "maritime",
+      "trade",
+      "finance",
+      "verification"
+    ],
+    "mandate": "Can underwrite lawful maritime movements when risks are verified and acceptable.",
+    "constraint": "Commercial risk, sanctions and underwriting rules apply.",
+    "status": "Potential contribution — not an endorsement, pledge or verified participation",
+    "confidence": "Medium: capability assessment; willingness unverified",
+    "stakeholderModel": {
+      "documentedAuthority": "Can underwrite lawful maritime movements when risks are verified and acceptable.",
+      "potentialLeverage": [
+        "maritime",
+        "trade",
+        "finance",
+        "verification"
+      ],
+      "inferredIncentive": "INFERENCE, NOT AN OFFICIAL POSITION: A credible, bounded arrangement should improve civilian safety while respecting this actor’s mandate and constraints.",
+      "constraints": "Commercial risk, sanctions and underwriting rules apply.",
+      "redLines": "UNKNOWN without entity-specific authorized, dated consultation; law and affected communities must be protected.",
+      "BATNA": "UNCERTAIN: validate documented alternatives and opportunity costs; do not invent private motives.",
+      "spoilerRisk": "Loss of mandate, non-cooperation, disinformation, funding gaps or verification failure; test context specifically."
+    }
+  },
+  {
+    "id": "satellite-and-telecommunications-providers",
+    "name": "Satellite and telecommunications providers",
+    "kind": "commercial",
+    "capabilities": [
+      "data",
+      "verification",
+      "defensive-cyber",
+      "communication"
+    ],
+    "mandate": "Can supply authorized technical evidence and resilient communication.",
+    "constraint": "Must prevent privacy abuse and operational targeting.",
+    "status": "Potential contribution — not an endorsement, pledge or verified participation",
+    "confidence": "Medium: capability assessment; willingness unverified",
+    "stakeholderModel": {
+      "documentedAuthority": "Can supply authorized technical evidence and resilient communication.",
+      "potentialLeverage": [
+        "data",
+        "verification",
+        "defensive cyber",
+        "communication"
+      ],
+      "inferredIncentive": "INFERENCE, NOT AN OFFICIAL POSITION: A credible, bounded arrangement should improve civilian safety while respecting this actor’s mandate and constraints.",
+      "constraints": "Must prevent privacy abuse and operational targeting.",
+      "redLines": "UNKNOWN without entity-specific authorized, dated consultation; law and affected communities must be protected.",
+      "BATNA": "UNCERTAIN: validate documented alternatives and opportunity costs; do not invent private motives.",
+      "spoilerRisk": "Loss of mandate, non-cooperation, disinformation, funding gaps or verification failure; test context specifically."
+    }
+  },
+  {
+    "id": "centre-for-humanitarian-dialogue",
+    "name": "Centre for Humanitarian Dialogue",
+    "kind": "civil-society",
+    "capabilities": [
+      "mediation",
+      "humanitarian",
+      "civilian"
+    ],
+    "mandate": "Specialist facilitation and private dialogue design.",
+    "constraint": "Involvement or authorization cannot be assumed.",
+    "status": "Potential contribution — not an endorsement, pledge or verified participation",
+    "confidence": "Medium: capability assessment; willingness unverified",
+    "stakeholderModel": {
+      "documentedAuthority": "Specialist facilitation and private dialogue design.",
+      "potentialLeverage": [
+        "mediation",
+        "humanitarian",
+        "civilian"
+      ],
+      "inferredIncentive": "INFERENCE, NOT AN OFFICIAL POSITION: A credible, bounded arrangement should improve civilian safety while respecting this actor’s mandate and constraints.",
+      "constraints": "Involvement or authorization cannot be assumed.",
+      "redLines": "UNKNOWN without entity-specific authorized, dated consultation; law and affected communities must be protected.",
+      "BATNA": "UNCERTAIN: validate documented alternatives and opportunity costs; do not invent private motives.",
+      "spoilerRisk": "Loss of mandate, non-cooperation, disinformation, funding gaps or verification failure; test context specifically."
+    }
+  },
+  {
+    "id": "berghof-foundation",
+    "name": "Berghof Foundation",
+    "kind": "civil-society",
+    "capabilities": [
+      "mediation",
+      "civilian",
+      "education"
+    ],
+    "mandate": "Conflict transformation, dialogue and process design.",
+    "constraint": "No formal authority over parties.",
+    "status": "Potential contribution — not an endorsement, pledge or verified participation",
+    "confidence": "Medium: capability assessment; willingness unverified",
+    "stakeholderModel": {
+      "documentedAuthority": "Conflict transformation, dialogue and process design.",
+      "potentialLeverage": [
+        "mediation",
+        "civilian",
+        "education"
+      ],
+      "inferredIncentive": "INFERENCE, NOT AN OFFICIAL POSITION: A credible, bounded arrangement should improve civilian safety while respecting this actor’s mandate and constraints.",
+      "constraints": "No formal authority over parties.",
+      "redLines": "UNKNOWN without entity-specific authorized, dated consultation; law and affected communities must be protected.",
+      "BATNA": "UNCERTAIN: validate documented alternatives and opportunity costs; do not invent private motives.",
+      "spoilerRisk": "Loss of mandate, non-cooperation, disinformation, funding gaps or verification failure; test context specifically."
+    }
+  },
+  {
+    "id": "international-crisis-group",
+    "name": "International Crisis Group",
+    "kind": "civil-society",
+    "capabilities": [
+      "data",
+      "mediation",
+      "legal",
+      "civilian"
+    ],
+    "mandate": "Independent analysis and publication of risks and incentives.",
+    "constraint": "Research is not negotiating authority.",
+    "status": "Potential contribution — not an endorsement, pledge or verified participation",
+    "confidence": "Medium: capability assessment; willingness unverified",
+    "stakeholderModel": {
+      "documentedAuthority": "Independent analysis and publication of risks and incentives.",
+      "potentialLeverage": [
+        "data",
+        "mediation",
+        "legal",
+        "civilian"
+      ],
+      "inferredIncentive": "INFERENCE, NOT AN OFFICIAL POSITION: A credible, bounded arrangement should improve civilian safety while respecting this actor’s mandate and constraints.",
+      "constraints": "Research is not negotiating authority.",
+      "redLines": "UNKNOWN without entity-specific authorized, dated consultation; law and affected communities must be protected.",
+      "BATNA": "UNCERTAIN: validate documented alternatives and opportunity costs; do not invent private motives.",
+      "spoilerRisk": "Loss of mandate, non-cooperation, disinformation, funding gaps or verification failure; test context specifically."
+    }
+  },
+  {
+    "id": "ukrainian-municipalities-and-civil-society",
+    "name": "Ukrainian municipalities and civil society",
+    "kind": "civil-society",
+    "capabilities": [
+      "civilian",
+      "reconstruction",
+      "education",
+      "refugees",
+      "verification"
+    ],
+    "mandate": "Can identify locally important protection and restoration priorities.",
+    "constraint": "Consultation must be representative and never coercive.",
+    "status": "Potential contribution — not an endorsement, pledge or verified participation",
+    "confidence": "Medium: capability assessment; willingness unverified",
+    "stakeholderModel": {
+      "documentedAuthority": "Can identify locally important protection and restoration priorities.",
+      "potentialLeverage": [
+        "civilian",
+        "reconstruction",
+        "education",
+        "refugees",
+        "verification"
+      ],
+      "inferredIncentive": "INFERENCE, NOT AN OFFICIAL POSITION: A credible, bounded arrangement should improve civilian safety while respecting this actor’s mandate and constraints.",
+      "constraints": "Consultation must be representative and never coercive.",
+      "redLines": "UNKNOWN without entity-specific authorized, dated consultation; law and affected communities must be protected.",
+      "BATNA": "UNCERTAIN: validate documented alternatives and opportunity costs; do not invent private motives.",
+      "spoilerRisk": "Loss of mandate, non-cooperation, disinformation, funding gaps or verification failure; test context specifically."
+    }
+  },
+  {
+    "id": "russian-independent-humanitarian-and-legal-groups",
+    "name": "Russian independent humanitarian and legal groups",
+    "kind": "civil-society",
+    "capabilities": [
+      "humanitarian",
+      "legal",
+      "civilian",
+      "prisoners"
+    ],
+    "mandate": "Where safe and lawful, can help document humanitarian needs and family tracing.",
+    "constraint": "Severe personal security and legal risks require strict data minimization.",
+    "status": "Potential contribution — not an endorsement, pledge or verified participation",
+    "confidence": "Medium: capability assessment; willingness unverified",
+    "stakeholderModel": {
+      "documentedAuthority": "Where safe and lawful, can help document humanitarian needs and family tracing.",
+      "potentialLeverage": [
+        "humanitarian",
+        "legal",
+        "civilian",
+        "prisoners"
+      ],
+      "inferredIncentive": "INFERENCE, NOT AN OFFICIAL POSITION: A credible, bounded arrangement should improve civilian safety while respecting this actor’s mandate and constraints.",
+      "constraints": "Severe personal security and legal risks require strict data minimization.",
+      "redLines": "UNKNOWN without entity-specific authorized, dated consultation; law and affected communities must be protected.",
+      "BATNA": "UNCERTAIN: validate documented alternatives and opportunity costs; do not invent private motives.",
+      "spoilerRisk": "Loss of mandate, non-cooperation, disinformation, funding gaps or verification failure; test context specifically."
+    }
+  },
+  {
+    "id": "belarusian-government",
+    "name": "Belarusian government",
+    "kind": "state",
+    "capabilities": [
+      "decision",
+      "trade",
+      "legal",
+      "security"
+    ],
+    "mandate": "Could cease support enabling hostilities and reduce regional escalation.",
+    "constraint": "External participation must be evidence-led and lawful.",
+    "status": "Potential contribution — not an endorsement, pledge or verified participation",
+    "confidence": "Medium: capability assessment; willingness unverified",
+    "stakeholderModel": {
+      "documentedAuthority": "Could cease support enabling hostilities and reduce regional escalation.",
+      "potentialLeverage": [
+        "decision",
+        "trade",
+        "legal",
+        "security"
+      ],
+      "inferredIncentive": "INFERENCE, NOT AN OFFICIAL POSITION: A credible, bounded arrangement should improve civilian safety while respecting this actor’s mandate and constraints.",
+      "constraints": "External participation must be evidence-led and lawful.",
+      "redLines": "UNKNOWN without entity-specific authorized, dated consultation; law and affected communities must be protected.",
+      "BATNA": "UNCERTAIN: validate documented alternatives and opportunity costs; do not invent private motives.",
+      "spoilerRisk": "Loss of mandate, non-cooperation, disinformation, funding gaps or verification failure; test context specifically."
+    }
+  },
+  {
+    "id": "iranian-government-and-relevant-institutions",
+    "name": "Iranian government and relevant institutions",
+    "kind": "state",
+    "capabilities": [
+      "decision",
+      "trade",
+      "legal",
+      "security"
+    ],
+    "mandate": "Could end any unlawful military support contributing to attacks.",
+    "constraint": "Assess specific evidence; avoid collective attribution.",
+    "status": "Potential contribution — not an endorsement, pledge or verified participation",
+    "confidence": "Medium: capability assessment; willingness unverified",
+    "stakeholderModel": {
+      "documentedAuthority": "Could end any unlawful military support contributing to attacks.",
+      "potentialLeverage": [
+        "decision",
+        "trade",
+        "legal",
+        "security"
+      ],
+      "inferredIncentive": "INFERENCE, NOT AN OFFICIAL POSITION: A credible, bounded arrangement should improve civilian safety while respecting this actor’s mandate and constraints.",
+      "constraints": "Assess specific evidence; avoid collective attribution.",
+      "redLines": "UNKNOWN without entity-specific authorized, dated consultation; law and affected communities must be protected.",
+      "BATNA": "UNCERTAIN: validate documented alternatives and opportunity costs; do not invent private motives.",
+      "spoilerRisk": "Loss of mandate, non-cooperation, disinformation, funding gaps or verification failure; test context specifically."
+    }
+  },
+  {
+    "id": "north-korean-government",
+    "name": "North Korean government",
+    "kind": "state",
+    "capabilities": [
+      "decision",
+      "trade",
+      "legal",
+      "security"
+    ],
+    "mandate": "Could terminate arms and force support that prolongs combat.",
+    "constraint": "Verification and sanctions compliance required.",
+    "status": "Potential contribution — not an endorsement, pledge or verified participation",
+    "confidence": "Medium: capability assessment; willingness unverified",
+    "stakeholderModel": {
+      "documentedAuthority": "Could terminate arms and force support that prolongs combat.",
+      "potentialLeverage": [
+        "decision",
+        "trade",
+        "legal",
+        "security"
+      ],
+      "inferredIncentive": "INFERENCE, NOT AN OFFICIAL POSITION: A credible, bounded arrangement should improve civilian safety while respecting this actor’s mandate and constraints.",
+      "constraints": "Verification and sanctions compliance required.",
+      "redLines": "UNKNOWN without entity-specific authorized, dated consultation; law and affected communities must be protected.",
+      "BATNA": "UNCERTAIN: validate documented alternatives and opportunity costs; do not invent private motives.",
+      "spoilerRisk": "Loss of mandate, non-cooperation, disinformation, funding gaps or verification failure; test context specifically."
+    }
+  },
+  {
+    "id": "third-country-export-intermediaries",
+    "name": "Third-country export intermediaries",
+    "kind": "commercial",
+    "capabilities": [
+      "trade",
+      "legal",
+      "verification"
+    ],
+    "mandate": "Can implement end-use diligence and report suspicious dual-use diversions.",
+    "constraint": "Manufacturer origin alone does not establish complicity.",
+    "status": "Potential contribution — not an endorsement, pledge or verified participation",
+    "confidence": "Medium: capability assessment; willingness unverified",
+    "stakeholderModel": {
+      "documentedAuthority": "Can implement end-use diligence and report suspicious dual-use diversions.",
+      "potentialLeverage": [
+        "trade",
+        "legal",
+        "verification"
+      ],
+      "inferredIncentive": "INFERENCE, NOT AN OFFICIAL POSITION: A credible, bounded arrangement should improve civilian safety while respecting this actor’s mandate and constraints.",
+      "constraints": "Manufacturer origin alone does not establish complicity.",
+      "redLines": "UNKNOWN without entity-specific authorized, dated consultation; law and affected communities must be protected.",
+      "BATNA": "UNCERTAIN: validate documented alternatives and opportunity costs; do not invent private motives.",
+      "spoilerRisk": "Loss of mandate, non-cooperation, disinformation, funding gaps or verification failure; test context specifically."
+    }
+  },
+  {
+    "id": "russian-military-industrial-and-state-controlled-sectors",
+    "name": "Russian military-industrial and state-controlled sectors",
+    "kind": "commercial",
+    "capabilities": [
+      "trade",
+      "legal",
+      "energy",
+      "finance"
+    ],
+    "mandate": "Any demobilization or compliant conversion requires lawful state decisions.",
+    "constraint": "Should not presume voluntary participation or absolve wrongdoing.",
+    "status": "Potential contribution — not an endorsement, pledge or verified participation",
+    "confidence": "Medium: capability assessment; willingness unverified",
+    "stakeholderModel": {
+      "documentedAuthority": "Any demobilization or compliant conversion requires lawful state decisions.",
+      "potentialLeverage": [
+        "trade",
+        "legal",
+        "energy",
+        "finance"
+      ],
+      "inferredIncentive": "INFERENCE, NOT AN OFFICIAL POSITION: A credible, bounded arrangement should improve civilian safety while respecting this actor’s mandate and constraints.",
+      "constraints": "Should not presume voluntary participation or absolve wrongdoing.",
+      "redLines": "UNKNOWN without entity-specific authorized, dated consultation; law and affected communities must be protected.",
+      "BATNA": "UNCERTAIN: validate documented alternatives and opportunity costs; do not invent private motives.",
+      "spoilerRisk": "Loss of mandate, non-cooperation, disinformation, funding gaps or verification failure; test context specifically."
+    }
+  },
+  {
+    "id": "veterans-and-survivor-support-networks",
+    "name": "Veterans and survivor support networks",
+    "kind": "civil-society",
+    "capabilities": [
+      "civilian",
+      "education",
+      "humanitarian",
+      "reconstruction"
+    ],
+    "mandate": "Can support trauma-informed services, reintegration and community recovery.",
+    "constraint": "Protect privacy, consent and equitable access.",
+    "status": "Potential contribution — not an endorsement, pledge or verified participation",
+    "confidence": "Medium: capability assessment; willingness unverified",
+    "stakeholderModel": {
+      "documentedAuthority": "Can support trauma-informed services, reintegration and community recovery.",
+      "potentialLeverage": [
+        "civilian",
+        "education",
+        "humanitarian",
+        "reconstruction"
+      ],
+      "inferredIncentive": "INFERENCE, NOT AN OFFICIAL POSITION: A credible, bounded arrangement should improve civilian safety while respecting this actor’s mandate and constraints.",
+      "constraints": "Protect privacy, consent and equitable access.",
+      "redLines": "UNKNOWN without entity-specific authorized, dated consultation; law and affected communities must be protected.",
+      "BATNA": "UNCERTAIN: validate documented alternatives and opportunity costs; do not invent private motives.",
+      "spoilerRisk": "Loss of mandate, non-cooperation, disinformation, funding gaps or verification failure; test context specifically."
+    }
+  },
+  {
+    "id": "university-and-science-consortiums",
+    "name": "University and science consortiums",
+    "kind": "research",
+    "capabilities": [
+      "data",
+      "energy",
+      "education",
+      "reconstruction",
+      "verification"
+    ],
+    "mandate": "Can test recovery technologies and evaluate interventions transparently.",
+    "constraint": "Research must be non-operational and conflict-sensitive.",
+    "status": "Potential contribution — not an endorsement, pledge or verified participation",
+    "confidence": "Medium: capability assessment; willingness unverified",
+    "stakeholderModel": {
+      "documentedAuthority": "Can test recovery technologies and evaluate interventions transparently.",
+      "potentialLeverage": [
+        "data",
+        "energy",
+        "education",
+        "reconstruction",
+        "verification"
+      ],
+      "inferredIncentive": "INFERENCE, NOT AN OFFICIAL POSITION: A credible, bounded arrangement should improve civilian safety while respecting this actor’s mandate and constraints.",
+      "constraints": "Research must be non-operational and conflict-sensitive.",
+      "redLines": "UNKNOWN without entity-specific authorized, dated consultation; law and affected communities must be protected.",
+      "BATNA": "UNCERTAIN: validate documented alternatives and opportunity costs; do not invent private motives.",
+      "spoilerRisk": "Loss of mandate, non-cooperation, disinformation, funding gaps or verification failure; test context specifically."
+    }
+  }
+]
