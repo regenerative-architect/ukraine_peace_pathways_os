@@ -1,3 +1,13 @@
+# v4.2 — Legal & Institutional Documentation Atlas (2026-10-16)
+
+- Added `data/legal-atlas.json`: 59 curated public official-source URLs from 28 national/supranational/international jurisdictions, with instrument/repository/guidance distinctions, reference dates, language, legal caveats, subjects, and current-law recheck flags.
+- Added `schemas/legal-atlas.schema.json` with Draft 2020-12 validation; build.py validates mandatory records, IDs, HTTPS sources, jurisdiction relationships, and review dates, and embeds offline metadata in the compiled app.
+- Added searchable/filterable **Legal & documentation atlas** route with independently scrolling right inspector, direct publisher links, Markdown/JSON exports, and Pathway Forge handoff.
+- Retained all existing diplomacy/demilitarization/finance/guide/negotiation features and original schema checks.
+- Fixed mobile navigation drawer scrolling when route registry extends beyond viewport.
+- Added `LEGAL_DOCUMENTATION_GUIDE.md` explaining due diligence, legal effect, language and applicability limitations; updated deployment/test documentation and service-worker precache.
+- Source titles and notes are available offline; linked full texts are online-only and must be freshly confirmed. No validity, official endorsement, sanctions clearance or legal compliance claim.
+
 # v4.1 — Conflict-to-Regeneration expansion (2026-10-16)
 
 Added 14 finance and ecological recovery alternatives with explicit funder categories, cooperation gates and law/verification/financial classifications. Added independently scrollable screen and exportable expert review packets. Added schema, build semantic validation, and new evidence from SIPRI/World Bank/UNDP/Council of Europe/Ukrainian DREAM. Maintained all v4 components, including independent Forge inspector scrolling.

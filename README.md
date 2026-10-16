@@ -1,8 +1,8 @@
-# Peace Pathways OS v4.1 — Demilitarization & Civilian Protection Commons
+# Peace Pathways OS v4.2 — Peace, Regeneration & Legal Documentation Commons
 
 **Foster + Navi / Planetary Restoration Archive · 16 October 2026**
 
-An offline-first, non-gamified **independent decision-support research system** for examining lawful, civilian-centered options for de-escalation in the Russia–Ukraine war. This edition merges the v3 policy/evidence/workbench functionality with the v2 interactive research forge, brings the complete 747-template research library into the offline application, strengthens data contracts and dependency-cycle checks, and adds conditional demilitarization and independent-review modules.
+An offline-first, non-gamified **independent decision-support research system** for examining lawful, civilian-centered options for de-escalation in the Russia–Ukraine war. This edition retains the merged peace and reconstruction workspace and adds a source-linked, offline-indexed Legal & Institutional Documentation Atlas covering 28 jurisdictions and 59 curated official-source records. The atlas is a discovery directory, not a mirror of every law, a legal opinion, or a live legislative update service.
 
 It **is not** a peace treaty, a negotiation participant, a deployment authority, a live monitoring service or a substitute for qualified legal, humanitarian or diplomatic review. None of the cited institutions have endorsed this project. Military-restraint cases are conditional policy hypotheses: no imposed unilateral disarmament or changes of sovereignty are assumed.
 
@@ -32,6 +32,7 @@ python build.py
 | Regenerative finance & conflict-funder alternatives | 14 separately gated, civilian-first options grouped by legal financing class and potential funder roles |
 | Demilitarization pathways | Ten conditional civilian protection, arms-restraint, verification and recovery scenarios |
 | Pathway Forge | Eight generated interdisciplinary options per batch, nine evidence-gated prompt stages and independent right-hand scrolling |
+| Legal & institutional documentation atlas | Search 28 jurisdictions and 59 curated official law/treaty/guidance sources; independent inspector, Markdown/JSON export and Forge handoff |
 | 747 research templates | Local offline search, inspector, and case creation |
 | Institutional review packets | Eight categories with specific technical review requests, risks and Markdown exports |
 | Negotiation workbench | Local cases with lawful authority, independent verification and noncompliance gates |
@@ -43,9 +44,9 @@ python build.py
 
 ## Source data and build checks
 
-`data/entities.json` (75), `evidence.json` (33), `guide-bank.json` (747), `pathway-catalog.json` (13 pathways), `solutions.json` (45 dossiers) and new `demilitarization.json` (10 scenarios; 8 review-audience types), and `regenerative-funding.json` (14 interventions, 8 funder categories and 3 separate cooperation gates). All six have Draft 2020-12 schemas. `build.py --check` validates type/schema, duplicate IDs, references, units/metrics as represented by schemas, three tracks and phases, no unverified status disguised as authorization, and dependency cycles. A bad validation run does not overwrite `index.html`. A successful build emits a SHA-256 manifest; hash checks **do not prove authorship**.
+`data/entities.json` (75), `evidence.json` (33), `guide-bank.json` (747), `pathway-catalog.json` (13 pathways), `solutions.json` (45 dossiers) and new `demilitarization.json` (10 scenarios; 8 review-audience types), and `regenerative-funding.json` (14 interventions, 8 funder categories and 3 separate cooperation gates). All eight files have Draft 2020-12 schemas. `build.py --check` validates type/schema, duplicate IDs, references, units/metrics as represented by schemas, three tracks and phases, no unverified status disguised as authorization, and dependency cycles. A bad validation run does not overwrite `index.html`. A successful build emits a SHA-256 manifest; hash checks **do not prove authorship**.
 
-All 747 guides are embedded into the generated `index.html` to support searching on `file://` and offline. The HTML is kept below 2 MB. The guides are research **templates**, not 747 externally reviewed plans.
+All 747 research guides and the 59-record legal metadata directory are embedded into the generated `index.html` to support searching on `file://` and offline. **The linked publishers and the current legal texts themselves require internet access.** The HTML is kept below 2 MB. The guides are research **templates**, not 747 externally reviewed plans.
 
 ## Migration
 
@@ -86,3 +87,9 @@ This edition adds 14 research-stage financial and ecological alternatives aimed 
 The right-hand Forge panel remains independently scrollable; the regenerative-finance dossier has its own independent scrolling. All updates are included in build/source validation, hashed manifest and service-worker versioned cache, and retain offline `file://` core use.
 
 **Safety:** Public analysis only. Do not send identifiable protected-person data, classified details, real-time infrastructure coordinates, sanctioned transfers or confidential financial arrangements. Assess sanctions, adverse human-rights consequences, environmental risk and public procurement through the competent institutions. All proposals remain unverified.
+
+## v4.2 · Legal & institutional documentation atlas
+
+Find the new **Legal & documentation atlas** in the Research menu. It provides jurisdiction, category and text filters; a keyboard-accessible list; a separately scrolling evidence inspector; direct official publisher links; standalone Markdown notes, filtered-source-index Markdown, and JSON registry exports; and a review handoff to the Pathway Forge. Mobile menu now scrolls within its own drawer. Records distinguish original legal instruments from repositories and guidance, display date and change risk, and flag that document links are **not a validity certificate**. See `LEGAL_DOCUMENTATION_GUIDE.md` for usage and legal limits. No endorsement, legal advice, real-time legal updates, or full-text legal mirroring is implied.
+
+**v4.2 verification:** 8 JSON datasets; 59 legal reference records across 28 jurisdictions; automated Python schema and integrity tests and Chromium desktop/mobile route and export checks. Specific results are in `TEST_REPORT.md`.

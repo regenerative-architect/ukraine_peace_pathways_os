@@ -15,3 +15,8 @@
 **Privacy:** local case files remain browser-local unless explicitly exported or shared by the user. Static web hosting may have ordinary server access logs outside application control. Optional peer signaling reveals network metadata to service providers and connected peers.
 
 **Security:** CSP should be hardened by the host after reviewing the single inline JSON bootstrap and optional dynamic import. No production security certification was conducted. SHA-256 checks do not certify the publisher.
+
+
+## v4.2 legal directory validation
+
+After deploying, open `#/legal`, filter by jurisdiction and category, select a law record, open its official publisher link, export an evidence packet and select **Assess applicability in Forge**. Confirm the legal inspector and mobile navigation drawer scroll separately. On first online visit HTTPS/PWA may cache the local directory `data/legal-atlas.json`; test offline in DevTools and verify **only metadata** is readable without a network. The actual legal text pages must not be advertised as cached. Check URLs and legal effect against live authoritative official publishers before decision-making.

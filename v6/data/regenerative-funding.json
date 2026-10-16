@@ -1,0 +1,521 @@
+{
+  "schemaVersion": "4.1.0",
+  "asOf": "2026-10-16",
+  "classification": "INDEPENDENT CIVILIAN ECONOMIC RESEARCH — NO AUTHORIZATION, OFFERS, OR FUNDS",
+  "responsibilityStatement": "Russia initiated the full-scale invasion of Ukraine; the OS does not equate Russian financing of aggression with Ukrainian self-defence or external assistance consistent with international law. Accountability, reparations, sovereignty and victim rights remain non-negotiable boundaries of this analytic framework.",
+  "rules": [
+    "Humanitarian protection cannot depend on ceasefire bargains, sanctions relief or diplomatic concessions.",
+    "Pledged, appropriated, committed, disbursed and adjudicated compensation funds are different states. Do not add them together as available cash.",
+    "Sanctioned or restricted funds and parties require jurisdiction-specific legal review; no transfer routes or evasion tools.",
+    "Ukrainian government and affected communities control locally approved implementation; no coercive equal governance arrangement is assumed.",
+    "Reciprocal cooperation is contingent on competent authorization, explicit consent and independent verification.",
+    "The OS models public-interest options only; it never transfers money, makes solicitations, sends messages or predicts real actors’ preferences."
+  ],
+  "modes": [
+    {
+      "id": "parallel-now",
+      "label": "Parallel civilian investment now",
+      "description": "Separate lawful actions may proceed independently without bilateral permission."
+    },
+    {
+      "id": "reciprocal-conditional",
+      "label": "Conditioned reciprocal confidence-building",
+      "description": "Requires a narrowly specified authorized agreement and independently reviewed compliance."
+    },
+    {
+      "id": "post-agreement",
+      "label": "Post-agreement cooperation only",
+      "description": "Cross-party projects wait for legal settlement, safe access and competent approval."
+    }
+  ],
+  "funderKinds": [
+    {
+      "id": "russian-state",
+      "title": "Russian state and state-linked war finance",
+      "constraint": "Responsibility for aggression and the international claims/reparations framework are not exchangeable for co-investment or recognition."
+    },
+    {
+      "id": "ukrainian-state",
+      "title": "Ukrainian government and defensive budget",
+      "constraint": "Ukraine retains sovereignty and its right of self-defence; reconstruction and protection are not conditional on voluntary disarmament."
+    },
+    {
+      "id": "allied-states",
+      "title": "Ukraine-supporting states and public financing",
+      "constraint": "Defense and civilian aid streams have distinct legal purposes; scenario cannot simply reassign appropriations."
+    },
+    {
+      "id": "third-country-flows",
+      "title": "Third-country buyers, intermediaries and financiers",
+      "constraint": "Screen sanctions, beneficial ownership, export controls and conflict exposure before any engagement."
+    },
+    {
+      "id": "defense-industry",
+      "title": "Defense manufacturers, banks and suppliers",
+      "constraint": "Only voluntary, lawful civilian diversification with export control screening and worker protections."
+    },
+    {
+      "id": "multilateral-finance",
+      "title": "Multilateral development banks and trust funds",
+      "constraint": "Mandates, fiduciary obligations and government ownership constrain deployment."
+    },
+    {
+      "id": "private-capital",
+      "title": "Private capital, insurers and philanthropy",
+      "constraint": "Avoid profit extraction, exploitative debt, greenwashing, unconsented risk or displacement."
+    },
+    {
+      "id": "local-communities",
+      "title": "Ukrainian communities, cooperatives and municipalities",
+      "constraint": "Local consent, participation, national law, protection, and Ukrainian public-investment frameworks govern projects."
+    }
+  ],
+  "alternatives": [
+    {
+      "id": "reparations-ledger",
+      "title": "Evidence-first reparations and environmental recovery",
+      "stakeholderKinds": [
+        "russian-state",
+        "ukrainian-state",
+        "multilateral-finance"
+      ],
+      "cooperationMode": "post-agreement",
+      "fundingClass": "subject-to-legal-resolution",
+      "mechanism": "Maintain an auditable damage-claims-to-recovery sequence without treating victim compensation as negotiable sponsorship.",
+      "proposedFunding": "Potential adjudicated or otherwise legally established reparations; no principal release or confiscation is assumed.",
+      "steps": [
+        "Document environmental and infrastructure damages through accepted claimant channels.",
+        "Identify which claims are registered, assessed, and adjudicated separately.",
+        "Propose protected disbursement controls for Ukrainian-led recovery only after valid legal authority."
+      ],
+      "legalGate": "Claims recording is not a payment award. Avoid claims of bilateral consent, waivers of rights or settlement immunity.",
+      "metrics": [
+        "Eligible damage claims recorded by independent process (count, not paid claims)",
+        "Recovery projects with published independent audits (count)",
+        "Share of funded projects with community consultation (defined denominator)"
+      ],
+      "stopCondition": "Freeze proposed disbursement if authority, claimant rights, legal attribution, or asset title are disputed.",
+      "sourceIds": [
+        "rd4u-register-2026",
+        "rd4u-commission-2026",
+        "rdna5-2026"
+      ],
+      "classification": "UNVERIFIED INDEPENDENT POLICY OPTION — NOT APPROVED OR FUNDED"
+    },
+    {
+      "id": "dual-budget-windows",
+      "title": "Distinct defensive continuity and civilian recovery windows",
+      "stakeholderKinds": [
+        "ukrainian-state",
+        "allied-states",
+        "multilateral-finance"
+      ],
+      "cooperationMode": "parallel-now",
+      "fundingClass": "authorized-existing",
+      "mechanism": "Enable additional civilian reconstruction commitments without pressuring Ukraine to give up lawful defence or reclassifying restricted public budgets.",
+      "proposedFunding": "Existing authorized humanitarian, reconstruction, bilateral and multilateral appropriations, separately controlled.",
+      "steps": [
+        "Map appropriations and legal restrictions for defense and civilian recovery separately.",
+        "Identify eligible recovery projects through Ukrainian-led priorities and existing funders.",
+        "Publish an additionality and impact matrix reviewed by Ukrainian agencies and donors."
+      ],
+      "legalGate": "No automatic reallocation of security assistance; only duly authorized financing decisions.",
+      "metrics": [
+        "Civilian funding additionality versus a documented baseline",
+        "Approved repair projects completed after quality inspection",
+        "Number of civilian service users restored with defined methodology"
+      ],
+      "stopCondition": "Halt if budget shifts weaken civilian protection or misstate donor pledges as payments.",
+      "sourceIds": [
+        "worldbank-urtf-2026",
+        "rdna5-2026"
+      ],
+      "classification": "UNVERIFIED INDEPENDENT POLICY OPTION — NOT APPROVED OR FUNDED"
+    },
+    {
+      "id": "conditional-energy-infrastructure",
+      "title": "Mutual civilian energy protection and green-grid repair",
+      "stakeholderKinds": [
+        "russian-state",
+        "ukrainian-state",
+        "allied-states",
+        "multilateral-finance"
+      ],
+      "cooperationMode": "reciprocal-conditional",
+      "fundingClass": "voluntary-proposed",
+      "mechanism": "Pair independently verified non-attack commitments affecting civilian energy services with Ukrainian-led clean-grid restoration and microgrid resilience.",
+      "proposedFunding": "Authorized utility recovery grants, climate finance, and voluntary project financing; no quid pro quo for humanitarian rights.",
+      "steps": [
+        "Seek separately authorized technical consultations on civilian services.",
+        "Define safe delayed reporting and independent incident-review thresholds.",
+        "Advance Ukrainian-owned recovery procurement independent of unverifiable promises."
+      ],
+      "legalGate": "Party consent and credible monitoring required for reciprocal obligations; no acceptance of attacks on civilians outside deal scope.",
+      "metrics": [
+        "Verified civilian service interruption hours (baseline-normalized)",
+        "Independently assessed repairs reaching service",
+        "Share of new generation with resilience and environmental screening"
+      ],
+      "stopCondition": "Pause joint components after material unreviewed compliance breaches or unsafe infrastructure disclosures.",
+      "sourceIds": [
+        "worldbank-urtf-2026",
+        "undp-local-finance",
+        "rdna5-2026"
+      ],
+      "classification": "UNVERIFIED INDEPENDENT POLICY OPTION — NOT APPROVED OR FUNDED"
+    },
+    {
+      "id": "accredited-mine-food",
+      "title": "Accredited mine action to regenerative food systems",
+      "stakeholderKinds": [
+        "ukrainian-state",
+        "allied-states",
+        "multilateral-finance",
+        "local-communities"
+      ],
+      "cooperationMode": "parallel-now",
+      "fundingClass": "authorized-existing",
+      "mechanism": "Link nationally accredited mine-action land-release decisions to safe soil restoration, agroforestry, agricultural livelihoods and biodiversity recovery.",
+      "proposedFunding": "Authorized humanitarian mine-action grants, agriculture recovery investment and formally assessed outcome-financing pilots.",
+      "steps": [
+        "Partner with accredited mine-action authorities for non-sensitive, aggregate release milestones.",
+        "Design locally requested food/soil/watershed restoration on formally released land.",
+        "Audit livelihood effects, land rights, contamination safeguards and maintenance funding."
+      ],
+      "legalGate": "AI screening never authorizes land release; avoid publishing suspected hazard locations.",
+      "metrics": [
+        "Hectares formally released under national standards, aggregate",
+        "Area with independent contamination and soil baseline",
+        "Local producers with sustained market access after verified release"
+      ],
+      "stopCondition": "Stop physical projects without signed land release, community consultation, soil safety or independent safety review.",
+      "sourceIds": [
+        "undp-mine-finance",
+        "rdna5-2026"
+      ],
+      "classification": "UNVERIFIED INDEPENDENT POLICY OPTION — NOT APPROVED OR FUNDED"
+    },
+    {
+      "id": "demobilization-retraining",
+      "title": "Worker-safe industrial conversion and skills rebuilding",
+      "stakeholderKinds": [
+        "defense-industry",
+        "russian-state",
+        "ukrainian-state",
+        "local-communities"
+      ],
+      "cooperationMode": "post-agreement",
+      "fundingClass": "voluntary-proposed",
+      "mechanism": "Assess voluntary repurposing of industrial skills toward civilian infrastructure, decontamination equipment, accessible housing and public transport where sanctions and export controls permit.",
+      "proposedFunding": "Voluntary company investment, approved workforce programs, and lawful post-agreement recovery contracts.",
+      "steps": [
+        "Assess civilian skills and manufacturing capabilities at non-sensitive, non-operational level.",
+        "Require export-control and sanctions counsel before technology or funds move.",
+        "Offer protected worker training and independent product-impact audits."
+      ],
+      "legalGate": "No sanctions evasion, technology transfer prohibited by law, amnesty, or assumed Russian-party participation.",
+      "metrics": [
+        "Number of workers voluntarily requalified and retained",
+        "Verified share of compliant civilian contracts",
+        "Independent quality and human rights audit completion"
+      ],
+      "stopCondition": "Suspend on export-control violations, coercive recruitment, or diversion into prohibited military supply chains.",
+      "sourceIds": [
+        "sipri-2026-spending",
+        "undp-local-finance"
+      ],
+      "classification": "UNVERIFIED INDEPENDENT POLICY OPTION — NOT APPROVED OR FUNDED"
+    },
+    {
+      "id": "industrial-voluntary-dividends",
+      "title": "Voluntary regenerative R&D from defense-sector profits",
+      "stakeholderKinds": [
+        "defense-industry",
+        "private-capital",
+        "allied-states"
+      ],
+      "cooperationMode": "parallel-now",
+      "fundingClass": "voluntary-proposed",
+      "mechanism": "Invite lawful defense-sector businesses and investors to additionally finance open civilian resilience research and repair training without compromising defensive security obligations.",
+      "proposedFunding": "Voluntary incremental funds separately reported from procurement or military aid.",
+      "steps": [
+        "Disclose conflict-of-interest, beneficial-ownership and procurement links.",
+        "Fund open grants evaluated by civilian research and humanitarian institutions.",
+        "Audit additionality, avoid branding conflict profiteering as peace financing."
+      ],
+      "legalGate": "Donors gain no policy authority or immunity; export controls and anti-corruption checks govern.",
+      "metrics": [
+        "Incremental independently audited civilian R&D grants",
+        "Deployments independently used by authorized civilians",
+        "Intellectual property licenses permitting nondiscriminatory access"
+      ],
+      "stopCondition": "Terminate donor participation if contingent on favorable reporting, procurement preference or concealment.",
+      "sourceIds": [
+        "sipri-2026-spending",
+        "undp-green-2026"
+      ],
+      "classification": "UNVERIFIED INDEPENDENT POLICY OPTION — NOT APPROVED OR FUNDED"
+    },
+    {
+      "id": "energy-trade-transparency",
+      "title": "Sanction-compliant energy revenue transparency",
+      "stakeholderKinds": [
+        "russian-state",
+        "third-country-flows",
+        "private-capital"
+      ],
+      "cooperationMode": "reciprocal-conditional",
+      "fundingClass": "subject-to-legal-resolution",
+      "mechanism": "Explore independently verifiable reductions in conflict-financing opacity and fiscal incentives for lawful civilian recovery, without circumventing sanctions or changing responsibility.",
+      "proposedFunding": "No operational transfer: future legally approved funds or penalties subject to jurisdiction-specific review.",
+      "steps": [
+        "Map public regulatory restrictions and legally observable revenue channels at aggregate level.",
+        "Seek licensed oversight of any proposed escrow or restricted-account arrangement.",
+        "Create a compliance-first humanitarian spillover assessment and independent reporting."
+      ],
+      "legalGate": "Never promise release of frozen principal or permitted transactions with sanctioned persons.",
+      "metrics": [
+        "Independent sanctions compliance findings",
+        "Documented lawful origin of every committed funding stream",
+        "Civilian outcomes financed only after competent approvals"
+      ],
+      "stopCondition": "Block any route involving sanctioned-party transfer without a valid license or authorizing instrument.",
+      "sourceIds": [
+        "sipri-2026-spending",
+        "rd4u-commission-2026"
+      ],
+      "classification": "UNVERIFIED INDEPENDENT POLICY OPTION — NOT APPROVED OR FUNDED"
+    },
+    {
+      "id": "urban-circular-reconstruction",
+      "title": "Circular rebuilding from screened non-hazardous debris",
+      "stakeholderKinds": [
+        "ukrainian-state",
+        "multilateral-finance",
+        "private-capital",
+        "local-communities"
+      ],
+      "cooperationMode": "parallel-now",
+      "fundingClass": "authorized-existing",
+      "mechanism": "Compare reuse of professionally screened war debris with new extraction for reconstruction while protecting workers from explosive remnants, asbestos and industrial contamination.",
+      "proposedFunding": "Ukrainian project budgets, municipal recovery finance, external restoration grants, conditional private co-finance.",
+      "steps": [
+        "Require contamination and explosive-ordnance safety assessments before handling.",
+        "Evaluate independent material testing and procurement alternatives.",
+        "Track material recovery, safe-worker conditions, and lifecycle impact."
+      ],
+      "legalGate": "No reuse before qualified hazard assessment, Ukrainian permitting, and waste-chain compliance.",
+      "metrics": [
+        "Tonnes of certified reusable material (verified)",
+        "Life-cycle emissions against a defined alternative",
+        "Worker exposure incidents and material nonconformity"
+      ],
+      "stopCondition": "Stop if hazardous material is mishandled, procurement is opaque, or traceability fails.",
+      "sourceIds": [
+        "undp-debris-2026",
+        "ukraine-dream-2026"
+      ],
+      "classification": "UNVERIFIED INDEPENDENT POLICY OPTION — NOT APPROVED OR FUNDED"
+    },
+    {
+      "id": "municipal-food-water",
+      "title": "Municipal food and water sovereignty cooperatives",
+      "stakeholderKinds": [
+        "ukrainian-state",
+        "multilateral-finance",
+        "private-capital",
+        "local-communities"
+      ],
+      "cooperationMode": "parallel-now",
+      "fundingClass": "authorized-existing",
+      "mechanism": "Build locally requested, contamination-safe water, heating, orchards and community-food programs on Ukrainian-approved sites with maintenance plans and public procurement.",
+      "proposedFunding": "Existing municipal and humanitarian grants and legally approved community investment.",
+      "steps": [
+        "Confirm community-level priorities, land tenure and food safety requirements.",
+        "Use transparent Ukrainian public investment records for approved projects.",
+        "Contract verified local maintainers and independently measure service access."
+      ],
+      "legalGate": "Protected persons must not need to endorse any political settlement to receive food or water.",
+      "metrics": [
+        "Households with sustainably restored safe water access",
+        "Growing seasons with safe locally harvested crops",
+        "Independent maintenance funding coverage and uptime"
+      ],
+      "stopCondition": "Stop if source water/soils are unverified or residents lose rights or access.",
+      "sourceIds": [
+        "undp-local-finance",
+        "ukraine-dream-2026"
+      ],
+      "classification": "UNVERIFIED INDEPENDENT POLICY OPTION — NOT APPROVED OR FUNDED"
+    },
+    {
+      "id": "river-basin-repair",
+      "title": "Transboundary watershed and wetlands recovery",
+      "stakeholderKinds": [
+        "russian-state",
+        "ukrainian-state",
+        "multilateral-finance",
+        "local-communities"
+      ],
+      "cooperationMode": "post-agreement",
+      "fundingClass": "voluntary-proposed",
+      "mechanism": "Design eventual consent-based ecological monitoring and restoration for damaged watersheds, wetlands and riverbanks without prejudging legal status or damaging critical civilian water supply.",
+      "proposedFunding": "Proposed remediation contributions and formally approved environmental reconstruction grants.",
+      "steps": [
+        "Commission neutral baseline studies under Ukrainian law without sensitive geospatial release.",
+        "Compare ecological recovery to engineered reconstruction using independent impact assessment.",
+        "Draft a later-stage technical cooperation charter subject to sovereignty and security guarantees."
+      ],
+      "legalGate": "No shared site access or cross-border operations absent competent authorizations and safety conditions.",
+      "metrics": [
+        "Water quality relative to independently recorded baseline",
+        "Wetland habitat area after independent assessment",
+        "Safe civilian water supply continuity"
+      ],
+      "stopCondition": "Suspend if field work risks mine exposure, water access, or legitimizes unlawful territorial control.",
+      "sourceIds": [
+        "undp-green-2026",
+        "rdna5-2026"
+      ],
+      "classification": "UNVERIFIED INDEPENDENT POLICY OPTION — NOT APPROVED OR FUNDED"
+    },
+    {
+      "id": "veterans-voluntary-skills",
+      "title": "Voluntary veteran and disability-inclusive livelihoods",
+      "stakeholderKinds": [
+        "ukrainian-state",
+        "allied-states",
+        "private-capital",
+        "local-communities"
+      ],
+      "cooperationMode": "parallel-now",
+      "fundingClass": "authorized-existing",
+      "mechanism": "Support voluntary, trauma-informed rehabilitation, accessible work, repair apprenticeships and community services for people harmed by conflict.",
+      "proposedFunding": "Approved health, workforce and social protection budgets, philanthropy and grants.",
+      "steps": [
+        "Seek local health and disability organization review.",
+        "Create optional paid training leading to safe civilian jobs.",
+        "Measure retention and wellbeing without collecting identifiable medical records in the OS."
+      ],
+      "legalGate": "No forced demobilization, no employment conditioning of benefits, no exchange of patient or protected-person data.",
+      "metrics": [
+        "Voluntary enrollment and six-month retention",
+        "Accessibility of jobs and training independently audited",
+        "Reported participant satisfaction aggregated with privacy safeguards"
+      ],
+      "stopCondition": "Stop if privacy, informed consent, safety, or equitable access is compromised.",
+      "sourceIds": [
+        "worldbank-urtf-2026",
+        "undp-local-finance"
+      ],
+      "classification": "UNVERIFIED INDEPENDENT POLICY OPTION — NOT APPROVED OR FUNDED"
+    },
+    {
+      "id": "damage-to-investment-pipeline",
+      "title": "Claims-separated Ukrainian-led public investment pipeline",
+      "stakeholderKinds": [
+        "ukrainian-state",
+        "multilateral-finance",
+        "allied-states",
+        "private-capital"
+      ],
+      "cooperationMode": "parallel-now",
+      "fundingClass": "authorized-existing",
+      "mechanism": "Use Ukrainian planning and procurement systems to match independently assessed recovery priorities with available lawful financing, without conflating recorded losses and payable claims.",
+      "proposedFunding": "Available legitimate grants, loans and insurance; separately track any future legally authorized compensation.",
+      "steps": [
+        "Map Ukrainian-approved projects to documented baseline needs.",
+        "Categorize each financing source as pledged, committed, disbursed, or legally unresolved.",
+        "Create audit-friendly project review and public results records aligned with DREAM."
+      ],
+      "legalGate": "Registered damage claims are not an instantly spendable funding source; no automated financial transactions.",
+      "metrics": [
+        "Funded approved projects with independently verifiable project identifier",
+        "Median procurement-to-service time with baseline",
+        "Share of published contracts passing conflict-of-interest checks"
+      ],
+      "stopCondition": "Block if funding status is falsely presented, beneficiary consent absent, or ownership opaque.",
+      "sourceIds": [
+        "ukraine-dream-2026",
+        "rdna5-2026",
+        "rd4u-register-2026"
+      ],
+      "classification": "UNVERIFIED INDEPENDENT POLICY OPTION — NOT APPROVED OR FUNDED"
+    },
+    {
+      "id": "armistice-verified-incentive",
+      "title": "Verification-gated civilian economic confidence-building",
+      "stakeholderKinds": [
+        "russian-state",
+        "ukrainian-state",
+        "allied-states",
+        "multilateral-finance"
+      ],
+      "cooperationMode": "reciprocal-conditional",
+      "fundingClass": "subject-to-legal-resolution",
+      "mechanism": "Evaluate incremental, reversible economic cooperation only when lawfully agreed restraint is independently assessed and protective obligations remain unconditional.",
+      "proposedFunding": "Legally permissible incremental civilian grants; sanctions relief or sovereign assets only after competent legal decisions, if ever.",
+      "steps": [
+        "Define a narrow, civilian-protection outcome and independent evidence standard.",
+        "Draft distinct conditions for restraint compliance, humanitarian baseline access and project oversight.",
+        "Run independent civilian safety, legal and economic-externality review before any proposed benefit."
+      ],
+      "legalGate": "No financing architecture can grant immunity for aggression or compel Ukraine to waive rights or territorial claims.",
+      "metrics": [
+        "Independent incidents reviewed under an authorized mandate",
+        "Authorized cooperation windows meeting transparency requirements",
+        "Beneficiary-reported service quality, independently sampled"
+      ],
+      "stopCondition": "Suspend reciprocal economic components on serious verified violations; do not suspend legally owed humanitarian relief.",
+      "sourceIds": [
+        "rd4u-commission-2026",
+        "sipri-2026-spending",
+        "worldbank-urtf-2026"
+      ],
+      "classification": "UNVERIFIED INDEPENDENT POLICY OPTION — NOT APPROVED OR FUNDED"
+    },
+    {
+      "id": "civil-society-independent-audit",
+      "title": "Independent civilian watchdogs for funding and recovery",
+      "stakeholderKinds": [
+        "allied-states",
+        "multilateral-finance",
+        "private-capital",
+        "local-communities"
+      ],
+      "cooperationMode": "parallel-now",
+      "fundingClass": "voluntary-proposed",
+      "mechanism": "Fund Ukrainian independent audit, investigative journalism, accessible grievance channels and local governance without giving donors veto control over findings.",
+      "proposedFunding": "Voluntary transparency grants, properly constituted donor audit budgets and lawful unrestricted philanthropy.",
+      "steps": [
+        "Create conflict-of-interest and independent reviewer policies.",
+        "Fund public aggregate transparency reports alongside safe confidential whistleblowing channels.",
+        "Establish corrective action procedure independent of funders and contractors."
+      ],
+      "legalGate": "Protect anonymity and retaliation risk; avoid sharing protected-person information.",
+      "metrics": [
+        "Published audit findings with remediation status",
+        "Percentage of projects with accessible grievance processes",
+        "Verified corrective actions completed with independent sign-off"
+      ],
+      "stopCondition": "Halt if whistleblower security or reviewer independence is impaired.",
+      "sourceIds": [
+        "ukraine-dream-2026",
+        "worldbank-urtf-2026"
+      ],
+      "classification": "UNVERIFIED INDEPENDENT POLICY OPTION — NOT APPROVED OR FUNDED"
+    }
+  ],
+  "sourceIds": [
+    "rd4u-commission-2026",
+    "rd4u-register-2026",
+    "rdna5-2026",
+    "sipri-2026-spending",
+    "ukraine-dream-2026",
+    "undp-debris-2026",
+    "undp-green-2026",
+    "undp-local-finance",
+    "undp-mine-finance",
+    "worldbank-urtf-2026"
+  ]
+}

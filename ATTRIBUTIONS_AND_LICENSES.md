@@ -19,3 +19,8 @@ Methodological references (not endorsements): [OSCE Vienna Document](https://www
 ## v4.1 research evidence (links; not copied proprietary source material)
 
 World Bank RDNA5, World Bank Ukraine URTF, UNDP Ukraine Local Development Finance Facility, Council of Europe Register of Damage/Claims Commission, Ukraine DREAM, UNDP circular debris study and mine action financing study, and SIPRI military expenditure fact sheets inform the independently authored regeneration module. Their inclusion does not mean they endorse this OS. The module contains no external proprietary program source code.
+
+
+## v4.2 legal directory references
+
+This project indexes links and descriptive metadata for official national legislative publishers, treaty registries, supranational legislation services, ICRC/IAEA/OSCE reference sites and other legal authorities. The original legal texts, translations and databases remain governed by their publishers' attribution, authenticity and reproduction terms. No such body endorses this OS. Catalog URLs are navigation aids, not redistributed legal content or current-in-force certification.
