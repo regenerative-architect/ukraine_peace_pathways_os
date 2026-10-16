@@ -1,3 +1,7 @@
+# v4.1 — Conflict-to-Regeneration expansion (2026-10-16)
+
+Added 14 finance and ecological recovery alternatives with explicit funder categories, cooperation gates and law/verification/financial classifications. Added independently scrollable screen and exportable expert review packets. Added schema, build semantic validation, and new evidence from SIPRI/World Bank/UNDP/Council of Europe/Ukrainian DREAM. Maintained all v4 components, including independent Forge inspector scrolling.
+
 # Release notes — v4.0.0 (16 October 2026)
 
 - **Merged v3 base** (all stakeholder, issue, negotiations, monitoring, decisions, casework, peer-adapter and institutional policy content) with **v2 Pathway Forge** concepts and dependency validation.

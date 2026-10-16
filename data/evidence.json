@@ -328,5 +328,105 @@
     "claim": "A narrow repair-related truce was reported around restoring electrical supply at Zaporizhzhia.",
     "url": "https://www.reuters.com/world/russias-rosatom-says-truce-place-zaporizhzhia-power-supply-repairs-2026-10-15/",
     "implication": "Use narrow, monitored repair access as a feasibility case rather than claiming a countrywide ceasefire."
+  },
+  {
+    "id": "sipri-2026-spending",
+    "name": "SIPRI World Military Expenditure 2025",
+    "date": "2026-04-27",
+    "class": "RESEARCH / ESTIMATE",
+    "confidence": "Source-backed, applicability context-dependent",
+    "claim": "SIPRI estimates 2025 global military spending at $2,887 billion; Russian spending $190 billion and Ukrainian spending $84.1 billion. Figures are not an available peace dividend.",
+    "url": "https://www.sipri.org/media/press-release/2026/global-military-spending-rise-continues-european-and-asian-expenditures-surge",
+    "implication": "Model fiscal opportunity costs, not a transferable funding pot."
+  },
+  {
+    "id": "rdna5-2026",
+    "name": "Joint Ukraine Rapid Damage and Needs Assessment 5",
+    "date": "2026-02-23",
+    "class": "JOINT INSTITUTIONAL ASSESSMENT",
+    "confidence": "Source-backed, applicability context-dependent",
+    "claim": "World Bank, Ukraine, EU and UN estimate nearly $588 billion in ten-year recovery and reconstruction needs as of Dec 31 2025.",
+    "url": "https://www.worldbank.org/en/news/press-release/2026/02/23/updated-ukraine-recovery-and-reconstruction-needs-assessment-released",
+    "implication": "Prioritize Ukrainian-led recovery needs and avoid fictitious finance commitments."
+  },
+  {
+    "id": "undp-local-finance",
+    "name": "UNDP Ukraine Local Development Finance Facility",
+    "date": "2026-02-20",
+    "class": "INSTITUTIONAL PROGRAM",
+    "confidence": "Source-backed, applicability context-dependent",
+    "claim": "UNDP, Ukrainian Finance Ministry and National Development Institution launched a local development financing facility for priority municipal, energy, environmental and SME investments.",
+    "url": "https://www.undp.org/ukraine/press-releases/undp-and-national-development-institution-launch-local-development-finance-facility-drive-ukraines-sustainable-recovery",
+    "implication": "Existing institutional reference for lawful mobilization of locally directed finance; not a PRA partner."
+  },
+  {
+    "id": "worldbank-urtf-2026",
+    "name": "World Bank Ukraine Relief, Recovery, Reconstruction and Reform Trust Fund",
+    "date": "2026-08-10",
+    "class": "INSTITUTIONAL PROGRAM",
+    "confidence": "Source-backed, applicability context-dependent",
+    "claim": "World Bank URTF channels donor support into Ukraine Government-led recovery priorities, including power, housing, health and agriculture.",
+    "url": "https://www.worldbank.org/en/programs/urtf",
+    "implication": "Consider established grant/donor channels rather than claiming new disbursement authority."
+  },
+  {
+    "id": "rd4u-register-2026",
+    "name": "Council of Europe Register of Damage for Ukraine",
+    "date": "2026-09-30",
+    "class": "LEGAL/INSTITUTIONAL PROGRAM",
+    "confidence": "Source-backed, applicability context-dependent",
+    "claim": "The register records eligible claims and evidence, including environmental harm; it does not award compensation or make payments.",
+    "url": "https://www.coe.int/en/web/kyiv/-/register-of-damage-for-ukraine-now-fully-open-for-compensation-claims",
+    "implication": "Separate evidence preservation and adjudicated reparations from discretionary bargaining and asset-release decisions."
+  },
+  {
+    "id": "rd4u-commission-2026",
+    "name": "Council of Europe International Claims Commission status",
+    "date": "2026-10-06",
+    "class": "LEGAL/INSTITUTIONAL STATUS",
+    "confidence": "Source-backed, applicability context-dependent",
+    "claim": "The Claims Commission is preparatory and not yet an operating compensation payer; its convention has entry-into-force requirements.",
+    "url": "https://www.coe.int/en/web/portal/international-claims-commission-for-ukraine-",
+    "implication": "Do not imply claims have been adjudicated or reparations paid."
+  },
+  {
+    "id": "undp-mine-finance",
+    "name": "UNDP Study: Enhancing Mine Action Finance in Ukraine",
+    "date": "2024-10-15",
+    "class": "FEASIBILITY STUDY",
+    "confidence": "Source-backed, applicability context-dependent",
+    "claim": "Examines sustainability-linked bonds and outcome-based partnerships for safe mine action and environmental/agricultural recovery; not implemented funding commitments.",
+    "url": "https://www.undp.org/ukraine/publications/enhancing-mine-action-finance-ukraine",
+    "implication": "Outcome funding may be evaluated, but clearance and land release need accredited independent authority."
+  },
+  {
+    "id": "ukraine-dream-2026",
+    "name": "Ukraine DREAM Public Investment Management System",
+    "date": "2026-10-16",
+    "class": "INSTITUTIONAL PUBLIC PLATFORM",
+    "confidence": "Source-backed, applicability context-dependent",
+    "claim": "DREAM tracks Ukrainian public investments across planning, financing, contracting and reporting.",
+    "url": "https://dream.gov.ua/en",
+    "implication": "Prefer alignment and interoperability with state-led transparency frameworks rather than a replacement ledger."
+  },
+  {
+    "id": "undp-debris-2026",
+    "name": "UNDP Ukraine circular debris recovery study",
+    "date": "2026-06-09",
+    "class": "INSTITUTIONAL STUDY",
+    "confidence": "Source-backed, applicability context-dependent",
+    "claim": "UNDP published a study evaluating market-based recycling and reuse of war-related building debris; materials require hazardous-contamination screening.",
+    "url": "https://www.undp.org/ukraine/press-releases/ukraine-could-recover-82-million-tonnes-secondary-raw-materials-war-generated-debris-undp-study-reveals",
+    "implication": "Model safe circular construction with mine/asbestos/contaminant safeguards."
+  },
+  {
+    "id": "undp-green-2026",
+    "name": "UNDP Environment for Ukraine Forum",
+    "date": "2026-06-11",
+    "class": "INSTITUTIONAL PROGRAM",
+    "confidence": "Source-backed, applicability context-dependent",
+    "claim": "Ukrainian authorities and partners discussed green recovery, ecological policy, and EU environmental alignment.",
+    "url": "https://www.undp.org/ukraine/press-releases/ukraines-green-recovery-government-partners-and-experts-agree-key-priorities-environmental-forum",
+    "implication": "Tie regenerative projects to Ukrainian policy priorities and review."
   }
 ]

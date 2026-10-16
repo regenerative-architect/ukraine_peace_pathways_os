@@ -1,0 +1,25 @@
+{
+  "version": "4.0.0",
+  "asOf": "2026-10-16",
+  "algorithm": "SHA-256",
+  "meaning": "Integrity digest only; SHA-256 does not prove author or authorization.",
+  "files": {
+    "index.html": "a008773119244c3f61b9f5a4478221501a97f1abe469868790f2a451ebc78a00",
+    "app.js": "b15ebe04817b59ddc74d45189c9db20bdb484d9405cc13fe364596890f699792",
+    "styles.css": "fec7f0dbffe081172fe6f149ab8c1ec889fcf74522cc35934fd2018fc46b1da9",
+    "sw.js": "f107c551db0454a297103c3ac59382e3c49ecba76a7f289ff26cd33b438db872",
+    "index.template.html": "63bc875aade64363ba114edcd74774b2d5826a59150ae5c7fc7beb150470d581",
+    "data/entities.json": "a371871806bd3e26e51dc0f98ec54eef59c6057f1a206a59eefccc345171b6e4",
+    "data/evidence.json": "e9e019e8fc173a204c579953b20051db8f381c16eafc5f08ddbc2bf7b8376bb0",
+    "data/guide-bank.json": "0215ace22d5fbb6ccbd5b684d3ae0b138d7bd8acd36468c1c8f3445a4605c58a",
+    "data/pathway-catalog.json": "c2afb941d6b208e1dff7a8cd5552c46cc644e021d42e422ca830be51e5b70e06",
+    "data/solutions.json": "9721106f8ba85c4a4334677e120351f253b11340c5eeebc88322abb02445a61d",
+    "data/demilitarization.json": "11bc1079bdca5907b1af6f67518d5abc800f6a8c7d1486ad4055e22b7cdb7239",
+    "schemas/entities.schema.json": "26447e9f6c59cb3cd3ec822a9077f210334bdedf8c061ad2ffdb8c049e4f4438",
+    "schemas/evidence.schema.json": "f435f2bc51b9dc32e50f5752d5502bc30509daa03624431494be9b69b19e8dee",
+    "schemas/guide-bank.schema.json": "3c7cb17db78712cee6fdf25a941cc8dda421f1f069bf8a98ae5a091370cb9559",
+    "schemas/pathway-catalog.schema.json": "049a7852630abe165bfac301398765b7553153c506957b134a0a3fc9a9e73065",
+    "schemas/solutions.schema.json": "752b001ed485de4fe41e3d7e0bab56c428422fcf41a7b7dd8a68f3eb7fcc688f",
+    "schemas/demilitarization.schema.json": "9bd5b15429e0f139ffc8749b029c8806e8c9fb897b6f0edb246452dfa63e0237"
+  }
+}

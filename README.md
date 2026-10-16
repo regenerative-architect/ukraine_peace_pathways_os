@@ -1,4 +1,4 @@
-# Peace Pathways OS v4 — Demilitarization & Civilian Protection Commons
+# Peace Pathways OS v4.1 — Demilitarization & Civilian Protection Commons
 
 **Foster + Navi / Planetary Restoration Archive · 16 October 2026**
 
@@ -29,6 +29,7 @@ python build.py
 | Executive brief | Clarifies limitations, public safety and research context |
 | Diplomatic constraints | Consent, applicable law and veto points |
 | Multi-track matrix | Three tracks, three phases and thirteen research portfolios |
+| Regenerative finance & conflict-funder alternatives | 14 separately gated, civilian-first options grouped by legal financing class and potential funder roles |
 | Demilitarization pathways | Ten conditional civilian protection, arms-restraint, verification and recovery scenarios |
 | Pathway Forge | Eight generated interdisciplinary options per batch, nine evidence-gated prompt stages and independent right-hand scrolling |
 | 747 research templates | Local offline search, inspector, and case creation |
@@ -42,7 +43,7 @@ python build.py
 
 ## Source data and build checks
 
-`data/entities.json` (75), `evidence.json` (33), `guide-bank.json` (747), `pathway-catalog.json` (13 pathways), `solutions.json` (45 dossiers) and new `demilitarization.json` (10 scenarios; 8 review-audience types). All six have Draft 2020-12 schemas. `build.py --check` validates type/schema, duplicate IDs, references, units/metrics as represented by schemas, three tracks and phases, no unverified status disguised as authorization, and dependency cycles. A bad validation run does not overwrite `index.html`. A successful build emits a SHA-256 manifest; hash checks **do not prove authorship**.
+`data/entities.json` (75), `evidence.json` (33), `guide-bank.json` (747), `pathway-catalog.json` (13 pathways), `solutions.json` (45 dossiers) and new `demilitarization.json` (10 scenarios; 8 review-audience types), and `regenerative-funding.json` (14 interventions, 8 funder categories and 3 separate cooperation gates). All six have Draft 2020-12 schemas. `build.py --check` validates type/schema, duplicate IDs, references, units/metrics as represented by schemas, three tracks and phases, no unverified status disguised as authorization, and dependency cycles. A bad validation run does not overwrite `index.html`. A successful build emits a SHA-256 manifest; hash checks **do not prove authorship**.
 
 All 747 guides are embedded into the generated `index.html` to support searching on `file://` and offline. The HTML is kept below 2 MB. The guides are research **templates**, not 747 externally reviewed plans.
 
@@ -75,3 +76,13 @@ Use public information and voluntary, legally authorized review. Explicitly sepa
 ## Attributions and licenses
 
 Code and original interface content: Foster + Navi / Planetary Restoration Archive, MIT license. Retained v3 source architecture and v2 conceptual forge features as adapted, not external proprietary code. Third-party sources are linked rather than redistributed. Optional Trystero is dynamically loaded from a third-party CDN only when a user expressly joins a peer room; inspect its upstream license, availability and security before use. See `ATTRIBUTIONS_AND_LICENSES.md` and `LICENSE`.
+
+## v4.1 · Conflict-to-Regeneration research module
+
+This edition adds 14 research-stage financial and ecological alternatives aimed at conflict-related financing ecosystems. It differentiates Russian government funding for aggression from Ukraine's lawful self-defence and supporting donor actions; does not presume Ukraine should disarm or waive rights; and separates three legal implementation horizons: (1) parallel civilian recovery work now, (2) reciprocal commitments only after competent parties agree and independent verification is defined, and (3) post-agreement cooperation under applicable law.
+
+**Not a solicitation, project escrow, sanctions license, or fund-transfer platform.** The user can filter eligible actor *categories*, inspect detailed mechanisms and quantifiable evaluation suggestions, and export a dated independent-review Markdown packet. No current commitments or institutional endorsement are inferred. Existing RDNA5, World Bank URTF, UNDP local financing, Council of Europe damage register and DREAM are contextual precedents. Restricted assets, proposed financing, approved grants and paid reparations are kept legally distinct.
+
+The right-hand Forge panel remains independently scrollable; the regenerative-finance dossier has its own independent scrolling. All updates are included in build/source validation, hashed manifest and service-worker versioned cache, and retain offline `file://` core use.
+
+**Safety:** Public analysis only. Do not send identifiable protected-person data, classified details, real-time infrastructure coordinates, sanctioned transfers or confidential financial arrangements. Assess sanctions, adverse human-rights consequences, environmental risk and public procurement through the competent institutions. All proposals remain unverified.

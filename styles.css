@@ -24,3 +24,11 @@ h1{font-size:clamp(1.75rem,3vw,2.5rem);line-height:1.16;margin:8px 0 14px}h2{fon
 .sidebar-search{display:none;color:var(--navfg);font-size:.78rem;margin:4px 8px 16px}
 .sidebar-search input{display:block;margin-top:6px;width:100%;max-width:100%;min-width:0;padding:9px;color:var(--ink);background:var(--paper);border:1px solid var(--border);border-radius:8px;font-size:.95rem}
 @media(max-width:600px){.topbar .search{display:none}.sidebar-search{display:block}.identity strong{font-size:.74rem}.topright{margin-left:auto}}
+
+/* V4.1 — finance options: self-scrolling reference panel; no forced scroll coupling. */
+.regen-layout{display:grid;grid-template-columns:minmax(280px,.88fr) minmax(0,1.12fr);align-items:start;gap:18px}
+.regen-list{max-height:calc(100dvh - 180px);min-height:320px;overflow-y:auto;overscroll-behavior:contain;scrollbar-width:thin}
+.regen-inspector{position:sticky;top:86px;height:calc(100dvh - 105px);min-height:350px;overflow-y:auto;overscroll-behavior:contain;scrollbar-gutter:stable;touch-action:pan-y;min-width:0;overflow-wrap:anywhere}
+.regen-inspector .actions{flex-wrap:wrap}
+@media(max-width:980px){.regen-layout{grid-template-columns:1fr}.regen-list{max-height:45dvh;min-height:0}.regen-inspector{position:relative;top:auto;height:55dvh;max-height:660px;min-height:320px}}
+@media print{.regen-layout{display:block}.regen-inspector,.regen-list{height:auto;max-height:none;overflow:visible;position:static}}

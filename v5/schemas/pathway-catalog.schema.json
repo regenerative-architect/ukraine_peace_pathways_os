@@ -1,0 +1,264 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://planetaryrestorationarchive.com/schemas/pathway-catalog.schema.json",
+  "title": "pathway-catalog",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "asOf",
+    "status",
+    "trackDefinitions",
+    "phases",
+    "pathways"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "type": "string",
+      "minLength": 1
+    },
+    "asOf": {
+      "type": "string",
+      "format": "date"
+    },
+    "status": {
+      "type": "string",
+      "minLength": 1
+    },
+    "trackDefinitions": {
+      "type": "array",
+      "minItems": 3,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "title",
+          "scope",
+          "decisionOwners",
+          "nondelegable"
+        ],
+        "properties": {
+          "id": {
+            "enum": [
+              "t1",
+              "t2",
+              "t3"
+            ]
+          },
+          "title": {
+            "type": "string",
+            "minLength": 1
+          },
+          "scope": {
+            "type": "string",
+            "minLength": 1
+          },
+          "decisionOwners": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "nondelegable": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "additionalProperties": true
+      }
+    },
+    "phases": {
+      "type": "array",
+      "minItems": 3,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "title",
+          "objective",
+          "entryConditions",
+          "exitCriteria",
+          "fallback"
+        ],
+        "properties": {
+          "id": {
+            "enum": [
+              "p1",
+              "p2",
+              "p3"
+            ]
+          },
+          "title": {
+            "type": "string",
+            "minLength": 1
+          },
+          "objective": {
+            "type": "string",
+            "minLength": 1
+          },
+          "entryConditions": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "exitCriteria": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "fallback": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "additionalProperties": true
+      }
+    },
+    "pathways": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "title",
+          "trackId",
+          "phaseId",
+          "solutionIds",
+          "hypothesis",
+          "mechanisms",
+          "preconditions",
+          "riskMitigations",
+          "metricIds",
+          "sourceIds",
+          "vetoPoints",
+          "incentiveTests",
+          "fallback",
+          "reviewStatus"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9_-]*$"
+          },
+          "title": {
+            "type": "string",
+            "minLength": 1
+          },
+          "trackId": {
+            "enum": [
+              "t1",
+              "t2",
+              "t3"
+            ]
+          },
+          "phaseId": {
+            "enum": [
+              "p1",
+              "p2",
+              "p3"
+            ]
+          },
+          "solutionIds": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "pattern": "^[a-z][a-z0-9_-]*$"
+            }
+          },
+          "hypothesis": {
+            "type": "string",
+            "minLength": 1
+          },
+          "mechanisms": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "preconditions": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "riskMitigations": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object"
+            }
+          },
+          "metricIds": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "pattern": "^[a-z][a-z0-9_-]*$"
+            }
+          },
+          "sourceIds": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "pattern": "^[a-z][a-z0-9_-]*$"
+            }
+          },
+          "vetoPoints": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "incentiveTests": {
+            "type": "array",
+            "minItems": 2,
+            "items": {
+              "type": "object",
+              "required": [
+                "actor",
+                "question"
+              ],
+              "properties": {
+                "actor": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "question": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "additionalProperties": true
+            }
+          },
+          "fallback": {
+            "type": "string",
+            "minLength": 1
+          },
+          "reviewStatus": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": false
+}
