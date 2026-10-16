@@ -1,0 +1,331 @@
+{
+  "schemaVersion": "4.0.0",
+  "asOf": "2026-10-16",
+  "classification": "CIVILIAN RESEARCH / CONDITIONAL DEMILITARIZATION, NEVER MANDATE",
+  "principles": [
+    "Rights and legal sovereignty cannot be bargained away by this tool.",
+    "A ceasefire or weapons-restraint proposal does not constitute disarmament or settlement.",
+    "All inter-party obligations require competent party consent and credible verification.",
+    "Observers, IAEA, OSCE, UN and NGOs have only the authority their mandates provide.",
+    "No tactical coordinates, targeting support, protected-person data or live monitoring telemetry.",
+    "Civilian safety, voluntary participation, ecology and anti-corruption are independently reviewed."
+  ],
+  "scenarioBlocks": [
+    {
+      "id": "civilian-infrastructure-restraint",
+      "title": "Protected services and reciprocal restraint",
+      "trackId": "t1",
+      "phaseId": "p1",
+      "solutionIds": [
+        "energy-truce",
+        "winter-energy",
+        "nuclear-safety"
+      ],
+      "dependencyIds": [
+        "incident-verification",
+        "energy-truce"
+      ],
+      "objective": "Reduce attacks affecting essential civilian power, water, heat, hospitals and communications without compromising civilian protection obligations.",
+      "proposedReviewers": "Proposed negotiating parties and independent humanitarian technical assessors",
+      "reciprocity": "A jointly documented sector-specific reciprocal commitment, separately verified through lawful channels.",
+      "verification": "Publicly defined covered facilities and scope; independently sampled disruption trends; contested-incident escalation within agreed timelines.",
+      "limitations": "A declaration alone cannot establish compliance. Avoid publishing sensitive infrastructure or monitoring locations.",
+      "metrics": "Civilian service interruption duration, civilian harm reports and verified access approvals; specify baseline and uncertainty.",
+      "classification": "UNVERIFIED POLICY SCENARIO — no agreement, authority or field status implied"
+    },
+    {
+      "id": "nuclear-risk-reduction",
+      "title": "Nuclear-site safety and repair access",
+      "trackId": "t1",
+      "phaseId": "p1",
+      "solutionIds": [
+        "nuclear-safety-zone",
+        "nuclear-safety"
+      ],
+      "dependencyIds": [
+        "nuclear-safety",
+        "incident-verification"
+      ],
+      "objective": "Protect nuclear safety functions and safe repair access, with no claim of coercive authority by technical inspectors.",
+      "proposedReviewers": "Relevant state authorities, plant safety personnel, regulators and IAEA subject to actual mandate",
+      "reciprocity": "Mutually agreed limitations on acts jeopardizing nuclear safety, and safe access for critical repairs.",
+      "verification": "Independent technical safety status; electricity supply reliability; verified permission for repairs.",
+      "limitations": "IAEA monitoring is not enforcement; data on sensitive systems must remain protected.",
+      "metrics": "Off-site power availability and independently confirmed safety/repair milestones.",
+      "classification": "UNVERIFIED POLICY SCENARIO — no agreement, authority or field status implied"
+    },
+    {
+      "id": "armistice-verification",
+      "title": "Ceasefire verification and incident dispute process",
+      "trackId": "t1",
+      "phaseId": "p1",
+      "solutionIds": [
+        "verified-ceasefire",
+        "sensor-verification",
+        "incident-verification"
+      ],
+      "dependencyIds": [
+        "incident-verification"
+      ],
+      "objective": "Design an authorized, civilian-safe monitoring, evidence retention, hotline and violation review framework.",
+      "proposedReviewers": "Ukraine and Russia through authorized channels; independent observers only if formally mandated",
+      "reciprocity": "Joint definitions and signed commitments are prerequisites to considering separation or ceasefire lines.",
+      "verification": "Authenticated delayed aggregate reporting, independent incident review and right of reply.",
+      "limitations": "Former OSCE SMM closed in 2022. A new mandate and safety arrangements are essential; no live tactical feeds.",
+      "metrics": "Proportion of independently reviewable alleged incidents; access refusals; defined resolution time.",
+      "classification": "UNVERIFIED POLICY SCENARIO — no agreement, authority or field status implied"
+    },
+    {
+      "id": "weapons-separation",
+      "title": "Reciprocal heavy-weapons restraint feasibility",
+      "trackId": "t1",
+      "phaseId": "p1",
+      "solutionIds": [
+        "artillery-separation-30km",
+        "sensor-verification"
+      ],
+      "dependencyIds": [
+        "verified-ceasefire",
+        "sensor-verification"
+      ],
+      "objective": "Compare candidate restraints on heavy weapons as reciprocal and reversible hypotheses, not imposed territorial concessions.",
+      "proposedReviewers": "Authorized negotiating and implementing parties; independent monitors if invited and legally mandated",
+      "reciprocity": "Consider a 30 km study assumption only after agreement on what is measured, geographic scope and protection of civilians.",
+      "verification": "Delayed aggregated compliance observations and structured dispute resolution, without sharing live troop positions.",
+      "limitations": "Specific distance is not agreed or independently established as optimal; no tactical coordinates, targeting data or deployment instructions.",
+      "metrics": "Percentage of defined restraints independently confirmed under a mandate; incidents by category; civilian safety review.",
+      "classification": "UNVERIFIED POLICY SCENARIO — no agreement, authority or field status implied"
+    },
+    {
+      "id": "humanitarian-exchanges",
+      "title": "Protected-person exchanges and family tracing",
+      "trackId": "t1",
+      "phaseId": "p1",
+      "solutionIds": [
+        "wounded-exchange",
+        "prisoner-exchanges",
+        "civilian-detainee-release",
+        "children-reunification"
+      ],
+      "dependencyIds": [
+        "prisoner-exchanges",
+        "missing-persons"
+      ],
+      "objective": "Enable safe humanitarian contact, independently safeguarded exchanges and missing-person tracing under applicable law.",
+      "proposedReviewers": "Relevant parties and neutral humanitarian organizations only with their explicit consent",
+      "reciprocity": "Separate legally required protection of civilians, wounded people and detainees from political concessions.",
+      "verification": "Independent humanitarian reporting using aggregate indicators; confidential identifying data never published.",
+      "limitations": "No coercive conditionality, public lists of identifiable protected people or unsafe movement details.",
+      "metrics": "Safely completed transfers against independently confirmed, privacy-preserving baselines.",
+      "classification": "UNVERIFIED POLICY SCENARIO — no agreement, authority or field status implied"
+    },
+    {
+      "id": "maritime-civilian-access",
+      "title": "Civilian maritime access and de-risking",
+      "trackId": "t1",
+      "phaseId": "p1",
+      "solutionIds": [
+        "maritime-civilian-corridor",
+        "black-sea-safety"
+      ],
+      "dependencyIds": [
+        "incident-verification",
+        "black-sea-safety"
+      ],
+      "objective": "Explore lawful merchant-shipping safety protocols compatible with sovereignty, navigation law and insurer requirements.",
+      "proposedReviewers": "Flag states, competent maritime regulators, shipping owners, IMO and affected parties as authorized",
+      "reciprocity": "Any humanitarian maritime route requires explicit coordination, security assurance, and navigational safety assessment.",
+      "verification": "Aggregate publicly available AIS patterns corroborated with independent maritime records and protected commercial information.",
+      "limitations": "AIS gaps and deliberate manipulation mean vessel tracks alone cannot prove safety; no autonomous passage authorization.",
+      "metrics": "Confirmed safe merchant passages and independently documented shipping incidents; no live ship targeting data.",
+      "classification": "UNVERIFIED POLICY SCENARIO — no agreement, authority or field status implied"
+    },
+    {
+      "id": "transparent-arms-control",
+      "title": "Longer-term arms transparency and de-escalation",
+      "trackId": "t2",
+      "phaseId": "p2",
+      "solutionIds": [
+        "security-guarantees",
+        "sovereignty-framework"
+      ],
+      "dependencyIds": [
+        "verified-ceasefire"
+      ],
+      "objective": "Develop non-prejudicial confidence-building and arms transparency scenarios with voluntary reporting.",
+      "proposedReviewers": "Competent national governments and authorized international forums",
+      "reciprocity": "Review OSCE Vienna Document practices while respecting current validity, sovereignty and parties’ decision authority.",
+      "verification": "Mutual information exchange formats and appropriately protected independent compliance reviews.",
+      "limitations": "Transparency cannot substitute for credible security, nor justify imposing unilateral vulnerability.",
+      "metrics": "Frequency of agreed, independently verified information exchanges and formal dispute resolutions.",
+      "classification": "UNVERIFIED POLICY SCENARIO — no agreement, authority or field status implied"
+    },
+    {
+      "id": "humanitarian-mine-action",
+      "title": "Certified mine action and safe land release",
+      "trackId": "t3",
+      "phaseId": "p3",
+      "solutionIds": [
+        "ai-assisted-mine-action",
+        "mine-clearance"
+      ],
+      "dependencyIds": [
+        "mine-clearance"
+      ],
+      "objective": "Prioritize civilian and agricultural return through community-led survey and accredited clearance with AI as decision support only.",
+      "proposedReviewers": "Ukrainian mine-action authorities, certified operators, affected communities",
+      "reciprocity": "Require IMAS-compliant assessment, accreditation, quality control and documented land-release authority.",
+      "verification": "Field validation, accredited quality assurance and lawful land release; AI screening is not clearance.",
+      "limitations": "No unmanned autonomous explosive clearance instructions; no public mine coordinates or hazard-sensitive records.",
+      "metrics": "Documented safe hectares released through approved procedures, independently sampled QA outcomes.",
+      "classification": "UNVERIFIED POLICY SCENARIO — no agreement, authority or field status implied"
+    },
+    {
+      "id": "veteran-community-return",
+      "title": "Demobilization, recovery and reintegration safeguards",
+      "trackId": "t3",
+      "phaseId": "p3",
+      "solutionIds": [
+        "veteran-reintegration",
+        "refugee-returns",
+        "shelter-health"
+      ],
+      "dependencyIds": [
+        "veteran-reintegration"
+      ],
+      "objective": "Support voluntary survivor-centered reintegration alongside security guarantees and public services.",
+      "proposedReviewers": "Competent Ukrainian institutions, communities, independent health and protection experts",
+      "reciprocity": "Adapt UN DDR standards cautiously; they do not imply that the two states have authorized a DDR mission.",
+      "verification": "Service access, voluntary participation, privacy-preserving outcome review and grievance pathways.",
+      "limitations": "Avoid forced disarmament, coerced demobilization, stigmatizing labels or linking essential services to military concessions.",
+      "metrics": "Voluntary access to services, continuity of care, reported social reintegration and safeguarded long-term follow-up.",
+      "classification": "UNVERIFIED POLICY SCENARIO — no agreement, authority or field status implied"
+    },
+    {
+      "id": "regenerative-reconstruction",
+      "title": "Ecological and economic recovery as peace dividends",
+      "trackId": "t3",
+      "phaseId": "p3",
+      "solutionIds": [
+        "entsoe-restoration",
+        "environment-restoration",
+        "russian-asset-yield-fund",
+        "recovery-contracts"
+      ],
+      "dependencyIds": [
+        "recovery-contracts",
+        "asset-governance"
+      ],
+      "objective": "Tie independently supervised restoration to clean energy, habitat, soil and water quality, civilian employment and transparent procurement.",
+      "proposedReviewers": "Competent Ukrainian public bodies, affected localities, willing and legally empowered donors",
+      "reciprocity": "Funds must have legal appropriation, anti-corruption measures and independent procurement review.",
+      "verification": "Public audits, supplier disclosures, environmental baselines and rights-based beneficiary checks.",
+      "limitations": "Frozen sovereign principal is not automatically available; displacement and unequal benefit can worsen grievances.",
+      "metrics": "Restored civilian service-hours, verified contamination remediation and transparent contracts.",
+      "classification": "UNVERIFIED POLICY SCENARIO — no agreement, authority or field status implied"
+    }
+  ],
+  "reviewAudiences": [
+    {
+      "id": "peacebuilding",
+      "title": "Peacebuilding organizations and mediators",
+      "examples": "Build Up · Search for Common Ground · Berghof Foundation",
+      "appropriateAsk": "Request conflict-sensitive methodological criticism and accessibility review, not endorsements.",
+      "reviewFocus": "Review non-coercion, representation, spoiler risks, consultation and dispute systems.",
+      "scenarioIds": [
+        "humanitarian-exchanges",
+        "armistice-verification"
+      ],
+      "classification": "POTENTIAL REVIEW AUDIENCE — not a partner or endorsement"
+    },
+    {
+      "id": "ukrainian-local",
+      "title": "Ukrainian municipal and recovery partners",
+      "examples": "Cities4Cities · U-LEAD with Europe · UNDP Ukraine",
+      "appropriateAsk": "Offer locally governed energy or ecological recovery feasibility pilot; request local legal review.",
+      "reviewFocus": "Review municipal competence, community consent, baseline, budget, operational safety and ownership.",
+      "scenarioIds": [
+        "civilian-infrastructure-restraint",
+        "regenerative-reconstruction"
+      ],
+      "classification": "POTENTIAL REVIEW AUDIENCE — not a partner or endorsement"
+    },
+    {
+      "id": "nuclear",
+      "title": "Nuclear safety and energy protection experts",
+      "examples": "IAEA-related technical reviewers · qualified utility safety personnel",
+      "appropriateAsk": "Invite correction of nuclear risk assumptions and independent monitoring limitations.",
+      "reviewFocus": "Check five IAEA principles, qualified professional review, repair access and protection of safety-critical data.",
+      "scenarioIds": [
+        "nuclear-risk-reduction"
+      ],
+      "classification": "POTENTIAL REVIEW AUDIENCE — not a partner or endorsement"
+    },
+    {
+      "id": "humanitarian",
+      "title": "Humanitarian response and protection practitioners",
+      "examples": "ICRC-related humanitarian specialists · protection NGOs · UN OCHA",
+      "appropriateAsk": "Seek independent protected-person safeguards review without sharing identifiable case data.",
+      "reviewFocus": "Examine confidentiality, neutrality, consent, access, humanitarian exemptions and data protection.",
+      "scenarioIds": [
+        "humanitarian-exchanges",
+        "maritime-civilian-access"
+      ],
+      "classification": "POTENTIAL REVIEW AUDIENCE — not a partner or endorsement"
+    },
+    {
+      "id": "mine-action",
+      "title": "Humanitarian mine-action practitioners",
+      "examples": "UNMAS · Ukrainian mine action authorities · accredited organizations",
+      "appropriateAsk": "Request IMAS-aligned assessment of the land-release planning workflow.",
+      "reviewFocus": "Separate AI screening from technical survey, clearance certification and land release; identify authority.",
+      "scenarioIds": [
+        "humanitarian-mine-action"
+      ],
+      "classification": "POTENTIAL REVIEW AUDIENCE — not a partner or endorsement"
+    },
+    {
+      "id": "digital-public",
+      "title": "Open-source civic and public infrastructure reviewers",
+      "examples": "Digital Public Goods Alliance · GovStack · Code for All",
+      "appropriateAsk": "Request software audit, interoperability review and feedback on open-data licensing.",
+      "reviewFocus": "Assess schema integrity, privacy, WCAG, resilience, ownership, provenance and reproducible builds.",
+      "scenarioIds": [
+        "regenerative-reconstruction",
+        "armistice-verification"
+      ],
+      "classification": "POTENTIAL REVIEW AUDIENCE — not a partner or endorsement"
+    },
+    {
+      "id": "security-dialogue",
+      "title": "Arms control and security governance analysts",
+      "examples": "OSCE-related researchers · independent arms control institutes",
+      "appropriateAsk": "Request critique of a conditional arms-transparency model, not validation of an active mandate.",
+      "reviewFocus": "Separate state obligations, voluntary confidence-building, legal authority and reliable verification.",
+      "scenarioIds": [
+        "transparent-arms-control",
+        "weapons-separation"
+      ],
+      "classification": "POTENTIAL REVIEW AUDIENCE — not a partner or endorsement"
+    },
+    {
+      "id": "ecology",
+      "title": "Environmental recovery and reconstruction specialists",
+      "examples": "UNEP-related specialists · ecosystem restoration bodies · Ukrainian local groups",
+      "appropriateAsk": "Request measurable ecological reconstruction pilot assessment.",
+      "reviewFocus": "Measure baseline, contamination, land rights, biodiversity, seasonal variation and maintenance.",
+      "scenarioIds": [
+        "regenerative-reconstruction",
+        "humanitarian-mine-action"
+      ],
+      "classification": "POTENTIAL REVIEW AUDIENCE — not a partner or endorsement"
+    }
+  ],
+  "sourceIds": [
+    "osce-vienna-document",
+    "un-ddr-standard",
+    "un-mine-action-2026",
+    "reuters-znpp-oct-2026",
+    "un-charter"
+  ]
+}
