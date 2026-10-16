@@ -19,7 +19,7 @@ import sys
 import tempfile
 
 ROOT=Path(__file__).resolve().parent
-CORE=('entities','evidence','guide-bank','pathway-catalog','solutions','demilitarization')
+CORE=('entities','evidence','guide-bank','pathway-catalog','solutions','demilitarization','regenerative-funding')
 
 
 def _read_json(path:Path):
@@ -71,6 +71,26 @@ def _semantic(data):
             if dep in graph and dep not in visited:visit(dep)
         visiting.remove(n);visited.add(n)
     for node in graph:visit(node)
+
+    # New v4.1 civilian economic conversion and conflict-finance alternatives.
+    rg=data['regenerative-funding']
+    funders=_need_unique(rg['funderKinds'],'regenerative-funding.funderKinds')
+    modes=_need_unique(rg['modes'],'regenerative-funding.modes')
+    if modes!={'parallel-now','reciprocal-conditional','post-agreement'}:err('regenerative-funding: expected three distinct cooperation gates')
+    _need_unique(rg['alternatives'],'regenerative-funding.alternatives')
+    for e in rg['sourceIds']:
+        if e not in evidence:err('regenerative-funding: missing evidence '+e)
+    for option in rg['alternatives']:
+        name=option['id']
+        for a in option['stakeholderKinds']:
+            if a not in funders:err(name+': missing funder category '+a)
+        for e in option['sourceIds']:
+            if e not in evidence:err(name+': missing evidence '+e)
+        if option['cooperationMode'] not in modes:err(name+': unknown cooperation mode')
+        if option['fundingClass']=='subject-to-legal-resolution' and option['cooperationMode']=='parallel-now':
+            err(name+': unresolved assets cannot be an immediate-action funding source')
+        if not option['classification'].startswith('UNVERIFIED'):
+            err(name+': classification cannot imply funding or authorization')
 
     # New v4 civilian demilitarization scenarios and external review audiences.
     dm=data['demilitarization']
@@ -150,11 +170,11 @@ def validate():
 def build(data):
     # Embed all research guides so file:// and offline deployments remain useful.
     catalog=data['pathway-catalog']
-    payload={'version':'4.0.0','asOf':catalog['asOf'],
+    payload={'version':'4.1.0','asOf':catalog['asOf'],
              'entities':data['entities'],'evidence':data['evidence'],
              'solutions':data['solutions'],'pathways':catalog['pathways'],
              'tracks':catalog['trackDefinitions'],'phases':catalog['phases'],
-             'guides':data['guide-bank'], 'demilitarization':data['demilitarization']}
+             'guides':data['guide-bank'], 'demilitarization':data['demilitarization'], 'regenerativeFunding':data['regenerative-funding']}
 
     text=json.dumps(payload,ensure_ascii=False,separators=(',',':'),allow_nan=False)
     # Inside a script[type=application/json], raw closing tags must not appear.
@@ -170,7 +190,7 @@ def build(data):
     try:os.replace(tmp,target)
     finally:tmp.unlink(missing_ok=True)
     # Non-authenticating SHA-256 manifest: exact generated file integrity, not provenance.
-    manifest={'version':'4.0.0','asOf':catalog['asOf'],'algorithm':'SHA-256',
+    manifest={'version':'4.1.0','asOf':catalog['asOf'],'algorithm':'SHA-256',
        'meaning':'Integrity digest only; SHA-256 does not prove author or authorization.',
        'files':{}}
     paths=[ROOT/'index.html',ROOT/'app.js',ROOT/'styles.css',ROOT/'sw.js',ROOT/'index.template.html']
@@ -192,7 +212,7 @@ def main(argv=None):
     args=parser.parse_args(argv)
     try:
         data=validate()
-        print(f"PASS: schema + semantics; {len(data['entities'])} actors, {len(data['evidence'])} evidence, {len(data['guide-bank'])} guides, {len(data['solutions'])} solutions, {len(data['pathway-catalog']['pathways'])} pathways, {len(data['demilitarization']['scenarioBlocks'])} civilian disarmament scenarios")
+        print(f"PASS: schema + semantics; {len(data['entities'])} actors, {len(data['evidence'])} evidence, {len(data['guide-bank'])} guides, {len(data['solutions'])} solutions, {len(data['pathway-catalog']['pathways'])} pathways, {len(data['demilitarization']['scenarioBlocks'])} civilian demilitarization scenarios, {len(data['regenerative-funding']['alternatives'])} regenerative finance options")
         if not args.check:
             path,n=build(data)
             print(f'BUILT {path.relative_to(ROOT)} ({n:,} UTF-8 bytes) · no network requests')
